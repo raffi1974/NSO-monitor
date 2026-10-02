@@ -1,0 +1,309 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Comoros  -  Institut National de la Statistique et des Etudes Economiques et Demographiques (INSEED)
+Checked 2026-09-29 11:14  |  Agent 1 (agent1_diagnose.py)  |  took 61.5 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://www.inseed-comores.org/
+   Reachable       : yes (HTTP 200)
+   English version : yes
+   Built with      : Next.js app, NADA microdata catalogue
+   Note: Not on ESCWA's official member list (unescwa.org, checked 2026-09-29) - included at the
+     user's request. Old domain inseed.km is dead.
+
+2. API
+   Verdict         : DOCUMENTED - works from Python (no login needed)
+   Documented API: NADA at https://www.nada.inseed-comores.org (catalogue of 15 surveys)
+   Documentation   :
+     https://nada.ihsn.org/
+   Site links mentioning API / open data / databank:
+     BASE DE DONNÉES DES PUBLICATIONS -> https://www.inseed-comores.org/publications
+
+   How to call it - curl:
+       curl "https://www.nada.inseed-comores.org/index.php/api/catalog/search?ps=10"
+
+   How to call it - Python:
+       import requests
+       
+       rows = requests.get("https://www.nada.inseed-comores.org/index.php/api/catalog/search", params={"ps": 100}, timeout=60).json()["result"]["rows"]
+
+   API sniffing - data calls the website made: 6 distinct, 6 worked again from plain Python
+     [OK ] GET www.inseed-comores.org/backend/uploads/life_expectancy_10f91027a0.csv
+       (text/csv)
+     [OK ] GET www.inseed-comores.org/backend/uploads/dependency_ratio_81c7a55653.csv
+       (text/csv)
+     [OK ] GET www.inseed-comores.org/backend/uploads/fertility_rate_a5f5814a17.csv  (text/csv)
+     [OK ] GET www.inseed-comores.org/backend/uploads/infant_mortality_rate_417a3dc486.csv
+       (text/csv)
+     [OK ] GET www.inseed-comores.org/backend/uploads/inflation_serie_5cd704c608.csv
+       (text/csv)
+     [OK ] GET www.inseed-comores.org/backend/uploads/taux_croissance_serie_7fe49de7f9.csv
+       (text/csv)
+
+3. SOCIAL STATISTICS  (12 survey (microdata)s, 30 pages)
+     - Deuxième Recensement Général de l'Agriculture (RGA-2 2025), Union des Comores, Campagne
+       Agricole 2023-2024 | 2025 | microdata (registration may be needed) | latest 2026-05-20
+       https://www.nada.inseed-comores.org/index.php/catalog/16
+     - Enquete integrale auprés des Menages de l'Année 2004 | 2004-2005 | microdata
+       (registration may be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/3
+     - Enquête Démographique et de Santé 1996 | 1996 | microdata (registration may be needed) |
+       latest 2025-10-25
+       https://www.nada.inseed-comores.org/index.php/catalog/13
+     - Enquête Démographique et de Santé et à Indicateurs Multiples 2012 | 2012 | microdata
+       (registration may be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/12
+     - Enquête Harmonisée sur les Conditions de Vie des Ménages 2020 | 2020 | microdata
+       (registration may be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/9
+     - Enquête Harmonisée sur les Conditions de Vie des Ménages 2024 | 2024 | microdata
+       (registration may be needed) | latest 2026-05-12
+       https://www.nada.inseed-comores.org/index.php/catalog/15
+     - Enquête sur l'Emploi et le Secteur Informel Phase 1 - Emploi 2013 | 2013-2014 |
+       microdata (registration may be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/5
+     - Enquête sur l'Emploi et le Secteur Informel Phase 2 - Secteur Informel 2013 | 2013-2014
+       | microdata (registration may be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/6
+     - Enquête sur l'Emploi et le Secteur Informel Phase 3 - Consommation 2013 | 2013-2014 |
+       microdata (registration may be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/7
+     - Recensement Général de la Population et de l'Habitat 2003 | 2001-2003 | microdata
+       (registration may be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/2
+     - Recensement Général de la Population et de l’Habitat 2017 | 2017-2018 | microdata
+       (registration may be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/8
+     - Recensement Général de l’Agriculture Comores 2004 | 2004 | microdata (registration may
+       be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/4
+     - Bulletin IHPC - N° 01/2026 En janvier 2026, l’indice harmonisé des prix à la
+       consommation (IHPC) a connu une variation mensuelle de 0,3 % par rapport au mois
+       précédent. Indice harmonisé des prix à la  | Monthly | 2026
+       https://www.inseed-comores.org/publications/ihpc-janvier-2026
+     - Bulletin IHPC - N° 02/2026 En février 2026, l’indice harmonisé des prix à la
+       consommation (IHPC) a enregistré une baisse mensuelle de 0,6 % par rapport au mois
+       précédent. Indice harmonisé des prix à l | Monthly | 2026
+       https://www.inseed-comores.org/publications/ihpc-fevrier-2026
+     - Bulletin IHPC - N° 03/2026 En mars 2026, l’Indice Harmonisé des Prix à la Consommation
+       (IHPC) a enregistré une hausse mensuelle de 0,7 % par rapport au mois précédent. Indice
+       harmonisé des prix à la c | Monthly | 2026
+       https://www.inseed-comores.org/publications/ihpc-mars-2026
+     - Bulletin IHPC - N° 11/2025 En novembre 2025, l’indice harmonisé des prix à la
+       consommation (IHPC) a marqué un recul de 0,5 % par rapport au mois précédent. Indice
+       harmonisé des prix à la consommation  | Monthly | 2025
+       https://www.inseed-comores.org/publications/ihpc-novembre-2025
+     - Bulletin IHPC - N° 12/2025 En décembre 2025, l’indice harmonisé des prix à la
+       consommation (IHPC) a progressé de 0,5 % par rapport au mois précédent. Indice harmonisé
+       des prix à la consommation - bull | Monthly | 2025
+       https://www.inseed-comores.org/publications/ihpc-decembre-2025
+     - Chiffres détaillés Projections de population 2017–2042 par île, préfecture, commune et
+       localité, milieu de résidence, groupe d'âge et sexe — hypothèse moyenne. Projections de
+       population 2017–2042 par  | 2017-2042
+       https://www.inseed-comores.org/publications/revision-demographic-projections-medium-
+         hypothesis
+     - Deuxième Recensement Général de l'Agriculture (RGA-2 2025) | 2025
+       https://www.nada.inseed-comores.org/index.php/catalog/16
+     - Déflation IPC par poste COICOP, évolution réelle des dépenses et dynamiques de pauvreté
+       2020–2024 | 2020-2024
+       https://www.inseed-comores.org/publications/ehcvm-analyse-2020-2024
+     - En 2024, le PIB des Comores progresse de 3,3 % en volume, porté par la consommation
+       finale des ménages (+5,0 %) et les transferts de la diaspora qu... | 2024
+       https://www.inseed-comores.org/publications/comptes-
+         nationaux-2023-definitifs-2024-provisoires
+     - Enquête Harmonisée sur les Conditions de Ménges - 2024 | 2024
+       https://www.inseed-comores.org/news/news/harmonized-survey-household-conditions-
+     - Enquête Harmonisée sur les Conditions de Vie des Ménages 2024 | 2024
+       https://www.nada.inseed-comores.org/index.php/catalog/15
+     - Enquête pauvreté : Les premiers enseignements de l’EHCVM 2024 aux Comores | 2024
+       https://www.inseed-comores.org/news/seminars-and-workshops/poverty-survey-first-
+         findings-ehcvm-2024
+     - Jeux de données 4-ème Recensement Général de la Population et de l’Habitat 2017 Jeux de
+       données et documentation Le 4ème Recensement Général de la Population et de l'Habitat
+       (RGPH), comme les trois au | 1980-2017
+       https://www.nada.inseed-comores.org/index.php/catalog/8
+     - Jeux de données Enquête Démographique et de Santé et à Indicateurs Multiples 2012 Jeux
+       de données et documentation L’Union des Comores a organisé en 2012 sa deuxième Enquête
+       Démographique et de Santé  | 2012-2015
+       https://www.nada.inseed-comores.org/index.php/catalog/12
+     - Jeux de données Enquête Harmonisée sur les Conditions de Vie des Ménages 2020 Jeux de
+       données et documentation L’Enquête Harmonisée sur les Conditions de Vie des Ménages est
+       également utilisée dans le | 2020
+       https://www.nada.inseed-comores.org/index.php/catalog/9
+     - Jeux de données Enquête par Grappes à Indicateurs Multiples MICS - 2022 Jeux de données
+       et documentation L’enquête par grappes à indicateurs multiples (MICS) a été menée en
+       2022 par L’Institut Nationa | 1990-2022
+       https://www.nada.inseed-comores.org/index.php/catalog/11
+     - Les activités de l'Inseed Collecter, produire, analyser, diffuser des informations
+       économiques et sociales sur l'ensemble du pays.
+       https://www.inseed-comores.org/information/activities
+     - PAUVRETÉ
+       https://www.inseed-comores.org/news?tags=pauvrete
+     - PAUVRETÉ
+       https://www.inseed-comores.org/news?tag=pauvrete
+     - POPULATION : L’INSEED lance officiellement le RGPH05
+       https://www.inseed-comores.org/news/agenda-and-events/population-inseed-officially-
+         launches-rgph05
+     - Préparation du RGPH05 - Un atelier technique pour structurer la cartographie censitaire
+       https://www.inseed-comores.org/news/seminars-and-workshops/phc-2025-technical-
+         workshop-to-structure-census-mapping
+     - Rapport d'analyse Les enquêtes nutritionnelles SMART montre que la situation
+       nutritionnelle globale du pays est précaire, notamment avec une prévalence nationale de
+       24,1% des enfants de moins de 5 ans | 2024
+       https://www.inseed-comores.org/publications/smart-survey-2024-final-report
+     - Recensement 2027 aux Comores : L’INSEED réunit ses partenaires pour préparer les
+       questionnaires et manuels... | 2027
+       https://www.inseed-comores.org/news/agenda-and-events/comoros-2027-census-inseed-
+         preparations
+     - Recensement nouvelle génération aux Comores : L’INSEED peaufine sa stratégie numérique
+       https://www.inseed-comores.org/news/agenda-and-events/rgph5-inseed-refines-its-
+         digital-strategy
+     - Résultats globaux du Deuxième Recensement Général de l'Agriculture des Comores —
+       campagne agricole 2023/2024. | 2023-2024
+       https://www.inseed-comores.org/publications/rga2-resultats-module-de-base-2025
+     - SANTÉ
+       https://www.inseed-comores.org/news?tags=sante
+     - STATISTIQUES DÉMOGRAPHIQUES
+       https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206
+     - Séries chronologiques Série - Espérance de vie à la naissance - Données annuelles
+       Espérance de vie à la naissance | Annual
+       https://www.inseed-comores.org/publications/serie_life_expectancy
+     - Séries chronologiques Série - Taux de fécondité - Données annuelles Taux de fécondité |
+       Annual
+       https://www.inseed-comores.org/publications/serie_fertility_rate
+     - Séries chronologiques Série - Taux de mortalité infantile - Données annuelles Taux de
+       mortalité infantile | Annual
+       https://www.inseed-comores.org/publications/serie_infant_mortality_rate
+
+4. ECONOMIC STATISTICS  (6 survey (microdata)s, 28 pages)
+     - Deuxième Recensement Général de l'Agriculture (RGA-2 2025), Union des Comores, Campagne
+       Agricole 2023-2024 | 2025 | microdata (registration may be needed) | latest 2026-05-20
+       https://www.nada.inseed-comores.org/index.php/catalog/16
+     - Enquête sur l'Economie Informelle aux Comores - 2021 | 2021 | microdata (registration
+       may be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/10
+     - Enquête sur l'Emploi et le Secteur Informel Phase 1 - Emploi 2013 | 2013-2014 |
+       microdata (registration may be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/5
+     - Enquête sur l'Emploi et le Secteur Informel Phase 2 - Secteur Informel 2013 | 2013-2014
+       | microdata (registration may be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/6
+     - Enquête sur l'Emploi et le Secteur Informel Phase 3 - Consommation 2013 | 2013-2014 |
+       microdata (registration may be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/7
+     - Recensement Général de l’Agriculture Comores 2004 | 2004 | microdata (registration may
+       be needed) | latest 2025-10-24
+       https://www.nada.inseed-comores.org/index.php/catalog/4
+     - BULLETIN MENSUEL DE L'INDICE DE PRIX | Monthly
+       https://www.inseed-comores.org/publications?theme=105
+     - Bulletin IHPC - N° 01/2026 En janvier 2026, l’indice harmonisé des prix à la
+       consommation (IHPC) a connu une variation mensuelle de 0,3 % par rapport au mois
+       précédent. Indice harmonisé des prix à la  | Monthly | 2026
+       https://www.inseed-comores.org/publications/ihpc-janvier-2026
+     - Bulletin IHPC - N° 02/2026 En février 2026, l’indice harmonisé des prix à la
+       consommation (IHPC) a enregistré une baisse mensuelle de 0,6 % par rapport au mois
+       précédent. Indice harmonisé des prix à l | Monthly | 2026
+       https://www.inseed-comores.org/publications/ihpc-fevrier-2026
+     - Bulletin IHPC - N° 03/2026 En mars 2026, l’Indice Harmonisé des Prix à la Consommation
+       (IHPC) a enregistré une hausse mensuelle de 0,7 % par rapport au mois précédent. Indice
+       harmonisé des prix à la c | Monthly | 2026
+       https://www.inseed-comores.org/publications/ihpc-mars-2026
+     - Bulletin IHPC - N° 10/2025 En octobre 2025, l'indice harmonisé des prix à la
+       consommation (IHPC) a enregistré une baisse de 1,1 % par rapport au mois précédent.
+       Indice harmonisé des prix à la consomma | Monthly | 2025
+       https://www.inseed-comores.org/publications/ihpc-octobre-2025
+     - Bulletin IHPC - N° 11/2025 En novembre 2025, l’indice harmonisé des prix à la
+       consommation (IHPC) a marqué un recul de 0,5 % par rapport au mois précédent. Indice
+       harmonisé des prix à la consommation  | Monthly | 2025
+       https://www.inseed-comores.org/publications/ihpc-novembre-2025
+     - Bulletin IHPC - N° 12/2025 En décembre 2025, l’indice harmonisé des prix à la
+       consommation (IHPC) a progressé de 0,5 % par rapport au mois précédent. Indice harmonisé
+       des prix à la consommation - bull | Monthly | 2025
+       https://www.inseed-comores.org/publications/ihpc-decembre-2025
+     - DDI/XML
+       https://www.nada.inseed-comores.org/index.php/metadata/export/16/ddi
+     - DDI/XML
+       https://www.nada.inseed-comores.org/index.php/metadata/export/15/ddi
+     - Deuxième Recensement Général de l'Agriculture (RGA-2 2025) | 2025
+       https://www.nada.inseed-comores.org/index.php/catalog/16
+     - En 2024, le PIB des Comores progresse de 3,3 % en volume, porté par la consommation
+       finale des ménages (+5,0 %) et les transferts de la diaspora qu... | 2024
+       https://www.inseed-comores.org/publications/comptes-
+         nationaux-2023-definitifs-2024-provisoires
+     - En 2025, le PIB accélère à 3,7 % en volume, tiré par l'investissement (+11,1 %) et la
+       construction (+20,4 %). Le PIB courant atteint 781,8 milliard... | 2025
+       https://www.inseed-comores.org/publications/comptes-
+         nationaux-2024-definitifs-2025-provisoires
+     - En avril 2026, l’Indice Harmonisé des Prix à la Consommation (IHPC) a progressé de 0,4 %
+       par rapport au mois précédent. | 2026
+       https://www.inseed-comores.org/publications/ihpc-avril-2026
+     - En juillet 2026, l’Indice harmonisé des prix à la consommation (IHPC) a augmenté de 1,6
+       % par rapport à juin 2026. | 2026
+       https://www.inseed-comores.org/publications/ihpc-juillet-2026
+     - En juin 2026, l’Indice harmonisé des prix à la consommation (IHPC) a progressé de 0,8 %
+       par rapport au mois précédent. | 2026
+       https://www.inseed-comores.org/publications/ihpc-juin-2026
+     - En mai 2026, l’Indice harmonisé des prix à la consommation (IHPC) a progressé de 0,8 %
+       par rapport au mois précédent. | 2026
+       https://www.inseed-comores.org/publications/ihpc-mai-2026
+     - Enquête agricole : L’INSEED outillent les formateurs pour une collecte de données
+       agricoles de qualité
+       https://www.inseed-comores.org/news/seminars-and-workshops/inseed-trains-instructors-
+         agricultural-survey-data
+     - JSON
+       https://www.nada.inseed-comores.org/index.php/metadata/export/16/json
+     - JSON
+       https://www.nada.inseed-comores.org/index.php/metadata/export/15/json
+     - Jeux de données 4-ème Recensement Général de la Population et de l’Habitat 2017 Jeux de
+       données et documentation Le 4ème Recensement Général de la Population et de l'Habitat
+       (RGPH), comme les trois au | 1980-2017
+       https://www.nada.inseed-comores.org/index.php/catalog/8
+     - Jeux de données Enquête Harmonisée sur les Conditions de Vie des Ménages 2020 Jeux de
+       données et documentation L’Enquête Harmonisée sur les Conditions de Vie des Ménages est
+       également utilisée dans le | 2020
+       https://www.nada.inseed-comores.org/index.php/catalog/9
+     - Jeux de données Enquête par Grappes à Indicateurs Multiples MICS - 2022 Jeux de données
+       et documentation L’enquête par grappes à indicateurs multiples (MICS) a été menée en
+       2022 par L’Institut Nationa | 1990-2022
+       https://www.nada.inseed-comores.org/index.php/catalog/11
+     - Lancement de la campagne de sensibilisation sur l’Enquête Agricole Annuelle 2026 |
+       Annual | 2026
+       https://www.inseed-comores.org/news/agenda-and-events/launch-annual-agricultural-
+         survey-awareness-campaign-2026
+     - Les activités de l'Inseed Collecter, produire, analyser, diffuser des informations
+       économiques et sociales sur l'ensemble du pays.
+       https://www.inseed-comores.org/information/activities
+     - Projet STATCAP-KM Projet d’Investissement de Soutien aux Capacités Statistique de la
+       Communauté Développement de l’Afrique Australe (STAT CAP- KM).
+       https://www.inseed-comores.org/information/statcap-km
+     - Résultats globaux du Deuxième Recensement Général de l'Agriculture des Comores —
+       campagne agricole 2023/2024. | 2023-2024
+       https://www.inseed-comores.org/publications/rga2-resultats-module-de-base-2025
+     - Vers une agriculture comorienne mieux documentée : L’INSEED associe producteurs et
+       utilisateurs des données
+       https://www.inseed-comores.org/news/seminars-and-workshops/inseed-comoros-agriculture-
+         data-producers-users
+     - ÉCONOMIE ET STATISTIQUE
+       https://www.inseed-comores.org/publications?collection=60
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (4 rendered in a browser); 0 file links
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: COM
+       theme: economic_statistics
+       method: api
+       connector: nada
+       enabled: true
+       options: {catalog: 'https://www.nada.inseed-comores.org'}
+       notes: NADA catalogue API (documented) - new surveys, catalogue only
+     - nso: COM
+       theme: social_statistics
+       method: api
+       connector: nada
+       enabled: true
+       options: {catalog: 'https://www.nada.inseed-comores.org'}
+       notes: NADA catalogue API (documented) - new surveys, catalogue only
+
+7. LIMITATIONS / NEXT STEPS
+   - none noted

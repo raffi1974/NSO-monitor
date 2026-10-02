@@ -1,0 +1,258 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Oman  -  National Centre for Statistics and Information (NCSI)
+Checked 2026-09-29 11:05  |  Agent 1 (agent1_diagnose.py)  |  took 259.4 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://www.ncsi.gov.om
+   Reachable       : yes (HTTP 200)
+   English version : yes
+   Built with      : Next.js app
+
+2. API
+   Verdict         : UNDOCUMENTED - works from Python (no login needed)
+   No official documentation, but the website's own data API at ai-hies.ncsi.gov.om answers plain
+     Python requests (found by API sniffing).
+   Documentation   : none official
+   Site links mentioning API / open data / databank:
+     (link) -> https://apps.apple.com/eg/developer/national-center-for-statistics-and-information-oman/id721507459
+     Data Portal -> https://data.gov.om/
+
+   How to call it - curl:
+       curl -H "accept-language: en-US" "https://ai-hies.ncsi.gov.om/api/dashboard"
+
+   How to call it - Python:
+       import requests
+       
+       url = "https://ai-hies.ncsi.gov.om/api/dashboard"
+       headers = {"accept-language": "en-US"}
+       response = requests.get(url, headers=headers, timeout=60)
+       response.raise_for_status()
+       data = response.json()
+
+   API sniffing - data calls the website made: 7 distinct, 6 worked again from plain Python
+     [OK ] GET ai-hies.ncsi.gov.om/api/dashboard  (application/json)
+     [OK ] GET ai-hies.ncsi.gov.om/api/wilayats  (application/json)
+     [OK ] GET ai-hies.ncsi.gov.om/api/expenditure-stats  (application/json)
+     [OK ] GET ai-hies.ncsi.gov.om/api/income-stats  (application/json)
+     [OK ] GET ai-hies.ncsi.gov.om/api/governorates  (application/json)
+     [OK ] GET ai-hies.ncsi.gov.om/api/years  (application/json)
+     [NO ] HEAD www.ncsi.gov.om/_next/data/nnEP_Pn-xw8R5Sw5uBvtK/ar/populationClock.json
+       (application/json)
+
+3. SOCIAL STATISTICS  (4 pages, 16 files)
+     - Administrative and Financial System for the Electronic Census Project of Population,
+       Housing, and Establishments for the Year 2020. | 2012-2022 | PDF
+       https://api.ncsi.gov.om/uploads/mediapdfs/administrative_and_financial_system_for_the_
+         electronic_census_project_of_population__housing__and_establishments_for_the_year_20
+         20__pdf_en_1765461698.pdf
+     - Child Well-being and Empowerment Guide | PDF
+       https://api.ncsi.gov.om/uploads/methodoloypdfs/child_well-
+         being_and_empowerment_guide_1766584524.pdf
+     - Education Statitics : September 2026 09/03/2026 | 2026 | PDF
+       https://api.ncsi.gov.om/uploads/pdfs/education_statitics_1788432288.pdf
+     - Final report on socio demographic survey 1984 - 1989 : Methodological details and
+       statistical tables | 1984-1989 | PDF
+       https://api.ncsi.gov.om/uploads/methodoloypdfs/final_report_on_socio_demographic_surve
+         y_1984_-_1989___methodological_details_and_statistical_tables_1766656871.pdf
+     - Health Statistics 2026 09/07/2026 | 2026 | PDF
+       https://api.ncsi.gov.om/uploads/pdfs/health_statistics_2026_1790238752.pdf
+     - Key Findings on Household Income and Expenditure Using Artificial Intelligence 2026
+       09/14/2026 | 2026 | PDF
+       https://api.ncsi.gov.om/uploads/pdfs/key_findings_on_household_income_and_expenditure_
+         using_artificial_intelligence_2026_1789379659.pdf
+     - Meetings of the 17th Session of the Statistical Committee of the United Nations Economic
+       and Social Commission for Western Asia (ESCWA) | PDF
+       https://api.ncsi.gov.om/uploads/eventpdfs/meetings_of_the_17th_session_of_the_statisti
+         cal_committee_of_the_united_nations_economic_and_social_commission_for_western_asia_
+         _escwa__1788340877.pdf
+     - Methodology: General Census for Population, households & Establishments 2010 | 2010 |
+       PDF
+       https://api.ncsi.gov.om/uploads/methodoloypdfs/methodology__general_census_for_populat
+         ion__households___establishments_2010_1766585033.pdf
+     - Provisions related to the electronic census of population, housing, and establishments
+       for the year 2020. | 2012-2020 | PDF
+       https://api.ncsi.gov.om/uploads/mediapdfs/provisions_related_to_the_electronic_census_
+         of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461596.pdf
+     - Royal Decree Amending Some Provisions of Royal Decree conducting the electronic census
+       of population, housing and establishments in 2020 | 2012-2022 | PDF
+       https://api.ncsi.gov.om/uploads/mediapdfs/royal_decree_amending_some_provisions_of_roy
+         al_decree_conducting_the_electronic_census_of_population__housing_and_establishments
+         _in_2020_pdf_en_1765461440.pdf
+     - Royal Decree No. 15/2015 on conducting the electronic census of population, housing, and
+       establishments for the year 2020. | 2012-2020 | PDF
+       https://api.ncsi.gov.om/uploads/mediapdfs/royal_decree_no__15_2015_on_conducting_the_e
+         lectronic_census_of_population__housing__and_establishments_for_the_year_2020__pdf_e
+         n_1765461115.pdf
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/LaborMarket.xml
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/Population.xml
+     - Statistical Methodologies for building E-Census data 2020 | 2020 | PDF
+       https://api.ncsi.gov.om/uploads/methodoloypdfs/statistical_methodologies_for_building_
+         e-census_data_2020_1766584850.pdf
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/LaborMarket.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/Population.xlsx
+     - 08 September Meetings of the 17th Session of the Statistical Committee of the United
+       Nations Economic and Social Commission for Western Asia (ESCWA) September 2026 | 2026
+       https://www.ncsi.gov.om/event-details/31
+     - Household Income & Expenditure Survey
+       https://ai-hies.ncsi.gov.om/
+     - Population Clock
+       https://www.ncsi.gov.om/populationClock
+     - Women in the Sultanate of Oman
+       https://www.ncsi.gov.om/women-in-oman
+
+4. ECONOMIC STATISTICS  (45 files, 4 pages)
+     - 1107 Million OMR Trade Balance June 2026 | 2026 | PDF
+       https://api.ncsi.gov.om/uploads/pdfs/monthly_statistical_bulletin___august_2026_178755
+         7374.pdf
+     - 3.4 Percentage Inflation August 2026 | 2026 | PDF
+       https://api.ncsi.gov.om/uploads/pdfs/consumer_price_inflation_reportr___august_2026_17
+         89031625.pdf
+     - Administrative and Financial System for the Electronic Census Project of Population,
+       Housing, and Establishments for the Year 2020. | 2012-2022 | PDF
+       https://api.ncsi.gov.om/uploads/mediapdfs/administrative_and_financial_system_for_the_
+         electronic_census_project_of_population__housing__and_establishments_for_the_year_20
+         20__pdf_en_1765461698.pdf
+     - Communication Strategy for National Center of Statistics & Information 2026 - 2030 |
+       2012-2030 | PDF
+       https://api.ncsi.gov.om/uploads/mediapdfs/communication_strategy_for_national_center_o
+         f_statistics___information_2026___2030_pdf_en_1766396389.pdf
+     - Energy Statistics Indicators : Julay 2026 09/10/2026 | 2026 | PDF
+       https://api.ncsi.gov.om/uploads/pdfs/energy_statistics_indicators_september_2026_17890
+         15033.pdf
+     - Meetings of the 17th Session of the Statistical Committee of the United Nations Economic
+       and Social Commission for Western Asia (ESCWA) | PDF
+       https://api.ncsi.gov.om/uploads/eventpdfs/meetings_of_the_17th_session_of_the_statisti
+         cal_committee_of_the_united_nations_economic_and_social_commission_for_western_asia_
+         _escwa__1788340877.pdf
+     - Methodology: General Census for Population, households & Establishments 2010 | 2010 |
+       PDF
+       https://api.ncsi.gov.om/uploads/methodoloypdfs/methodology__general_census_for_populat
+         ion__households___establishments_2010_1766585033.pdf
+     - Producer Price Inflation Index : First Quarter 2026 06/11/2026 | 2026 | PDF
+       https://api.ncsi.gov.om/uploads/pdfs/producer_price_inflation_index___first_quarter_20
+         26_1781159934.pdf
+     - Provisions related to the electronic census of population, housing, and establishments
+       for the year 2020. | 2012-2020 | PDF
+       https://api.ncsi.gov.om/uploads/mediapdfs/provisions_related_to_the_electronic_census_
+         of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461596.pdf
+     - Real Estate Price Inflation Report: Second Quarter 2026 08/26/2026 | 2026 | PDF
+       https://api.ncsi.gov.om/uploads/pdfs/real_estate_price_inflation_report__second_quarte
+         r_2026_1787725074.pdf
+     - Royal Decree Amending Some Provisions of Royal Decree conducting the electronic census
+       of population, housing and establishments in 2020 | 2012-2022 | PDF
+       https://api.ncsi.gov.om/uploads/mediapdfs/royal_decree_amending_some_provisions_of_roy
+         al_decree_conducting_the_electronic_census_of_population__housing_and_establishments
+         _in_2020_pdf_en_1765461440.pdf
+     - Royal Decree No. 15/2015 on conducting the electronic census of population, housing, and
+       establishments for the year 2020. | 2012-2020 | PDF
+       https://api.ncsi.gov.om/uploads/mediapdfs/royal_decree_no__15_2015_on_conducting_the_e
+         lectronic_census_of_population__housing__and_establishments_for_the_year_2020__pdf_e
+         n_1765461115.pdf
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/NationalAccounts.XML
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/CentralGovernmentOperations.xml
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/DepositoryCorporationsSurvey.xml
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/CentralBankSurvey.xml
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/InterestRates.xml
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/StockMarket.XML
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/BalanceofPayments.xml
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/OfficialReserveAssets.xml
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/MerchandiseTrade.XML
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/ExchangeRates.xml
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/LaborMarket.xml
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/ProducerPriceIndex.XML
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/FinancialSoundnessIndicators.xml
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/OilProduction.XML
+     - SDMX تحميل بصيغة | XML
+       https://nsdp.ncsi.gov.om/FinancialAccessSurveyOman.XML
+     - The State of Tourism in the Sultanate of Oman 2026 08/26/2026 | 2026 | PDF
+       https://api.ncsi.gov.om/uploads/pdfs/the_state_of_tourism_in_the_sultanate_of_oman_202
+         6_1788068715.pdf
+     - Tourism Statistics Bulletin 2026 06/23/2026 | 2026 | PDF
+       https://api.ncsi.gov.om/uploads/pdfs/tourism_statistics_bulletin_2026_1782201451.pdf
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/NationalAccounts.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/ConsumerPriceIndex.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/CentralGovernmentOperations.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/DepositoryCorporationsSurvey.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/CentralBankSurvey.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/InterestRates.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/StockMarket.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/BalanceofPayments.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/OfficialReserveAssets.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/MerchandiseTrade.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/ExchangeRates.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/LaborMarket.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/ProducerPriceIndex.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/FinancialSoundnessIndicators.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/OilProduction.xlsx
+     - تصفح البيانات | XLSX
+       https://nsdp.ncsi.gov.om/FinancialAccessSurveyOman.xlsx
+     - 08 September Meetings of the 17th Session of the Statistical Committee of the United
+       Nations Economic and Social Commission for Western Asia (ESCWA) September 2026 | 2026
+       https://www.ncsi.gov.om/event-details/31
+     - Important Links
+       https://www.ncsi.gov.om/importantLinks
+     - Related Websites
+       https://ncsi.gov.om/ar/importantLinks
+     - مواقع ذات صلة
+       https://ncsi.gov.om/importantLinks
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   34 pages crawled (8 rendered in a browser); 204 file links
+   Formats: PDF 126, XLSX 40, XML 38
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: OMN
+       theme: social_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://www.ncsi.gov.om', 'https://www.ncsi.gov.om/event-details/31', 'https://www.ncsi.gov.om/ar/NationalStatistics',
+         'https://www.ncsi.gov.om/hierarchy', 'https://www.ncsi.gov.om/guidesAndClassifications']
+       render_js: auto
+       notes: 16 social statistics file(s) found on these pages - review before enabling
+     - nso: OMN
+       theme: economic_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://www.ncsi.gov.om', 'https://www.ncsi.gov.om/event-details/31', 'https://www.ncsi.gov.om/ar/NationalStatistics',
+         'https://www.ncsi.gov.om/hierarchy', 'https://www.ncsi.gov.om/guidesAndClassifications']
+       render_js: auto
+       notes: 45 economic statistics file(s) found on these pages - review before enabling
+
+7. LIMITATIONS / NEXT STEPS
+   - none noted

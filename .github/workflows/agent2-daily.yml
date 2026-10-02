@@ -1,0 +1,94 @@
+# AGENT 2's daily schedule. Agent 1 (agent1_diagnose.py) is never scheduled - it's a one-off /
+# on-demand diagnostic tool you run yourself (or ask the Claude subagent to run with /diagnose).
+#
+# Only useful once this folder is pushed to a GitHub repository - see docs/NSO_Monitor_Tutorial.docx,
+# "Setting up GitHub" section, for the first-time checklist (creating the repo, the first release, etc).
+name: Agent 2 - daily monitor
+
+on:
+  schedule:
+    - cron: "0 4 * * *"    # 04:00 UTC daily = 07:00 Beirut / Cairo (adjust to taste)
+  workflow_dispatch: {}     # lets you trigger a run manually from the Actions tab, to test
+
+concurrency:
+  group: agent2-daily
+  cancel-in-progress: false   # never cancel a run that's mid-fetch; let it finish or fail cleanly
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      # The databases live in a GitHub Release, not in git history: they will grow past GitHub's
+      # 100 MB per-file limit, and daily binary commits would bloat the repository forever. A
+      # Release asset can be up to 2 GB and is simply overwritten each day.
+      - name: Restore yesterday's databases
+        run: |
+          mkdir -p data
+          gh release download data-snapshot --pattern "*.sqlite" --dir data-flat --clobber || echo "No snapshot yet (first run) - starting fresh."
+          if [ -d data-flat ]; then
+            python - <<'PY'
+          import pathlib, shutil
+          for f in pathlib.Path("data-flat").glob("*.sqlite"):
+              theme, kind = f.stem.rsplit("__", 1)
+              out = pathlib.Path("data") / theme
+              out.mkdir(parents=True, exist_ok=True)
+              shutil.move(str(f), out / f"{kind}.sqlite")
+          PY
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Run Agent 2
+        env:
+          NSO_BROWSER_CHANNEL: ""   # no system Edge/Chrome on this runner: use Playwright's bundled Chromium
+        run: python agent2_monitor.py
+
+      - name: Rebuild the dashboard
+        run: python build_dashboard.py
+
+      - name: Save today's databases to the release
+        run: |
+          mkdir -p data-flat
+          for f in data/*/catalogue.sqlite data/*/datasets.sqlite; do
+            [ -f "$f" ] || continue
+            theme=$(basename "$(dirname "$f")")
+            kind=$(basename "$f" .sqlite)
+            cp "$f" "data-flat/${theme}__${kind}.sqlite"
+          done
+          gh release view data-snapshot >/dev/null 2>&1 || gh release create data-snapshot --title "Agent 2 data (latest)" --notes "Continuously overwritten by the daily workflow - not a versioned release."
+          gh release upload data-snapshot data-flat/*.sqlite data/run_summary.json --clobber
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      # The dashboard and Agent 1's reports ARE small text/HTML and belong in git history, so they can
+      # be browsed on GitHub and diffed over time.
+      - name: Commit the dashboard
+        run: |
+          git config user.name "nso-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f dashboard
+          git diff --cached --quiet || git commit -m "Dashboard update: $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Publish to GitHub Pages
+        if: vars.ENABLE_PAGES == 'true'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ github.token }}
+          publish_dir: dashboard

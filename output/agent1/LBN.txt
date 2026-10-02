@@ -1,0 +1,519 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Lebanon  -  Central Administration of Statistics (CAS)
+Checked 2026-10-01 10:10  |  Agent 1 (agent1_diagnose.py)  |  took 72.6 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://www.cas.gov.lb/
+   Reachable       : yes (HTTP 200)
+   English version : yes
+   Built with      : behind Cloudflare, WordPress, Drupal
+
+2. API
+   Verdict         : CONTENT API ONLY - partly - some calls need a browser session
+   No statistics API; the site's content-management API (WordPress REST) can list pages and
+     uploaded files.
+   Documentation   :
+     https://developer.wordpress.org/rest-api/reference/
+
+   How to call it - curl:
+       curl "https://www.cas.gov.lb/wp-json/wp/v2/media?per_page=20"
+
+   How to call it - Python:
+       import requests
+       files = requests.get("https://www.cas.gov.lb/wp-json/wp/v2/media", params={"per_page": 50}, timeout=60).json()
+
+3. SOCIAL STATISTICS  (61 pages, 52 files)
+     - Arrivals and Departures 1996-2025 General Directorate of the General Security XLS |
+       1996-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/07/3.-Arrivals-and-
+         Departures-1996-2025.xlsx
+     - Average Household Expenditures – 2012 Average Household Expenditure Detailed Household
+       Expenditure Expenditure by Item Consumption Expenditure Household Budget Survey 2012 XLS
+       | 2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Detailed-Average-Expenditures-for-
+         Households_Revised.xls
+     - CH11 - EQ Equitable Chance in Life XLSX › | 2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2025/05/MICS6-Ch11-EQ-Equitable-chance-in-
+         life-LB_EN.xlsx
+     - Care Employment Statistics – 2018–19 (Thematic release based on LFHLCS 2018–2019 data)
+       Care Employment by Sex and Category Employment Status Economic Activity Sector
+       Educational Attainment Nationality | 2018-2019 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/09/LFHLCS-2018_2019_Care-
+         employment.xlsx
+     - Child Development – 2009 Family support for learning Learning materials Children left
+       alone/with other children Lebanon Multiple Indicator Cluster Survey on the Situation of
+       Women and Children 2009 (R | 2009-2023 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_8_-CD_Child-
+         Development.xls
+     - Child Health – 2009 Vaccinations Oral rehydration treatment Home management of diarrhea
+       Care seeking for suspected pneumonia Lebanon Multiple Indicator Cluster Survey on the
+       Situation of Women and Chi | 2009-2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_5_-CH_Child-Health.xlsx
+     - Child Mortality – 2009 Infant and under-five mortality Lebanon Multiple Indicator
+       Cluster Survey on the Situation of Women and Children 2009 (Round 3) XLS | 2009-2023 |
+       XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_3_CM_Child-Mortality.xls
+     - Child Protection – 2009 Birth registration Child labour Labourer students and student
+       labourers Child discipline Early marriage Spousal age difference Attitudes toward
+       domestic violence Child disabili | 2009-2023 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_10_CP_Child-Protection.xls
+     - Children’s Living Arrangements & Orphanhood – 2009 Living arrangements Orphanhood
+       Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Children 2009
+       (Round 3) XLS | 2009-2023 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_11_-HA_Childrens-living-
+         arrangements-and-orphanhood.xls
+     - Demography – Population and Household Characteristics 2018-19 Age Sex Marital status
+       Household composition Household size Place of residence Place of registration Dependency
+       ratios Sex ratios Labour F | 2018-2022 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Demography.xls
+     - Demography – Population and Household Characteristics 2022 Age Sex Nationality Household
+       composition Household size Household head characteristics Place of residence Dependency
+       ratios Lebanon Follow-u | 2022 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/1.Demography-2022-FULFS.xlsx
+     - Distribution of Internal Security Forces Personnel (by rank and sex) 2024-2025 Internal
+       Security Forces, Ministry of Interior and Municipalities XLS | 2024-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/07/ISF_عديد-قوى-الأمن-الداخلي.xlsx
+     - Economic Activity statistics – 2009 Labour Force Participation Employment Unemployment
+       Economic Activity Occupations Lebanon Multiple Indicator Cluster Survey on the Situation
+       of Women and Children 20 | 2009-2019 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS3-2009_12_Economic-activity.xls
+     - Education statistics – 2009 School attendance Educational attainment Literacy Gender
+       parity Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Children
+       2009 (Round 3) XLS | 2009-2022 | XLS
+       https://www.cas.gov.lb/wp-
+         content/uploads/2026/06/CAS_MICS3_9_Education_withoutED12.xls
+     - Education statistics – 2018-19 School Attendance Educational Attainment Educational
+       Institutions Literacy Labour Force and Household Living Conditions Survey 2018-2019
+       Lebanon XLS | 2018-2022 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Education.xlsx
+     - Education statistics – 2022 School Attendance Educational Attainment Educational
+       Institutions Fields of Study Lebanon Follow-up Labour Force Survey 2022 XLS | 2018-2022
+       | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/FULFS-2022_Education.xlsx
+     - Emigration Intentions – 2022 Emigration intentions Emigration process Reason for
+       emigration Emigration arrangements Lebanon Follow-up Labour Force Survey 2022 XLS | 2022
+       | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/6.Intention-to-
+         Immigration-2022-FULFS.xlsx
+     - Environment – Water Supply, Sanitation and Waste Management 2009 Water Access and
+       Quality Water Management Sanitation and Drainage Waste Management Lebanon Multiple
+       Indicator Cluster Survey on the Sit | 2009-2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_6_EN_-Environment-1.xlsx
+     - Expenditures by Household Expenditure Category – 2012 Household Expenditure by Household
+       Expenditure Category Individual Expenditure by Household Expenditure Category
+       Expenditure Structure by Househol | 2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Household-
+         expenditures-categories_Revised.xls
+     - Expenditures by Household Size – 2004-05 Individual Expenditure by Household Size
+       Household Expenditure by Household Size Expenditure Structure by Household Size
+       Household Budget Survey 2004-2005 XLS | 2004-2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/الانفاق-حسب-حجم-الأسرةonly-in-AR-
+         not-on-the-web.xls
+     - Expenditures by Household Size – 2012 Individual Expenditure by Household Size Household
+       Expenditure by Household Size Expenditure Structure by Household Size Household Budget
+       Survey 2012 XLS | 2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Household-
+         size_Revised.xls
+     - Expenditures by Income Category – 2012 Household Expenditure by Income Category
+       Individual Expenditure by Income Category Expenditure Structure by Income Category
+       Household Budget Survey 2012 XLS | 2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Income-
+         categories_Revised.xls
+     - Expenditures by Individual Expenditure Category – 2004-05 Annual Individual Expenditure
+       Category Household Budget Survey 2004-2005 XLS | Annual | 2004-2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/الانفاق-حسب-فئات-إنفاق-الفردonly-in-
+         AR-not-on-the-web.xls
+     - Expenditures by Individual Expenditure Category – 2012 Household Expenditure by
+       Individual Expenditure Category Individual Expenditure by Individual Expenditure
+       Category Expenditure Structure by Indiv | 2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Individual-
+         expenditures-categories_Revised.xls
+     - Expenditures by Region – 2004-05 Household Expenditure by Region Individual Expenditure
+       by Region Expenditure Structure by Region Household Budget Survey 2004-2005 XLS |
+       2004-2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-
+         regions-2004-2005.xls
+     - Expenditures by Region – 2012 Household Expenditure by Region Individual Expenditure by
+       Region Expenditure Structure by Region Household Budget Survey 2012 XLS | 2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Region_Revised.xls
+     - Explore the full range of Sub-National Lebanon Multiple Indicator Cluster Survey 2023
+       indicators → | 2023 | PDF
+       https://cas.gov.lb/wp-content/uploads/2025/07/Sub-
+         National_Lebanon_MICS_2023_Statistical-Snapshots.pdf
+     - Health Insurance & Disability – 2018-19 Health Insurance Coverage Types of Health
+       Insurance Sources of Health Insurance Disability Status Labour Force and Household
+       Living Conditions Survey 2018-2019  | 2018-2022 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Health-insurance-
+         and-Disability.xlsx
+     - Health Insurance – 2022 Health Insurance Coverage Types of Health Insurance Sources of
+       Health Insurance Insurance Beneficiaries Lebanon Follow-up Labour Force Survey 2022 XLS
+       | 2018-2022 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/4.Health-Insurance-2022.xlsx
+     - Household Characteristics by Annual Household Expenditure Category – 2004-05 Household
+       Distribution Household Composition Household Head Characteristics Household Expenditure
+       Individual Expenditure Ex | Annual | 2004-2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-household-
+         expenditures-2004-2005.xls
+     - Household Expenditure by Annual Income Category – 2004-05 Household Expenditure
+       Expenditure Distribution Household Distribution by Income Category Household
+       Distribution by Expenditure Category Househ | Annual | 2004-2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-and-
+         revenues-2004-2005.xls
+     - Household Income and Financial Conditions – 2004-05 Household income distribution
+       Household size and composition Employee earnings Average earnings Household Budget
+       Survey 2004-2005 XLS | 2004-2023 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Income-HBS-2004.xls
+     - Household Income and Financial Conditions – 2022 Sources of household income Monthly
+       income levels Main currency of income Financial resilience and ability to cope without
+       income Lebanon Follow-up Lab | Monthly | 2022-2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/5.Income-2022.xlsx
+     - Household Income and Financial Self-Assessment – 2018-19 Sources of household income
+       Monthly household income levels Financial self-assessment of households Labour Force and
+       Household Living Condition | Monthly | 2018-2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Income.xlsx
+     - Key Findings: Fact Sheet Follow-Up Labour Force Survey January 2022 Summary of Main
+       Results PDF › | 2022 | PDF
+       https://cas.gov.lb/wp-content/uploads/2025/03/Fact-Sheet-Follow-Up-LFS-
+         Lebanon-2022.pdf
+     - Labour Force statistics – 2018-19 Labour Force Participation Employment Informal
+       Employment Unemployment Occupations Economic Activity + more Labour Force and Household
+       Living Conditions Survey 2018-2 | 2018-2019 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Labour-force.xls
+     - Labour Force statistics – 2022 Labour Force Participation Employment Informal Employment
+       Unemployment Labour Underutilization + more Lebanon Follow-up Labour Force Survey 2022
+       XLS | 2018-2022 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Labour-force-FULFS-2022.xlsx
+     - Learn – Child Education 2023 Early childhood education Attendance Parental Involvement
+       Sub-National Lebanon Multiple Indicator Cluster Survey 2023 XLS | 2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch08-LN-Learn-LB_EN.xlsx
+     - Live in a Safe & Clean Environment – Water, Sanitation and Hygiene (WASH) 2023 Drinking
+       water Handwashing Sanitation Menstrual hygiene Sub-National Lebanon Multiple Indicator
+       Cluster Survey 2023 XLS | 2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch10-WS-Live-in-a-safe-and-
+         clean-environment-LB_EN.xlsx
+     - Nutrition – 2009 Breastfeeding Infant feeding patterns Low birth weight infants Lebanon
+       Multiple Indicator Cluster Survey on the Situation of Women and Children 2009 (Round 3)
+       XLS | 2009-2023 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_4_-NU_Nutrition.xls
+     - PDF Women, Work and Care in Lebanon: A First Statistical Portrait from CAS PDF | 2026 |
+       PDF
+       https://www.cas.gov.lb/wp-
+         content/uploads/2026/09/Final_Care_Employment_in_Lebanon_23092026.pdf
+     - Percentage of Lebanese Army (by sex and ranks) 2025 Ministry of Defense XLS | 2024-2025
+       | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/07/عديد-الجيش-2025.xlsx
+     - Primary Residences – Housing Conditions and Household Amenities 2018-19 Housing type and
+       characteristics Dwelling age and size Housing tenure and occupancy status Water supply
+       and sanitation Waste man | 2018-2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Primary-
+         Residences-1.xlsx
+     - Protection from Violence & Exploitation – 2023 Child marriage Victimisation Feelings of
+       safety Attitudes toward domestic violence Sub-National Lebanon Multiple Indicator
+       Cluster Survey 2023 XLS | 2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch09-PR-Protected-from-
+         violence-and-exploitation-LB_EN.xlsx
+     - Reproductive Health – 2009 Use of contraception Lebanon Multiple Indicator Cluster
+       Survey on the Situation of Women and Children 2009 (Round 3) XLS | 2009-2023 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_7_RH_Reproductive-
+         Health.xls
+     - Residents – Population and Household Characteristics 2009 Age Sex Marital status
+       Household composition Household size Place of residence Place of registration Lebanon
+       Multiple Indicator Cluster Survey | 2009-2022 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_2_Residents_2009.xlsx
+     - SE Estimates of Sampling Errors XLSX › | 2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2025/05/MICS6-ChAppC-SE-Estimates-of-
+         sampling-errors-LB_EN.xlsx
+     - Sample Coverage & Characteristics of Respondents – Household & Living Conditions 2023
+       Housing and household characteristics Household composition Age structure of household
+       population Respondents’ bac | 2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch04-SR-Sample-coverage-and-
+         characteristics-of-respondents-LB_EN.xlsx
+     - School Attendance of Working Children – 2015 Children's Work and School Attendance
+       Children's Involvement in Household Chores and School Attendance Child Labour Survey in
+       Lebanon 2015 PDF | 2015-2022 | PDF
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Child_Labour_Survey_2015_Educational
+         _Characteristics_Pages39_43.pdf
+     - Thrive – Child Health Nutrition & Development 2023 Immunisation Disease episodes
+       Diarrhea Infant and young child feeding Malnutrition Early childhood development Sub-
+       National Lebanon Multiple Indicato | 2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch07-TC-Thrive-Child-health-
+         nutrition-and-development-LB_EN.xlsx
+     - Thrive – Reproductive & Maternal Health 2023 Fertility Early childbearing Family
+       planning Antenatal care Neonatal tetanus Delivery care Birthweight Post-natal care Sub-
+       National Lebanon Multiple Indica | 2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch06-TM-Thrive-Reproductive-
+         and-maternal-health-LB_EN.xlsx
+     - Vital statistics 1999-2025 Ministry of Interior Affairs XLS | 1996-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2024/10/Vital-Statistics-1999-2025.xlsx
+     - 2001 | 2001
+       https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2001
+     - 2006 | 2006
+       https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2006
+     - 2008 | 2008
+       https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2008
+     - 2009 | 2009
+       https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2009
+     - 2019 | 2019
+       https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2019
+     - 2020 | 2020
+       https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2020
+     - 2022 | 2022
+       https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2022
+     - 2025 | 2025
+       https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2025
+     ... and 53 more (full list in LBN.json)
+
+4. ECONOMIC STATISTICS  (37 pages, 71 files)
+     - ATMs and Payment Cards 2003-2025 Central Bank of Lebanon XLS | 1965-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/08/43.-ATMs-and-Payment-
+         Cards-2003-2025.xlsx
+     - Agricultural permits 2012-2025 Ministry of Agriculture XLS | 1996-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/07/6.-Agricultural-
+         Permits-2012-2025.xlsx
+     - Air transport statistics 1993-2025 Central Bank of Lebanon XLS | 1993-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/07/26.-Air-Transport-1993-2025.xlsx
+     - Average Household Expenditures – 2012 Average Household Expenditure Detailed Household
+       Expenditure Expenditure by Item Consumption Expenditure Household Budget Survey 2012 XLS
+       | 2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Detailed-Average-Expenditures-for-
+         Households_Revised.xls
+     - Balance of trade 1993-2025 Banque du Liban XLS | 1993-2025 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/05/Balance-of-Trade-1993-2025.xls
+     - Banks Types & Branches 2005-2023 Central Bank of Lebanon XLS | 1965-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/08/37.-Banks-Types-
+         Branches-2005-2023.xlsx
+     - Banque du Liban Balance Sheet. End of Period 1965-2025 Central Bank of Lebanon XLS |
+       1965-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/07/28.-Banque-du-Liban-Balance-
+         Sheet.-End-of-Period-1965-2025.xlsx
+     - Care Employment Statistics – 2018–19 (Thematic release based on LFHLCS 2018–2019 data)
+       Care Employment by Sex and Category Employment Status Economic Activity Sector
+       Educational Attainment Nationality | 2018-2019 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/09/LFHLCS-2018_2019_Care-
+         employment.xlsx
+     - Cement deliveries 1993-2025 Banque du Liban XLS | 1993-2025 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2024/10/Cement-deliveries-1993-2025.xls
+     - Concentration of Banking Activity 2008-2020 Association des Banques du Liban XLS |
+       1965-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/08/38.-Concentration-of-Banking-
+         Activity-2008-2020.xlsx
+     - Consolidated Balance Sheet of Commercial Banks. End of Period 2017-2025 Central Bank of
+       Lebanon XLS | 1965-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/07/33.-Consolidated-Balance-Sheet-of-
+         Commercial-Banks.-End-of-Period-2017-2025.xlsx
+     - Construction permits (transactions) 1996-2023 Order of Engineers in Lebanon XLS |
+       1996-2023 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2024/10/Construction-permits-Mohafazat-
+         transactions-1996-2023.xls
+     - Construction permits for new buildings by governorate and type of use (m²) 2009-2017
+       Order of Engineers in Lebanon XLS | 1996-2023 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2024/10/Construction-permits-Mohafazat-New-
+         Buildings-Square-Meters-2009-2017.xls
+     - Consumer Price Index (CPI) - Metadata PDF › | 2026 | PDF
+       https://cas.gov.lb/wp-content/uploads/2026/06/CPI-Metadata.pdf
+     - Consumer Price Index Methodology and 2019 Results – Lebanon (AR) PDF › | 2019 | PDF
+       https://www.cas.gov.lb/wp-content/uploads/2024/10/CPI_-_report_2019-1.pdf
+     - Credit by Sector 2005-2024 Association des Banques du Liban, CAS XLS | 1965-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/08/41.-Credit-by-Sector-2005-2024.xlsx
+     - Customs receipts 1993-2025 Banque du Liban XLS | 1993-2025 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2025/12/Customs-receipts-1993-2025.xls
+     - Data Sources and Compilation Methods Overview of the data sources and methods used to
+       compile national accounts estimates. PDF › | 2024 | PDF
+       https://www.cas.gov.lb/wp-content/uploads/2024/10/Data-sources-and-compilation-
+         methods.pdf
+     - Demography – Population and Household Characteristics 2018-19 Age Sex Marital status
+       Household composition Household size Place of residence Place of registration Dependency
+       ratios Sex ratios Labour F | 2018-2022 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Demography.xls
+     - Demography – Population and Household Characteristics 2022 Age Sex Nationality Household
+       composition Household size Household head characteristics Place of residence Dependency
+       ratios Lebanon Follow-u | 2022 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/1.Demography-2022-FULFS.xlsx
+     - Distribution of Beneficiaries by Credit Range. End of Period 2008-2023 Association des
+       Banques du Liban XLS | 1965-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/08/40.-Distribution-of-Beneficiaries-
+         by-Credit-Range.-End-of-Period-2008-2023.xlsx
+     - Download latest CPI file | 2026 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/cpi/latest/8-CPI_AUGUST2026.xlsx
+     - Economic Activity statistics – 2009 Labour Force Participation Employment Unemployment
+       Economic Activity Occupations Lebanon Multiple Indicator Cluster Survey on the Situation
+       of Women and Children 20 | 2009-2019 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS3-2009_12_Economic-activity.xls
+     - Education statistics – 2009 School attendance Educational attainment Literacy Gender
+       parity Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Children
+       2009 (Round 3) XLS | 2009-2022 | XLS
+       https://www.cas.gov.lb/wp-
+         content/uploads/2026/06/CAS_MICS3_9_Education_withoutED12.xls
+     - Education statistics – 2018-19 School Attendance Educational Attainment Educational
+       Institutions Literacy Labour Force and Household Living Conditions Survey 2018-2019
+       Lebanon XLS | 2018-2022 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Education.xlsx
+     - Education statistics – 2022 School Attendance Educational Attainment Educational
+       Institutions Fields of Study Lebanon Follow-up Labour Force Survey 2022 XLS | 2018-2022
+       | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/FULFS-2022_Education.xlsx
+     - Emigration Intentions – 2022 Emigration intentions Emigration process Reason for
+       emigration Emigration arrangements Lebanon Follow-up Labour Force Survey 2022 XLS | 2022
+       | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/6.Intention-to-
+         Immigration-2022-FULFS.xlsx
+     - Energy statistics 1995-2025 Electricté du Liban XLS | 1995-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/07/EDL-1995-2025.xlsx
+     - Exchange Rates. Yearly Average 1964-2025 Central Bank of Lebanon XLS | Annual |
+       1964-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/07/32.-Exchange-Rates.-Yearly-
+         Average-1964-2025.xlsx
+     - Exchange rates for GDP Note on the exchange rate treatment used in GDP estimates. PDF ›
+       | 2024 | PDF
+       https://www.cas.gov.lb/wp-content/uploads/2024/10/Exchange-rates-for-GDP.pdf
+     - Expenditures by Household Expenditure Category – 2012 Household Expenditure by Household
+       Expenditure Category Individual Expenditure by Household Expenditure Category
+       Expenditure Structure by Househol | 2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Household-
+         expenditures-categories_Revised.xls
+     - Expenditures by Household Size – 2004-05 Individual Expenditure by Household Size
+       Household Expenditure by Household Size Expenditure Structure by Household Size
+       Household Budget Survey 2004-2005 XLS | 2004-2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/الانفاق-حسب-حجم-الأسرةonly-in-AR-
+         not-on-the-web.xls
+     - Expenditures by Household Size – 2012 Individual Expenditure by Household Size Household
+       Expenditure by Household Size Expenditure Structure by Household Size Household Budget
+       Survey 2012 XLS | 2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Household-
+         size_Revised.xls
+     - Expenditures by Income Category – 2012 Household Expenditure by Income Category
+       Individual Expenditure by Income Category Expenditure Structure by Income Category
+       Household Budget Survey 2012 XLS | 2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Income-
+         categories_Revised.xls
+     - Expenditures by Individual Expenditure Category – 2004-05 Annual Individual Expenditure
+       Category Household Budget Survey 2004-2005 XLS | Annual | 2004-2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/الانفاق-حسب-فئات-إنفاق-الفردonly-in-
+         AR-not-on-the-web.xls
+     - Expenditures by Individual Expenditure Category – 2012 Household Expenditure by
+       Individual Expenditure Category Individual Expenditure by Individual Expenditure
+       Category Expenditure Structure by Indiv | 2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Individual-
+         expenditures-categories_Revised.xls
+     - Expenditures by Region – 2004-05 Household Expenditure by Region Individual Expenditure
+       by Region Expenditure Structure by Region Household Budget Survey 2004-2005 XLS |
+       2004-2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-
+         regions-2004-2005.xls
+     - Expenditures by Region – 2012 Household Expenditure by Region Individual Expenditure by
+       Region Expenditure Structure by Region Household Budget Survey 2012 XLS | 2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Region_Revised.xls
+     - Explanatory Note on CPI Inflation Measures PDF › | 2019 | PDF
+       https://cas.gov.lb/wp-content/uploads/2024/10/Explanatory-Note-on-CPI-Inflation-
+         Measures.pdf
+     - GDP Treatment during Crisis Guidance on the treatment of GDP estimates during crisis
+       periods. PDF › | 2024 | PDF
+       https://www.cas.gov.lb/wp-content/uploads/2024/10/GDP-Treatment-during-Crisis.pdf
+     - Green Project Activity 2006-2024 Green Project XLS | 1996-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/08/7.-Green-Project-2006-2024.xlsx
+     - Health Insurance & Disability – 2018-19 Health Insurance Coverage Types of Health
+       Insurance Sources of Health Insurance Disability Status Labour Force and Household
+       Living Conditions Survey 2018-2019  | 2018-2022 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Health-insurance-
+         and-Disability.xlsx
+     - Health Insurance – 2022 Health Insurance Coverage Types of Health Insurance Sources of
+       Health Insurance Insurance Beneficiaries Lebanon Follow-up Labour Force Survey 2022 XLS
+       | 2018-2022 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/4.Health-Insurance-2022.xlsx
+     - Household Characteristics by Annual Household Expenditure Category – 2004-05 Household
+       Distribution Household Composition Household Head Characteristics Household Expenditure
+       Individual Expenditure Ex | Annual | 2004-2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-household-
+         expenditures-2004-2005.xls
+     - Household Expenditure by Annual Income Category – 2004-05 Household Expenditure
+       Expenditure Distribution Household Distribution by Income Category Household
+       Distribution by Expenditure Category Househ | Annual | 2004-2012 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-and-
+         revenues-2004-2005.xls
+     - Household Income and Financial Conditions – 2004-05 Household income distribution
+       Household size and composition Employee earnings Average earnings Household Budget
+       Survey 2004-2005 XLS | 2004-2023 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Income-HBS-2004.xls
+     - Household Income and Financial Conditions – 2022 Sources of household income Monthly
+       income levels Main currency of income Financial resilience and ability to cope without
+       income Lebanon Follow-up Lab | Monthly | 2022-2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/5.Income-2022.xlsx
+     - Household Income and Financial Self-Assessment – 2018-19 Sources of household income
+       Monthly household income levels Financial self-assessment of households Labour Force and
+       Household Living Condition | Monthly | 2018-2023 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Income.xlsx
+     - Imported petroleum products (Metric tonnes) 1995-2025 Ministry of Energy and Water XLS |
+       1995-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2024/10/Imported-Petroleum-
+         products-1995-2025.xlsx
+     - Inflation figures PDF › | 2019 | PDF
+       https://www.cas.gov.lb/wp-content/uploads/2024/10/Inflation-in-figures.pdf
+     - Interest Rates in Percent 1972-2025 Central Bank of Lebanon XLS | 1965-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2025/11/44.-Interest-Rates-in-
+         Percent-1972-2025.xlsx
+     - Interest Rates in Percent End of Period 1993-2025 Central Bank of Lebanon XLS |
+       1965-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/07/31.-Interest-Rates-in-
+         Percent-1993-2025.-End-of-Period.xlsx
+     - Key Findings: Fact Sheet Follow-Up Labour Force Survey January 2022 Summary of Main
+       Results PDF › | 2022 | PDF
+       https://cas.gov.lb/wp-content/uploads/2025/03/Fact-Sheet-Follow-Up-LFS-
+         Lebanon-2022.pdf
+     - Labour Force statistics – 2018-19 Labour Force Participation Employment Informal
+       Employment Unemployment Occupations Economic Activity + more Labour Force and Household
+       Living Conditions Survey 2018-2 | 2018-2019 | XLS
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Labour-force.xls
+     - Labour Force statistics – 2022 Labour Force Participation Employment Informal Employment
+       Unemployment Labour Underutilization + more Lebanon Follow-up Labour Force Survey 2022
+       XLS | 2018-2022 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/06/Labour-force-FULFS-2022.xlsx
+     - Methodological Improvement - Real Estate Activity Methodological note on improvements
+       related to real estate activity estimates. PDF › | 2024 | PDF
+       https://www.cas.gov.lb/wp-content/uploads/2024/10/Methodological-Improvement-Real-
+         Estate-Activity.pdf
+     - Money Aggregates and Counterparts 2017-2025 Central Bank of Lebanon XLS | 1965-2025 |
+       XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/07/29.-Money-Aggregates-and-
+         Counterparts-2017-2025.xlsx
+     - NA Tables 2024 Downloadable Excel tables for the 2024 national accounts estimates. XLSX
+       › | Annual | 2024 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2024/10/National-Accounts-Tables-2024.xlsx
+     - National Accounts Estimates for 2024 - Comments and Tables Main annual national accounts
+       publication including comments, estimates, and statistical tables. PDF › | Annual | 2024
+       | PDF
+       https://www.cas.gov.lb/wp-content/uploads/2024/10/National-Accounts-Estimates-2024.pdf
+     - Regional Distribution of Banking Deposits & Credits. End of Period 2009-2022 Association
+       des Banques du Liban XLS | 1965-2025 | XLSX
+       https://www.cas.gov.lb/wp-content/uploads/2026/08/39.-Regional-Distribution-of-
+         Banking-Deposits-Credits.-End-of-Period-2009-2022.xlsx
+     ... and 48 more (full list in LBN.json)
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (0 rendered in a browser); 111 file links
+   Formats: XLSX 56, XLS 32, PDF 23
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: LBN
+       theme: social_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://www.cas.gov.lb/', 'https://www.cas.gov.lb/population-social-conditions/labour-market/',
+         'https://www.cas.gov.lb/population-social-conditions/income-living-conditions/', 'https://www.cas.gov.lb/population-social-conditions/population-demography/',
+         'https://www.cas.gov.lb/population-social-conditions/education/']
+       render_js: auto
+       notes: 52 social statistics file(s) found on these pages - review before enabling
+     - nso: LBN
+       theme: economic_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://www.cas.gov.lb/national-accounts/', 'https://www.cas.gov.lb/economic-statistics/cpi/',
+         'https://www.cas.gov.lb/population-social-conditions/labour-market/', 'https://www.cas.gov.lb/population-social-conditions/income-living-conditions/',
+         'https://www.cas.gov.lb/administrative-statistics/energy/']
+       render_js: auto
+       notes: 71 economic statistics file(s) found on these pages - review before enabling
+
+7. LIMITATIONS / NEXT STEPS
+   - none noted

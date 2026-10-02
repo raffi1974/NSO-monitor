@@ -1,0 +1,1630 @@
+{
+ "id": "COM",
+ "country": "Comoros",
+ "nso": "Institut National de la Statistique et des Etudes Economiques et Demographiques (INSEED)",
+ "url": "https://www.inseed-comores.org/",
+ "english_config": "yes",
+ "languages": [
+  "fr",
+  "en"
+ ],
+ "config_notes": "Not on ESCWA's official member list (unescwa.org, checked 2026-09-29) - included at the user's request. Old domain inseed.km is dead.",
+ "checked_at": "2026-09-29 11:14",
+ "themes": {
+  "social_statistics": {
+   "label": "Social statistics",
+   "items": [
+    {
+     "kind": "survey (microdata)",
+     "title": "Deuxième Recensement Général de l'Agriculture (RGA-2 2025), Union des Comores, Campagne Agricole 2023-2024",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/16",
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2025,
+      2025
+     ],
+     "coverage": "2025",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2026-05-20"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Enquête Démographique et de Santé 1996",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/13",
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      1996,
+      1996
+     ],
+     "coverage": "1996",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-25"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Enquête Démographique et de Santé et à Indicateurs Multiples 2012",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/12",
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2012,
+      2012
+     ],
+     "coverage": "2012",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Enquête Harmonisée sur les Conditions de Vie des Ménages 2020",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/9",
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2020,
+      2020
+     ],
+     "coverage": "2020",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Enquête Harmonisée sur les Conditions de Vie des Ménages 2024",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/15",
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2024,
+      2024
+     ],
+     "coverage": "2024",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2026-05-12"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Enquete integrale auprés des Menages de l'Année 2004",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/3",
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2004,
+      2005
+     ],
+     "coverage": "2004-2005",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Enquête sur l'Emploi et le Secteur Informel Phase 1 - Emploi 2013",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/5",
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2013,
+      2014
+     ],
+     "coverage": "2013-2014",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Enquête sur l'Emploi et le Secteur Informel Phase 2 - Secteur Informel 2013",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/6",
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2013,
+      2014
+     ],
+     "coverage": "2013-2014",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Enquête sur l'Emploi et le Secteur Informel Phase 3 - Consommation 2013",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/7",
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2013,
+      2014
+     ],
+     "coverage": "2013-2014",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Recensement Général de la Population et de l'Habitat 2003",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/2",
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2001,
+      2003
+     ],
+     "coverage": "2001-2003",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Recensement Général de la Population et de l’Habitat 2017",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/8",
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2017,
+      2018
+     ],
+     "coverage": "2017-2018",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Recensement Général de l’Agriculture Comores 2004",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/4",
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2004,
+      2004
+     ],
+     "coverage": "2004",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "page",
+     "title": "Recensement nouvelle génération aux Comores : L’INSEED peaufine sa stratégie numérique",
+     "url": "https://www.inseed-comores.org/news/agenda-and-events/rgph5-inseed-refines-its-digital-strategy",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "POPULATION : L’INSEED lance officiellement le RGPH05",
+     "url": "https://www.inseed-comores.org/news/agenda-and-events/population-inseed-officially-launches-rgph05",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Recensement 2027 aux Comores : L’INSEED réunit ses partenaires pour préparer les questionnaires et manuels...",
+     "url": "https://www.inseed-comores.org/news/agenda-and-events/comoros-2027-census-inseed-preparations",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2027
+     ],
+     "coverage": "2027",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête pauvreté : Les premiers enseignements de l’EHCVM 2024 aux Comores",
+     "url": "https://www.inseed-comores.org/news/seminars-and-workshops/poverty-survey-first-findings-ehcvm-2024",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Préparation du RGPH05 - Un atelier technique pour structurer la cartographie censitaire",
+     "url": "https://www.inseed-comores.org/news/seminars-and-workshops/phc-2025-technical-workshop-to-structure-census-mapping",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "En 2024, le PIB des Comores progresse de 3,3 % en volume, porté par la consommation finale des ménages (+5,0 %) et les transferts de la diaspora qu...",
+     "url": "https://www.inseed-comores.org/publications/comptes-nationaux-2023-definitifs-2024-provisoires",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Déflation IPC par poste COICOP, évolution réelle des dépenses et dynamiques de pauvreté 2020–2024",
+     "url": "https://www.inseed-comores.org/publications/ehcvm-analyse-2020-2024",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2020,
+      2024
+     ],
+     "coverage": "2020-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Deuxième Recensement Général de l'Agriculture (RGA-2 2025)",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/16",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête Harmonisée sur les Conditions de Vie des Ménages 2024",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/15",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Résultats globaux du Deuxième Recensement Général de l'Agriculture des Comores — campagne agricole 2023/2024.",
+     "url": "https://www.inseed-comores.org/publications/rga2-resultats-module-de-base-2025",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2023,
+      2024
+     ],
+     "coverage": "2023-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "STATISTIQUES DÉMOGRAPHIQUES",
+     "url": "https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "PAUVRETÉ",
+     "url": "https://www.inseed-comores.org/news?tags=pauvrete",
+     "page_url": "https://www.inseed-comores.org/news/agenda-and-events/rgph5-inseed-refines-its-digital-strategy",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Recensement nouvelle génération aux Comores : L’INSEED peaufine sa stratégie numérique - AGENDA ET ÉVÈNEMENTS - Actualités | INSEED",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "SANTÉ",
+     "url": "https://www.inseed-comores.org/news?tags=sante",
+     "page_url": "https://www.inseed-comores.org/news/agenda-and-events/rgph5-inseed-refines-its-digital-strategy",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Recensement nouvelle génération aux Comores : L’INSEED peaufine sa stratégie numérique - AGENDA ET ÉVÈNEMENTS - Actualités | INSEED",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "PAUVRETÉ",
+     "url": "https://www.inseed-comores.org/news?tag=pauvrete",
+     "page_url": "https://www.inseed-comores.org/news/seminars-and-workshops/poverty-survey-first-findings-ehcvm-2024",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Enquête pauvreté : Les premiers enseignements de l’EHCVM 2024 aux Comores - SÉMINAIRES ET ATELIERS - Actualités | INSEED",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Bulletin IHPC - N° 03/2026 En mars 2026, l’Indice Harmonisé des Prix à la Consommation (IHPC) a enregistré une hausse mensuelle de 0,7 % par rapport au mois précédent. Indice harmonisé des prix à la c",
+     "url": "https://www.inseed-comores.org/publications/ihpc-mars-2026",
+     "page_url": "https://www.inseed-comores.org/publications?theme=105",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Bulletin IHPC - N° 02/2026 En février 2026, l’indice harmonisé des prix à la consommation (IHPC) a enregistré une baisse mensuelle de 0,6 % par rapport au mois précédent. Indice harmonisé des prix à l",
+     "url": "https://www.inseed-comores.org/publications/ihpc-fevrier-2026",
+     "page_url": "https://www.inseed-comores.org/publications?theme=105",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Bulletin IHPC - N° 01/2026 En janvier 2026, l’indice harmonisé des prix à la consommation (IHPC) a connu une variation mensuelle de 0,3 % par rapport au mois précédent. Indice harmonisé des prix à la ",
+     "url": "https://www.inseed-comores.org/publications/ihpc-janvier-2026",
+     "page_url": "https://www.inseed-comores.org/publications?theme=105",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Bulletin IHPC - N° 12/2025 En décembre 2025, l’indice harmonisé des prix à la consommation (IHPC) a progressé de 0,5 % par rapport au mois précédent. Indice harmonisé des prix à la consommation - bull",
+     "url": "https://www.inseed-comores.org/publications/ihpc-decembre-2025",
+     "page_url": "https://www.inseed-comores.org/publications?theme=105",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Bulletin IHPC - N° 11/2025 En novembre 2025, l’indice harmonisé des prix à la consommation (IHPC) a marqué un recul de 0,5 % par rapport au mois précédent. Indice harmonisé des prix à la consommation ",
+     "url": "https://www.inseed-comores.org/publications/ihpc-novembre-2025",
+     "page_url": "https://www.inseed-comores.org/publications?theme=105",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Chiffres détaillés Projections de population 2017–2042 par île, préfecture, commune et localité, milieu de résidence, groupe d'âge et sexe — hypothèse moyenne. Projections de population 2017–2042 par ",
+     "url": "https://www.inseed-comores.org/publications/revision-demographic-projections-medium-hypothesis",
+     "page_url": "https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2017,
+      2022,
+      2025,
+      2029,
+      2042
+     ],
+     "coverage": "2017-2042",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Rapport d'analyse Les enquêtes nutritionnelles SMART montre que la situation nutritionnelle globale du pays est précaire, notamment avec une prévalence nationale de 24,1% des enfants de moins de 5 ans",
+     "url": "https://www.inseed-comores.org/publications/smart-survey-2024-final-report",
+     "page_url": "https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Jeux de données Enquête par Grappes à Indicateurs Multiples MICS - 2022 Jeux de données et documentation L’enquête par grappes à indicateurs multiples (MICS) a été menée en 2022 par L’Institut Nationa",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/11",
+     "page_url": "https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      1990,
+      2022
+     ],
+     "coverage": "1990-2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Séries chronologiques Série - Espérance de vie à la naissance - Données annuelles Espérance de vie à la naissance",
+     "url": "https://www.inseed-comores.org/publications/serie_life_expectancy",
+     "page_url": "https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Séries chronologiques Série - Taux de fécondité - Données annuelles Taux de fécondité",
+     "url": "https://www.inseed-comores.org/publications/serie_fertility_rate",
+     "page_url": "https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Jeux de données Enquête Harmonisée sur les Conditions de Vie des Ménages 2020 Jeux de données et documentation L’Enquête Harmonisée sur les Conditions de Vie des Ménages est également utilisée dans le",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/9",
+     "page_url": "https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Séries chronologiques Série - Taux de mortalité infantile - Données annuelles Taux de mortalité infantile",
+     "url": "https://www.inseed-comores.org/publications/serie_infant_mortality_rate",
+     "page_url": "https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Jeux de données 4-ème Recensement Général de la Population et de l’Habitat 2017 Jeux de données et documentation Le 4ème Recensement Général de la Population et de l'Habitat (RGPH), comme les trois au",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/8",
+     "page_url": "https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      1980,
+      1991,
+      2003,
+      2017
+     ],
+     "coverage": "1980-2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Jeux de données Enquête Démographique et de Santé et à Indicateurs Multiples 2012 Jeux de données et documentation L’Union des Comores a organisé en 2012 sa deuxième Enquête Démographique et de Santé ",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/12",
+     "page_url": "https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2012,
+      2015
+     ],
+     "coverage": "2012-2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Les activités de l'Inseed Collecter, produire, analyser, diffuser des informations économiques et sociales sur l'ensemble du pays.",
+     "url": "https://www.inseed-comores.org/information/activities",
+     "page_url": "https://www.inseed-comores.org/information",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Informations | INSEED",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête Harmonisée sur les Conditions de Ménges - 2024",
+     "url": "https://www.inseed-comores.org/news/news/harmonized-survey-household-conditions-",
+     "page_url": "https://www.inseed-comores.org/news?tags=pauvrete",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Actualités | INSEED",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  },
+  "economic_statistics": {
+   "label": "Economic statistics",
+   "items": [
+    {
+     "kind": "survey (microdata)",
+     "title": "Deuxième Recensement Général de l'Agriculture (RGA-2 2025), Union des Comores, Campagne Agricole 2023-2024",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/16",
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2025,
+      2025
+     ],
+     "coverage": "2025",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2026-05-20"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Enquête sur l'Economie Informelle aux Comores - 2021",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/10",
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2021,
+      2021
+     ],
+     "coverage": "2021",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Enquête sur l'Emploi et le Secteur Informel Phase 1 - Emploi 2013",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/5",
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2013,
+      2014
+     ],
+     "coverage": "2013-2014",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Enquête sur l'Emploi et le Secteur Informel Phase 2 - Secteur Informel 2013",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/6",
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2013,
+      2014
+     ],
+     "coverage": "2013-2014",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Enquête sur l'Emploi et le Secteur Informel Phase 3 - Consommation 2013",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/7",
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2013,
+      2014
+     ],
+     "coverage": "2013-2014",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "survey (microdata)",
+     "title": "Recensement Général de l’Agriculture Comores 2004",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/4",
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "survey",
+     "years": [
+      2004,
+      2004
+     ],
+     "coverage": "2004",
+     "formats": [
+      "microdata (registration may be needed)"
+     ],
+     "downloads": [],
+     "latest_release": "2025-10-24"
+    },
+    {
+     "kind": "page",
+     "title": "Lancement de la campagne de sensibilisation sur l’Enquête Agricole Annuelle 2026",
+     "url": "https://www.inseed-comores.org/news/agenda-and-events/launch-annual-agricultural-survey-awareness-campaign-2026",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête agricole : L’INSEED outillent les formateurs pour une collecte de données agricoles de qualité",
+     "url": "https://www.inseed-comores.org/news/seminars-and-workshops/inseed-trains-instructors-agricultural-survey-data",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Vers une agriculture comorienne mieux documentée : L’INSEED associe producteurs et utilisateurs des données",
+     "url": "https://www.inseed-comores.org/news/seminars-and-workshops/inseed-comoros-agriculture-data-producers-users",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "En 2025, le PIB accélère à 3,7 % en volume, tiré par l'investissement (+11,1 %) et la construction (+20,4 %). Le PIB courant atteint 781,8 milliard...",
+     "url": "https://www.inseed-comores.org/publications/comptes-nationaux-2024-definitifs-2025-provisoires",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "En juillet 2026, l’Indice harmonisé des prix à la consommation (IHPC) a augmenté de 1,6 % par rapport à juin 2026.",
+     "url": "https://www.inseed-comores.org/publications/ihpc-juillet-2026",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "En 2024, le PIB des Comores progresse de 3,3 % en volume, porté par la consommation finale des ménages (+5,0 %) et les transferts de la diaspora qu...",
+     "url": "https://www.inseed-comores.org/publications/comptes-nationaux-2023-definitifs-2024-provisoires",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "En juin 2026, l’Indice harmonisé des prix à la consommation (IHPC) a progressé de 0,8 % par rapport au mois précédent.",
+     "url": "https://www.inseed-comores.org/publications/ihpc-juin-2026",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "En mai 2026, l’Indice harmonisé des prix à la consommation (IHPC) a progressé de 0,8 % par rapport au mois précédent.",
+     "url": "https://www.inseed-comores.org/publications/ihpc-mai-2026",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Deuxième Recensement Général de l'Agriculture (RGA-2 2025)",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/16",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "En avril 2026, l’Indice Harmonisé des Prix à la Consommation (IHPC) a progressé de 0,4 % par rapport au mois précédent.",
+     "url": "https://www.inseed-comores.org/publications/ihpc-avril-2026",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Résultats globaux du Deuxième Recensement Général de l'Agriculture des Comores — campagne agricole 2023/2024.",
+     "url": "https://www.inseed-comores.org/publications/rga2-resultats-module-de-base-2025",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [
+      2023,
+      2024
+     ],
+     "coverage": "2023-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "BULLETIN MENSUEL DE L'INDICE DE PRIX",
+     "url": "https://www.inseed-comores.org/publications?theme=105",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "ÉCONOMIE ET STATISTIQUE",
+     "url": "https://www.inseed-comores.org/publications?collection=60",
+     "page_url": "https://www.inseed-comores.org/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "DDI/XML",
+     "url": "https://www.nada.inseed-comores.org/index.php/metadata/export/16/ddi",
+     "page_url": "https://www.nada.inseed-comores.org/index.php/catalog/16",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Comoros - Deuxième Recensement Général de l'Agriculture (RGA-2 2025), Union des Comores, Campagne Agricole 2023-2024",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "JSON",
+     "url": "https://www.nada.inseed-comores.org/index.php/metadata/export/16/json",
+     "page_url": "https://www.nada.inseed-comores.org/index.php/catalog/16",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Comoros - Deuxième Recensement Général de l'Agriculture (RGA-2 2025), Union des Comores, Campagne Agricole 2023-2024",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "DDI/XML",
+     "url": "https://www.nada.inseed-comores.org/index.php/metadata/export/15/ddi",
+     "page_url": "https://www.nada.inseed-comores.org/index.php/catalog/15",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Comoros - Enquête Harmonisée sur les Conditions de Vie des Ménages 2024",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "JSON",
+     "url": "https://www.nada.inseed-comores.org/index.php/metadata/export/15/json",
+     "page_url": "https://www.nada.inseed-comores.org/index.php/catalog/15",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Comoros - Enquête Harmonisée sur les Conditions de Vie des Ménages 2024",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Bulletin IHPC - N° 03/2026 En mars 2026, l’Indice Harmonisé des Prix à la Consommation (IHPC) a enregistré une hausse mensuelle de 0,7 % par rapport au mois précédent. Indice harmonisé des prix à la c",
+     "url": "https://www.inseed-comores.org/publications/ihpc-mars-2026",
+     "page_url": "https://www.inseed-comores.org/publications?theme=105",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Bulletin IHPC - N° 02/2026 En février 2026, l’indice harmonisé des prix à la consommation (IHPC) a enregistré une baisse mensuelle de 0,6 % par rapport au mois précédent. Indice harmonisé des prix à l",
+     "url": "https://www.inseed-comores.org/publications/ihpc-fevrier-2026",
+     "page_url": "https://www.inseed-comores.org/publications?theme=105",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Bulletin IHPC - N° 01/2026 En janvier 2026, l’indice harmonisé des prix à la consommation (IHPC) a connu une variation mensuelle de 0,3 % par rapport au mois précédent. Indice harmonisé des prix à la ",
+     "url": "https://www.inseed-comores.org/publications/ihpc-janvier-2026",
+     "page_url": "https://www.inseed-comores.org/publications?theme=105",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Bulletin IHPC - N° 12/2025 En décembre 2025, l’indice harmonisé des prix à la consommation (IHPC) a progressé de 0,5 % par rapport au mois précédent. Indice harmonisé des prix à la consommation - bull",
+     "url": "https://www.inseed-comores.org/publications/ihpc-decembre-2025",
+     "page_url": "https://www.inseed-comores.org/publications?theme=105",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Bulletin IHPC - N° 11/2025 En novembre 2025, l’indice harmonisé des prix à la consommation (IHPC) a marqué un recul de 0,5 % par rapport au mois précédent. Indice harmonisé des prix à la consommation ",
+     "url": "https://www.inseed-comores.org/publications/ihpc-novembre-2025",
+     "page_url": "https://www.inseed-comores.org/publications?theme=105",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Bulletin IHPC - N° 10/2025 En octobre 2025, l'indice harmonisé des prix à la consommation (IHPC) a enregistré une baisse de 1,1 % par rapport au mois précédent. Indice harmonisé des prix à la consomma",
+     "url": "https://www.inseed-comores.org/publications/ihpc-octobre-2025",
+     "page_url": "https://www.inseed-comores.org/publications?theme=105",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Jeux de données Enquête par Grappes à Indicateurs Multiples MICS - 2022 Jeux de données et documentation L’enquête par grappes à indicateurs multiples (MICS) a été menée en 2022 par L’Institut Nationa",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/11",
+     "page_url": "https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      1990,
+      2022
+     ],
+     "coverage": "1990-2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Jeux de données Enquête Harmonisée sur les Conditions de Vie des Ménages 2020 Jeux de données et documentation L’Enquête Harmonisée sur les Conditions de Vie des Ménages est également utilisée dans le",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/9",
+     "page_url": "https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Jeux de données 4-ème Recensement Général de la Population et de l’Habitat 2017 Jeux de données et documentation Le 4ème Recensement Général de la Population et de l'Habitat (RGPH), comme les trois au",
+     "url": "https://www.nada.inseed-comores.org/index.php/catalog/8",
+     "page_url": "https://www.inseed-comores.org/publications?theme=200+201+202+203+205+204+206",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Base de données des publications | INSEED",
+     "years": [
+      1980,
+      1991,
+      2003,
+      2017
+     ],
+     "coverage": "1980-2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Projet STATCAP-KM Projet d’Investissement de Soutien aux Capacités Statistique de la Communauté Développement de l’Afrique Australe (STAT CAP- KM).",
+     "url": "https://www.inseed-comores.org/information/statcap-km",
+     "page_url": "https://www.inseed-comores.org/information/studies-and-projects",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Études et projets - Information | INSEED",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Les activités de l'Inseed Collecter, produire, analyser, diffuser des informations économiques et sociales sur l'ensemble du pays.",
+     "url": "https://www.inseed-comores.org/information/activities",
+     "page_url": "https://www.inseed-comores.org/information",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Informations | INSEED",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  }
+ },
+ "limitations": [],
+ "recognized": [
+  {
+   "platform": "NADA microdata catalogue (documented API)",
+   "base_url": "https://www.nada.inseed-comores.org",
+   "notes": [
+    "15 surveys listed."
+   ],
+   "items": 15
+  }
+ ],
+ "suggested_sources": [
+  {
+   "nso": "COM",
+   "theme": "economic_statistics",
+   "method": "api",
+   "connector": "nada",
+   "enabled": true,
+   "options": {
+    "catalog": "https://www.nada.inseed-comores.org"
+   },
+   "notes": "NADA catalogue API (documented) - new surveys, catalogue only"
+  },
+  {
+   "nso": "COM",
+   "theme": "social_statistics",
+   "method": "api",
+   "connector": "nada",
+   "enabled": true,
+   "options": {
+    "catalog": "https://www.nada.inseed-comores.org"
+   },
+   "notes": "NADA catalogue API (documented) - new surveys, catalogue only"
+  }
+ ],
+ "indicator_samples": [],
+ "site": {
+  "url": "https://www.inseed-comores.org/",
+  "reachable": true,
+  "status": 200,
+  "final_url": "https://www.inseed-comores.org/",
+  "title": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques",
+  "lang": "en",
+  "english": "yes",
+  "english_url": "https://www.inseed-comores.org/",
+  "platforms": [
+   "Next.js app",
+   "NADA microdata catalogue"
+  ],
+  "blocked": "",
+  "rendered": false,
+  "insecure_tls": false,
+  "notes": []
+ },
+ "files": {
+  "formats": {},
+  "total": 0,
+  "pages_crawled": 40,
+  "pages_rendered": 4
+ },
+ "api": {
+  "docs": [
+   "https://nada.ihsn.org/"
+  ],
+  "how_to": {
+   "curl": "curl \"https://www.nada.inseed-comores.org/index.php/api/catalog/search?ps=10\"",
+   "python": "import requests\n\nrows = requests.get(\"https://www.nada.inseed-comores.org/index.php/api/catalog/search\", params={\"ps\": 100}, timeout=60).json()[\"result\"][\"rows\"]"
+  },
+  "endpoints": [
+   {
+    "method": "GET",
+    "template": "www.inseed-comores.org/backend/uploads/life_expectancy_10f91027a0.csv",
+    "example_url": "https://www.inseed-comores.org/backend/uploads/life_expectancy_10f91027a0.csv",
+    "count": 1,
+    "content_type": "text/csv; charset=utf-8",
+    "post_data": "",
+    "sample": "date,life_expectancy\r\n1960,39.69\r\n1961,40.15\r\n1962,40.58\r\n1963,40.93\r\n1964,41.25\r\n1965,41.70\r\n1966,42.15\r\n1967,42.75\r\n1968,43.46\r\n1969,44.16\r\n1970,44.86\r\n1971,45.58\r\n1972,46.30\r\n1973,46.88\r\n1974,47.47\r\n1975,46.63\r\n1976,48.52\r\n1977,49.05\r\n1978,49.67\r\n1979,50.25\r\n1980,50.80\r\n1981,51.31\r\n1982,51.89\r\n1983,52.27\r\n1984,52.94\r\n1985,53.48\r\n1986,54.03\r\n1987,54.37\r\n1988,54.95\r\n1989,55.22\r\n1990,55.84\r\n1991,56.19\r\n1992,56.73\r\n1993,57.28\r\n1994,57.69\r\n1995,58.01\r\n1996,58.34\r\n1997,58.39\r\n1998,58.41\r\n1999,58.78\r\n2000,58.76\r\n2001,59.16\r\n2002,59.06\r\n2003,59.26\r\n2004,59.48\r\n2005,59.60\r\n2006,59.88\r\n2007,60.10\r\n2008,60.47\r\n2009,60.83\r\n2010,61.12\r\n2011,61.50\r\n2012,61.83\r\n2013,62.22\r\n2014,62.52\r\n2015,62.90\r\n2016,63.24\r\n2017,63.63\r\n2018,63.91\r\n2019,64.07\r\n2020,64.17\r\n2021,63.42\r\n",
+    "size": 766,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "www.inseed-comores.org/backend/uploads/dependency_ratio_81c7a55653.csv",
+    "example_url": "https://www.inseed-comores.org/backend/uploads/dependency_ratio_81c7a55653.csv",
+    "count": 1,
+    "content_type": "text/csv; charset=utf-8",
+    "post_data": "",
+    "sample": "date,dependency_ratio\n1960,81.23\n1961,82.59\n1962,84.17\n1963,86.02\n1964,87.98\n1965,89.57\n1966,90.76\n1967,91.81\n1968,92.64\n1969,93.24\n1970,93.65\n1971,93.95\n1972,94.21\n1973,94.47\n1974,94.76\n1975,95.10\n1976,95.52\n1977,96.05\n1978,96.68\n1979,97.39\n1980,98.09\n1981,98.86\n1982,99.89\n1983,100.98\n1984,101.88\n1985,102.56\n1986,102.98\n1987,103.16\n1988,103.11\n1989,102.87\n1990,102.57\n1991,102.36\n1992,102.27\n1993,102.20\n1994,101.94\n1995,101.40\n1996,100.64\n1997,99.68\n1998,98.55\n1999,98.24\n2000,98.92\n2001,99.72\n2002,100.46\n2003,99.87\n2004,97.84\n2005,95.73\n2006,93.77\n2007,91.86\n2008,89.94\n2009,88.00\n2010,86.08\n2011,84.26\n2012,82.57\n2013,81.03\n2014,79.68\n2015,78.50\n2016,77.46\n2017,76.59\n2018,75.98\n2019,75.46\n2020,74.84\n2021,74.12\n",
+    "size": 719,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "www.inseed-comores.org/backend/uploads/fertility_rate_a5f5814a17.csv",
+    "example_url": "https://www.inseed-comores.org/backend/uploads/fertility_rate_a5f5814a17.csv",
+    "count": 1,
+    "content_type": "text/csv; charset=utf-8",
+    "post_data": "",
+    "sample": "date,fertility_rate\r\n1960,6.79\r\n1961,6.85\r\n1962,6.90\r\n1963,6.94\r\n1964,6.97\r\n1965,7.00\r\n1966,7.03\r\n1967,7.04\r\n1968,7.05\r\n1969,7.06\r\n1970,7.06\r\n1971,7.10\r\n1972,7.12\r\n1973,7.14\r\n1974,7.13\r\n1975,7.12\r\n1976,7.11\r\n1977,7.10\r\n1978,7.10\r\n1979,7.10\r\n1980,7.08\r\n1981,7.08\r\n1982,7.07\r\n1983,7.05\r\n1984,7.01\r\n1985,6.96\r\n1986,6.89\r\n1987,6.82\r\n1988,6.73\r\n1989,6.62\r\n1990,6.50\r\n1991,6.36\r\n1992,6.20\r\n1993,6.05\r\n1994,5.90\r\n1995,5.78\r\n1996,5.69\r\n1997,5.59\r\n1998,5.49\r\n1999,5.37\r\n2000,5.30\r\n2001,5.25\r\n2002,5.21\r\n2003,5.15\r\n2004,5.10\r\n2005,5.03\r\n2006,4.95\r\n2007,4.88\r\n2008,4.83\r\n2009,4.79\r\n2010,4.76\r\n2011,4.72\r\n2012,4.64\r\n2013,4.57\r\n2014,4.49\r\n2015,4.42\r\n2016,4.35\r\n2017,4.28\r\n2018,4.20\r\n2019,4.12\r\n2020,4.05\r\n2021,3.98\r\n",
+    "size": 703,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "www.inseed-comores.org/backend/uploads/infant_mortality_rate_417a3dc486.csv",
+    "example_url": "https://www.inseed-comores.org/backend/uploads/infant_mortality_rate_417a3dc486.csv",
+    "count": 1,
+    "content_type": "text/csv; charset=utf-8",
+    "post_data": "",
+    "sample": "date,infant_mortality_rate\r\n1970,152.25\r\n1971,148.87\r\n1972,145.75\r\n1973,142.59\r\n1974,139.43\r\n1975,136.27\r\n1976,133.06\r\n1977,129.64\r\n1978,125.99\r\n1979,122.23\r\n1980,118.61\r\n1981,115.09\r\n1982,111.64\r\n1983,108.17\r\n1984,104.82\r\n1985,101.60\r\n1986,98.49\r\n1987,95.56\r\n1988,92.83\r\n1989,90.27\r\n1990,87.74\r\n1991,85.25\r\n1992,82.78\r\n1993,80.43\r\n1994,78.40\r\n1995,76.73\r\n1996,75.33\r\n1997,74.28\r\n1998,73.45\r\n1999,72.85\r\n2000,72.36\r\n2001,72.09\r\n2002,71.99\r\n2003,71.72\r\n2004,71.02\r\n2005,69.84\r\n2006,68.42\r\n2007,66.83\r\n2008,65.27\r\n2009,63.66\r\n2010,62.17\r\n2011,60.50\r\n2012,58.88\r\n2013,57.25\r\n2014,55.85\r\n2015,54.36\r\n2016,52.98\r\n2017,51.53\r\n2018,50.10\r\n2019,48.66\r\n2020,47.23\r\n",
+    "size": 656,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "www.inseed-comores.org/backend/uploads/inflation_serie_5cd704c608.csv",
+    "example_url": "https://www.inseed-comores.org/backend/uploads/inflation_serie_5cd704c608.csv",
+    "count": 1,
+    "content_type": "text/csv; charset=utf-8",
+    "post_data": "",
+    "sample": "date;rates\r\n2002;3.5\r\n2003;3.9\r\n2004;4.5\r\n2005;3\r\n2006;3.8\r\n2007;4\r\n2008;4.8\r\n2009;-2.9\r\n2010;3.8\r\n2011;1.7\r\n2012;4\r\n2013;0.5\r\n2014;0\r\n2015;0.9\r\n2016;0.8\r\n2017;0.1\r\n2018;1.7\r\n2019;3.7\r\n2020;0.8\r\n2021;0\r\n2022;12.5\r\n2023;8.4\r\n2024;5\r\n2025;3.3\r\n",
+    "size": 242,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "www.inseed-comores.org/backend/uploads/taux_croissance_serie_7fe49de7f9.csv",
+    "example_url": "https://www.inseed-comores.org/backend/uploads/taux_croissance_serie_7fe49de7f9.csv",
+    "count": 1,
+    "content_type": "text/csv; charset=utf-8",
+    "post_data": "",
+    "sample": "date,croissance\r\n2008,4\r\n2009,3.2\r\n2010,3.8\r\n2011,4.1\r\n2012,3.2\r\n2013,4.5\r\n2014,2.1\r\n2015,1.1\r\n2016,3.3\r\n2017,3.8\r\n2018,3.6\r\n2019,1.8\r\n2020,-0.2\r\n2021,2.1\r\n2022,2.6\r\n2023,3.6\r\n",
+    "size": 176,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   }
+  ],
+  "js_findings": {
+   "scripts_scanned": 12,
+   "base_urls": [],
+   "endpoint_paths": [],
+   "api_urls": [
+    "https://nextjs.org/docs/app/api-reference/functions/use-search-params#updating-searchparams"
+   ]
+  },
+  "doc_links": [
+   {
+    "text": "BASE DE DONNÉES DES PUBLICATIONS",
+    "url": "https://www.inseed-comores.org/publications"
+   }
+  ],
+  "status": "documented",
+  "python_access": "yes",
+  "summary": "Documented API: NADA at https://www.nada.inseed-comores.org (catalogue of 15 surveys)"
+ },
+ "sniff_pages": [
+  {
+   "url": "https://www.inseed-comores.org/",
+   "final_url": "https://www.inseed-comores.org/",
+   "status": 200,
+   "title": "Accueil - INSEED - Institut National de la Statistique et des Études Économiques et Démographiques"
+  },
+  {
+   "url": "https://www.inseed-comores.org/news/agenda-and-events/rgph5-inseed-refines-its-digital-strategy",
+   "final_url": "https://www.inseed-comores.org/news/agenda-and-events/rgph5-inseed-refines-its-digital-strategy",
+   "status": 200,
+   "title": "Recensement nouvelle génération aux Comores : L’INSEED peaufine sa stratégie numérique - AGENDA ET ÉVÈNEMENTS - Actualités | INSEED"
+  },
+  {
+   "url": "https://www.inseed-comores.org/news/agenda-and-events/launch-annual-agricultural-survey-awareness-campaign-2026",
+   "final_url": "https://www.inseed-comores.org/news/agenda-and-events/launch-annual-agricultural-survey-awareness-campaign-2026",
+   "status": 200,
+   "title": "Lancement de la campagne de sensibilisation sur l’Enquête Agricole Annuelle 2026 - AGENDA ET ÉVÈNEMENTS - Actualités | INSEED"
+  },
+  {
+   "url": "https://www.inseed-comores.org/news/seminars-and-workshops/inseed-trains-instructors-agricultural-survey-data",
+   "final_url": "https://www.inseed-comores.org/news/seminars-and-workshops/inseed-trains-instructors-agricultural-survey-data",
+   "status": 200,
+   "title": "Enquête agricole : L’INSEED outillent les formateurs pour une collecte de données agricoles de qualité - SÉMINAIRES ET ATELIERS - Actualités | INSEED"
+  }
+ ],
+ "duration_s": 61.5
+}

@@ -1,0 +1,1700 @@
+{
+ "id": "OMN",
+ "country": "Oman",
+ "nso": "National Centre for Statistics and Information (NCSI)",
+ "url": "https://www.ncsi.gov.om",
+ "english_config": "yes",
+ "languages": [
+  "en",
+  "ar"
+ ],
+ "config_notes": "",
+ "checked_at": "2026-09-29 11:05",
+ "themes": {
+  "social_statistics": {
+   "label": "Social statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "Population Clock",
+     "url": "https://www.ncsi.gov.om/populationClock",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Household Income & Expenditure Survey",
+     "url": "https://ai-hies.ncsi.gov.om/",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Key Findings on Household Income and Expenditure Using Artificial Intelligence 2026 09/14/2026",
+     "url": "https://api.ncsi.gov.om/uploads/pdfs/key_findings_on_household_income_and_expenditure_using_artificial_intelligence_2026_1789379659.pdf",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/pdfs/key_findings_on_household_income_and_expenditure_using_artificial_intelligence_2026_1789379659.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Health Statistics 2026 09/07/2026",
+     "url": "https://api.ncsi.gov.om/uploads/pdfs/health_statistics_2026_1790238752.pdf",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/pdfs/health_statistics_2026_1790238752.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Education Statitics : September 2026 09/03/2026",
+     "url": "https://api.ncsi.gov.om/uploads/pdfs/education_statitics_1788432288.pdf",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/pdfs/education_statitics_1788432288.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "08 September Meetings of the 17th Session of the Statistical Committee of the United Nations Economic and Social Commission for Western Asia (ESCWA) September 2026",
+     "url": "https://www.ncsi.gov.om/event-details/31",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Meetings of the 17th Session of the Statistical Committee of the United Nations Economic and Social Commission for Western Asia (ESCWA)",
+     "url": "https://api.ncsi.gov.om/uploads/eventpdfs/meetings_of_the_17th_session_of_the_statistical_committee_of_the_united_nations_economic_and_social_commission_for_western_asia__escwa__1788340877.pdf",
+     "page_url": "https://www.ncsi.gov.om/event-details/31",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/eventpdfs/meetings_of_the_17th_session_of_the_statistical_committee_of_the_united_nations_economic_and_social_commission_for_western_asia__escwa__1788340877.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Meetings of the 17th Session of the Statistical Committee of the United Nations Economic and Social Commission for Western Asia (ESCWA)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/LaborMarket.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/LaborMarket.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "البيانات المالية وبيانات الاقتصاد الكلي مؤشرات مختارة",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/LaborMarket.xml",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/LaborMarket.xml"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "البيانات المالية وبيانات الاقتصاد الكلي مؤشرات مختارة",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/Population.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/Population.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "المؤشرات الديموغرافية ومؤشرات اجتماعية اقتصادية مختارة",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/Population.xml",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/Population.xml"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "المؤشرات الديموغرافية ومؤشرات اجتماعية اقتصادية مختارة",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Royal Decree No. 15/2015 on conducting the electronic census of population, housing, and establishments for the year 2020.",
+     "url": "https://api.ncsi.gov.om/uploads/mediapdfs/royal_decree_no__15_2015_on_conducting_the_electronic_census_of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461115.pdf",
+     "page_url": "https://www.ncsi.gov.om/hierarchy",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/mediapdfs/royal_decree_no__15_2015_on_conducting_the_electronic_census_of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461115.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Decrees Laws And Decisions",
+     "years": [
+      2012,
+      2015,
+      2020
+     ],
+     "coverage": "2012-2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Provisions related to the electronic census of population, housing, and establishments for the year 2020.",
+     "url": "https://api.ncsi.gov.om/uploads/mediapdfs/provisions_related_to_the_electronic_census_of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461596.pdf",
+     "page_url": "https://www.ncsi.gov.om/hierarchy",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/mediapdfs/provisions_related_to_the_electronic_census_of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461596.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Decrees Laws And Decisions",
+     "years": [
+      2012,
+      2020
+     ],
+     "coverage": "2012-2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Royal Decree Amending Some Provisions of Royal Decree conducting the electronic census of population, housing and establishments in 2020",
+     "url": "https://api.ncsi.gov.om/uploads/mediapdfs/royal_decree_amending_some_provisions_of_royal_decree_conducting_the_electronic_census_of_population__housing_and_establishments_in_2020_pdf_en_1765461440.pdf",
+     "page_url": "https://www.ncsi.gov.om/hierarchy",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/mediapdfs/royal_decree_amending_some_provisions_of_royal_decree_conducting_the_electronic_census_of_population__housing_and_establishments_in_2020_pdf_en_1765461440.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Decrees Laws And Decisions",
+     "years": [
+      2012,
+      2014,
+      2020,
+      2022
+     ],
+     "coverage": "2012-2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Administrative and Financial System for the Electronic Census Project of Population, Housing, and Establishments for the Year 2020.",
+     "url": "https://api.ncsi.gov.om/uploads/mediapdfs/administrative_and_financial_system_for_the_electronic_census_project_of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461698.pdf",
+     "page_url": "https://www.ncsi.gov.om/hierarchy",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/mediapdfs/administrative_and_financial_system_for_the_electronic_census_project_of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461698.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Decrees Laws And Decisions",
+     "years": [
+      2012,
+      2014,
+      2020,
+      2022
+     ],
+     "coverage": "2012-2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Women in the Sultanate of Oman",
+     "url": "https://www.ncsi.gov.om/women-in-oman",
+     "page_url": "https://www.ncsi.gov.om/sitemap",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Site map",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Child Well-being and Empowerment Guide",
+     "url": "https://api.ncsi.gov.om/uploads/methodoloypdfs/child_well-being_and_empowerment_guide_1766584524.pdf",
+     "page_url": "https://www.ncsi.gov.om/guidesAndClassifications",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/methodoloypdfs/child_well-being_and_empowerment_guide_1766584524.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Child Well-being and Empowerment Guide",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Statistical Methodologies for building E-Census data 2020",
+     "url": "https://api.ncsi.gov.om/uploads/methodoloypdfs/statistical_methodologies_for_building_e-census_data_2020_1766584850.pdf",
+     "page_url": "https://www.ncsi.gov.om/guidesAndClassifications",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/methodoloypdfs/statistical_methodologies_for_building_e-census_data_2020_1766584850.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Statistical Methodologies for building E-Census data 2020",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Methodology: General Census for Population, households & Establishments 2010",
+     "url": "https://api.ncsi.gov.om/uploads/methodoloypdfs/methodology__general_census_for_population__households___establishments_2010_1766585033.pdf",
+     "page_url": "https://www.ncsi.gov.om/guidesAndClassifications",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/methodoloypdfs/methodology__general_census_for_population__households___establishments_2010_1766585033.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Methodology: General Census for Population, households & Establishments 2010",
+     "years": [
+      2010
+     ],
+     "coverage": "2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Final report on socio demographic survey 1984 - 1989 : Methodological details and statistical tables",
+     "url": "https://api.ncsi.gov.om/uploads/methodoloypdfs/final_report_on_socio_demographic_survey_1984_-_1989___methodological_details_and_statistical_tables_1766656871.pdf",
+     "page_url": "https://www.ncsi.gov.om/guidesAndClassifications",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/methodoloypdfs/final_report_on_socio_demographic_survey_1984_-_1989___methodological_details_and_statistical_tables_1766656871.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Final report on socio demographic survey 1984 - 1989 : Methodological details and statistical tables",
+     "years": [
+      1984,
+      1989
+     ],
+     "coverage": "1984-1989",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  },
+  "economic_statistics": {
+   "label": "Economic statistics",
+   "items": [
+    {
+     "kind": "file",
+     "title": "1107 Million OMR Trade Balance June 2026",
+     "url": "https://api.ncsi.gov.om/uploads/pdfs/monthly_statistical_bulletin___august_2026_1787557374.pdf",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/pdfs/monthly_statistical_bulletin___august_2026_1787557374.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "3.4 Percentage Inflation August 2026",
+     "url": "https://api.ncsi.gov.om/uploads/pdfs/consumer_price_inflation_reportr___august_2026_1789031625.pdf",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/pdfs/consumer_price_inflation_reportr___august_2026_1789031625.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Energy Statistics Indicators : Julay 2026 09/10/2026",
+     "url": "https://api.ncsi.gov.om/uploads/pdfs/energy_statistics_indicators_september_2026_1789015033.pdf",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/pdfs/energy_statistics_indicators_september_2026_1789015033.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Real Estate Price Inflation Report: Second Quarter 2026 08/26/2026",
+     "url": "https://api.ncsi.gov.om/uploads/pdfs/real_estate_price_inflation_report__second_quarter_2026_1787725074.pdf",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/pdfs/real_estate_price_inflation_report__second_quarter_2026_1787725074.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "The State of Tourism in the Sultanate of Oman 2026 08/26/2026",
+     "url": "https://api.ncsi.gov.om/uploads/pdfs/the_state_of_tourism_in_the_sultanate_of_oman_2026_1788068715.pdf",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/pdfs/the_state_of_tourism_in_the_sultanate_of_oman_2026_1788068715.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Tourism Statistics Bulletin 2026 06/23/2026",
+     "url": "https://api.ncsi.gov.om/uploads/pdfs/tourism_statistics_bulletin_2026_1782201451.pdf",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/pdfs/tourism_statistics_bulletin_2026_1782201451.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Producer Price Inflation Index : First Quarter 2026 06/11/2026",
+     "url": "https://api.ncsi.gov.om/uploads/pdfs/producer_price_inflation_index___first_quarter_2026_1781159934.pdf",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/pdfs/producer_price_inflation_index___first_quarter_2026_1781159934.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "08 September Meetings of the 17th Session of the Statistical Committee of the United Nations Economic and Social Commission for Western Asia (ESCWA) September 2026",
+     "url": "https://www.ncsi.gov.om/event-details/31",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Important Links",
+     "url": "https://www.ncsi.gov.om/importantLinks",
+     "page_url": "https://www.ncsi.gov.om",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - NCSI PORTAL",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Meetings of the 17th Session of the Statistical Committee of the United Nations Economic and Social Commission for Western Asia (ESCWA)",
+     "url": "https://api.ncsi.gov.om/uploads/eventpdfs/meetings_of_the_17th_session_of_the_statistical_committee_of_the_united_nations_economic_and_social_commission_for_western_asia__escwa__1788340877.pdf",
+     "page_url": "https://www.ncsi.gov.om/event-details/31",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/eventpdfs/meetings_of_the_17th_session_of_the_statistical_committee_of_the_united_nations_economic_and_social_commission_for_western_asia__escwa__1788340877.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Meetings of the 17th Session of the Statistical Committee of the United Nations Economic and Social Commission for Western Asia (ESCWA)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/NationalAccounts.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/NationalAccounts.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/NationalAccounts.XML",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/NationalAccounts.XML"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/ConsumerPriceIndex.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/ConsumerPriceIndex.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/CentralGovernmentOperations.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/CentralGovernmentOperations.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/CentralGovernmentOperations.xml",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/CentralGovernmentOperations.xml"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/DepositoryCorporationsSurvey.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/DepositoryCorporationsSurvey.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/DepositoryCorporationsSurvey.xml",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/DepositoryCorporationsSurvey.xml"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/CentralBankSurvey.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/CentralBankSurvey.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/CentralBankSurvey.xml",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/CentralBankSurvey.xml"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/InterestRates.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/InterestRates.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/InterestRates.xml",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/InterestRates.xml"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/StockMarket.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/StockMarket.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/StockMarket.XML",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/StockMarket.XML"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/BalanceofPayments.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/BalanceofPayments.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/BalanceofPayments.xml",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/BalanceofPayments.xml"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/OfficialReserveAssets.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/OfficialReserveAssets.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/OfficialReserveAssets.xml",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/OfficialReserveAssets.xml"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/MerchandiseTrade.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/MerchandiseTrade.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/MerchandiseTrade.XML",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/MerchandiseTrade.XML"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/ExchangeRates.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/ExchangeRates.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/ExchangeRates.xml",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/ExchangeRates.xml"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "بيانات المالية وبيانات الاقتصاد الكلي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/LaborMarket.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/LaborMarket.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "البيانات المالية وبيانات الاقتصاد الكلي مؤشرات مختارة",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/LaborMarket.xml",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/LaborMarket.xml"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "البيانات المالية وبيانات الاقتصاد الكلي مؤشرات مختارة",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/ProducerPriceIndex.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/ProducerPriceIndex.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "البيانات المالية وبيانات الاقتصاد الكلي مؤشرات مختارة",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/ProducerPriceIndex.XML",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/ProducerPriceIndex.XML"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "البيانات المالية وبيانات الاقتصاد الكلي مؤشرات مختارة",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/FinancialSoundnessIndicators.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/FinancialSoundnessIndicators.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "البيانات المالية وبيانات الاقتصاد الكلي مؤشرات مختارة",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/FinancialSoundnessIndicators.xml",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/FinancialSoundnessIndicators.xml"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "البيانات المالية وبيانات الاقتصاد الكلي مؤشرات مختارة",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/OilProduction.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/OilProduction.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مجموعات البيانات الإضافية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/OilProduction.XML",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/OilProduction.XML"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مجموعات البيانات الإضافية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تصفح البيانات",
+     "url": "https://nsdp.ncsi.gov.om/FinancialAccessSurveyOman.xlsx",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/FinancialAccessSurveyOman.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مجموعات البيانات الإضافية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SDMX تحميل بصيغة",
+     "url": "https://nsdp.ncsi.gov.om/FinancialAccessSurveyOman.XML",
+     "page_url": "https://www.ncsi.gov.om/ar/NationalStatistics",
+     "formats": [
+      "XML"
+     ],
+     "downloads": [
+      "https://nsdp.ncsi.gov.om/FinancialAccessSurveyOman.XML"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مجموعات البيانات الإضافية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Royal Decree No. 15/2015 on conducting the electronic census of population, housing, and establishments for the year 2020.",
+     "url": "https://api.ncsi.gov.om/uploads/mediapdfs/royal_decree_no__15_2015_on_conducting_the_electronic_census_of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461115.pdf",
+     "page_url": "https://www.ncsi.gov.om/hierarchy",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/mediapdfs/royal_decree_no__15_2015_on_conducting_the_electronic_census_of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461115.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Decrees Laws And Decisions",
+     "years": [
+      2012,
+      2015,
+      2020
+     ],
+     "coverage": "2012-2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Provisions related to the electronic census of population, housing, and establishments for the year 2020.",
+     "url": "https://api.ncsi.gov.om/uploads/mediapdfs/provisions_related_to_the_electronic_census_of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461596.pdf",
+     "page_url": "https://www.ncsi.gov.om/hierarchy",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/mediapdfs/provisions_related_to_the_electronic_census_of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461596.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Decrees Laws And Decisions",
+     "years": [
+      2012,
+      2020
+     ],
+     "coverage": "2012-2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Communication Strategy for National Center of Statistics & Information 2026 - 2030",
+     "url": "https://api.ncsi.gov.om/uploads/mediapdfs/communication_strategy_for_national_center_of_statistics___information_2026___2030_pdf_en_1766396389.pdf",
+     "page_url": "https://www.ncsi.gov.om/hierarchy",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/mediapdfs/communication_strategy_for_national_center_of_statistics___information_2026___2030_pdf_en_1766396389.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Decrees Laws And Decisions",
+     "years": [
+      2012,
+      2020,
+      2026,
+      2030
+     ],
+     "coverage": "2012-2030",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Royal Decree Amending Some Provisions of Royal Decree conducting the electronic census of population, housing and establishments in 2020",
+     "url": "https://api.ncsi.gov.om/uploads/mediapdfs/royal_decree_amending_some_provisions_of_royal_decree_conducting_the_electronic_census_of_population__housing_and_establishments_in_2020_pdf_en_1765461440.pdf",
+     "page_url": "https://www.ncsi.gov.om/hierarchy",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/mediapdfs/royal_decree_amending_some_provisions_of_royal_decree_conducting_the_electronic_census_of_population__housing_and_establishments_in_2020_pdf_en_1765461440.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Decrees Laws And Decisions",
+     "years": [
+      2012,
+      2014,
+      2020,
+      2022
+     ],
+     "coverage": "2012-2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Administrative and Financial System for the Electronic Census Project of Population, Housing, and Establishments for the Year 2020.",
+     "url": "https://api.ncsi.gov.om/uploads/mediapdfs/administrative_and_financial_system_for_the_electronic_census_project_of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461698.pdf",
+     "page_url": "https://www.ncsi.gov.om/hierarchy",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/mediapdfs/administrative_and_financial_system_for_the_electronic_census_project_of_population__housing__and_establishments_for_the_year_2020__pdf_en_1765461698.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Decrees Laws And Decisions",
+     "years": [
+      2012,
+      2014,
+      2020,
+      2022
+     ],
+     "coverage": "2012-2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Related Websites",
+     "url": "https://ncsi.gov.om/ar/importantLinks",
+     "page_url": "https://www.ncsi.gov.om/sitemap",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Site map",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Methodology: General Census for Population, households & Establishments 2010",
+     "url": "https://api.ncsi.gov.om/uploads/methodoloypdfs/methodology__general_census_for_population__households___establishments_2010_1766585033.pdf",
+     "page_url": "https://www.ncsi.gov.om/guidesAndClassifications",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://api.ncsi.gov.om/uploads/methodoloypdfs/methodology__general_census_for_population__households___establishments_2010_1766585033.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Methodology: General Census for Population, households & Establishments 2010",
+     "years": [
+      2010
+     ],
+     "coverage": "2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مواقع ذات صلة",
+     "url": "https://ncsi.gov.om/importantLinks",
+     "page_url": "https://ncsi.gov.om/ar/importantLinks",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مواقع ذات صلة",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  }
+ },
+ "limitations": [],
+ "recognized": [],
+ "suggested_sources": [
+  {
+   "nso": "OMN",
+   "theme": "social_statistics",
+   "method": "scrape",
+   "connector": "scrape",
+   "enabled": false,
+   "pages": [
+    "https://www.ncsi.gov.om",
+    "https://www.ncsi.gov.om/event-details/31",
+    "https://www.ncsi.gov.om/ar/NationalStatistics",
+    "https://www.ncsi.gov.om/hierarchy",
+    "https://www.ncsi.gov.om/guidesAndClassifications"
+   ],
+   "render_js": "auto",
+   "notes": "16 social statistics file(s) found on these pages - review before enabling"
+  },
+  {
+   "nso": "OMN",
+   "theme": "economic_statistics",
+   "method": "scrape",
+   "connector": "scrape",
+   "enabled": false,
+   "pages": [
+    "https://www.ncsi.gov.om",
+    "https://www.ncsi.gov.om/event-details/31",
+    "https://www.ncsi.gov.om/ar/NationalStatistics",
+    "https://www.ncsi.gov.om/hierarchy",
+    "https://www.ncsi.gov.om/guidesAndClassifications"
+   ],
+   "render_js": "auto",
+   "notes": "45 economic statistics file(s) found on these pages - review before enabling"
+  }
+ ],
+ "indicator_samples": [],
+ "site": {
+  "url": "https://www.ncsi.gov.om",
+  "reachable": true,
+  "status": 200,
+  "final_url": "https://www.ncsi.gov.om",
+  "title": "Home - NCSI PORTAL",
+  "lang": "en",
+  "english": "yes",
+  "english_url": "https://www.ncsi.gov.om",
+  "platforms": [
+   "Next.js app"
+  ],
+  "blocked": "",
+  "rendered": false,
+  "insecure_tls": false,
+  "notes": []
+ },
+ "files": {
+  "formats": {
+   "PDF": 126,
+   "XLSX": 40,
+   "XML": 38
+  },
+  "total": 204,
+  "pages_crawled": 34,
+  "pages_rendered": 8
+ },
+ "api": {
+  "docs": [],
+  "how_to": {
+   "curl": "curl -H \"accept-language: en-US\" \"https://ai-hies.ncsi.gov.om/api/dashboard\"",
+   "python": "import requests\n\nurl = \"https://ai-hies.ncsi.gov.om/api/dashboard\"\nheaders = {\"accept-language\": \"en-US\"}\nresponse = requests.get(url, headers=headers, timeout=60)\nresponse.raise_for_status()\ndata = response.json()"
+  },
+  "endpoints": [
+   {
+    "method": "GET",
+    "template": "ai-hies.ncsi.gov.om/api/dashboard",
+    "example_url": "https://ai-hies.ncsi.gov.om/api/dashboard",
+    "count": 1,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "{\"kpi\":{\"avg_monthly_income\":{\"all\":1392.81,\"omani\":1839.27,\"expat\":717.15},\"avg_monthly_expenditure\":{\"all\":797.64,\"omani\":1058.76,\"expat\":402.48},\"avg_hh_size\":{\"all\":5.82,\"omani\":6.91,\"expat\":4.15},\"num_households\":21630},\"expenditure_cards\":{\"food\":{\"pct\":21.44,\"omaniPct\":22.68,\"expatPct\":16.47,\"all_hh_omr\":170.98,\"omani_omr\":240.16,\"expat_omr\":66.28,\"sub_categories\":[{\"name\":\"Cereals & Bread\",\"all_hh\":22.25,\"omani\":30.33,\"expat\":10.03,\"all_hh_pct\":2.79,\"omani_pct\":2.86,\"expat_pct\":2.49},{\"name\":\"Meat & Poultry\",\"all_hh\":43.85,\"omani\":66.48,\"expat\":9.59,\"all_hh_pct\":5.5,\"omani_pct\":6.28,\"expat_pct\":2.38},{\"name\":\"Fish & Seafood\",\"all_hh\":14.43,\"omani\":20.24,\"expat\":5.64,\"all_hh_pct\":1.81,\"omani_pct\":1.91,\"expat_pct\":1.4},{\"name\":\"Milk, cheese, and eggs\",\"all_hh\":19.44,\"omani\":27.38,\"ex",
+    "size": 6639,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "ai-hies.ncsi.gov.om/api/wilayats",
+    "example_url": "https://ai-hies.ncsi.gov.om/api/wilayats",
+    "count": 1,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "[{\"sort_order\":1,\"governorate\":\"Muscat\",\"wilayat\":\"Muscat\"},{\"sort_order\":2,\"governorate\":\"Muscat\",\"wilayat\":\"Muttrah\"},{\"sort_order\":3,\"governorate\":\"Muscat\",\"wilayat\":\"Al Amerat\"},{\"sort_order\":4,\"governorate\":\"Muscat\",\"wilayat\":\"Bawshar\"},{\"sort_order\":5,\"governorate\":\"Muscat\",\"wilayat\":\"As Seeb\"},{\"sort_order\":6,\"governorate\":\"Muscat\",\"wilayat\":\"Qurayyat\"},{\"sort_order\":7,\"governorate\":\"Dhofar\",\"wilayat\":\"Salalah\"},{\"sort_order\":8,\"governorate\":\"Dhofar\",\"wilayat\":\"Taqah\"},{\"sort_order\":9,\"governorate\":\"Dhofar\",\"wilayat\":\"Mirbat\"},{\"sort_order\":10,\"governorate\":\"Dhofar\",\"wilayat\":\"Rakhyut\"},{\"sort_order\":11,\"governorate\":\"Dhofar\",\"wilayat\":\"Thumrait\"},{\"sort_order\":12,\"governorate\":\"Dhofar\",\"wilayat\":\"Dalkut\"},{\"sort_order\":13,\"governorate\":\"Dhofar\",\"wilayat\":\"Al Mazyunah\"},{\"sort_order",
+    "size": 4279,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "ai-hies.ncsi.gov.om/api/expenditure-stats",
+    "example_url": "https://ai-hies.ncsi.gov.om/api/expenditure-stats",
+    "count": 1,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "{\"commodity_table\":[{\"commodity_group\":\"Food and Non-Alcoholic Beverages\",\"all_hh\":170.98,\"omani\":240.16,\"expat\":66.28,\"all_hh_pct\":21.4,\"omani_pct\":22.7,\"expat_pct\":16.5},{\"commodity_group\":\"Tobacco\",\"all_hh\":1.81,\"omani\":0.77,\"expat\":3.38,\"all_hh_pct\":0.2,\"omani_pct\":0.1,\"expat_pct\":0.8},{\"commodity_group\":\"Clothing and Footwear\",\"all_hh\":38.87,\"omani\":58.38,\"expat\":9.34,\"all_hh_pct\":4.9,\"omani_pct\":5.5,\"expat_pct\":2.3},{\"commodity_group\":\"Housing, Water, Electricity, Gas and Other Fuels\",\"all_hh\":184.91,\"omani\":179.37,\"expat\":193.3,\"all_hh_pct\":23.2,\"omani_pct\":16.9,\"expat_pct\":48.0},{\"commodity_group\":\"Furnishings, Household Equipment and Routine Household Maintenance\",\"all_hh\":71.14,\"omani\":111.84,\"expat\":9.55,\"all_hh_pct\":8.9,\"omani_pct\":10.6,\"expat_pct\":2.4},{\"commodity_group\":\"Heal",
+    "size": 3636,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "ai-hies.ncsi.gov.om/api/income-stats",
+    "example_url": "https://ai-hies.ncsi.gov.om/api/income-stats",
+    "count": 1,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "{\"income_by_source\":[{\"source\":\"Wages and Salaries\",\"all_hh\":1033.94,\"omani\":1263.61,\"expat\":686.38},{\"source\":\"Employers and Own-Account Workers\",\"all_hh\":64.52,\"omani\":107.07,\"expat\":0.12},{\"source\":\"Property Income\",\"all_hh\":50.37,\"omani\":66.02,\"expat\":26.69},{\"source\":\"Imputed Rent\",\"all_hh\":62.83,\"omani\":103.53,\"expat\":1.22},{\"source\":\"Current Transfers\",\"all_hh\":181.15,\"omani\":299.05,\"expat\":2.73}],\"table_14\":{\"sectors\":[\"Government\",\"Private\",\"Family\",\"Non-Profit / Community\",\"Other\",\"Not Economically Active\"],\"rows\":[{\"nationality\":\"omani\",\"values\":[{\"sector\":\"Government\",\"avg_omr\":1901.1,\"pct\":34.5},{\"sector\":\"Private\",\"avg_omr\":1917.48,\"pct\":25.8},{\"sector\":\"Family\",\"avg_omr\":2287.22,\"pct\":11.4},{\"sector\":\"Non-Profit / Community\",\"avg_omr\":2247.48,\"pct\":0.1},{\"sector\":\"Other\",\"av",
+    "size": 2679,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "ai-hies.ncsi.gov.om/api/governorates",
+    "example_url": "https://ai-hies.ncsi.gov.om/api/governorates",
+    "count": 1,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "[{\"sort_order\":1,\"governorate\":\"Muscat\"},{\"sort_order\":7,\"governorate\":\"Dhofar\"},{\"sort_order\":17,\"governorate\":\"Musandam\"},{\"sort_order\":21,\"governorate\":\"Al Buraymi\"},{\"sort_order\":24,\"governorate\":\"Ad Dakhliyah\"},{\"sort_order\":33,\"governorate\":\"Al Batinah North\"},{\"sort_order\":39,\"governorate\":\"Al Batinah South\"},{\"sort_order\":45,\"governorate\":\"Ash Sharqiyah South\"},{\"sort_order\":50,\"governorate\":\"Ash Sharqiyah North\"},{\"sort_order\":57,\"governorate\":\"Adh Dhahirah\"},{\"sort_order\":60,\"governorate\":\"Al Wusta\"}]",
+    "size": 516,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "ai-hies.ncsi.gov.om/api/years",
+    "example_url": "https://ai-hies.ncsi.gov.om/api/years",
+    "count": 1,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "{\"years\":[2025]}",
+    "size": 16,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "HEAD",
+    "template": "www.ncsi.gov.om/_next/data/nnEP_Pn-xw8R5Sw5uBvtK/ar/populationClock.json",
+    "example_url": "https://www.ncsi.gov.om/_next/data/nnEP_Pn-xw8R5Sw5uBvtK/ar/populationClock.json",
+    "count": 1,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "",
+    "size": 0,
+    "python_headers": {
+     "x-nextjs-data": "1",
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "works_from_python": false
+   }
+  ],
+  "js_findings": {
+   "scripts_scanned": 13,
+   "base_urls": [],
+   "endpoint_paths": [],
+   "api_urls": [
+    "https://mindrockets.co/ImgInterp/api/ImageDesc/",
+    "https://services.mindrocketsksa.com/aihsp/api/dictionary/stroremissingwords",
+    "https://services.mindrocketsksa.com/aihsp/api/dictionary/lookupword",
+    "https://services.mindrocketsksa.com/aihsp/api/img/desc",
+    "https://extend.mindrockets.co/sp/api/sapi/recognize"
+   ]
+  },
+  "doc_links": [
+   {
+    "text": "",
+    "url": "https://apps.apple.com/eg/developer/national-center-for-statistics-and-information-oman/id721507459"
+   },
+   {
+    "text": "Data Portal",
+    "url": "https://data.gov.om/"
+   }
+  ],
+  "status": "undocumented",
+  "python_access": "yes",
+  "summary": "No official documentation, but the website's own data API at ai-hies.ncsi.gov.om answers plain Python requests (found by API sniffing)."
+ },
+ "sniff_pages": [
+  {
+   "url": "https://www.ncsi.gov.om",
+   "final_url": "https://www.ncsi.gov.om/ar",
+   "status": 200,
+   "title": "Home - NCSI PORTAL"
+  },
+  {
+   "url": "https://www.ncsi.gov.om/populationClock",
+   "final_url": "https://www.ncsi.gov.om/ar/populationClock",
+   "status": 200,
+   "title": "الساعة السكانية"
+  },
+  {
+   "url": "https://ai-hies.ncsi.gov.om/",
+   "final_url": "https://ai-hies.ncsi.gov.om/",
+   "status": 200,
+   "title": "NCSI"
+  },
+  {
+   "url": "https://www.ncsi.gov.om/event-details/31",
+   "final_url": "https://www.ncsi.gov.om/ar/event-details/31",
+   "status": 200,
+   "title": "تفاصيل الحدث"
+  }
+ ],
+ "duration_s": 259.4
+}

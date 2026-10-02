@@ -1,0 +1,203 @@
+# AGENT 1 - the websites to diagnose (run: python agent1_diagnose.py  or  python agent1_diagnose.py --nso JOR TUN)
+#
+# One entry per National Statistical Office. URLs point at the ENGLISH page where one exists
+# (all checked live on 2026-09-29 - see each entry's notes).
+#
+#   id         short code used everywhere (file names, Agent 2 config, dashboard) - ISO3 country code
+#   url        the page Agent 1 starts from (English version when the site has one)
+#   english    yes | no | in-app (language switch inside a JavaScript app, same URL)
+#   start_urls optional extra pages to crawl first (e.g. the site's "Statistics" section)
+#   portals    other official data portals of the same office (open-data portal, databank, microdata catalogue)
+#
+# TO ADD A WEBSITE: copy an entry, change id / country / nso / url, then run agent1_diagnose.py --nso <ID>.
+
+settings:
+  max_pages: 40              # pages crawled per site to find datasets and files
+  max_depth: 2               # link hops from the start pages
+  sniff_pages: 4             # pages opened in a real browser to capture hidden API calls
+  request_delay_seconds: 0.5 # pause between two requests to the SAME server (be polite) - independent per site
+  browser_channel: msedge    # browser Playwright drives locally; leave empty for Playwright's own Chromium
+  max_parallel_sites: 5      # sites diagnosed at once (each opens its own browser - lower this on a
+                             # low-memory machine; raise it if you have RAM to spare, up to ~len(sites))
+
+sites:
+  - id: DZA
+    country: Algeria
+    nso: Office National des Statistiques (ONS)
+    url: https://www.ons.dz
+    english: "no"
+    languages: [fr, ar]
+    notes: French site, no English version. The UN web filter blocks it for browsers on this network (plain HTTP works).
+
+  - id: BHR
+    country: Bahrain
+    nso: Information & eGovernment Authority (iGA) - statistics
+    url: https://www.iga.gov.bh/en
+    english: "yes"
+    languages: [en, ar]
+    portals:
+      - {name: Bahrain Open Data Portal (Huwise/Opendatasoft), url: https://www.data.gov.bh}
+
+  - id: COM
+    country: Comoros
+    nso: Institut National de la Statistique et des Etudes Economiques et Demographiques (INSEED)
+    url: https://www.inseed-comores.org/
+    english: "yes"
+    languages: [fr, en]
+    portals:
+      - {name: INSEED microdata catalogue (NADA), url: https://www.nada.inseed-comores.org}
+    notes: Not on ESCWA's official member list (unescwa.org, checked 2026-09-29) - included at the user's request. Old domain inseed.km is dead.
+
+  - id: DJI
+    country: Djibouti
+    nso: Institut National de la Statistique de Djibouti (INSTAD)
+    url: https://instad.dj/
+    english: "no"
+    languages: [fr]
+    notes: French only; content is rendered by JavaScript.
+
+  - id: EGY
+    country: Egypt
+    nso: Central Agency for Public Mobilization and Statistics (CAPMAS)
+    url: https://www.capmas.gov.eg/home
+    english: in-app
+    languages: [ar, en]
+    notes: React single-page app (EN switch inside the app). Data comes from a public JSON API on port 8080.
+
+  - id: IRQ
+    country: Iraq
+    nso: Statistics and GIS Authority (formerly Central Statistical Organization, COSIT)
+    url: https://cosit.gov.iq/ar/
+    english: "no"
+    languages: [ar]
+    notes: Arabic only (/en returns 404).
+
+  - id: JOR
+    country: Jordan
+    nso: Department of Statistics (DoS)
+    url: https://dosweb.dos.gov.jo
+    english: "yes"
+    languages: [en, ar]
+    portals:
+      - {name: JorInfo databank (PX-Web), url: https://jorinfo.dos.gov.jo/Databank/pxweb/en/}
+
+  - id: KWT
+    country: Kuwait
+    nso: Central Statistical Bureau (CSB)
+    url: https://www.csb.gov.kw/Default_EN
+    english: "yes"
+    languages: [en, ar]
+
+  - id: LBN
+    country: Lebanon
+    nso: Central Administration of Statistics (CAS)
+    url: https://www.cas.gov.lb/
+    english: "yes"
+    languages: [en, ar, fr]
+
+  - id: LBY
+    country: Libya
+    nso: Bureau of Statistics and Census (BSC)
+    url: https://bsc.ly/
+    english: "no"
+    languages: [ar]
+    notes: Arabic only (/en shows the Arabic site).
+
+  - id: MRT
+    country: Mauritania
+    nso: Agence Nationale de la Statistique et de l'Analyse Demographique et Economique (ANSADE)
+    url: https://ansade.mr/
+    english: "no"
+    languages: [fr, ar]
+    notes: French/Arabic; content is rendered by JavaScript.
+
+  - id: MAR
+    country: Morocco
+    nso: Haut-Commissariat au Plan (HCP)
+    url: https://www.hcp.ma/
+    english: "no"
+    languages: [fr, ar]
+    notes: French only (/en returns 404).
+
+  - id: OMN
+    country: Oman
+    nso: National Centre for Statistics and Information (NCSI)
+    url: https://www.ncsi.gov.om
+    english: "yes"
+    languages: [en, ar]
+    portals:
+      - {name: Oman data portal, url: https://data.gov.om}
+
+  - id: PSE
+    country: Palestine
+    nso: Palestinian Central Bureau of Statistics (PCBS)
+    url: https://www.pcbs.gov.ps/en/
+    english: "yes"
+    languages: [en, ar]
+    start_urls: [https://www.pcbs.gov.ps/en/statistics/]
+
+  - id: QAT
+    country: Qatar
+    nso: National Planning Council (NPC), formerly Planning and Statistics Authority
+    url: https://www.npc.qa/en/statistics/Pages/default.aspx
+    english: "yes"
+    languages: [en, ar]
+    portals:
+      - {name: Qatar Open Data Portal (Huwise/Opendatasoft), url: https://www.data.gov.qa}
+
+  - id: SAU
+    country: Saudi Arabia
+    nso: General Authority for Statistics (GASTAT)
+    url: https://www.stats.gov.sa/en
+    english: "yes"
+    languages: [en, ar]
+
+  - id: SOM
+    country: Somalia
+    nso: Somalia National Bureau of Statistics (SNBS)
+    url: https://nbs.gov.so
+    english: "yes"
+    languages: [en, so]
+
+  - id: SDN
+    country: Sudan
+    nso: Central Bureau of Statistics (CBS)
+    url: http://www.cbs.gov.sd
+    english: unknown
+    languages: [ar, en]
+    portals:
+      - {name: Sudan Data Portal (Open Data for Africa), url: https://sudan.opendataforafrica.org}
+    notes: The official domain does not resolve (checked 2026-09-29) - site offline.
+
+  - id: SYR
+    country: Syrian Arab Republic
+    nso: Planning and Statistics Commission (formerly Central Bureau of Statistics)
+    url: https://psc.gov.sy/
+    english: "no"
+    languages: [ar]
+    notes: CBS was merged into the Planning and Statistics Commission in 2025; the old domain cbssyr.sy is parked.
+
+  - id: TUN
+    country: Tunisia
+    nso: Institut National de la Statistique (INS)
+    url: https://www.ins.tn/en
+    english: "yes"
+    languages: [en, fr, ar]
+
+  - id: ARE
+    country: United Arab Emirates
+    nso: Federal Competitiveness and Statistics Centre (FCSC)
+    url: https://fcsc.gov.ae/en-us
+    english: "yes"
+    languages: [en, ar]
+    portals:
+      - {name: UAE.Stat (.Stat Suite / SDMX), url: https://uaestat.fcsc.gov.ae}
+    notes: Cloudflare blocks this network (HTTP 403), even for a real browser - diagnose from another network.
+
+  - id: YEM
+    country: Yemen
+    nso: Central Statistical Organization (CSO)
+    url: http://www.cso-yemen.com
+    english: unknown
+    languages: [ar, en]
+    notes: Cloudflare blocks this network (HTTP 403), even for a real browser.

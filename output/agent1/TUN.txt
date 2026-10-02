@@ -1,0 +1,403 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Tunisia  -  Institut National de la Statistique (INS)
+Checked 2026-09-29 11:20  |  Agent 1 (agent1_diagnose.py)  |  took 114.2 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://www.ins.tn/en
+   Reachable       : yes (HTTP 200)
+   English version : yes
+   Built with      : Drupal
+
+2. API
+   Verdict         : UNDOCUMENTED - works from Python (no login needed)
+   No official documentation, but the website's own data API at www.ins.tn answers plain Python
+     requests (found by API sniffing).
+   Documentation   : none official
+   Site links mentioning API / open data / databank:
+     API -> http://dataportal.ins.tn/fr/API
+
+   How to call it - curl:
+       curl -H "accept-language: en-US" "https://www.ins.tn/sites/default/files-
+         ftp3/files/commerce_exterieur/data/nsh.csv"
+
+   How to call it - Python:
+       import requests
+       
+       url = "https://www.ins.tn/sites/default/files-ftp3/files/commerce_exterieur/data/nsh.csv"
+       headers = {"accept-language": "en-US"}
+       response = requests.get(url, headers=headers, timeout=60)
+       response.raise_for_status()
+       data = response.json()
+
+   API sniffing - data calls the website made: 4 distinct, 4 worked again from plain Python
+     [OK ] GET www.ins.tn/sites/default/files-ftp3/files/commerce_exterieur/data/nsh.csv
+       (text/csv)
+     [OK ] POST middleoffice-api.ins.tn/data/find/{id}  (application/json)
+     [OK ] GET www.ins.tn/sites/default/files-ftp3/files/commerce_exterieur/data/pays.csv
+       (text/csv)
+     [OK ] GET www.ins.tn/sites/default/files-ftp3/files/commerce_exterieur/data/annee.csv
+       (text/csv)
+
+   Found in the site's JavaScript files:
+     2 endpoint paths, e.g. api/enquete_result, api/enquete_unique/
+
+3. SOCIAL STATISTICS  (132 pages, 101 files)
+     - Accès des TIC au niveau des ménages | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Acc%C3%A8s%20des%20TIC%20au%20niveau%20des%20m%C3%A9nages_Final_0.xlsx
+     - Ariana | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Ariana.pdf
+     - Beja | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Beja.pdf
+     - Ben Arous | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Ben%20Arous.pdf
+     - Bizerte | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Bizerte.pdf
+     - Flash Autonomie et Égalité | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-Egalit%C3%A9-BULLETIN-
+         FR.pdf
+     - Flash Jeunesse | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-Jeunesses-BULLETIN-
+         FR.pdf
+     - Flash Migration | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-Migration-BULLETIN-
+         FR.pdf
+     - Flash TIC | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-TIC-BULLETIN-FR_0.pdf
+     - Flash démographie FR | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-DEMOGRAPHIE-BULLETIN-
+         FR_0.pdf
+     - Flash emploi | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-Emploi-%20BULLETIN-
+         FR.pdf
+     - Flash enfance | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-Enfance-BULLETIN-
+         FR_0.pdf
+     - Flash handicap | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-Handicap-BULLETIN-
+         FR.pdf
+     - Flash logements | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-LOGEMENTS%20BULLETIN-
+         FR.pdf
+     - Flash ménages | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-Menage-BULLETIN-FR.pdf
+     - Flash personnes âgées | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-Personnes%20Ag%C3%A9es-
+         BULLETIN-FR.pdf
+     - Flash protection sociale | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-ProtectionSociale-
+         Bulletin-FR.pdf
+     - Flash Éducation | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-Education-BULLETIN-
+         FR_0.pdf
+     - Fréquentation scolaire (3 -24 ans) | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2025-09/Frequentation%20scolaire%20%283%20-24%20ans%29_Final.xlsx
+     - Gabes | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Gabes.pdf
+     - Gafsa | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Gafsa.pdf
+     - Indicateurs de l'emploi par Districts | 2026 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2026-01/Indicateurs%20de%20l%27emploi%20par%20Districts.xlsx
+     - Indicateurs de l'emploi par Délégations | 2026 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2026-01/Indicateurs%20de%20l%27emploi%20par%20D%C3%A9l%C3%A9gations.xlsx
+     - Indicateurs de l'emploi par Gouvernorats | 2026 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2026-01/Indicateurs%20de%20l%27emploi%20par%20Gouvernorats.xlsx
+     - Indicateurs de la Migration | 2026 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2026-02/Indicateurs%20de%20la%20Migration_Final.xlsx
+     - Indicateurs des Personnes âgées par Secteurs | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Indicateurs%20des%20Personnes%20%C3%A2g%C3%A9es%20par%20Secteurs_Final.xlsx
+     - Indicateurs des Personnes âgées par délégations | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Indicateurs%20des%20Personnes%20%C3%A2g%C3%A9es%20par%20d%C3%A9l%C3%A9gations_Fin
+         al.xlsx
+     - Indicateurs des Personnes âgées par gouvernorats | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Indicateurs%20des%20Personnes%20%C3%A2g%C3%A9es%20par%20gouvertnorats_Final.xlsx
+     - Jandouba | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Jendouba.pdf
+     - Kairouan | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Kairouan.pdf
+     - Kasserine | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Kasserine.pdf
+     - Kebili | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Kebili.pdf
+     - Le Kef | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Le%20Kef.pdf
+     - Mahdia | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Mahdia.pdf
+     - Mannouba | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Manouba.pdf
+     - Medenine | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Mednine.pdf
+     - Migration Externe (les immigrants et les émigrants) | 2026 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2026-01/Migration%20Externe_1.xlsx
+     - Migration Interne (les entrants et les sortants) | 2026 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2026-01/Migration%20Interne_1.xlsx
+     - Monastir | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Monastir.pdf
+     - Nabeul | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Nabeul.pdf
+     - Niveau d'instruction (10 ans et plus) | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2025-09/Niveau%20d%27instruction%20%2810%20ans%20et%20plus%29_Final.xlsx
+     - Nombre de logements par district | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Logement%20R%C3%A9gions.xlsx
+     - Nombre de logements par district | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Infographie%20Logement.pdf
+     - Nombre de ménages par gouvernorat | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2025-05/Nombre%20M%C3%A9nage%20Gouv.xlsx
+     - Nombre des enfants par tranche d'âge et sexe | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Nombre%20des%20enfants%20par%20tranche%20d%27%C3%A2ge%20et%20sexe_Final.xlsx
+     - Nombre des logements par secteurs | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2025-11/Nombre%20de%20Logements%20par%20Secteurs.xlsx
+     - Nombre des ménages par secteurs | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2025-11/Nombre%20de%20m%C3%A9nages%20par%20Secteurs.xlsx
+     - Pourcentage Etat Matrimonial par Milieu et Sexe | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20Etat%20Matrimonial%20par%20Milieu%20et%20Sexe_Final.xlsx
+     - Pourcentage des logements par date de fin de construction de logement | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20logements%20par%20date%20de%20fin%20de%20construction%20de%20
+         logement_Final.xlsx
+     - Pourcentage des logements par disponibilité de cuisine | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20logements%20par%20disponibilit%C3%A9%20de%20cuisine_Final_0.x
+         lsx
+     - Pourcentage des logements par disponibilité de salle de bain ou douche | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20logements%20par%20disponibilit%C3%A9%20de%20salle%20de%20bain
+         %20ou%20douche_Final.xlsx
+     - Pourcentage des logements par disponibilité de toilette avec ou sans sache | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20logements%20par%20disponibilit%C3%A9%20de%20toilette%20avec%2
+         0ou%20sans%20sache_Final.xlsx
+     - Pourcentage des logements par disponibilité de toilette dans le logement | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20logements%20par%20disponibilit%C3%A9%20de%20toilette%20dans%2
+         0le%20logement_Final_0.xlsx
+     - Pourcentage des logements par le moyen de se débarrasser des déchets ménagers | 2025 |
+       XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20logements%20par%20le%20moyen%20de%20se%20d%C3%A9barrasser%20d
+         es%20d%C3%A9chets%20m%C3%A9nagers_Final_0.xlsx
+     - Pourcentage des logements par mode d'occupation de logement | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20logements%20par%20mode%20d%27occupation%20de%20logement_Final
+         .xlsx
+     - Pourcentage des logements par méthode de dégagement des eaux usées | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20logements%20par%20m%C3%A9thode%20de%20d%C3%A9gagement%20des%2
+         0eaux%20us%C3%A9es_Final.xlsx
+     - Pourcentage des logements par nombre de pièces dans le logement | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20logements%20par%20nombre%20de%20pi%C3%A8ces%20dans%20le%20log
+         ement_Final_0.xlsx
+     - Pourcentage des logements par superficie couverte du logement | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20logements%20par%20superficie%20couverte%20du%20logement-
+         Final.xlsx
+     - Pourcentage des logements par type de logement | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20logements%20par%20type%20de%20logement_Final.xlsx
+     - Pourcentage des logements par type de raccordement | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2025-09/Pourcentage%20des%20logements%20par%20type%20de%20raccordement-
+         Final.xlsx
+     ... and 173 more (full list in TUN.json)
+
+4. ECONOMIC STATISTICS  (160 pages, 21 files)
+     - - Activity report NIS 2016-2017 (Ar) : Link N°14 | 2016-2018 | PDF
+       http://www.ins.tn/sites/default/files/BUDGET_2018.pdf
+     - Data | 2026 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/publication/pdf/VA_PIB_Croissance_T2_2026.xlsx
+     - Data | 2026 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/publication/pdf/VA_PIB_Croissance_T1_2026.xlsx
+     - Data | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/publication/pdf/VA_PIB_Croissance_T4_2025.xlsx
+     - Data | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/publication/pdf/VA_PIB_Croissance_T3_2025.xlsx
+     - Decree Minister of Development and Investment and International Cooperation September
+       30, 2015 on the adoption of the National Charte of public statistics | 2015-2020 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2020-
+         04/Arr%C3%A9t%C3%A9%20d%27adoption%20de%20la%20Charte%20statistique%20Fr.pdf
+     - Flash emploi | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-09/PROD-Emploi-%20BULLETIN-
+         FR.pdf
+     - Gross Domestic Product (GDP), Third quarter 2025 | 2025 | PDF
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/publication/pdf/Croissance_Economique_T3_2025.pdf
+     - Gross Domestic Product (GDP), first quarter 2026 | 2026 | PDF
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/publication/pdf/Croissance_Economique_T1_2026.pdf
+     - Gross Domestic Product (GDP), fourth quarter 2025 | 2025 | PDF
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/publication/pdf/Croissance_Economique_T4_2025.pdf
+     - Gross Domestic Product (GDP), second quarter 2026 | 2026 | PDF
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/publication/pdf/Croissance_Economique_T2_2026.pdf
+     - Indicateurs de l'emploi par Districts | 2026 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2026-01/Indicateurs%20de%20l%27emploi%20par%20Districts.xlsx
+     - Indicateurs de l'emploi par Délégations | 2026 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2026-01/Indicateurs%20de%20l%27emploi%20par%20D%C3%A9l%C3%A9gations.xlsx
+     - Indicateurs de l'emploi par Gouvernorats | 2026 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2026-01/Indicateurs%20de%20l%27emploi%20par%20Gouvernorats.xlsx
+     - Link N°13 | 2020 | PDF
+       https://www.ins.tn/sites/default/files/2020-%D9%85%D9%82%D8%B1%D8%B1-converti.pdf
+     - Pourcentage des logements par date de fin de construction de logement | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20logements%20par%20date%20de%20fin%20de%20construction%20de%20
+         logement_Final.xlsx
+     - Pourcentage des ménages par principale source d'énergie pour chauffer l'eau | 2025 |
+       XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20m%C3%A9nages%20par%20principale%20source%20d%27%C3%A9nergie%2
+         0pour%20chauffer%20l%27eau_Final.xlsx
+     - Pourcentage des ménages par principale source d'énergie pour chauffer le logement | 2025
+       | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20m%C3%A9nages%20par%20principale%20source%20d%27%C3%A9nergie%2
+         0pour%20chauffer%20le%20logement_Final.xlsx
+     - Pourcentage des ménages par principale source d'énergie pour cuisson | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-
+         09/Pourcentage%20des%20m%C3%A9nages%20par%20principale%20source%20d%27%C3%A9nergie%2
+         0pour%20cuisson_Final.xlsx
+     - Taux de raccordement aux réseaux (eau, électricité, etc.) par district | 2025 | XLSX
+       https://www.ins.tn/sites/default/files-
+         ftp3/files/2025-05/Conditions%20de%20vie%20R%C3%A9gions.xlsx
+     - Taux de raccordement aux réseaux (eau, électricité, etc.) par district | 2025 | PDF
+       https://www.ins.tn/sites/default/files-ftp3/files/2025-05/Infographie%20Logement_0.pdf
+     - ANNUAL GLISSEMENT OF REAL ESTATE PRICES | Annual
+       https://www.ins.tn/desktop-stat41
+     - Agri-food Industry
+       https://www.ins.tn/en/statistiques/135
+     - Agriculture
+       https://www.ins.tn/en/statistiques/1
+     - Atelier 08/07/2019 Cet atelier s’inscrit dans le cadre du Pan African Statistics
+       programme (PAS) – Projet financé par l’Union Européenne. | 2019
+       https://www.ins.tn/evenements/atelier-sur-lelaboration-des-comptes-nationaux-
+         trimestriels
+     - Atelier 10/10/2019 L'ONM et l'INS, avec l’appui de l'ICMPD ; organisent un atelier de
+       lancement de l’enquête TUNISIA-HIMS, le jeudi 10 octobre 2019 à l’hôtel Mövenpick - Les
+       Berges du Lac. | 2019
+       https://www.ins.tn/evenements/atelier-de-lancement-de-lenquete-tunisia-hims
+     - Atelier 15 juillet 2020 Workshop sur Implémentation de la Nomenclature d’Activités
+       Tunisienne (NAT 2009), Hôtel Laico Tunis ; Mercredi 15 Juillet 2020. Hôtel Laico – Tunis
+       1002 Tunisie. | 2009-2020
+       https://www.ins.tn/evenements/workshop-sur-implementation-de-la-nomenclature-
+         dactivites-tunisienne-nat-2009
+     - Atelier 19/10/2023 La mesure de la pauvreté en Tunisie : approches et concepts pour une
+       mesure exhaustive des privations monétaires et non monétaires. Mövenpick Hôtel Lac 1
+       Tunis | 2023
+       https://www.ins.tn/evenements/la-mesure-de-la-pauvrete-en-tunisie
+     - BALANCE COMMERCIALE
+       https://www.ins.tn/statistiques/50
+     - Business demography
+       https://www.ins.tn/en/statistiques/95
+     - Business development
+       https://www.ins.tn/en/statistiques/93
+     - Businesses
+       https://www.ins.tn/en/statistiques/92
+     - Chemical Industry
+       https://www.ins.tn/en/statistiques/136
+     - Communication technologies
+       https://www.ins.tn/en/statistiques/125
+     - Consommation 2021 | 2021
+       https://www.ins.tn/enquetes/enquete-nationale-sur-le-budget-la-consommation-et-le-
+         niveau-de-vie-des-menages-2021
+     - Consumer Price Index, April 2021 | 2021
+       https://www.ins.tn/en/publication/consumer-price-index-april-2021
+     - Consumer Price Index, May 2021 | 2021
+       https://www.ins.tn/en/publication/consumer-price-index-may-2021
+     - Economic Participation
+       https://www.ins.tn/en/statistiques/517
+     - Economic growth in the first quarter 2020 | 2020
+       https://www.ins.tn/en/publication/economic-growth-first-quarter-2020
+     - Economic growth in the fourth quarter 2018 | 2018
+       https://www.ins.tn/en/publication/economic-growth-fourth-quarter-2018
+     - Economic growth in the fourth quarter 2019 | 2019
+       https://www.ins.tn/en/publication/economic-growth-fourth-quarter-2019
+     - Economic growth in the second quarter 2019 | 2019
+       https://www.ins.tn/en/publication/economic-growth-second-quarter-2019
+     - Economic growth in the third quarter 2019 | 2019
+       https://www.ins.tn/en/publication/economic-growth-third-quarter-2019
+     - Employment and Wages Survey among businesses in 2012 | 2012
+       https://www.ins.tn/en/publication/employment-and-wages-survey-among-businesses-2012
+     - Employment and Wages Survey among businesses in 2014 | 2014
+       https://www.ins.tn/en/publication/employment-and-wages-survey-among-businesses-2014
+     - Employment and Wages Survey among businesses in 2022 | 2022
+       https://www.ins.tn/en/publication/employment-and-wages-survey-among-businesses-2022
+     - Energy
+       https://www.ins.tn/en/statistiques/146
+     - Evolution rate of the average wage in the private non-agricultural sector
+       https://www.ins.tn/en/statistiques/99
+     - Evolution rate of the average wage in the private non-agricultural sector(1)
+       https://www.ins.tn/en/calendar/99
+     - Financial market
+       https://www.ins.tn/en/statistiques/106
+     - Flash Emploi
+       https://www.ins.tn/publication/flash-emploi
+     - Foreign Trade
+       https://www.ins.tn/ComExt
+     - Foreign Trade
+       https://www.ins.tn/en/statistiques/2
+     - Foreign Trade of Tunisia 2011 | 2011
+       https://www.ins.tn/en/publication/foreign-trade-tunisia-2011
+     - Foreign Trade of Tunisia 2012 | 2012
+       https://www.ins.tn/en/publication/foreign-trade-tunisia-2012
+     - Foreign Trade of Tunisia 2013 | 2013
+       https://www.ins.tn/en/publication/foreign-trade-tunisia-2013
+     - Foreign Trade of Tunisia 2014 | 2014
+       https://www.ins.tn/en/publication/foreign-trade-tunisia-2014
+     - Foreign Trade of Tunisia 2015 | 2015
+       https://www.ins.tn/en/publication/foreign-trade-tunisia-2015
+     - Foreign Trade of Tunisia 2016 | 2016
+       https://www.ins.tn/en/publication/foreign-trade-tunisia-2016
+     - Foreign Trade of Tunisia 2017 | 2017
+       https://www.ins.tn/en/publication/foreign-trade-tunisia-2017
+     ... and 121 more (full list in TUN.json)
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (7 rendered in a browser); 153 file links
+   Formats: PDF 86, XLSX 65, DOCX 2
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: TUN
+       theme: social_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://www.ins.tn/enquetes/recensement-general-de-la-population-et-de-lhabitat-2024-analyses-thematiques',
+         'https://www.ins.tn/enquetes/recensement-general-de-la-population-et-de-lhabitat-2024']
+       render_js: auto
+       notes: 101 social statistics file(s) found on these pages - review before enabling
+     - nso: TUN
+       theme: economic_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://www.ins.tn/enquetes/recensement-general-de-la-population-et-de-lhabitat-2024-analyses-thematiques',
+         'https://www.ins.tn/en/publication/gross-domestic-product-gdp-second-quarter-2026', 'https://www.ins.tn/en/publication/gross-domestic-product-gdp-first-quarter-2026',
+         'https://www.ins.tn/en/publication/gross-domestic-product-gdp-fourth-quarter-2025', 'https://www.ins.tn/en/publication/gross-domestic-product-gdp-third-quarter-2025']
+       render_js: auto
+       notes: 21 economic statistics file(s) found on these pages - review before enabling
+
+7. LIMITATIONS / NEXT STEPS
+   - none noted

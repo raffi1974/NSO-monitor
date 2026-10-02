@@ -1,0 +1,347 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Iraq  -  Statistics and GIS Authority (formerly Central Statistical Organization, COSIT)
+Checked 2026-09-29 10:52  |  Agent 1 (agent1_diagnose.py)  |  took 67.8 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://cosit.gov.iq/ar/
+   Reachable       : yes (HTTP 200)
+   English version : no English version
+   Built with      : Joomla, Tableau dashboards
+   Note: Arabic only (/en returns 404).
+
+2. API
+   Verdict         : NONE - not callable from Python
+   No API found (no documented platform, no data calls seen while browsing). Data is published as
+     files/pages only: Agent 2 would use the 'scrape' connector.
+   Documentation   : none official
+   Site links mentioning API / open data / databank:
+     لتعزيز قواعد البيانات الوطنية ودعم الاقتصاد المتنوع.. اجتماع فني مشترك بين هيأة  -> https://cosit.gov.iq/images/news_pictures/2026/13.jpg
+     لتعزيز قواعد البيانات الوطنية ودعم الاقتصاد المتنوع.. اجتماع فني مشترك بين هيأة  -> https://cosit.gov.iq/ar/2020-12-28-07-22-269
+
+3. SOCIAL STATISTICS  (22 pages, 28 files)
+     - * جداول مسح الانفاق السياحي لسنة 2019 | 2019 | XLSX
+       https://cosit.gov.iq/documents/trade/tourism/survey/جداول مسح الانفاق السياحي لسنة
+         2019.xlsx
+     - * جداول مسح الانفاق السياحي لسنة 2023 | 2023 | XLSX
+       https://cosit.gov.iq/documents/trade/tourism/survey/الانفاق الكلي.xlsx
+     - * مسح الانفاق السياحي لسنة 2019 | 2019 | PDF
+       https://cosit.gov.iq/documents/trade/tourism/survey/مسح الانفاق السياحي لسنة 2019.pdf
+     - * مسح الانفاق السياحي لسنة 2023 | 2023 | PDF
+       https://cosit.gov.iq/documents/trade/tourism/survey/مسح الانفاق السياحي ن 2023.pdf
+     - *مسح الانفاق السياحي لسنة 2023 | 2023 | PDF
+       https://cosit.gov.iq/documents/trade/internal trade/survey/مسح الانفاق السياحي لسنة
+         2023.pdf
+     - - تقرير التعداد الشامل2001 | 2001 | PDF
+       https://cosit.gov.iq/documents/agriculture/census/تقرير التعداد الشامل2001.pdf
+     - البيانات الوصفية للناتج المحلي الاجمالي والدخل القومي | DOCX
+       https://cosit.gov.iq/documents/national_accounts/national_income/metadata/البيانات
+         الوصفية للناتج المحلي الاجمالي والدخل القومي.docx
+     - التقديرات الاولبة السنوية للناتج المحلي الإجمالي والدخل القومي لسنة 2019 | Annual | 2019
+       | XLSX
+       https://cosit.gov.iq/documents/national_accounts/national_income/tables/التقديرات
+         الفعلية للناتج المحلي الإجمالي والدخل القومي لسنة 2019.xlsx
+     - التقديرات الاولبة السنوية للناتج المحلي الإجمالي والدخل القومي لسنة 2019 (سلسلة معدلة) |
+       Annual | 2019 | XLSX
+       https://cosit.gov.iq/documents/national_accounts/national_income/tables/التقديرات
+         الاولية للناتج المحلي الإجمالي والدخل القومي لسنة 2019.xlsx
+     - التقديرات الاولية السنوية للناتج المحلي الاجمالي والدخل القومي 2024 | Annual | 2024 |
+       PDF
+       https://cosit.gov.iq/documents/national_accounts/national_income/reports/gdp/الناتج
+         المحلي الاجمالي التقديرات الاولية 2024.pdf
+     - التقديرات الاولية الفصلية والاجمالية للناتج المحلي الاجمالي 2025 | 2025 | PDF
+       https://cosit.gov.iq/documents/national_accounts/national_income/reports/gdp/الناتج
+         المحلي الاجمالي التقديرات الاولية الفصلية 2025.pdf
+     - التقديرات الفعلية السنوية للناتج المحلي الاجمالي والدخل القومي لسنة 2023 | Annual | 2023
+       | PDF
+       https://cosit.gov.iq/documents/national_accounts/national_income/reports/gdp/الناتج
+         المحلي الاجمالي الفعلي 2023.pdf
+     - التقديرات الفعلية للناتج المحلي الاجمالي و الدخل القومي 2017 (سلسلة معدلة) | 2017 | PDF
+       https://cosit.gov.iq/documents/national_accounts/national_income/reports/gdp/التقديرات
+         الفعلية للناتج المحلي الاجمالي و الدخل القومي 2017.pdf
+     - التقديرات الفعلية للناتج المحلي الاجمالي و الدخل القومي 2017 (سلسلة معدلة) | 2017 | XLSX
+       https://cosit.gov.iq/documents/national_accounts/national_income/tables/التقديرات
+         الفعلية للناتج المحلي الاجمالي و الدخل القومي 2017.xlsx
+     - التقديرات الفعلية للناتج المحلي الاجمالي والدخل القومي 2015-2014 (سلسلة معدلة) |
+       2014-2015 | PDF
+       https://cosit.gov.iq/documents/national_accounts/national_income/reports/gdp/التقديرات
+         الفعلية للناتج المحلي والدخل القومي لسنة 2015.pdf
+     - التقديرات الفعلية للناتج المحلي الاجمالي والدخل القومي 2015-2014 (سلسلة معدلة) |
+       2014-2015 | XLSX
+       https://cosit.gov.iq/documents/national_accounts/national_income/tables/التقديرات
+         الفعلية للناتج المحلي والدخل القومي لسنة 2015.xlsx
+     - التقديرات الفعلية للناتج المحلي الاجمالي والدخل القومي 2016 | 2016 | PDF
+       https://cosit.gov.iq/documents/national_accounts/national_income/reports/gdp/التقديرات
+         الفعلية للناتج المحلي والدخل القومي لسنة 2016.pdf
+     - التقديرات الفعلية للناتج المحلي الاجمالي والدخل القومي 2016 | 2016 | XLSX
+       https://cosit.gov.iq/documents/national_accounts/national_income/tables/التقديرات
+         الفعلية للناتج المحلي والدخل القومي لسنة 2016.xlsx
+     - التقديرات الفعلية للناتج المحلي الاجمالي والدخل القومي 2019 | 2019 | PDF
+       https://cosit.gov.iq/documents/national_accounts/national_income/reports/gdp/GDP فعلي
+         2019.pdf
+     - التقديرات الفعلية للناتج المحلي الاجمالي والدخل القومي 2020 | 2020 | PDF
+       https://cosit.gov.iq/documents/national_accounts/national_income/reports/gdp/GDP2020
+         فعلي.pdf
+     - التقديرات الفعلية للناتج المحلي الاجمالي والدخل القومي 2022 | 2022 | PDF
+       https://cosit.gov.iq/documents/national_accounts/national_income/reports/gdp/التقديرات
+         الفعلية للناتج المحلي الاجمالي 2022.pdf
+     - التقديرات الفعليه السنوية للناتج المحلي الإجمالي والدخل القومي لسنة 2018 (سلسلة معدلة) |
+       Annual | 2018 | XLSX
+       https://cosit.gov.iq/documents/national_accounts/national_income/tables/التقديرات
+         الفعليه السنوية للناتج المحلي الإجمالي والدخل القومي لسنة 2018.xlsx
+     - التقديرات الفعليه السنوية للناتج المحلي الإجمالي والدخل القومي لسنة 2018.(سلسلة معدلة) |
+       Annual | 2018 | PDF
+       https://cosit.gov.iq/documents/national_accounts/national_income/reports/gdp/التقديرات
+         الفعليه السنوية للناتج المحلي الإجمالي والدخل القومي لسنة 2018.pdf
+     - المواضيع الاحصائية | 2024 | PDF
+       https://cosit.gov.iq/documents/Living%20conditions/المسح الاجتماعي والاقتصادي للأسرة
+         في العراق 2024 (احساس3).pdf
+     - لحس ب ت ل قتص دية لموحدة للدولة 2009 | 2009-2014 | XLSX
+       https://cosit.gov.iq/documents/national_accounts/national_income/tables/التقديرات
+         الفعلية للناتج المحلي والدخل القومي لسنة 2014.xlsx
+     - مؤشرات احصائية عن الوصع الاجتماعي والاقتصادي في العراق 2012-2016 | 2012-2016 | PDF
+       https://cosit.gov.iq/documents/national_accounts/national_income/reports/eco_and_socia
+         l/مؤشرات الوضع الاقتصادي والاجتماعي 2012-2016.pdf
+     - مؤشرات احصائية عن الوضع الاقتصادي في العراق 2014 - 2017 | 2014-2017 | PDF
+       https://cosit.gov.iq/documents/national_accounts/national_income/reports/eco_and_socia
+         l/مؤشرات احصائية عن الوضع الاقتصادي 2014 - 2017.pdf
+     - مؤشرات احصائية عن الوضع الاقتصادي و الاجتماعي في العراق للسنوات (2015 - 2018) |
+       2015-2018 | PDF
+       https://cosit.gov.iq/documents/national_accounts/national_income/reports/eco_and_socia
+         l/مؤشرات احصائية عن الوضع الاقتصادي و الاجتماعي في العراق للسنوات (2015 - 2018).pdf
+     - احوال المعيشة
+       https://cosit.gov.iq/ar/living-conditions-main
+     - استمرار أعمال ورشة تنفيذ مسح القوى العاملة لليوم الثالث على التوالي
+       https://cosit.gov.iq/ar/2020-12-28-07-22-301
+     - التربية والتعليم
+       https://cosit.gov.iq/ar/2015-11-23-08-09-54
+     - التعاون مع منظمة العمل الدولية (ILO).. هيأة الإحصاء تستعد لتنفيذ مسح القوى العاملة
+       الشامل في العراق إلكترونياً
+       https://cosit.gov.iq/images/news_pictures/2026/work.jfif
+     - التعاون مع منظمة العمل الدولية (ILO).. هيأة الإحصاء تستعد لتنفيذ مسح القوى العاملة
+       الشامل في العراق إلكترونياً
+       https://cosit.gov.iq/ar/2020-12-28-07-22-302
+     - التعداد الزراعي الشامل
+       https://cosit.gov.iq/ar/agri-stat/2013-02-11-03-55-45
+     - التنمية البشرية المستدامة والنوع الاجتماعي
+       https://cosit.gov.iq/ar/human-dev
+     - الدخل القومي والناتج المحلي الاجمالي
+       https://cosit.gov.iq/ar/national-accounts/income
+     - الرعاية الاجتماعية
+       https://cosit.gov.iq/ar/2015-11-23-07-58-32
+     - السكان والمساكن والتعداد العام للسكان
+       https://cosit.gov.iq/ar/pop-main
+     - السيد رئيس هيأة الإحصاء ونظم المعلومات الجغرافية يبحث خطة العمل ومراجعة الاحتياجات
+       الإدارية مع مديري إحصاء المحافظات
+       https://cosit.gov.iq/ar/2020-12-28-07-22-312
+     - تقارير سوق العمل
+       https://cosit.gov.iq/ar/pop-main/enumerating2009-2
+     - تقديرات السكان
+       https://cosit.gov.iq/ar/pop-main/manpower
+     - ضمن الفعاليات والانشطة العلمية الثقافية شاركت وزارة التخطيط وهيئة الاحصاء ونظم المعلومات
+       الجغرافية في المؤتمرالعلمي الدولي العاشر لزيارة الاربعين في كربلاء المقدسة
+       https://cosit.gov.iq/ar/2020-12-28-07-22-299
+     - مؤشرات التشغيل والبطالة
+       https://cosit.gov.iq/ar/2013-01-31-08-48-55
+     - مؤشرات التعليم
+       https://cosit.gov.iq/ar/2013-02-25-07-39-31
+     - مؤشرات الدخل القومي
+       https://cosit.gov.iq/ar/national-accounts-ar
+     - مؤشرات الدخل والانفاق
+       https://cosit.gov.iq/ar/expenditure-indicators
+     - مؤشرات الرعاية الاجتماعية
+       https://cosit.gov.iq/ar/2013-02-25-07-38-43
+     - مؤشرات السكانية
+       https://cosit.gov.iq/ar/2013-01-31-08-43-38
+     - مؤشرات الفتوة والشباب
+       https://cosit.gov.iq/?option=com_content&view=article&layout=edit&id=1304
+     - ورشة عمل حول تنفيذ مسح النساء في المناصب الإدارية والقيادية في القطاع الحكومي
+       https://cosit.gov.iq/ar/2020-12-28-07-22-309
+
+4. ECONOMIC STATISTICS  (47 pages, 536 files)
+     - * إحصاء المنشآت الصناعیة الصغیرة للقطاع الخاص 2015 | 2015 | PDF
+       https://cosit.gov.iq/documents/industrial/small/2015/إحصاء المنشآت الصناعیة الصغیرة
+         للقطاع الخاص 2015.pdf
+     - * إحصاء المنشآت الصناعیة الصغیرة للقطاع الخاص 2016 | 2016 | PDF
+       https://cosit.gov.iq/documents/industrial/small/2016/احصاء المنشآت الصناعية الصغيرة
+         للقطاع الخاص 2016.pdf
+     - * إحصاء المنشآت الصناعیة الصغیرة للقطاع الخاص 2017 | 2017 | PDF
+       https://cosit.gov.iq/documents/industrial/small/2017/احصاء المنشأت الصناعية الصغيرة
+         للقطاع الخاص 2017.pdf
+     - * إحصاء المنشآت الصناعیة الصغیرة للقطاع الخاص 2018 | 2018 | PDF
+       https://cosit.gov.iq/documents/industrial/small/2018/احصاء المنشأت الصناعية الصغيرة
+         للقطاع الخاص 2018.pdf
+     - * إحصاء المنشآت الصناعیة الصغیرة للقطاع الخاص 2020 | 2020-2022 | PDF
+       https://cosit.gov.iq/documents/industrial/small/2022/تقرير الصغيرة 2020.pdf
+     - * إحصاء المنشآت الصناعیة الصغیرة للقطاع الخاص 2021 | 2021-2022 | PDF
+       https://cosit.gov.iq/documents/industrial/small/2022/تقرير الصغيرة 2021 .pdf
+     - * إحصاء المنشآت الصناعیة الصغیرة للقطاع الخاص 2022 | 2022 | PDF
+       https://cosit.gov.iq/documents/industrial/small/2022/تقرير صغيرة 2022 PDF.pdf
+     - * إحصاء المنشآت الصناعیة الصغیرة للقطاع الخاص 2023 | 2022-2023 | PDF
+       https://cosit.gov.iq/documents/industrial/small/2022/تقرير 2023صغيرة.pdf
+     - * احصاء القطاع العام التجاري لسنة 2015 | 2015 | PDF
+       https://cosit.gov.iq/documents/trade/internal trade/احصاء القطاع العام التجاري لسنة
+         2015 .pdf
+     - * احصاء القطاع العام التجاري لسنة 2016 | 2016 | PDF
+       https://cosit.gov.iq/documents/trade/internal trade/احصاء القطاع العام التجاري لسنة
+         2016.pdf
+     - * احصاء القطاع العام التجاري لسنة 2017 | 2017 | PDF
+       https://cosit.gov.iq/documents/trade/internal trade/احصاء القطاع العام التجاري لسنة
+         2017.pdf
+     - * احصاء القطاع العام التجاري لسنة 2018 | 2018 | PDF
+       https://cosit.gov.iq/documents/trade/internal trade/احصاء القطاع العام التجاري لسنة
+         2018.pdf
+     - * احصاء القطاع العام التجاري لسنة 2019 | 2019 | PDF
+       https://cosit.gov.iq/documents/trade/internal trade/احصاء القطاع العام التجاري لسنة
+         2019.pdf
+     - * احصاء القطاع العام التجاري لسنة 2020 | 2020 | PDF
+       https://cosit.gov.iq/documents/trade/internal trade/احصاء القطاع العام التجاري لسنة
+         2020.pdf
+     - * احصاء القطاع العام التجاري لسنة 2021 | 2021 | PDF
+       https://cosit.gov.iq/documents/trade/internal trade/تقرير القطاع العام التجاري
+         20221.pdf
+     - * احصاء القطاع العام التجاري لسنة 2022 | 2022 | PDF
+       https://cosit.gov.iq/documents/trade/internal trade/احصاء القطاع العام التجاري لسنة
+         2022.pdf
+     - * احصاء القطاع العام التجاري لسنة 2023 | 2023 | PDF
+       https://cosit.gov.iq/documents/trade/internal trade/تقرير القطاع العام التجاري.pdf
+     - * احصاء القطاع العام التجاري لسنة 2024 | 2024 | PDF
+       https://cosit.gov.iq/documents/trade/internal trade/القطاع العام التجاري 2024.pdf
+     - * احصاء المنشآت الصناعية الكبيرة التراكمي لسنة 2015 | 2015 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2015/احصاء المنشآت الصناعية الكبيرة
+         التراكمي لسنة 2015.pdf
+     - * احصاء المنشآت الصناعية الكبيرة السنوي لسنة 2016 | Annual | 2016 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2016/احصاء المنشآت الصناعية الكبيرة
+         السنوي لسنة 2016.pdf
+     - * احصاء المنشأت الصناعية المتوسطة لاقليم كردستان 2020 | 2020 | PDF
+       https://cosit.gov.iq/documents/industrial/mid/2020/متوسطة كردستان.pdf
+     - * احصاء المنشأت الصناعية المتوسطة لاقليم كردستان 2022 | 2022 | PDF
+       https://cosit.gov.iq/documents/industrial/mid/2022/تقرير متوسطة كوردستان 2022.pdf
+     - * احصاء المنشأت الصناعية المتوسطة لسنة 2015 | 2015 | PDF
+       https://cosit.gov.iq/documents/industrial/mid/2015/احصاء المنشأت الصناعية المتوسطة
+         لسنة 2015.pdf
+     - * احصاء المنشأت الصناعية المتوسطة لسنة 2016 | 2016 | PDF
+       https://cosit.gov.iq/documents/industrial/mid/2016/احصاء المنشأت الصناعية المتوسطة
+         لسنة 2016.pdf
+     - * احصاء المنشأت الصناعية المتوسطة لسنة 2017 | 2017 | PDF
+       https://cosit.gov.iq/documents/industrial/mid/2017/احصاء المنشأت الصناعية المتوسطة
+         لسنة 2017.pdf
+     - * احصاء المنشأت الصناعية المتوسطة لسنة 2018 | 2018 | PDF
+       https://cosit.gov.iq/documents/industrial/mid/2018/احصاء المنشأت الصناعية المتوسطة
+         لسنة 2018.pdf
+     - * احصاء المنشأت الصناعية المتوسطة لسنة 2020 | 2020 | PDF
+       https://cosit.gov.iq/documents/industrial/mid/2020/تقرير المنشات الصناعية المتوسطة
+         2020.pdf
+     - * احصاء المنشأت الصناعية المتوسطة لسنة 2021 | 2021 | PDF
+       https://cosit.gov.iq/documents/industrial/mid/2021/متوسطة 2021.pdf
+     - * احصاء المنشأت الصناعية المتوسطة لسنة 2022 | 2022 | PDF
+       https://cosit.gov.iq/documents/industrial/mid/2022/تقرير متوسطة 2022.pdf
+     - * احصاء المنشأت الصناعية المتوسطة لسنة 2024 | 2024 | PDF
+       https://cosit.gov.iq/documents/industrial/mid/2024/تقرير 2024.pdf
+     - * احصاء المنشات الصناعية الكبيرة السنوي2017 | Annual | 2017 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2017/احصاء المنشات الصناعية الكبيرة
+         السنوي2017.pdf
+     - * احصاء المنشات الصناعية الكبيره التراكمي2016 | 2016 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2016/احصاء المنشات الصناعية الكبيره
+         التراكمي2016.pdf
+     - * احصاء المنشات الصناعية الكبيره التراكمي2017 | 2017 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2017/احصاء المنشات الصناعية الكبيره
+         التراكمي2017.pdf
+     - * احصاء المنشىات الصناعية الكبيرة السنوي 2018 | Annual | 2018 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2018/احصاء المنشىات الصناعية الكبيرة
+         السنوي 2018.pdf
+     - * احصاء المنشىات الصناعية الكبيرة السنوي 2024 | Annual | 2024 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2024/المنشأت الصناعية الكبيرة السنوي
+         2024.pdf
+     - * احصاء المنشىات الصناعية الكبيرة تراكمي 2018 | 2018 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2018/احصاء المنشىات الصناعية الكبيرة
+         تراكمي 2018.pdf
+     - * احصاء المنشىات الصناعية الكبيرة تراكمي 2019 | 2019 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2019/احصاء المنشىات الصناعية الكبيرة
+         تراكمي 2019.pdf
+     - * احصاء المنشىات الصناعية الكبيرة تراكمي 2020 | 2020 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2020/احصاء المنشىات الصناعية الكبيرة
+         تراكمي 2020.pdf
+     - * احصاء المنشىات الصناعية الكبيرة تراكمي 2021 | 2021 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2021/تراكمي 2021.pdf
+     - * احصاء المنشىات الصناعية الكبيرة تراكمي 2022 | 2022 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2022/تقرير تراكمي 2022.pdf
+     - * احصاء المنشىات الصناعية الكبيرة تراكمي 2023 | 2023 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2023/تراكمي  صناعي 2023 pdf.pdf
+     - * احصاء المنشىات الصناعية الكبيرة تراكمي 2024 | 2024 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2024/إحصاء المنشات الصناعي الكبيرة
+         التراكمي 2024.pdf
+     - * احصاء المنشىات الصناعية الكبيرة تراكمي 2025 | 2025 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2025/المنشأت الصناعية الكبيرة تراكمي
+         2025.pdf
+     - * احصاء المنشىات الصناعية الكبيرة سنوي 2020 | Annual | 2020 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2020/الكبيرة سنوي 2020.pdf
+     - * احصاء المنشىات الصناعية الكبيرة سنوي 2021 | Annual | 2021 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2021/تقرير كبيره 2021.pdf
+     - * احصاء المنشىات الصناعية الكبيرة سنوي لاقليم كردستان 2020 | Annual | 2020 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2020/كردستان كبيرة.pdf
+     - * احصاء المنشىات الصناعية الكبيرة سنوي لاقليم كردستان 2022 | Annual | 2022 | PDF
+       https://cosit.gov.iq/documents/industrial/large/2022/تقرير كبيرة كردستان 2022.pdf
+     - * احصاء مشاريع الكهرباء لسنة 2015 | 2015 | PDF
+       https://cosit.gov.iq/documents/industrial/water&electric/احصاء مشاريع الكهرباء لسنة
+         2015.pdf
+     - * احصاء مشاريع الكهرباء لسنة 2016 | 2016 | PDF
+       https://cosit.gov.iq/documents/industrial/water&electric/احصاء مشاريع الكهرباء لسنة
+         2016.pdf
+     - * احصاء مشاريع الكهرباء لسنة 2017 | 2017 | PDF
+       https://cosit.gov.iq/documents/industrial/water&electric/احصاء مشاريع الكهرباء لسنة
+         2017.pdf
+     - * احصاء مشاريع الكهرباء لسنة 2018 | 2018 | PDF
+       https://cosit.gov.iq/documents/industrial/water&electric/احصاء مشاريع الكهرباء لسنة
+         2018.pdf
+     - * احصاء مشاريع الكهرباء لسنة 2019 | 2019 | PDF
+       https://cosit.gov.iq/documents/industrial/water&electric/تقرير الكهرباء 2019.pdf
+     - * احصاء مشاريع الكهرباء لسنة 2020 | 2020 | PDF
+       https://cosit.gov.iq/documents/industrial/water&electric/تقرير كهرباء 2020.pdf
+     - * احصاء مشاريع الكهرباء لسنة 2021 | 2021 | PDF
+       https://cosit.gov.iq/documents/industrial/water&electric/تقرير الكهرباء للصناعي
+         2021.pdf
+     - * احصاء مشاريع الكهرباء لسنة 2022 | 2022 | PDF
+       https://cosit.gov.iq/documents/industrial/water&electric/تقرير الكهرباء للصناعي
+         2022.pdf
+     - * احصاء مشاريع الكهرباء لسنة 2023 | 2023 | PDF
+       https://cosit.gov.iq/documents/industrial/water&electric/رنا.pdf
+     - * احصاء مشاريع الكهرباء لسنة 2024 | 2024 | PDF
+       https://cosit.gov.iq/documents/industrial/water&electric/تقرير كهرباء2024.pdf
+     - * احصاء مشاريع الماء لسنة 2016 | 2016 | PDF
+       https://cosit.gov.iq/documents/industrial/water&electric/احصاء مشاريع الماء لسنة
+         2016.pdf
+     - * احصاء مشاريع الماء لسنة 2017 | 2017 | PDF
+       https://cosit.gov.iq/documents/industrial/water&electric/احصاء مشاريع الماء لسنة
+         2017.pdf
+     - * احصاء مشاريع الماء لسنة 2018 | 2018 | PDF
+       https://cosit.gov.iq/documents/industrial/water&electric/احصاء مشاريع الماء لسنة
+         2018.pdf
+     ... and 523 more (full list in IRQ.json)
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (2 rendered in a browser); 628 file links
+   Formats: PDF 394, XLSX 187, XLS 36, DOCX 8, DOC 3
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: IRQ
+       theme: social_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://cosit.gov.iq/ar/', 'https://cosit.gov.iq/ar/agri-stat/2013-02-11-03-55-45', 'https://cosit.gov.iq/ar/2015-11-23-08-02-49',
+         'https://cosit.gov.iq/ar/2015-11-23-08-03-55', 'https://cosit.gov.iq/ar/national-accounts/income']
+       render_js: auto
+       notes: 28 social statistics file(s) found on these pages - review before enabling
+     - nso: IRQ
+       theme: economic_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://cosit.gov.iq/ar/', 'https://cosit.gov.iq/ar/agri-stat/anim-prod', 'https://cosit.gov.iq/ar/agri-stat/agri-other',
+         'https://cosit.gov.iq/ar/agri-stat/agri-other-3', 'https://cosit.gov.iq/ar/agri-stat/2013-02-11-03-55-45']
+       render_js: auto
+       notes: 536 economic statistics file(s) found on these pages - review before enabling
+
+7. LIMITATIONS / NEXT STEPS
+   - No English version: the non-English pages were analysed (keywords cover Arabic and French).

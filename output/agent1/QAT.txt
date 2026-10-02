@@ -1,0 +1,534 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Qatar  -  National Planning Council (NPC), formerly Planning and Statistics Authority
+Checked 2026-09-29 11:10  |  Agent 1 (agent1_diagnose.py)  |  took 61.7 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://www.npc.qa/en/statistics/Pages/default.aspx
+   Reachable       : yes (HTTP 200)
+   English version : yes
+   Built with      : SharePoint, ASP.NET WebForms
+   Security        : the site's TLS certificate is invalid (checked without certificate validation)
+
+2. API
+   Verdict         : DOCUMENTED - works from Python (no login needed)
+   Documented API: Opendatasoft / Huwise at https://www.data.gov.qa (catalogue of 1889 datasets)
+   Documentation   :
+     https://www.data.gov.qa/api/explore/v2.1/console
+   Site links mentioning API / open data / databank:
+     Open Data Portal -> https://www.data.gov.qa/
+
+   How to call it - curl:
+       curl "https://www.data.gov.qa/api/explore/v2.1/catalog/datasets?limit=10"
+
+   How to call it - Python:
+       import requests
+       
+       catalog = requests.get("https://www.data.gov.qa/api/explore/v2.1/catalog/datasets", params={"limit": 100}, timeout=60).json()
+       datasets = [d["dataset_id"] for d in catalog["results"]]
+       csv_text = requests.get("https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/sdg-5-6-2-extent-to-which-national-laws-and-regulations-guarantee-full-and-equal-access-for-women0/exports/csv", timeout=120).text   # a whole dataset as CSV
+
+3. SOCIAL STATISTICS  (961 datasets, 180 pages, 45 files)
+     - Accident | CSV, XLSX, JSON | latest 2025-07-29
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/accident/exports/csv
+     - Accommodation Data by Segment, Date, and Key Metrics (Supply, Demand, Occupancy, ADR,
+       RevPAR) | CSV, XLSX, JSON | latest 2025-05-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/accommodation-data-by-
+         segment-date-and-key-metrics-supply-demand-occupancy-adr-revpar/exports/csv
+     - Accredited Experts to Judicial Authorities by Gender and Nationality | CSV, XLSX, JSON |
+       latest 2026-07-25
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/accredited-experts-to-
+         judicial-authorities-by-gender-and-nationality0/exports/csv
+     - Activities, rendered by the Family Consulting Center (Wifaq) | CSV, XLSX, JSON | latest
+       2025-08-17
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/activities-rendered-by-the-
+         family-consulting-center-wifaq/exports/csv
+     - Adolescent Births for Women Aged 15-19 Years | CSV, XLSX, JSON | latest 2026-09-26
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/adolescent-births-for-women-
+         aged-15-19-years/exports/csv
+     - Adult Athletes' Championships by Sports Activity and Implementation Level (2023) | 2023
+       | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/adult-athletes-
+         championships-by-sports-activity-and-implementation-level-2023/exports/csv
+     - Adult Athletes’ Championships by Implementation Level | CSV, XLSX, JSON | latest
+       2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/adult-athletes-
+         championships-by-implementation-level/exports/csv
+     - Adult Illiteracy Rate (15 Years and Above) by Gender | CSV, XLSX, JSON | latest
+       2026-09-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/adult-illiteracy-
+         rate-15-years-and-above-by-gender/exports/csv
+     - Age-Sex Distribution of Youth by Activity Type and Nationality – 2022 | 2022 | CSV,
+       XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/age-sex-distribution-of-
+         youth-by-activity-type-and-nationality-2022/exports/csv
+     - Annual Birth And Mortality Statistics | CSV, XLSX, JSON | latest 2025-06-03
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/annual-birth-and-mortality-
+         statistics/exports/csv
+     - Annual Mean Levels of Fine Particulate Matter (PM10) in Cities (Population Weighted) |
+       CSV, XLSX, JSON | latest 2025-05-29
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/annual-mean-levels-of-fine-
+         particulate-matter-pm10-in-cities-population-weighted/exports/csv
+     - Annual Real Estate Ownership by GCC Citizens by Nationality | CSV, XLSX, JSON | latest
+       2025-05-26
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/annual-real-estate-
+         ownership-by-gcc-citizens-by-nationality/exports/csv
+     - Arab Championships by Age Group | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arab-championships-by-age-
+         group/exports/csv
+     - Arab Championships by Sports Activity and Age Groups (2021-2022) | 2021-2022 | CSV,
+       XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arab-championships-by-
+         sports-activity-and-age-groups-2021-2022/exports/csv
+     - Arab Championships by Sports Activity and Age Groups (2023) | 2023 | CSV, XLSX, JSON |
+       latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arab-championships-by-
+         sports-activity-and-age-groups-2023/exports/csv
+     - Area of Greenspaces and Road Medians by Municipality in Qatar | CSV, XLSX, JSON | latest
+       2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/area-of-greenspaces-and-
+         road-medians-by-municipality-in-qatar/exports/csv
+     - Area of Greenspaces, Area of Road Sides and Median Strips in Qatar, by Municipality |
+       CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/area-of-greenspaces-area-of-
+         road-sides-and-median-strips-in-qatar-by-municipality/exports/csv
+     - Area of Palms, Trees, Shrubs and Other Greenery in Public Parks by Municipality and Type
+       of Vegetation | CSV, XLSX, JSON | latest 2025-05-14
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/area-of-palms-trees-shrubs-
+         and-other-greenery-in-public-parks-by-municipality-and-type-of-
+         vegetation/exports/csv
+     - Area of Public Parks by Municipality | CSV, XLSX, JSON | latest 2025-05-13
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/area-of-public-parks-by-
+         municipality/exports/csv
+     - Asian Championships by Age Group | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/asian-championships-by-age-
+         group/exports/csv
+     - Asian Championships by Sports Activity and Age Groups (2021-2022) | 2021-2022 | CSV,
+       XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/asian-championships-by-
+         sports-activity-and-age-groups-2021-2022/exports/csv
+     - Asian Championships by Sports Activity and Age Groups (2023) | 2023 | CSV, XLSX, JSON |
+       latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/asian-championships-by-
+         sports-activity-and-age-groups-2023/exports/csv
+     - Assistant Coaches Accredited in Sports Federations, by Sports Activity, Place of Work
+       and Nationality (2023) | 2023 | CSV, XLSX, JSON | latest 2026-04-23
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/assassistant-coaches-
+         accredited-in-sports-federations-by-sports-activity-place-of-work-and/exports/csv
+     - Assistant Coaches in Sports Federations by Activity, Workplace and Nationality
+       (2021-2022) | 2021-2022 | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/assistant-coaches-in-sports-
+         federations-by-activity-workplace-and-nationality-2021-2022/exports/csv
+     - Athletes Registered in Disabled Sports Federation by Type of Disability, Age Groups and
+       Gender (2023) | 2023 | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/athletes-registered-in-
+         disabled-sports-federation-by-type-of-disability-age-groups-and-
+         gender-2023/exports/csv
+     - Athletes Registered in Sports Federations by Sports Activity, Age Groups and Gender
+       (2023) | 2023 | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/athletes-registered-in-
+         sports-federations-by-sports-activity-age-groups-and-gender-2023/exports/csv
+     - Athletes Registered with Disabled Sports Federation by Type of Disability, Age Groups
+       and Gender (2021-2022) | 2021-2022 | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/athletes-registered-with-
+         disabled-sports-federation-by-type-of-disability-age-groups-and-
+         gender-2021/exports/csv
+     - Athletes Registered with Sports Federations by Age Group and Gender | CSV, XLSX, JSON |
+       latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/athletes-registered-with-
+         sports-federations-by-age-group-and-gender/exports/csv
+     - Athletes Registered with Sports Federations by Sports Activity, Age Groups and Gender
+       (2021-2022) | 2021-2022 | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/athletes-registered-with-
+         sports-federations-by-sports-activity-age-groups-and-gender-2021-2022/exports/csv
+     - Attendance in Evening Schools & Illiteracy Eradication Centers by Level, Grade,
+       Nationality & Gender | CSV, XLSX, JSON | latest 2026-07-25
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/attendance-in-evening-
+         schools-and-illiteracy-eradication-centers-by-level-grade-nationality-
+         and/exports/csv
+     - Average Age Of daily Smoking Initiation By Gender | CSV, XLSX, JSON | latest 2025-05-26
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/average-age-of-daily-
+         smoking-initiation-by-gender/exports/csv
+     - Average Monthly Air Pollutants Indicator – Movenpick (Qatar University) | CSV, XLSX,
+       JSON | latest 2025-05-12
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/average-monthly-air-
+         pollutants-indicator-movenpick-qatar-university/exports/csv
+     - Average Monthly Wage (Q.R.) for Workers in Private Sector in Qatar | CSV, XLSX, JSON |
+       latest 2026-09-26
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/average-monthly-wage-q-r-
+         for-workers-in-private-sector-in-qatar-2021-2025/exports/csv
+     - Average Monthly Wage (QR) for Workers in Paid Employment (15 Years & Above) by Gender &
+       GPI | CSV, XLSX, JSON | latest 2026-06-03
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/average-monthly-wage-qr-for-
+         workers-in-paid-employment-15-years-and-above-by-gender-and-gpi/exports/csv
+     - Average age at first marriage by gender and nationality | CSV, XLSX, JSON | latest
+       2026-07-25
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/mean-age-at-first-marriage-
+         by-gender-and-nationality/exports/csv
+     - Average monthly wages by economic activity | CSV, XLSX, JSON | latest 2025-05-19
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/average-monthly-wages-by-
+         economic-activity/exports/csv
+     - Beneficiaries of Security by Location of Branch | CSV, XLSX, JSON | latest 2026-05-02
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/beneficiaries-of-security-
+         by-location-of-branch/exports/csv
+     - Beneficiaries of Social Security (Servant Allowance) by Type of Allowance and Gender |
+       CSV, XLSX, JSON | latest 2026-09-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/beneficiaries-of-social-
+         security-servant-allowance-by-type-of-allowance-and-gender/exports/csv
+     - Beneficiaries of Social Security by Location | CSV, XLSX, JSON | latest 2026-05-02
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/beneficiaries-of-social-
+         security-by-location/exports/csv
+     - Beneficiaries of services rendered by Social Development Center by type and nationality
+       | CSV, XLSX, JSON | latest 2025-08-17
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/beneficiaries-of-services-
+         rendered-by-social-development-center-by-type-and-nationality/exports/csv
+     - Beneficiaries of the Services of Entrepreneurship Support Programs by the Social
+       Development Center (NAMA) by Nationality, Gender and Program Type | CSV, XLSX, JSON |
+       latest 2025-05-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/beneficiaries-of-the-
+         services-of-entrepreneurship-support-programs-by-the-social-development-center-nama-
+         by-nationality-gender-and-program-type/exports/csv
+     - Beneficiaries of the Services of Youth Capacity Building & Development Programs Provided
+       by the Social Development Center (NAMA) by Nationality, Gender and Program Type | CSV,
+       XLSX, JSON | latest 2025-05-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/beneficiaries-of-the-
+         services-of-youth-capacity-building-and-development-programs-provided-by-the-social-
+         development-center-nama-by-nationality-gender-and-program-type/exports/csv
+     - Beneficiaries of the Social Security by Type of Security and Gender | CSV, XLSX, JSON |
+       latest 2025-06-03
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/beneficiaries-of-the-social-
+         security-by-type-of-security-and-gender/exports/csv
+     - Beneficiaries received training services in Project Service Program rendered by Social
+       Development Center by nationality, gender | CSV, XLSX, JSON | latest 2025-08-17
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/beneficiaries-received-
+         training-services-in-project-service-program-rendered-by-social-
+         development/exports/csv
+     - Beneficiaries received training services rendered by Social Development Center by
+       nationality, gender and type of programs | CSV, XLSX, JSON | latest 2025-08-17
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/beneficiaries-received-
+         training-services-rendered-by-social-development-center-by-nationality-
+         gender/exports/csv
+     - Biological Water Quality Compliance by Year | CSV, XLSX, JSON | latest 2026-08-24
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/biological-water-quality-
+         compliance-by-year/exports/csv
+     - Building Completion Certificates Issued by Type of Certificate and Month - Al Khor and
+       Al Thakhira Municipality | CSV, XLSX, JSON | latest 2026-08-31
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/building-completion-
+         certificates-issued-by-type-of-certificate-and-month-al-khor-and-al-
+         thakhira/exports/csv
+     - Building Completion Certificates Issued by Type of Certificate and Month - Al Shahhaniya
+       Municipality | CSV, XLSX, JSON | latest 2026-08-31
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/building-completion-
+         certificates-issued-by-type-of-certificate-and-month-al-shahhaniya-
+         municipality/exports/csv
+     - Building Completion Certificates Issued by Type of Certificate and Month - Al Shamal
+       Municipality | CSV, XLSX, JSON | latest 2026-08-31
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/building-completion-
+         certificates-issued-by-type-of-certificate-and-month-al-shamal-
+         municipality/exports/csv
+     - Building Completion Certificates Issued by Type of Certificate and Month - Al Wakrah
+       Municipality | CSV, XLSX, JSON | latest 2026-08-31
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/building-completion-
+         certificates-issued-by-type-of-certificate-and-month-al-wakrah-
+         municipality/exports/csv
+     - Building Completion Certificates Issued by Type of Certificate and Month - Doha
+       Municipality | CSV, XLSX, JSON | latest 2026-08-31
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/building-completion-
+         certificates-issued-by-type-of-certificate-and-month-doha-municipality/exports/csv
+     - Building Permits Issued by Type of Permit and Month - Al Daayen Municipality | CSV,
+       XLSX, JSON | latest 2026-09-02
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/building-permits-issued-by-
+         type-of-permit-and-month-al-daayen-municipality/exports/csv
+     - Building Permits Issued by Type of Permit and Month - Al Shahhaniya Municipality | CSV,
+       XLSX, JSON | latest 2026-09-02
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/building-permits-issued-by-
+         type-of-permit-and-month-al-shahhaniya-municipality/exports/csv
+     - Building Permits Issued by Type of Permit and Month - Al Shamal Municipality | CSV,
+       XLSX, JSON | latest 2026-09-02
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/building-permits-issued-by-
+         type-of-permit-and-month-al-shamal-municipality/exports/csv
+     - Building Permits Issued by Type of Permit and Month - Al Wakrah Municipality | CSV,
+       XLSX, JSON | latest 2026-09-02
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/building-permits-issued-by-
+         type-of-permit-and-month-al-wakrah-municipality/exports/csv
+     - Building Permits Issued by Type of Permit and Month - Umm Slal Municipality | CSV, XLSX,
+       JSON | latest 2026-08-31
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/building-permits-issued-by-
+         type-of-permit-and-month-umm-slal-municipality/exports/csv
+     - Buildings by Buildings Status and Municipality in Census ( 2010 , 2020 ) | 2010-2020 |
+       CSV, XLSX, JSON | latest 2026-08-02
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/buildings-by-buildings-
+         status-and-municipality-in-census-2010-20200/exports/csv
+     - Business Establishments and Employees by Sector According to Census 2015 | 2015 | CSV,
+       XLSX, JSON | latest 2026-09-14
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/business-establishments-and-
+         employees-by-sector-according-to-census-2015/exports/csv
+     - Business Establishments by Ownership Sector in 2004, 2010 and 2015 Censuses | 2004-2015
+       | CSV, XLSX, JSON | latest 2025-05-29
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/business-establishments-by-
+         ownership-sector-in-2004-2010-and-2015-censuses/exports/csv
+     - Cases Raised in Courts by Type of Case and Crime | CSV, XLSX, JSON | latest 2026-07-25
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/cases-raised-in-courts-by-
+         type-of-case-and-crime0/exports/csv
+     ... and 1126 more (full list in QAT.json)
+
+4. ECONOMIC STATISTICS  (922 datasets, 36 pages, 107 files)
+     - Accident | CSV, XLSX, JSON | latest 2025-07-29
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/accident/exports/csv
+     - Accommodation Data by Segment, Date, and Key Metrics (Supply, Demand, Occupancy, ADR,
+       RevPAR) | CSV, XLSX, JSON | latest 2025-05-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/accommodation-data-by-
+         segment-date-and-key-metrics-supply-demand-occupancy-adr-revpar/exports/csv
+     - Adult Athletes' Championships by Sports Activity and Implementation Level (2023) | 2023
+       | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/adult-athletes-
+         championships-by-sports-activity-and-implementation-level-2023/exports/csv
+     - Adult Athletes’ Championships by Implementation Level | CSV, XLSX, JSON | latest
+       2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/adult-athletes-
+         championships-by-implementation-level/exports/csv
+     - Age-Sex Distribution of Youth by Activity Type and Nationality – 2022 | 2022 | CSV,
+       XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/age-sex-distribution-of-
+         youth-by-activity-type-and-nationality-2022/exports/csv
+     - Aircraft activity at Doha International Airport by type and year | CSV, XLSX, JSON |
+       latest 2025-08-17
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/aircraft-activity-at-doha-
+         international-airport-by-type-and-year/exports/csv
+     - Aircraft activity at Hamad International Airport by type and year | CSV, XLSX, JSON |
+       latest 2025-08-17
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/aircraft-activity-at-hamad-
+         international-airport-by-type-and-year/exports/csv
+     - Aircraft and Cargo Activity at Hamad International Airport | CSV, XLSX, JSON | latest
+       2026-06-20
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/aircraft-and-cargo-activity-
+         at-hamad-international-airport/exports/csv
+     - Aircraft fleet size of the national carrier | CSV, XLSX, JSON | latest 2026-07-20
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/aircraft-fleet-size-of-the-
+         national-carrier/exports/csv
+     - Allocations of Some Major Sectors | CSV, XLSX, JSON | latest 2026-06-07
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/allocations-of-some-major-
+         sectors/exports/csv
+     - Amount of Energy Used in Operational District Cooling Plants and Energy Savings by
+       Economic Activity (MWh) | CSV, XLSX, JSON | latest 2026-07-24
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/amount-of-energy-used-in-
+         operational-district-cooling-plants-and-energy-savings-by-economic-
+         activity/exports/csv
+     - Annual Certificates of Origin by Type and Importing Country (Open Access Data) | CSV,
+       XLSX, JSON | latest 2025-05-29
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/annual-certificates-of-
+         origin-by-type-and-importing-country-open-access-data/exports/csv
+     - Annual Growth Rate of Water Subscribers | CSV, XLSX, JSON | latest 2026-09-22
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/demand-for-water-by-type-
+         number-and-growth-rate-of-subscribers/exports/csv
+     - Annual Growth in Peak Electricity Demand by Sector (%) | CSV, XLSX, JSON | latest
+       2026-06-20
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/annual-growth-in-peak-
+         electricity-demand-by-sector/exports/csv
+     - Annual Mean Levels of Fine Particulate Matter (PM10) in Cities (Population Weighted) |
+       CSV, XLSX, JSON | latest 2025-05-29
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/annual-mean-levels-of-fine-
+         particulate-matter-pm10-in-cities-population-weighted/exports/csv
+     - Annual Real Estate Ownership by GCC Citizens by Nationality | CSV, XLSX, JSON | latest
+       2025-05-26
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/annual-real-estate-
+         ownership-by-gcc-citizens-by-nationality/exports/csv
+     - Annual Relative Humidity and Rainfall – Qatar | CSV, XLSX, JSON | latest 2025-05-07
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/annual-relative-humidity-
+         and-rainfall-qatar/exports/csv
+     - Annual average wind speed by selected weather monitoring stations | CSV, XLSX, JSON |
+       latest 2025-05-31
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/annual-average-wind-speed-
+         by-selected-weather-monitoring-stations/exports/csv
+     - Annual_Average_Consumer_Prices_Selected_Commodities | CSV, XLSX, JSON | latest
+       2026-07-24
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/annual_average_consumer_pric
+         es_selected_commodities/exports/csv
+     - Arab Championships by Age Group | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arab-championships-by-age-
+         group/exports/csv
+     - Arab Championships by Sports Activity and Age Groups (2021-2022) | 2021-2022 | CSV,
+       XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arab-championships-by-
+         sports-activity-and-age-groups-2021-2022/exports/csv
+     - Arab Championships by Sports Activity and Age Groups (2023) | 2023 | CSV, XLSX, JSON |
+       latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arab-championships-by-
+         sports-activity-and-age-groups-2023/exports/csv
+     - Area of Greenspaces and Road Medians by Municipality in Qatar | CSV, XLSX, JSON | latest
+       2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/area-of-greenspaces-and-
+         road-medians-by-municipality-in-qatar/exports/csv
+     - Area of Greenspaces, Area of Road Sides and Median Strips in Qatar, by Municipality |
+       CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/area-of-greenspaces-area-of-
+         road-sides-and-median-strips-in-qatar-by-municipality/exports/csv
+     - Area of Palms, Trees, Shrubs and Other Greenery in Public Parks by Municipality and Type
+       of Vegetation | CSV, XLSX, JSON | latest 2025-05-14
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/area-of-palms-trees-shrubs-
+         and-other-greenery-in-public-parks-by-municipality-and-type-of-
+         vegetation/exports/csv
+     - Area of Public Parks by Municipality | CSV, XLSX, JSON | latest 2025-05-13
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/area-of-public-parks-by-
+         municipality/exports/csv
+     - Arrival and departures via hamad international airport by month and year | CSV, XLSX,
+       JSON | latest 2025-05-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arrival-and-departures-via-
+         hamad-international-airport-by-month-and-year/exports/csv
+     - Arrivals  Departures and Transit Through State Borders | CSV, XLSX, JSON | latest
+       2026-06-20
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arrivals-departures-and-
+         transit-through-state-borders/exports/csv
+     - Arriving Vessels Gross and Net Tonnage by Type of Vessel and Country of Previous Port |
+       CSV, XLSX, JSON | latest 2026-06-20
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arriving-vessels-gross-and-
+         net-tonnage-by-type-of-vessel-and-country-of-previous-port/exports/csv
+     - Arriving Vessels' Gross and Net Tonnage By Type of Vessel and Country of Registration
+       Al- Rowais Port | CSV, XLSX, JSON | latest 2026-04-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arriving-vessels-gross-and-
+         net-tonnage-by-type-of-vessel-and-country-of-registration-al-rowais-port/exports/csv
+     - Arriving Vessels' Gross and Net Tonnage By Type of Vessel and Country of Registration
+       Doha Port | CSV, XLSX, JSON | latest 2026-04-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arriving-vessels-gross-and-
+         net-tonnage-by-type-of-vessel-and-country-of-registration-doha-port/exports/csv
+     - Arriving Vessels' Gross and Net Tonnage By Type of Vessel and Country of Registration
+       Hamad Port | CSV, XLSX, JSON | latest 2026-04-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arriving-vessels-gross-and-
+         net-tonnage-by-type-of-vessel-and-country-of-registration-hamad-port0/exports/csv
+     - Arriving Vessels' Gross and Net Tonnage By Type of Vessel and Country of Registration
+       Mesaieed Port | CSV, XLSX, JSON | latest 2026-04-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arriving-vessels-gross-and-
+         net-tonnage-by-type-of-vessel-and-country-of-registration-mesaieed-port/exports/csv
+     - Arriving Vessels' Gross and Net Tonnage By Type of Vessel and Month Doha Port | CSV,
+       XLSX, JSON | latest 2026-04-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arriving-vessels-gross-and-
+         net-tonnage-by-type-of-vessel-and-month-doha-port/exports/csv
+     - Arriving Vessels' Gross and Net Tonnage By Type of Vessel and Month Halul Port | CSV,
+       XLSX, JSON | latest 2026-04-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arriving-vessels-gross-and-
+         net-tonnage-by-type-of-vessel-and-month-halul-port/exports/csv
+     - Arriving Vessels' Gross and Net Tonnage By Type of Vessel and Month Hamad Port | CSV,
+       XLSX, JSON | latest 2026-04-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arriving-vessels-gross-and-
+         net-tonnage-by-type-of-vessel-and-month-hamad-port/exports/csv
+     - Arriving Vessels' Gross and Net Tonnage By Type of Vessel and Month Mesaieed Port | CSV,
+       XLSX, JSON | latest 2026-04-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arriving-vessels-gross-and-
+         net-tonnage-by-type-of-vessel-and-month-mesaieed-port/exports/csv
+     - Arriving Vessels' Gross and Net Tonnage By Type of Vessel and Month Total | CSV, XLSX,
+       JSON | latest 2026-04-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/arriving-vessels-gross-and-
+         net-tonnage-by-type-of-vessel-and-month-total/exports/csv
+     - Asian Championships by Age Group | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/asian-championships-by-age-
+         group/exports/csv
+     - Asian Championships by Sports Activity and Age Groups (2021-2022) | 2021-2022 | CSV,
+       XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/asian-championships-by-
+         sports-activity-and-age-groups-2021-2022/exports/csv
+     - Asian Championships by Sports Activity and Age Groups (2023) | 2023 | CSV, XLSX, JSON |
+       latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/asian-championships-by-
+         sports-activity-and-age-groups-2023/exports/csv
+     - Assistant Coaches Accredited in Sports Federations, by Sports Activity, Place of Work
+       and Nationality (2023) | 2023 | CSV, XLSX, JSON | latest 2026-04-23
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/assassistant-coaches-
+         accredited-in-sports-federations-by-sports-activity-place-of-work-and/exports/csv
+     - Assistant Coaches in Sports Federations by Activity, Workplace and Nationality
+       (2021-2022) | 2021-2022 | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/assistant-coaches-in-sports-
+         federations-by-activity-workplace-and-nationality-2021-2022/exports/csv
+     - Athletes Registered in Disabled Sports Federation by Type of Disability, Age Groups and
+       Gender (2023) | 2023 | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/athletes-registered-in-
+         disabled-sports-federation-by-type-of-disability-age-groups-and-
+         gender-2023/exports/csv
+     - Athletes Registered in Sports Federations by Sports Activity, Age Groups and Gender
+       (2023) | 2023 | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/athletes-registered-in-
+         sports-federations-by-sports-activity-age-groups-and-gender-2023/exports/csv
+     - Athletes Registered with Disabled Sports Federation by Type of Disability, Age Groups
+       and Gender (2021-2022) | 2021-2022 | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/athletes-registered-with-
+         disabled-sports-federation-by-type-of-disability-age-groups-and-
+         gender-2021/exports/csv
+     - Athletes Registered with Sports Federations by Age Group and Gender | CSV, XLSX, JSON |
+       latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/athletes-registered-with-
+         sports-federations-by-age-group-and-gender/exports/csv
+     - Athletes Registered with Sports Federations by Sports Activity, Age Groups and Gender
+       (2021-2022) | 2021-2022 | CSV, XLSX, JSON | latest 2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/athletes-registered-with-
+         sports-federations-by-sports-activity-age-groups-and-gender-2021-2022/exports/csv
+     - Average Daily Sunshine Hours by Months - Doha International Airport | CSV, XLSX, JSON |
+       latest 2026-09-12
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/average-daily-sunshine-
+         hours-by-months-doha-international-airport0/exports/csv
+     - Average Daily Sunshine Hours by Months Doha International Airport | CSV, XLSX, JSON |
+       latest 2025-05-29
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/average-daily-sunshine-
+         hours-by-months-doha-international-airport/exports/csv
+     - Average Daily Sunshine Hours by Months Hamad International Airport | CSV, XLSX, JSON |
+       latest 2025-05-29
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/average-daily-sunshine-
+         hours-by-months-hamad-international-airport/exports/csv
+     - Average Monthly Air Pollutants Indicator – Movenpick (Qatar University) | CSV, XLSX,
+       JSON | latest 2025-05-12
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/average-monthly-air-
+         pollutants-indicator-movenpick-qatar-university/exports/csv
+     - Average Monthly of the Air Pollutants Indicator - Aspire Zone | CSV, XLSX, JSON | latest
+       2025-05-28
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/average-monthly-of-the-air-
+         pollutants-indicator-aspire-zone/exports/csv
+     - Average Monthly of the Air Pollutants Indicator - Movenpick (Al Corniche) | CSV, XLSX,
+       JSON | latest 2025-05-12
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/average-monthly-of-the-air-
+         pollutants-indicator-movenpick-al-corniche/exports/csv
+     - Average marine acidity (pH) measured at agreed suite of representative sampling stations
+       | CSV, XLSX, JSON | latest 2026-07-29
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/average-marine-acidity-ph-
+         measured-at-agreed-suite-of-representative-sampling-stations0/exports/csv
+     - Average monthly wages by economic activity | CSV, XLSX, JSON | latest 2025-05-19
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/average-monthly-wages-by-
+         economic-activity/exports/csv
+     - Awareness | CSV, XLSX, JSON | latest 2026-06-18
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/awareness/exports/csv
+     - Beneficiaries of the Services of Entrepreneurship Support Programs by the Social
+       Development Center (NAMA) by Nationality, Gender and Program Type | CSV, XLSX, JSON |
+       latest 2025-05-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/beneficiaries-of-the-
+         services-of-entrepreneurship-support-programs-by-the-social-development-center-nama-
+         by-nationality-gender-and-program-type/exports/csv
+     - Beneficiaries of the Services of Youth Capacity Building & Development Programs Provided
+       by the Social Development Center (NAMA) by Nationality, Gender and Program Type | CSV,
+       XLSX, JSON | latest 2025-05-27
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/beneficiaries-of-the-
+         services-of-youth-capacity-building-and-development-programs-provided-by-the-social-
+         development-center-nama-by-nationality-gender-and-program-type/exports/csv
+     - Biological Water Quality Compliance by Year | CSV, XLSX, JSON | latest 2026-08-24
+       https://www.data.gov.qa/api/explore/v2.1/catalog/datasets/biological-water-quality-
+         compliance-by-year/exports/csv
+     ... and 1005 more (full list in QAT.json)
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (1 rendered in a browser); 184 file links
+   Formats: PDF 125, XLSX 26, XML 21, XLS 12
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: QAT
+       theme: economic_statistics
+       method: api
+       connector: opendatasoft
+       enabled: true
+       options: {portal: 'https://www.data.gov.qa'}
+       notes: Opendatasoft/Huwise Explore API v2.1 (documented)
+     - nso: QAT
+       theme: social_statistics
+       method: api
+       connector: opendatasoft
+       enabled: true
+       options: {portal: 'https://www.data.gov.qa'}
+       notes: Opendatasoft/Huwise Explore API v2.1 (documented)
+
+7. LIMITATIONS / NEXT STEPS
+   - none noted

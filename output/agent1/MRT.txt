@@ -1,0 +1,174 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Mauritania  -  Agence Nationale de la Statistique et de l'Analyse Demographique et Economique (ANSADE)
+Checked 2026-09-29 11:14  |  Agent 1 (agent1_diagnose.py)  |  took 92.0 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://ansade.mr/
+   Reachable       : yes (HTTP 200)
+   English version : no English version
+   Built with      : WordPress, JavaScript-rendered pages
+   Note: French/Arabic; content is rendered by JavaScript.
+
+2. API
+   Verdict         : UNDOCUMENTED - works from Python (no login needed)
+   No official documentation, but the website's own data API at admin.ansade.mr answers plain
+     Python requests (found by API sniffing).
+   Documentation   : none official
+   Site links mentioning API / open data / databank:
+     البيانات المتاحة قاعدة البيانات المتاحة للمستخدمين -> https://ansade.mr/databases/opendata
+     قواعد البيانات -> https://ansade.mr/databases
+
+   How to call it - curl:
+       curl -H "accept-language: ar" "https://admin.ansade.mr/wp-json/ansade/v1/press-
+         releases/?lang=ar"
+
+   How to call it - Python:
+       import requests
+       
+       url = "https://admin.ansade.mr/wp-json/ansade/v1/press-releases/?lang=ar"
+       headers = {"accept-language": "ar"}
+       response = requests.get(url, headers=headers, timeout=60)
+       response.raise_for_status()
+       data = response.json()
+
+   API sniffing - data calls the website made: 9 distinct, 9 worked again from plain Python
+     [OK ] GET admin.ansade.mr/wp-json/ansade/v1/press-releases/  (application/json)
+     [OK ] GET admin.ansade.mr/wp-json/ansade/v1/menus/header/  (application/json)
+     [OK ] GET admin.ansade.mr/wp-json/ansade/v1/landing/key-indicators/  (application/json)
+     [OK ] GET admin.ansade.mr/wp-json/ansade/v1/landing/banners/  (application/json)
+     [OK ] GET admin.ansade.mr/wp-json/ansade/v1/menus/footer/  (application/json)
+     [OK ] GET admin.ansade.mr/wp-json/ansade/v1/landing/quick-access/  (application/json)
+     [OK ] GET admin.ansade.mr/wp-json/ansade/v1/publications/{id}/  (application/json)
+     [OK ] GET admin.ansade.mr/wp-json/ansade/v1/landing/footer/  (application/json)
+     [OK ] GET admin.ansade.mr/wp-json/ansade/v1/landing/headlines/  (application/json)
+
+3. SOCIAL STATISTICS  (4 files, 8 pages)
+     - 2026 السكان 5.343.892 | 2023-2026 | PDF
+       https://ansade.mr/wp-
+         content/uploads/2025/11/Projections_demographiques_Mauritanie_2023-2053.pdf
+     - الفصل الأول 2026 النمو الاقتصادي 0,4% | 2026 | PDF
+       https://admin.ansade.mr/wp-content/uploads/2026/08/%D9%85%D8%B0%D9%83%D9%80%D9%80%D9%8
+         0%D9%80%D8%B1%D8%A9-%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D9%86%D9%85%D9%88-
+         %D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A-
+         %D9%84%D9%84%D9%81%D8%B5%D9%84-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%85%D9%86-
+         %D8%B3%D9%86%D8%A9-2026.pdf
+     - عرض | 2025-2026 | PDF
+       https://admin.ansade.mr/wp-content/uploads/2026/09/الدليل-السنوي-للإحصاءات-
+         الديموغرافية-والاجتماعية-2025.pdf
+     - مؤشرات التشغيل والبطالة بلغ معدل البطالة، الذي يعكس البحث النشط عن عمل من قبل الأشخاص
+       غير العاملين والمتاحين للعمل، 11,97% خلال الفصل الأول من سنة 2026، مسجّلاً انخفاضاً
+       بمقدار 0,80 نقطة مئوية مقارنة  | Annual | 2026 | PDF
+       https://admin.ansade.mr/wp-content/uploads/2026/06/%D8%A7%D9%84%D9%86%D8%AA%D8%A7%D8%A
+         6%D8%AC-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9-
+         %D9%84%D9%84%D9%81%D8%B5%D9%84-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%85%D9%86-
+         %D8%B3%D9%86%D8%A9-2026-.pdf
+     - الإحصاءات السكانية والاجتماعية
+       https://ansade.mr/demographics-social
+     - الدليل السنوي للإحصاءات الديموغرافية والاجتماعية 2025 | Annual | 2025
+       https://ansade.mr/publications/14624
+     - الفقر وظروف المعيشة
+       https://ansade.mr/poverty-living-conditions
+     - المؤشرات المؤشرات الاقتصادية والاجتماعية
+       https://ansade.mr/statistics
+     - حوكمة شبكات الأمان الاجتماعي
+       https://ansade.mr/governance
+     - خطط العمل خطط العمل وبرامج التطوير الإحصائي
+       https://ansade.mr/governance/action-plans
+     - عرض البيانات
+       https://ansade.mr/statistics/demographics-social
+     - عرض البيانات
+       https://ansade.mr/statistics/poverty-living-conditions
+
+4. ECONOMIC STATISTICS  (10 files, 8 pages)
+     - 2026 السكان 5.343.892 | 2023-2026 | PDF
+       https://ansade.mr/wp-
+         content/uploads/2025/11/Projections_demographiques_Mauritanie_2023-2053.pdf
+     - التجارة الخارجية بلغت المبادلات التجارية لموريتانيا مع باقي دول العالم 228 114 مليون
+       أوقية، مسجّلة ارتفاعا بنسبة % 2,4 خلال الفصل الثاني من سنة .2026 ويُعزى هذا التطورأساسًا
+       إلى ارتفاع الواردات بنسبة  | Annual | 2026 | PDF
+       https://admin.ansade.mr/wp-content/uploads/2026/08/%D8%A7%D9%84%D9%86%D8%B4%D8%B1%D8%A
+         9-%D8%A7%D9%84%D9%81%D8%B5%D9%84%D9%8A%D8%A9-
+         %D9%84%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-
+         %D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-
+         %D9%84%D9%85%D9%88%D8%B1%D9%8A%D8%AA%D8%A7%D9%86%D9%8A%D8%A7-
+         %D8%A7%D9%84%D9%81%D8%B5%D9%84-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-2026.pdf
+     - الفصل الأول 2026 النمو الاقتصادي 0,4% | 2026 | PDF
+       https://admin.ansade.mr/wp-content/uploads/2026/08/%D9%85%D8%B0%D9%83%D9%80%D9%80%D9%8
+         0%D9%80%D8%B1%D8%A9-%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D9%86%D9%85%D9%88-
+         %D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A-
+         %D9%84%D9%84%D9%81%D8%B5%D9%84-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%85%D9%86-
+         %D8%B3%D9%86%D8%A9-2026.pdf
+     - المؤشر الوطني لأسعار الاستهلاك في أغسطس 2026، سجل معدل التضخم على مدى الاثني عشر شهرًا
+       الماضية ارتفاعًا بلغ 5,6%. وأما على أساس سنوي فقد بلغ 8,9%. لمعرفة المزيد | Annual |
+       2026 | PDF
+       https://admin.ansade.mr/wp-content/uploads/2026/09/%D8%A7%D9%84%D9%86%D8%B4%D8%B1%D8%A
+         9-%D8%A7%D9%84%D8%B4%D9%87%D8%B1%D9%8A%D8%A9-%D9%84%D9%84%D9%85%D8%A4%D8%B4%D8%B1-
+         %D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%84%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-
+         %D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%87%D9%84%D8%A7%D9%83-
+         %D8%A3%D8%BA%D8%B3%D8%B7%D8%B3%E2%80%93-2026.pdf
+     - عرض | 2026 | PDF
+       https://admin.ansade.mr/wp-content/uploads/2026/09/النشرة-الفصلية-للظرفية-الاقتصادية-
+         الفصل-الثاني-2026.pdf
+     - عرض | 2026 | PDF
+       https://admin.ansade.mr/wp-content/uploads/2026/08/مؤشر-الإنتاج-الصناعي-الفصل-
+         الثاني-2026.pdf
+     - عرض | 2026 | PDF
+       https://admin.ansade.mr/wp-content/uploads/2026/08/النشرة-البيانية-للظرفية-الاقتصادية-
+         الفصل-الثاني-2026.pdf
+     - عرض | 2025-2026 | PDF
+       https://admin.ansade.mr/wp-content/uploads/2026/08/الدليل-السنوي-للإحصاءات-
+         الاقتصادية-2025.pdf
+     - مؤشرات التشغيل والبطالة بلغ معدل البطالة، الذي يعكس البحث النشط عن عمل من قبل الأشخاص
+       غير العاملين والمتاحين للعمل، 11,97% خلال الفصل الأول من سنة 2026، مسجّلاً انخفاضاً
+       بمقدار 0,80 نقطة مئوية مقارنة  | Annual | 2026 | PDF
+       https://admin.ansade.mr/wp-content/uploads/2026/06/%D8%A7%D9%84%D9%86%D8%AA%D8%A7%D8%A
+         6%D8%AC-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9-
+         %D9%84%D9%84%D9%81%D8%B5%D9%84-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D9%85%D9%86-
+         %D8%B3%D9%86%D8%A9-2026-.pdf
+     - مذكــــرة-حول-النمو-الاقتصادي-للفصل-الأول-من-سنة-2026.pdf | 2026 | PDF
+       https://admin.ansade.mr/wp-content/uploads/2026/08/مذكــــرة-حول-النمو-الاقتصادي-
+         للفصل-الأول-من-سنة-2026.pdf
+     - الاقتصاد
+       https://ansade.mr/economic
+     - الدليل السنوي للإحصاءات الاقتصادية 2025 | Annual | 2025
+       https://ansade.mr/publications/14598
+     - المؤشرات المؤشرات الاقتصادية والاجتماعية
+       https://ansade.mr/statistics
+     - النشرة البيانية للظرفية الاقتصادية الفصل الثاني 2026 | 2026
+       https://ansade.mr/publications/14610
+     - النشرة الفصلية للظرفية الاقتصادية الفصل الثاني 2026 | 2026
+       https://ansade.mr/publications/14636
+     - النمو الاقتصادي خلال الفصل الأول من سنة 2026، سجل الناتج المحلي الإجمالي، المقاس بالحجم
+       المعالج من تأثير التغيرات الموسمية، نموا طفيفا بنسبة 0،4 بالمائة مقارنة بالفصل المنصرم.
+       لمعرفة المزيد | 2026
+       https://ansade.mr/publications/14569
+     - عرض البيانات
+       https://ansade.mr/statistics/economic
+     - مؤشر الإنتاج الصناعي الفصل الثاني 2026 | 2026
+       https://ansade.mr/publications/14616
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   32 pages crawled (8 rendered in a browser); 16 file links
+   Formats: PDF 16
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: MRT
+       theme: social_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://ansade.mr/', 'https://ansade.mr/publications']
+       render_js: auto
+       notes: 4 social statistics file(s) found on these pages - review before enabling
+     - nso: MRT
+       theme: economic_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://ansade.mr/', 'https://ansade.mr/publications/14569', 'https://ansade.mr/publications']
+       render_js: auto
+       notes: 10 economic statistics file(s) found on these pages - review before enabling
+
+7. LIMITATIONS / NEXT STEPS
+   - No English version: the non-English pages were analysed (keywords cover Arabic and French).

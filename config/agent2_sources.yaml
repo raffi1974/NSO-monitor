@@ -1,0 +1,75 @@
+# AGENT 2 - what to monitor every day (run: python agent2_monitor.py; scheduled on GitHub).
+#
+# Fill this from Agent 1's reports: output/agent1/<ID>.txt (section "SUGGESTED AGENT 2 CONFIGURATION")
+# and output/agent1/suggested_agent2_sources.yaml collect ready-to-paste entries.
+#
+# ONE ENTRY = one website (nso) x one theme x one connector:
+#   nso        the site id from config/agent1_sites.yaml (e.g. EGY)
+#   theme      a theme id from config/themes.yaml (e.g. social_statistics)
+#   connector  how to talk to the site: capmas | pxweb | opendatasoft | nada | json_api | scrape
+#   enabled    true / false  (false = kept for later, not run)
+#   options    connector settings (each connector file in nso_monitor/agent2/connectors/ documents its own)
+#   pages      scrape only: the pages that list the theme's files
+#   render_js  scrape only: auto | true | false
+#
+# TO ADD A WEBSITE / THEME: copy an entry, change nso / theme / connector / options.
+# Test it without writing anything:   python agent2_monitor.py --nso <ID> --dry-run
+
+settings:
+  max_fetch_per_run: 1500        # at most this many new/updated items downloaded per run (the rest waits)
+  request_delay_seconds: 0.5     # pause between two requests to the same server
+  max_concurrency: 2
+  download_formats: [xlsx, xls, csv, json]   # these are downloaded and stored; PDFs etc. are kept as links
+  max_file_mb: 25
+  browser_channel: msedge        # local only; the GitHub workflow uses Playwright's own Chromium
+
+sources:
+  # --- Egypt: CAPMAS public JSON API (see output/agent1/EGY.txt) -------------------------------------
+  - nso: EGY
+    theme: social_statistics
+    connector: capmas
+    method: api
+    enabled: true
+    options:
+      # CAPMAS sub-subjects under "Demography & Society", plus COVID-19 (55) and Social Gender (56)
+      subject_ids: [20, 21, 22, 23, 24, 25, 26, 27, 28, 55, 56]
+
+  - nso: EGY
+    theme: economic_statistics
+    connector: capmas
+    method: api
+    enabled: true
+    options:
+      # CAPMAS sub-subjects under "Economy" (6-18), plus Energy (30)
+      subject_ids: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 30]
+
+  # --- Lebanon: no usable API (CAS's WordPress REST API only lists pages/media, not statistics -
+  # see output/agent1/LBN.txt) - fall back to scraping the pages Agent 1 found files on -----------
+  - nso: LBN
+    theme: social_statistics
+    method: scrape
+    connector: scrape
+    enabled: false  # flip to true once a --dry-run looks right (see below)
+    pages:
+      - https://www.cas.gov.lb/
+      - https://www.cas.gov.lb/population-social-conditions/labour-market/
+      - https://www.cas.gov.lb/population-social-conditions/income-living-conditions/
+      - https://www.cas.gov.lb/population-social-conditions/population-demography/
+      - https://www.cas.gov.lb/population-social-conditions/education/
+    render_js: auto
+    notes: 61 social statistics file(s) found on these pages - review before enabling
+
+  - nso: LBN
+    theme: economic_statistics
+    method: scrape
+    connector: scrape
+    enabled: false
+    pages:
+      - https://www.cas.gov.lb/national-accounts/
+      - https://www.cas.gov.lb/economic-statistics/cpi/
+      - https://www.cas.gov.lb/population-social-conditions/labour-market/
+      - https://www.cas.gov.lb/population-social-conditions/income-living-conditions/
+      - https://www.cas.gov.lb/administrative-statistics/energy/
+    render_js: auto
+    notes: 71 economic statistics file(s) found on these pages - review before enabling
+

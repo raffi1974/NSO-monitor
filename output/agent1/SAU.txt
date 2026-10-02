@@ -1,0 +1,192 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Saudi Arabia  -  General Authority for Statistics (GASTAT)
+Checked 2026-09-29 11:11  |  Agent 1 (agent1_diagnose.py)  |  took 106.9 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://www.stats.gov.sa/en
+   Reachable       : yes (HTTP 200)
+   English version : yes
+
+2. API
+   Verdict         : UNDOCUMENTED - works from Python (no login needed)
+   No official documentation, but the website's own data API at www.stats.gov.sa answers plain
+     Python requests (found by API sniffing).
+   Documentation   : none official
+   Site links mentioning API / open data / databank:
+     Open Data Portal -> https://open.data.gov.sa
+
+   How to call it - curl:
+       curl -H "accept-language: en-US" -H "accept: application/json, text/plain, */*"
+         "https://www.stats.gov.sa/o/gastat-enhanced-angular-app/i18n/ar.json"
+
+   How to call it - Python:
+       import requests
+       
+       url = "https://www.stats.gov.sa/o/gastat-enhanced-angular-app/i18n/ar.json"
+       headers = {"accept-language": "en-US", "accept": "application/json, text/plain, */*"}
+       response = requests.get(url, headers=headers, timeout=60)
+       response.raise_for_status()
+       data = response.json()
+
+   API sniffing - data calls the website made: 10 distinct, 10 worked again from plain Python
+     [OK ] GET www.stats.gov.sa/o/gastat-enhanced-angular-app/i18n/ar.json  (application/json)
+     [OK ] GET www.stats.gov.sa/o/gastat-enhanced-angular-app/i18n/en.json  (application/json)
+     [OK ] GET www.stats.gov.sa/o/angular-client-extension/assets/i18n/en.json
+       (application/json)
+     [OK ] GET www.stats.gov.sa/o/c/pagefeedbacks/  (application/json)
+     [OK ] GET cdn.userway.org/widgetapp/2026-09-01-10-22-26/locales/en-US.json
+       (application/json)
+     [OK ] POST api.userway.org/api/v1/tunings/SOijGuwnEb  (application/json)
+     [OK ] GET www.stats.gov.sa/o/c/budgetandexpenseses  (application/json)
+     [OK ] GET www.stats.gov.sa/o/c/bookmarks/  (application/json)
+     [OK ] GET
+       api.userway.org/api/a11y-data/v0/page/https%3A%2F%2Fwww.stats.gov.sa%2Fen%2Fgastat-
+       about-us/DESKTOP/WIDGET_OFF/status  (application/json)
+     [OK ] GET api.userway.org/api/a11y-
+       data/v0/page/https%3A%2F%2Fwww.stats.gov.sa%2Fen/DESKTOP/WIDGET_OFF/status
+       (application/json)
+
+   Found in the site's JavaScript files:
+     1 endpoint paths, e.g. api/jsonws/invoke
+
+3. SOCIAL STATISTICS  (14 pages)
+     - Education Statistics
+       https://www.stats.gov.sa/statistics?index=119025&subindex=124262
+     - Gender and Diversity Statistics
+       https://www.stats.gov.sa/statistics?index=119025&subindex=123610
+     - Health Statistics
+       https://www.stats.gov.sa/statistics?index=119025&subindex=123758
+     - Housing Statistics
+       https://www.stats.gov.sa/statistics?index=119025&subindex=124107
+     - Labor Market Statistics
+       https://www.stats.gov.sa/statistics?index=119025&subindex=123704
+     - Living Conditions Statistics
+       https://www.stats.gov.sa/statistics?index=119025&subindex=127325
+     - Read More
+       https://www.stats.gov.sa/en/school-broadcast
+     - Read More GASTAT organizes a workshop to discuss the Transformation in Health Statistics
+       and the Women and Child Health Survey as part of Road to Riyadh events
+       https://www.stats.gov.sa/en/w/news/217
+     - Read More GASTAT signs MoU with King Saud University to foster research collaboration
+       and innovation
+       https://www.stats.gov.sa/en/w/news/210
+     - Saudi Census Statistics 2022 | 2022
+       https://www.stats.gov.sa/statistics?index=119025&subindex=127380
+     - Social Awareness
+       https://www.stats.gov.sa/survey-awareness?category=55163
+     - Social Statistics
+       https://www.stats.gov.sa/statistics?index=119025&subindex=127321
+     - Sports Statistics
+       https://www.stats.gov.sa/statistics?index=119025&subindex=123932
+     - Vitals and Demographics Statistics
+       https://www.stats.gov.sa/statistics?index=119025&subindex=124141
+
+4. ECONOMIC STATISTICS  (39 pages)
+     - About Us
+       https://www.stats.gov.sa/en/gastat-about-us
+     - Agriculture Statistics
+       https://www.stats.gov.sa/statistics?index=124295&subindex=124516
+     - Budget and Expenses
+       https://www.stats.gov.sa/en/budget-and-expenses
+     - Business Statistics
+       https://www.stats.gov.sa/statistics?index=119021&subindex=419271
+     - Business center (Statistical services)
+       https://www.stats.gov.sa/en/business-statistics
+     - Comprehensive Economic Statistics
+       https://www.stats.gov.sa/statistics?index=119021&subindex=2197208
+     - Construction Cost Index for August 2026 | 2026
+       https://www.stats.gov.sa/statistics-tabs?tab=436312&category=3453505
+     - Digital Economy Statistics
+       https://www.stats.gov.sa/statistics?index=119021&subindex=122937
+     - Download User Guide
+       https://www.stats.gov.sa/documents/20117/2435245/Business_Center_userguideEN.pdf_fixed
+         _2990914/04f60b58-bdc4-b1b1-1e8f-92308d211a1f?t=1745495657712
+     - Economic Awareness
+       https://www.stats.gov.sa/survey-awareness?category=55145
+     - Economic Statistics
+       https://www.stats.gov.sa/statistics?index=119021
+     - Energy Statistics
+       https://www.stats.gov.sa/statistics?index=124295&subindex=124703
+     - GASTAT
+       https://www.stats.gov.sa/en/authority
+     - GASTAT branding
+       https://www.stats.gov.sa/en/logo-and-identity-user-guide
+     - Investment Statistics
+       https://www.stats.gov.sa/statistics?index=119021&subindex=419305
+     - National Accounts Statistics
+       https://www.stats.gov.sa/statistics?index=119021&subindex=120034
+     - Non oil International trade in goods for Saudi Arabia in August 2026 | 2026
+       https://www.stats.gov.sa/statistics-tabs?tab=436312&category=123481
+     - Prices Statistics
+       https://www.stats.gov.sa/statistics?index=119021&subindex=121417
+     - Read More "الإحصاء": تطلق منتجًا إحصائيًا شهريًا للتجارة الدولية في السلع غير البترولية
+       | Monthly
+       https://www.stats.gov.sa/en/w/news/218
+     - Read More GASTAT President extends congratulations to the leadership on the 92nd
+       National Day
+       https://www.stats.gov.sa/en/w/%D8%B1%D8%A6%D9%8A%D8%B3-
+         %D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-
+         %D9%84%D9%84%D8%A5%D8%AD%D8%B5%D8%A7%D8%A1-%D9%8A%D9%87%D9%86%D8%A6-
+         %D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A8%D8%A7%D9%84%D9%8A%D9%88%D9%85-
+         %D8%A7
+     - Read More GASTAT President participates in the 17th Session of the ESCWA Statistical
+       Committee
+       https://www.stats.gov.sa/en/w/news/213
+     - Read More GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute
+       for Training and Research in Statistics (AITRS)
+       https://www.stats.gov.sa/en/w/news/219
+     - Read More GASTAT opens registration for the 6th UN World Data Forum 2026 | 2026
+       https://www.stats.gov.sa/en/w/news/206
+     - Read More GASTAT organizes a webinar titled: 6th UN World Data Forum: A platform for
+       implementation and coordination
+       https://www.stats.gov.sa/en/w/news/207
+     - Read More GASTAT organizes a workshop on statistical quality assurance framework
+       https://www.stats.gov.sa/en/w/news/201
+     - Read More GASTAT organizes a workshop to discuss the Transformation in Health Statistics
+       and the Women and Child Health Survey as part of Road to Riyadh events
+       https://www.stats.gov.sa/en/w/news/217
+     - Read More GASTAT prepares to open registration for the 6th UN World Data Forum 2026 and
+       the Second Saudi Statistics Forum | 2026
+       https://www.stats.gov.sa/en/w/news/204
+     - Read More GASTAT recognized as a Great Place To Work in 2026 | 2026
+       https://www.stats.gov.sa/en/w/news/211
+     - Read More GASTAT signs MoU with King Saud University to foster research collaboration
+       and innovation
+       https://www.stats.gov.sa/en/w/news/210
+     - Read More GASTAT: Exports and imports at Saudi Arabia’s ports exceed 341 million tons in
+       2025 | 2025
+       https://www.stats.gov.sa/en/w/news/216
+     - Read More GASTAT: Inflation in Saudi Arabia reaches 1.8% in August 2026 | 2026
+       https://www.stats.gov.sa/en/w/news/214
+     - Read More GASTAT: Operating Revenues Index for Wholesale and Retail Trade Increases by
+       3.2% in Q2 of 2026 | 2026
+       https://www.stats.gov.sa/en/w/news/212
+     - Read More GASTAT: Operating Revenues Index for short-term business increases by 11.4% in
+       May 2026 | 2026
+       https://www.stats.gov.sa/en/w/news/209
+     - Read More GASTAT: Saudi Arabia among the world safest countries in 2025 | 2025
+       https://www.stats.gov.sa/en/w/news/205
+     - Read More UN commends GASTAT for developing RAD tool and adopts it as an applied model
+       https://www.stats.gov.sa/en/w/news/215
+     - Short-Term Business Statistics
+       https://www.stats.gov.sa/statistics?index=119021&subindex=419285
+     - Tourism ,Hajj and Umrah Statistics
+       https://www.stats.gov.sa/statistics?index=124295&subindex=124300
+     - Transportation and logistic services statistics
+       https://www.stats.gov.sa/statistics?index=124295&subindex=124890
+     - View More
+       https://www.stats.gov.sa/en/w/%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9-
+         %D9%85%D8%B9%D8%A7%D9%84%D9%8A-%D9%88%D8%B2%D9%8A%D8%B1-
+         %D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-
+         %D9%88%D8%A7%D9%84%D8%AA%D8%AE%D8%B7%D9%8A%D8%B7-
+         %D9%84%D9%84%D9%85%D8%AE%D8%AA%D8%A8%D8%B1
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (0 rendered in a browser); 0 file links
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+   none - nothing machine-readable was found automatically; see limitations below
+
+7. LIMITATIONS / NEXT STEPS
+   - none noted

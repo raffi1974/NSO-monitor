@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NSO Monitor</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div>
+      <h1>NSO Monitor</h1>
+      <p class="muted">ESCWA National Statistical Offices &mdash; social &amp; economic statistics</p>
+    </div>
+    <span id="generated-at" class="muted"></span>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button class="tab" data-route="#/">Overview</button>
+    <button class="tab" data-route="#/changes">What's new</button>
+  </nav>
+</header>
+
+<main id="app" class="container" aria-live="polite"></main>
+
+<footer class="footer">
+  <p class="muted">Generated locally by <code>python build_dashboard.py</code>. No data leaves this machine &mdash;
+    open this file directly, no server required.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

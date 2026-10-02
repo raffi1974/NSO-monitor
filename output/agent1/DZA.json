@@ -1,0 +1,1784 @@
+{
+ "id": "DZA",
+ "country": "Algeria",
+ "nso": "Office National des Statistiques (ONS)",
+ "url": "https://www.ons.dz",
+ "english_config": "no",
+ "languages": [
+  "fr",
+  "ar"
+ ],
+ "config_notes": "French site, no English version. The UN web filter blocks it for browsers on this network (plain HTTP works).",
+ "checked_at": "2026-09-29 10:44",
+ "themes": {
+  "social_statistics": {
+   "label": "Social statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "Statistiques Sociales",
+     "url": "https://www.ons.dz/spip.php?rubrique3",
+     "page_url": "https://www.ons.dz",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "12. Les Tableaux des Ressources et des Emplois 2021 - 2023 (Base 2001)",
+     "url": "https://www.ons.dz/IMG/pdf/TRE2021_2023.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/TRE2021_2023.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Nouveautés",
+     "years": [
+      2001,
+      2021,
+      2022,
+      2023,
+      2026
+     ],
+     "coverage": "2001-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Premier Recensement Economique de l'Algérie",
+     "url": "https://www.ons.dz/spip.php?rubrique166",
+     "page_url": "https://www.ons.dz",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population et Démographie",
+     "url": "https://www.ons.dz/spip.php?rubrique13",
+     "page_url": "https://www.ons.dz/spip.php?rubrique3",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Santé",
+     "url": "https://www.ons.dz/spip.php?rubrique14",
+     "page_url": "https://www.ons.dz/spip.php?rubrique3",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Habitat",
+     "url": "https://www.ons.dz/spip.php?rubrique15",
+     "page_url": "https://www.ons.dz/spip.php?rubrique3",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Emploi et chômage",
+     "url": "https://www.ons.dz/spip.php?rubrique16",
+     "page_url": "https://www.ons.dz/spip.php?rubrique3",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Salaires",
+     "url": "https://www.ons.dz/spip.php?rubrique17",
+     "page_url": "https://www.ons.dz/spip.php?rubrique3",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Protection Sociale",
+     "url": "https://www.ons.dz/spip.php?rubrique18",
+     "page_url": "https://www.ons.dz/spip.php?rubrique3",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Education",
+     "url": "https://www.ons.dz/spip.php?rubrique45",
+     "page_url": "https://www.ons.dz/spip.php?rubrique3",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Dépenses de consommation des ménages",
+     "url": "https://www.ons.dz/spip.php?rubrique200",
+     "page_url": "https://www.ons.dz/spip.php?rubrique3",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "التشــغيل و البطالــة",
+     "url": "https://www.ons.dz/spip.php?rubrique209",
+     "page_url": "https://www.ons.dz/spip.php?rubrique207",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Employement and Unemployement",
+     "url": "https://www.ons.dz/spip.php?rubrique222",
+     "page_url": "https://www.ons.dz/spip.php?rubrique220",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Les Nomenclatures sociales",
+     "url": "https://www.ons.dz/spip.php?rubrique286",
+     "page_url": "https://www.ons.dz/spip.php?rubrique24",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Télécharger le Document",
+     "url": "https://www.ons.dz/IMG/pdf/Chomage2024.pdf",
+     "page_url": "https://www.ons.dz/spip.php?article3059",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/Chomage2024.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Démographie",
+     "url": "https://www.ons.dz/spip.php?rubrique242",
+     "page_url": "https://www.ons.dz/spip.php?rubrique226",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population",
+     "url": "https://www.ons.dz/spip.php?rubrique33",
+     "page_url": "https://www.ons.dz/spip.php?rubrique13",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Démographie",
+     "url": "https://www.ons.dz/spip.php?rubrique34",
+     "page_url": "https://www.ons.dz/spip.php?rubrique13",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Santé 1998",
+     "url": "https://www.ons.dz/spip.php?rubrique36",
+     "page_url": "https://www.ons.dz/spip.php?rubrique14",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      1998
+     ],
+     "coverage": "1998",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Santé 2003-2008",
+     "url": "https://www.ons.dz/spip.php?rubrique35",
+     "page_url": "https://www.ons.dz/spip.php?rubrique14",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2003,
+      2008
+     ],
+     "coverage": "2003-2008",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Répartition des logements inscrits et des livraisons par wilaya",
+     "url": "https://www.ons.dz/spip.php?rubrique47",
+     "page_url": "https://www.ons.dz/spip.php?rubrique15",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Télécharger le document",
+     "url": "https://www.ons.dz/IMG/pdf/habitat-hor-2.pdf",
+     "page_url": "https://www.ons.dz/spip.php?rubrique15",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/habitat-hor-2.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête sur l’Emploi du temps ENET Algérie 2012",
+     "url": "https://www.ons.dz/spip.php?rubrique231",
+     "page_url": "https://www.ons.dz/spip.php?rubrique16",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Résultats de l’enquête annuelle sur les salaires auprès des entreprises en mai 2021",
+     "url": "https://www.ons.dz/spip.php?article2989",
+     "page_url": "https://www.ons.dz/spip.php?rubrique17",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2021
+     ],
+     "coverage": "2021",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Résultats de l’enquête annuelle sur les salaires auprès des entreprises en mai 2019",
+     "url": "https://www.ons.dz/spip.php?article2753",
+     "page_url": "https://www.ons.dz/spip.php?rubrique17",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Tableaux excel",
+     "url": "https://www.ons.dz/IMG/xlsx/salaire_mai2019.xlsx",
+     "page_url": "https://www.ons.dz/spip.php?rubrique17",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/xlsx/salaire_mai2019.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "Les salaires auprès des entreprises Mai 2015",
+     "url": "https://www.ons.dz/spip.php?article1929",
+     "page_url": "https://www.ons.dz/spip.php?rubrique17",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Résultats de l’enquête annuelle sur les salaires auprès des entreprises -Mai 2013-",
+     "url": "https://www.ons.dz/spip.php?article1501",
+     "page_url": "https://www.ons.dz/spip.php?rubrique17",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Les salaires auprès des entreprises -Mai 2012-",
+     "url": "https://www.ons.dz/spip.php?article1279",
+     "page_url": "https://www.ons.dz/spip.php?rubrique17",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "les salaires auprès des entreprises -Mai 2011-",
+     "url": "https://www.ons.dz/spip.php?article1126",
+     "page_url": "https://www.ons.dz/spip.php?rubrique17",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2011
+     ],
+     "coverage": "2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Les principaux indicateurs du secteur de l’éducation nationale année scolaire",
+     "url": "https://www.ons.dz/spip.php?rubrique404",
+     "page_url": "https://www.ons.dz/spip.php?rubrique45",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  },
+  "economic_statistics": {
+   "label": "Economic statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "Statistiques Economiques",
+     "url": "https://www.ons.dz/spip.php?rubrique4",
+     "page_url": "https://www.ons.dz",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "1. Indice des prix à la Consommation - Juillet 2026 -",
+     "url": "https://www.ons.dz/IMG/pdf/IPC_juillet2026.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/IPC_juillet2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Nouveautés",
+     "years": [
+      2022,
+      2023,
+      2026
+     ],
+     "coverage": "2022-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "2. Les répertoires des agents économique et sociaux - Personnes Physiques au 31/12/2023 -",
+     "url": "https://www.ons.dz/IMG/pdf/Prsphys_S2_2023.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/Prsphys_S2_2023.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Nouveautés",
+     "years": [
+      2022,
+      2023,
+      2026
+     ],
+     "coverage": "2022-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "3. Les répertoires des agents économique et sociaux - Personnes Physiques au 31/12/2022 -",
+     "url": "https://www.ons.dz/IMG/pdf/Prsphys_S2_2022.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/Prsphys_S2_2022.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Nouveautés",
+     "years": [
+      2022,
+      2023,
+      2026
+     ],
+     "coverage": "2022-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "4. Enquête sur la situation et les perspectives dans l’industrie au 2 éme trimestre 2025",
+     "url": "https://www.ons.dz/IMG/pdf/industrie2T2025.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/industrie2T2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Nouveautés",
+     "years": [
+      2022,
+      2023,
+      2025,
+      2026
+     ],
+     "coverage": "2022-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "5. Les Comptes Nationaux Trimestriels au 2 éme trimestre 2025 -",
+     "url": "https://www.ons.dz/IMG/pdf/CNT2T2025.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/CNT2T2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Nouveautés",
+     "years": [
+      2022,
+      2023,
+      2025,
+      2026
+     ],
+     "coverage": "2022-2026",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "6. Indices du commerce extérieur de marchandises 1 er semestre 2025 -",
+     "url": "https://www.ons.dz/IMG/pdf/indice_commerce_exterieur_s1_2025.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/indice_commerce_exterieur_s1_2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Nouveautés",
+     "years": [
+      2022,
+      2023,
+      2025,
+      2026
+     ],
+     "coverage": "2022-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "7. Indice de la Production Industrielle au 2 éme trimestre 2025 -",
+     "url": "https://www.ons.dz/IMG/pdf/I.IPI2T2025.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/I.IPI2T2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Nouveautés",
+     "years": [
+      2022,
+      2023,
+      2025,
+      2026
+     ],
+     "coverage": "2022-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "8. Indice des Prix à la Production Industrielle au 2 éme trimestre 2025",
+     "url": "https://www.ons.dz/IMG/pdf/IPPI2T2025.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/IPPI2T2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Nouveautés",
+     "years": [
+      2022,
+      2023,
+      2025,
+      2026
+     ],
+     "coverage": "2022-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "9. Les Comptes Economiques de 2021 à 2024 -",
+     "url": "https://www.ons.dz/IMG/pdf/comptes_econoniques__2021_2024.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/comptes_econoniques__2021_2024.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Nouveautés",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2026
+     ],
+     "coverage": "2021-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "10. Indices du commerce extérieur de marchandises 1 er trimestre 2025 (Base 2019)",
+     "url": "https://www.ons.dz/IMG/pdf/commerce_ext1T2025base2019.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/commerce_ext1T2025base2019.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Nouveautés",
+     "years": [
+      2019,
+      2022,
+      2023,
+      2025,
+      2026
+     ],
+     "coverage": "2019-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "11. Indices du commerce extérieur de marchandises - Année 2024 - (Base 2019)",
+     "url": "https://www.ons.dz/IMG/pdf/commerce_ext_base2019anne2024.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/commerce_ext_base2019anne2024.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Nouveautés",
+     "years": [
+      2019,
+      2022,
+      2023,
+      2024,
+      2026
+     ],
+     "coverage": "2019-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "12. Les Tableaux des Ressources et des Emplois 2021 - 2023 (Base 2001)",
+     "url": "https://www.ons.dz/IMG/pdf/TRE2021_2023.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/TRE2021_2023.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Nouveautés",
+     "years": [
+      2001,
+      2021,
+      2022,
+      2023,
+      2026
+     ],
+     "coverage": "2001-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Calendrier des Publications Année 2025",
+     "url": "https://www.ons.dz/IMG/pdf/CalendrierONS_2025.pdf",
+     "page_url": "https://www.ons.dz",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/CalendrierONS_2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Les Comptes Economiques Base 2001",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Premier Recensement Economique de l'Algérie",
+     "url": "https://www.ons.dz/spip.php?rubrique166",
+     "page_url": "https://www.ons.dz",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Prix à la consommation",
+     "url": "https://www.ons.dz/spip.php?rubrique26",
+     "page_url": "https://www.ons.dz",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Prix à la Production Industrielle",
+     "url": "https://www.ons.dz/spip.php?rubrique27",
+     "page_url": "https://www.ons.dz",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Production Industrielle",
+     "url": "https://www.ons.dz/spip.php?rubrique28",
+     "page_url": "https://www.ons.dz",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Emploi et chômage",
+     "url": "https://www.ons.dz/spip.php?rubrique16",
+     "page_url": "https://www.ons.dz/spip.php?rubrique3",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Comptes économiques",
+     "url": "https://www.ons.dz/spip.php?rubrique5",
+     "page_url": "https://www.ons.dz/spip.php?rubrique4",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Monnaie 2009-2013",
+     "url": "https://www.ons.dz/spip.php?rubrique7",
+     "page_url": "https://www.ons.dz/spip.php?rubrique4",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2009,
+      2013
+     ],
+     "coverage": "2009-2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Commerce Extérieur",
+     "url": "https://www.ons.dz/spip.php?rubrique19",
+     "page_url": "https://www.ons.dz/spip.php?rubrique4",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête d’Opinion dans l’industrie et le commerce",
+     "url": "https://www.ons.dz/spip.php?rubrique202",
+     "page_url": "https://www.ons.dz/spip.php?rubrique4",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agriculture et Pêche",
+     "url": "https://www.ons.dz/spip.php?rubrique306",
+     "page_url": "https://www.ons.dz/spip.php?rubrique4",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Energie",
+     "url": "https://www.ons.dz/spip.php?rubrique6",
+     "page_url": "https://www.ons.dz/spip.php?rubrique4",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Transports",
+     "url": "https://www.ons.dz/spip.php?rubrique20",
+     "page_url": "https://www.ons.dz/spip.php?rubrique4",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tourisme",
+     "url": "https://www.ons.dz/spip.php?rubrique21",
+     "page_url": "https://www.ons.dz/spip.php?rubrique4",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Questionnaires : Enquêtes trimestrielles auprès des entreprises",
+     "url": "https://www.ons.dz/spip.php?rubrique302",
+     "page_url": "https://www.ons.dz/spip.php?rubrique4",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Variation des Indices de la Production Industrielle par secteur d’activité. (Secteur Public National)",
+     "url": "https://www.ons.dz/spip.php?rubrique84",
+     "page_url": "https://www.ons.dz/spip.php?rubrique28",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Année de 2007 à 2009",
+     "url": "https://www.ons.dz/IMG/pdf/IPI-Production2007-2009.pdf",
+     "page_url": "https://www.ons.dz/spip.php?rubrique28",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/IPI-Production2007-2009.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2007,
+      2009
+     ],
+     "coverage": "2007-2009",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Année de 2002 à 2006",
+     "url": "https://www.ons.dz/IMG/pdf/IPI-Production2002-2006.pdf",
+     "page_url": "https://www.ons.dz/spip.php?rubrique28",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/IPI-Production2002-2006.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2002,
+      2006
+     ],
+     "coverage": "2002-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الحسابات الاقتصادية",
+     "url": "https://www.ons.dz/spip.php?rubrique210",
+     "page_url": "https://www.ons.dz/spip.php?rubrique207",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Prices Index",
+     "url": "https://www.ons.dz/spip.php?rubrique221",
+     "page_url": "https://www.ons.dz/spip.php?rubrique220",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Formulaire",
+     "url": "https://www.ons.dz/IMG/Formulaire_NIS_PM_PP.pdf",
+     "page_url": "https://www.ons.dz/spip.php?rubrique161",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/Formulaire_NIS_PM_PP.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "décret législatif n°94-01 du 15 janvier 1994 relatif au système statistique",
+     "url": "https://www.ons.dz/IMG/pdf/DN-94-01-15-01-1994.pdf",
+     "page_url": "https://www.ons.dz/spip.php?rubrique294",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/DN-94-01-15-01-1994.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      1994
+     ],
+     "coverage": "1994",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "plus de détails voir →",
+     "url": "https://www.ons.dz/IMG/pdf/ipc_meth.pdf",
+     "page_url": "https://www.ons.dz/spip.php?rubrique12",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/ipc_meth.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2001
+     ],
+     "coverage": "2001",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "L’Indice Brut des Prix à la Consommation de la ville d’Alger enregistre une baisse de près de 0,8% en juillet 2026.",
+     "url": "https://www.ons.dz/spip.php?article3157",
+     "page_url": "https://www.ons.dz/spip.php?article3157",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Télécharger le Document",
+     "url": "https://www.ons.dz/IMG/pdf/IPC_Juillet2026.pdf",
+     "page_url": "https://www.ons.dz/spip.php?article3157",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/IPC_Juillet2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Télécharger le Document",
+     "url": "https://www.ons.dz/IMG/pdf/Chomage2024.pdf",
+     "page_url": "https://www.ons.dz/spip.php?article3059",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/Chomage2024.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Comptes économiques",
+     "url": "https://www.ons.dz/spip.php?rubrique317",
+     "page_url": "https://www.ons.dz/spip.php?article2958",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Télécharger le Document",
+     "url": "https://www.ons.dz/IMG/pdf/Compte_Economique_Base_2001.pdf",
+     "page_url": "https://www.ons.dz/spip.php?article2958",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/Compte_Economique_Base_2001.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2001,
+      2022
+     ],
+     "coverage": "2001-2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Recencement Economique 2011",
+     "url": "https://www.ons.dz/spip.php?rubrique245",
+     "page_url": "https://www.ons.dz/spip.php?rubrique226",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2011
+     ],
+     "coverage": "2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Chambres de commerce et d’industrie",
+     "url": "https://www.ons.dz/spip.php?article688",
+     "page_url": "https://www.ons.dz/spip.php?rubrique139",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Office Algérien de Promotion du Commerce Extérieur",
+     "url": "http://www.ons.dz/cnig/index.htm",
+     "page_url": "https://www.ons.dz/spip.php?rubrique139",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête sur l’Emploi du temps ENET Algérie 2012",
+     "url": "https://www.ons.dz/spip.php?rubrique231",
+     "page_url": "https://www.ons.dz/spip.php?rubrique16",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Résultats de l’enquête annuelle sur les salaires auprès des entreprises en mai 2021",
+     "url": "https://www.ons.dz/spip.php?article2989",
+     "page_url": "https://www.ons.dz/spip.php?rubrique17",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2021
+     ],
+     "coverage": "2021",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Résultats de l’enquête annuelle sur les salaires auprès des entreprises en mai 2019",
+     "url": "https://www.ons.dz/spip.php?article2753",
+     "page_url": "https://www.ons.dz/spip.php?rubrique17",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Les salaires auprès des entreprises Mai 2015",
+     "url": "https://www.ons.dz/spip.php?article1929",
+     "page_url": "https://www.ons.dz/spip.php?rubrique17",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Résultats de l’enquête annuelle sur les salaires auprès des entreprises -Mai 2013-",
+     "url": "https://www.ons.dz/spip.php?article1501",
+     "page_url": "https://www.ons.dz/spip.php?rubrique17",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Les salaires auprès des entreprises -Mai 2012-",
+     "url": "https://www.ons.dz/spip.php?article1279",
+     "page_url": "https://www.ons.dz/spip.php?rubrique17",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "les salaires auprès des entreprises -Mai 2011-",
+     "url": "https://www.ons.dz/spip.php?article1126",
+     "page_url": "https://www.ons.dz/spip.php?rubrique17",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2011
+     ],
+     "coverage": "2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Télécharger le document",
+     "url": "https://www.ons.dz/IMG/pdf/Equilibre_financier2003-2009_.pdf",
+     "page_url": "https://www.ons.dz/spip.php?rubrique18",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.ons.dz/IMG/pdf/Equilibre_financier2003-2009_.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2003,
+      2009
+     ],
+     "coverage": "2003-2009",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Compte de production et compte d’exploitation de 2001 à 2015",
+     "url": "https://www.ons.dz/spip.php?rubrique59",
+     "page_url": "https://www.ons.dz/spip.php?rubrique5",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [
+      2001,
+      2015
+     ],
+     "coverage": "2001-2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Les Comptes Economiques",
+     "url": "https://www.ons.dz/spip.php?rubrique61",
+     "page_url": "https://www.ons.dz/spip.php?rubrique5",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tableau Economique d’Ensemble",
+     "url": "https://www.ons.dz/spip.php?rubrique233",
+     "page_url": "https://www.ons.dz/spip.php?rubrique5",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Industrie",
+     "url": "https://www.ons.dz/spip.php?rubrique249",
+     "page_url": "https://www.ons.dz/spip.php?rubrique202",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ONS : Office National des Statistiques",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  }
+ },
+ "limitations": [
+  "No English version: the non-English pages were analysed (keywords cover Arabic and French)."
+ ],
+ "recognized": [],
+ "suggested_sources": [
+  {
+   "nso": "DZA",
+   "theme": "social_statistics",
+   "method": "scrape",
+   "connector": "scrape",
+   "enabled": false,
+   "pages": [
+    "https://www.ons.dz",
+    "https://www.ons.dz/spip.php?article3059",
+    "https://www.ons.dz/spip.php?rubrique15",
+    "https://www.ons.dz/spip.php?rubrique17"
+   ],
+   "render_js": "auto",
+   "notes": "4 social statistics file(s) found on these pages - review before enabling"
+  },
+  {
+   "nso": "DZA",
+   "theme": "economic_statistics",
+   "method": "scrape",
+   "connector": "scrape",
+   "enabled": false,
+   "pages": [
+    "https://www.ons.dz",
+    "https://www.ons.dz/spip.php?rubrique28",
+    "https://www.ons.dz/spip.php?rubrique161",
+    "https://www.ons.dz/spip.php?rubrique294",
+    "https://www.ons.dz/spip.php?rubrique12"
+   ],
+   "render_js": "auto",
+   "notes": "22 economic statistics file(s) found on these pages - review before enabling"
+  }
+ ],
+ "indicator_samples": [],
+ "site": {
+  "url": "https://www.ons.dz",
+  "reachable": true,
+  "status": 200,
+  "final_url": "https://www.ons.dz",
+  "title": "ONS : Office National des Statistiques",
+  "lang": "fr",
+  "english": "no",
+  "english_url": "",
+  "platforms": [],
+  "blocked": "",
+  "rendered": false,
+  "insecure_tls": true,
+  "notes": []
+ },
+ "files": {
+  "formats": {
+   "PDF": 75,
+   "XLS": 5,
+   "XLSX": 1
+  },
+  "total": 81,
+  "pages_crawled": 40,
+  "pages_rendered": 0
+ },
+ "api": {
+  "docs": [],
+  "how_to": {},
+  "endpoints": [],
+  "js_findings": {
+   "scripts_scanned": 0,
+   "base_urls": [],
+   "endpoint_paths": [],
+   "api_urls": []
+  },
+  "doc_links": [],
+  "status": "none",
+  "python_access": "no",
+  "summary": "No API found (no documented platform, no data calls seen while browsing). Data is published as files/pages only: Agent 2 would use the 'scrape' connector."
+ },
+ "sniff_pages": [
+  {
+   "url": "https://www.ons.dz",
+   "final_url": "https://www.ons.dz/",
+   "status": 500,
+   "title": "The URL you requested has been blocked"
+  },
+  {
+   "url": "https://www.ons.dz/spip.php?rubrique3",
+   "final_url": "https://www.ons.dz/spip.php?rubrique3",
+   "status": 500,
+   "title": "The URL you requested has been blocked"
+  },
+  {
+   "url": "https://www.ons.dz/spip.php?rubrique4",
+   "final_url": "https://www.ons.dz/spip.php?rubrique4",
+   "status": 500,
+   "title": "The URL you requested has been blocked"
+  },
+  {
+   "url": "https://www.ons.dz/spip.php?rubrique166",
+   "final_url": "https://www.ons.dz/spip.php?rubrique166",
+   "status": 500,
+   "title": "The URL you requested has been blocked"
+  }
+ ],
+ "duration_s": 125.8
+}

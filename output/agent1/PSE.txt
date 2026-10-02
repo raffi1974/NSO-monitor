@@ -1,0 +1,357 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Palestine  -  Palestinian Central Bureau of Statistics (PCBS)
+Checked 2026-09-29 11:10  |  Agent 1 (agent1_diagnose.py)  |  took 37.3 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://www.pcbs.gov.ps/en/
+   Reachable       : yes (HTTP 200)
+   English version : yes
+   Built with      : NADA microdata catalogue
+   Security        : the site's TLS certificate is invalid (checked without certificate validation)
+
+2. API
+   Verdict         : NONE - not callable from Python
+   No API found (no documented platform, no data calls seen while browsing). Data is published as
+     files/pages only: Agent 2 would use the 'scrape' connector.
+   Documentation   : none official
+
+3. SOCIAL STATISTICS  (148 files, 331 pages)
+     - Book1178 2004 | 2004-2005 | PDF
+       https://www.pcbs.gov.ps/media/hchjs0zd/book1178-2004.pdf
+     - Book1430 2007 | 2007-2008 | PDF
+       https://www.pcbs.gov.ps/media/2waduoko/book1430-2007.pdf
+     - Book1489 2007 | 2007-2008 | PDF
+       https://www.pcbs.gov.ps/media/bpfny4wp/book1489-2007.pdf
+     - Book17 1994 | 1994-1995 | PDF
+       https://www.pcbs.gov.ps/media/3mdd35wv/book17-1994.pdf
+     - Book1818 2010 | 2010 | PDF
+       https://www.pcbs.gov.ps/Downloads/Census Palestina 1931 Volume 1.pdf
+     - Book1818 2010 | 2010-2011 | PDF
+       https://www.pcbs.gov.ps/media/vkdnwlxr/book1818-2010.pdf
+     - Book1827 2007 | 2007-2012 | PDF
+       https://www.pcbs.gov.ps/media/rg3fpj0n/book1827-2007.pdf
+     - Book1853 2007 | 2007-2012 | PDF
+       https://www.pcbs.gov.ps/media/1b3ejexf/book1853-2007.pdf
+     - Book1970 2012 | 1970-2013 | PDF
+       https://www.pcbs.gov.ps/media/2rgg5s4a/book1970-2012.pdf
+     - Book2384 2017 | 2017-2018 | PDF
+       https://www.pcbs.gov.ps/media/lfsby0c5/book2384-2017.pdf
+     - Book2425 2017 | 2017-2019 | PDF
+       https://www.pcbs.gov.ps/media/j0ffo50r/book2425-2017.pdf
+     - Book2444 2017 | 2017-2019 | PDF
+       https://www.pcbs.gov.ps/media/lpij2f2v/book2444-2017.pdf
+     - Book2646 2021 | 2021 | PDF
+       https://www.pcbs.gov.ps/Downloads/Census Palestina 1931 volume 2.pdf
+     - Book2646 2021 | 2021-2023 | PDF
+       https://www.pcbs.gov.ps/media/tjgnwugv/book2646-2021.pdf
+     - Book426 1997 | 1997-1999 | PDF
+       https://www.pcbs.gov.ps/media/dtgbbijp/book426-1997.pdf
+     - Book432 1997 | 1997-1999 | PDF
+       https://www.pcbs.gov.ps/media/jw3p3isq/book432-1997.pdf
+     - Book509 1997 | 1997-1999 | PDF
+       https://www.pcbs.gov.ps/media/haihllvu/book509-1997.pdf
+     - Book517 1997 | 1997-1999 | PDF
+       https://www.pcbs.gov.ps/media/0uvfev1j/book517-1997.pdf
+     - Book536 1997 | 1997-2000 | PDF
+       https://www.pcbs.gov.ps/media/rjrdzfti/book536-1997.pdf
+     - By: Health Information Center – Ministry of Health, 2024 | 2024 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_WorldHealthDay2024E.pdf
+     - By: Health Information Center – Ministry of Health, 2024 | 2024 | DOCX
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_WorldHealthDay2024E.docx
+     - By: Health Information Center – Ministry of Health, 2024 | 2023-2024 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_WorldHealthDay2023e.pdf
+     - By: Health Information Center – Ministry of Health, 2024 | 2023-2024 | DOCX
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_WorldHealthDay2023e.docx
+     - By: Health Information Center – Ministry of Health, 2024 | 2017-2024 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_16-12-2017-HA-en.pdf
+     - By: Health Information Center – Ministry of Health, 2024 | 2017-2024 | DOC
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_16-12-2017-HA-en.doc
+     - By: Health Information Center – Ministry of Health, 2024 | 2016-2024 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_HlthWdDy2016E.pdf
+     - By: Health Information Center – Ministry of Health, 2024 | 2016-2024 | DOC
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_HlthWdDy2016E.doc
+     - By: Health Information Center – Ministry of Health, 2024 | 2024 | PDF
+       https://www.pcbs.gov.ps/downloads/book830.pdf
+     - By: Health Information Center – Ministry of Health, 2024 | 2024 | PDF
+       https://www.pcbs.gov.ps/downloads/book831.pdf
+     - By: Health Information Center – Ministry of Health, 2024 | 2024 | PDF
+       https://www.pcbs.gov.ps/downloads/book2105.pdf
+     - By: Health Information Center – Ministry of Health, 2024 | 2024 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2105-w.zip
+     - By: Health Information Center – Ministry of Health, 2024 | 2024 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2105-x.zip
+     - By: Health Information Center – Ministry of Health, 2024 | 2024 | PDF
+       https://www.pcbs.gov.ps/downloads/book2178.pdf
+     - By: Health Information Center – Ministry of Health, 2024 | 2024 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2178-w.zip
+     - By: Health Information Center – Ministry of Health, 2024 | 2024 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2178-x.zip
+     - By: Health Information Center – Ministry of Health, 2024 | 2024 | PDF
+       https://www.pcbs.gov.ps/downloads/book2253.pdf
+     - By: Health Information Center – Ministry of Health, 2024 | 2024 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2253-w.zip
+     - By: Health Information Center – Ministry of Health, 2024 | 2024 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2253-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023-2025 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_WPD2025E.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023-2025 | DOCX
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_WPD2025E.docx
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023-2024 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_WPD2024E.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023-2024 | DOCX
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_WPD2024E.docx
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_IntPopulationDy2023E.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | DOCX
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_IntPopulationDy2023E.docx
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2022-2023 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_InterPopDay2022E.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2022-2023 | DOCX
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_InterPopDay2022E.docx
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2021-2023 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_11-7-2021-pop-en.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2021-2023 | DOCX
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_11-7-2021-pop-en.docx
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | PDF
+       https://www.pcbs.gov.ps/downloads/book2484.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2484-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2484-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | PDF
+       https://www.pcbs.gov.ps/downloads/book2478.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2478-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2478-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | PDF
+       https://www.pcbs.gov.ps/downloads/book2475.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2475-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2475-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | PDF
+       https://www.pcbs.gov.ps/downloads/book2472.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2472-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2472-x.zip
+     ... and 419 more (full list in PSE.json)
+
+4. ECONOMIC STATISTICS  (121 files, 346 pages)
+     - 27/09/2026 | 2026 | PDF
+       https://www.pcbs.gov.ps/media/0qfmvbji/iipq22026e.pdf
+     - 28/09/2026 | 2026 | PDF
+       https://www.pcbs.gov.ps/media/wztngwqq/ppi082026e.pdf
+     - 29/09/2026 | 2026 | PDF
+       https://www.pcbs.gov.ps/media/gqeduzcd/bopq22026e.pdf
+     - Agricultural Statistics- Various Data, 2009 | 2009 | PDF
+       https://www.pcbs.gov.ps/Portals/_Rainbow/Documents/الاحصاءات الزراعية بيانات متنوعة,
+         2009.pdf
+     - Agricultural Statistics- Various Data, 2010 | 2010 | PDF
+       https://www.pcbs.gov.ps/Portals/_Rainbow/Documents/الاحصاءات الزراعية بيانات متنوعة,
+         2010.pdf
+     - Agricultural Statistics- Various Data, 2011 | 2011 | PDF
+       https://www.pcbs.gov.ps/Portals/_Rainbow/Documents/الاحصاءات الزراعية بيانات متنوعة,
+         2011.pdf
+     - Agricultural Statistics- Various Data, 2012 | 2012 | PDF
+       https://www.pcbs.gov.ps/Portals/_Rainbow/Documents/الاحصاءات الزراعية بيانات متنوعة,
+         2012.pdf
+     - Book1178 2004 | 2004-2005 | PDF
+       https://www.pcbs.gov.ps/media/hchjs0zd/book1178-2004.pdf
+     - Book1430 2007 | 2007-2008 | PDF
+       https://www.pcbs.gov.ps/media/2waduoko/book1430-2007.pdf
+     - Book1489 2007 | 2007-2008 | PDF
+       https://www.pcbs.gov.ps/media/bpfny4wp/book1489-2007.pdf
+     - Book17 1994 | 1994-1995 | PDF
+       https://www.pcbs.gov.ps/media/3mdd35wv/book17-1994.pdf
+     - Book1818 2010 | 2010-2011 | PDF
+       https://www.pcbs.gov.ps/media/vkdnwlxr/book1818-2010.pdf
+     - Book1970 2012 | 1970-2013 | PDF
+       https://www.pcbs.gov.ps/media/2rgg5s4a/book1970-2012.pdf
+     - Book2384 2017 | 2017-2018 | PDF
+       https://www.pcbs.gov.ps/media/lfsby0c5/book2384-2017.pdf
+     - Book2425 2017 | 2017-2019 | PDF
+       https://www.pcbs.gov.ps/media/j0ffo50r/book2425-2017.pdf
+     - Book2444 2017 | 2017-2019 | PDF
+       https://www.pcbs.gov.ps/media/lpij2f2v/book2444-2017.pdf
+     - Book2646 2021 | 2021-2023 | PDF
+       https://www.pcbs.gov.ps/media/tjgnwugv/book2646-2021.pdf
+     - Book339 1997 | 1997-1998 | PDF
+       https://www.pcbs.gov.ps/media/0qia5psp/book339-1997.pdf
+     - Book509 1997 | 1997-1999 | PDF
+       https://www.pcbs.gov.ps/media/haihllvu/book509-1997.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023-2025 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_WPD2025E.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023-2025 | DOCX
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_WPD2025E.docx
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023-2024 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_WPD2024E.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023-2024 | DOCX
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_WPD2024E.docx
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_IntPopulationDy2023E.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | DOCX
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_IntPopulationDy2023E.docx
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2022-2023 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_InterPopDay2022E.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2022-2023 | DOCX
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_InterPopDay2022E.docx
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2021-2023 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_11-7-2021-pop-en.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2021-2023 | DOCX
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_11-7-2021-pop-en.docx
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | PDF
+       https://www.pcbs.gov.ps/downloads/book2484.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2484-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2484-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | PDF
+       https://www.pcbs.gov.ps/downloads/book2478.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2478-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2478-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | PDF
+       https://www.pcbs.gov.ps/downloads/book2475.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2475-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2475-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | PDF
+       https://www.pcbs.gov.ps/downloads/book2472.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2472-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2472-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | PDF
+       https://www.pcbs.gov.ps/downloads/book2471.pdf
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2471-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2023. Revised Estimated based on the final
+       results of Population, Housing and Establishments Census... | 2023 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2471-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | PDF
+       https://www.pcbs.gov.ps/downloads/book2699.pdf
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2699-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2699-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | PDF
+       https://www.pcbs.gov.ps/downloads/book2663.pdf
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2663-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2663-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | PDF
+       https://www.pcbs.gov.ps/downloads/book2608.pdf
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2608-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2608-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | PDF
+       https://www.pcbs.gov.ps/downloads/book2563.pdf
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2563-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2563-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | PDF
+       https://www.pcbs.gov.ps/downloads/book2521.pdf
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2521-w.zip
+     - By: Palestinian Central Bureau of Statistics, 2025. Consumer Price Index Survey,
+       1996-2025. Ramallah - Palestine. | 1996-2025 | ZIP
+       https://www.pcbs.gov.ps/downloads/zip/2521-x.zip
+     - By: Palestinian Central Bureau of Statistics, 2025. Database of Labor Force Survey,
+       1995-2025. Ramallah-Palestine | 1995-2025 | PDF
+       https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_Literacy2024E.pdf
+     ... and 407 more (full list in PSE.json)
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (0 rendered in a browser); 230 file links
+   Formats: PDF 141, ZIP 56, DOCX 15, XLSX 11, DOC 4, RAR 1, CSV 1, XLS 1
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: PSE
+       theme: social_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://www.pcbs.gov.ps/en/', 'https://www.pcbs.gov.ps/en/reference/report-history/', 'https://www.pcbs.gov.ps/en/statistics/?selectedItemId=90fa92ee-3518-4e70-8aee-742969db4e30',
+         'https://www.pcbs.gov.ps/en/statistics/?selectedItemId=b405f440-21fe-4d22-837a-2ea1b373ec69', 'https://www.pcbs.gov.ps/en/statistics/?selectedItemId=3f7806df-0c3f-474e-9b41-85cbe58557e4']
+       render_js: auto
+       notes: 148 social statistics file(s) found on these pages - review before enabling
+     - nso: PSE
+       theme: economic_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://www.pcbs.gov.ps/en/', 'https://www.pcbs.gov.ps/en/statistics/', 'https://www.pcbs.gov.ps/en/reference/report-history/',
+         'https://www.pcbs.gov.ps/en/statistics/?selectedItemId=b405f440-21fe-4d22-837a-2ea1b373ec69', 'https://www.pcbs.gov.ps/en/statistics/?selectedItemId=b763592c-5a61-42a9-babb-12ff5d6f4fea']
+       render_js: auto
+       notes: 121 economic statistics file(s) found on these pages - review before enabling
+
+7. LIMITATIONS / NEXT STEPS
+   - none noted

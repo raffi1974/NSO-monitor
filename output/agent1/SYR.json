@@ -1,0 +1,6142 @@
+{
+ "id": "SYR",
+ "country": "Syrian Arab Republic",
+ "nso": "Planning and Statistics Commission (formerly Central Bureau of Statistics)",
+ "url": "https://psc.gov.sy/",
+ "english_config": "no",
+ "languages": [
+  "ar"
+ ],
+ "config_notes": "CBS was merged into the Planning and Statistics Commission in 2025; the old domain cbssyr.sy is parked.",
+ "checked_at": "2026-09-29 11:18",
+ "themes": {
+  "social_statistics": {
+   "label": "Social statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "التعداد",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14922&",
+     "page_url": "https://psc.gov.sy/site/arabic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "هيئة التخطيط والإحصاء",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "تعداد المنشآت",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14924&",
+     "page_url": "https://psc.gov.sy/site/arabic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "هيئة التخطيط والإحصاء",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "التعداد العام",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14923&",
+     "page_url": "https://psc.gov.sy/site/arabic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "هيئة التخطيط والإحصاء",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "إطلاق الخطة الاستراتيجية الوطنية لوزارة الشؤون الاجتماعية والعمل",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14926&",
+     "page_url": "https://psc.gov.sy/site/arabic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "هيئة التخطيط والإحصاء",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "تعداد المنشآت 2019-2020",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15055&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14922&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "التعداد",
+     "years": [
+      2019,
+      2020
+     ],
+     "coverage": "2019-2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "التعداد العام للسكان والمساكن 2004",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15367&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14922&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "التعداد",
+     "years": [
+      2004
+     ],
+     "coverage": "2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الخطة الاستراتيجية الخاصة بوزارة الشؤون الاجتماعية والعمل",
+     "url": "https://psc.gov.sy/EG8/StrategicPlans/SocialAffairs.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14926&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/StrategicPlans/SocialAffairs.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "الاثنين, 9 آذار, 2026",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "تعداد الثروة الحيوانية 2010",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15327&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2010
+     ],
+     "coverage": "2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "خصائص السكان والمساكن حسب المحافظات والمناطق 2004",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15042&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2004
+     ],
+     "coverage": "2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح تقييم حالة السكان 2014",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15028&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "منهجية المسح الميداني",
+     "url": "https://psc.gov.sy/EG8/Demographic/population/PopulationSituation/2014/pepole_2014.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/population/PopulationSituation/2014/pepole_2014.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "التقرير النهائي للمسح",
+     "url": "https://psc.gov.sy/EG8/Demographic/population/PopulationSituation/2014/final_pepole_2014.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/population/PopulationSituation/2014/final_pepole_2014.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "عدد السكان حسب المحافظة بشكل تفصيلي",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15032&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "قوة العمل",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14910&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح قوة العمل 2006",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15017&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2006
+     ],
+     "coverage": "2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح قوة العمل 2007",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15018&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2007
+     ],
+     "coverage": "2007",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح قوة العمل 2008",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15019&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2008
+     ],
+     "coverage": "2008",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح قوة العمل 2008 / النصف الأول",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15023&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2008
+     ],
+     "coverage": "2008",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح قوة العمل 2008 / النصف الثاني",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15024&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2008
+     ],
+     "coverage": "2008",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح قوة العمل 2009",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15020&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2009
+     ],
+     "coverage": "2009",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح قوة العمل 2009 / النصف الأول",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15363&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2009
+     ],
+     "coverage": "2009",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح قوة العمل 2009 / النصف الثاني",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15364&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2009
+     ],
+     "coverage": "2009",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح قوة العمل 2010",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15021&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2010
+     ],
+     "coverage": "2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح قوة العمل 2010 / النصف الأول",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15365&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2010
+     ],
+     "coverage": "2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح قوة العمل 2010 / النصف الثاني",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15366&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2010
+     ],
+     "coverage": "2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح قوة العمل 2011",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15025&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2011
+     ],
+     "coverage": "2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مقارنة نتائج قوة العمل بين عامي 2010 و 2011",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15026&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2010,
+      2011
+     ],
+     "coverage": "2010-2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح قوة العمل 2015",
+     "url": "https://psc.gov.sy/EG8/Demographic/social/work/work-2015.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/social/work/work-2015.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "مسح قوة العمل 2016",
+     "url": "https://psc.gov.sy/EG8/Demographic/social/work/work-2016.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/social/work/work-2016.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2016
+     ],
+     "coverage": "2016",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "مسح قوة العمل 2017",
+     "url": "https://psc.gov.sy/EG8/Demographic/social/work/work-2017.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/social/work/work-2017.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "مسح قوة العمل 2018",
+     "url": "https://psc.gov.sy/EG8/Demographic/social/work/work-2018.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/social/work/work-2018.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2018
+     ],
+     "coverage": "2018",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "مسح قوة العمل 2019",
+     "url": "https://psc.gov.sy/EG8/Demographic/social/work/work-2019.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/social/work/work-2019.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "مسح قوة العمل 2020",
+     "url": "https://psc.gov.sy/EG8/Demographic/social/work/work-2020.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/social/work/work-2020.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "الصحة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15195&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المسح الصحي الأسري 2009 - 2010",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15039&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2009,
+      2010
+     ],
+     "coverage": "2009-2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "التعليم",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15196&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح انتقال الشباب من التعليم إلى العمل 2009",
+     "url": "https://psc.gov.sy/EG8/Demographic/social/Education/men.htm",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2009
+     ],
+     "coverage": "2009",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "تعداد ومسوح أسرية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15194&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الأمن الغذائي 2015",
+     "url": "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2015.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2015.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "الأمن الغذائي 2017",
+     "url": "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2017.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2017.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "الأمن الغذائي 2019",
+     "url": "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2019.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2019.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "الأمن الغذائي 2020",
+     "url": "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2020.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2020.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "الأمن الغذائي 2021",
+     "url": "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2021.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2021.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2021
+     ],
+     "coverage": "2021",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "الأمن الغذائي 2022",
+     "url": "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2022.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2022.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "الأمن الغذائي 2023",
+     "url": "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2023.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2023.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "الأمن الغذائي 2024",
+     "url": "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2024.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2024.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "الأمن الغذائي 2025",
+     "url": "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2025.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2025.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "تقرير مسح الامن الغذائي الأسري لعام 2025",
+     "url": "https://psc.gov.sy/EG8/Studies/FoodSecurity_2025.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/FoodSecurity_2025.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "دخل ونفقات الأسرة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15198&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "دراسة الفقر في سوريا 2004",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15034&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2004
+     ],
+     "coverage": "2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح دخل ونفقات الأسرة 2004",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14898&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2004
+     ],
+     "coverage": "2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح دخل ونفقات الأسرة 2007",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14900&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2007
+     ],
+     "coverage": "2007",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح دخل ونفقات الأسرة 2009",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14906&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2009
+     ],
+     "coverage": "2009",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "التقرير النهائي لنتائج المسح",
+     "url": "https://psc.gov.sy/EG8/Demographic/population/Multi-purpose_cluster/2006/Final_Report.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/population/Multi-purpose_cluster/2006/Final_Report.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2006
+     ],
+     "coverage": "2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "طريقة تنفيذ المشروع بشكل تفصيلي",
+     "url": "https://psc.gov.sy/EG8/Demographic/population/Multi-purpose_cluster/2006/Syria_CD_ROM",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المسح الاجتماعي والاقتصادي لمحافظة الحسكة 2011",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15043&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2011
+     ],
+     "coverage": "2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "خصائص الأسر",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15044&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "تقرير المسح الاجتماعي والاقتصادي في الحسكة",
+     "url": "https://psc.gov.sy/EG8/Demographic/Hasaka_2011/Report1.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/Hasaka_2011/Report1.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2011
+     ],
+     "coverage": "2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المسح الديمغرافي الاجتماعي المتكامل المتعدد الأغراض 2017 - 2018",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15047&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2017,
+      2018
+     ],
+     "coverage": "2017-2018",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نسبة توزع المساكن",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15337&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نسبة توزع السكان",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15338&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نسبة توزع المساكن",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15347&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نسبة توزع السكان",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15348&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "السكان والمؤشرات الديموغرافية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14970&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14893&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "الكتاب الإحصائي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "التعليم والثقافة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14979&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14893&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "الكتاب الإحصائي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الصحة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14980&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14893&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "الكتاب الإحصائي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "تقرير نتائج مسح الاحتياجات العامة للأسر السورية 2026",
+     "url": "https://psc.gov.sy/EG8/Studies/FamilyNeeds_2026.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/FamilyNeeds_2026.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "توزع السكان جديد",
+     "url": "https://psc.gov.sy/EG8/Studies/st16.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st16.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "السكان المقيمون غير السوريين و خصائصهم",
+     "url": "https://psc.gov.sy/EG8/Studies/st9.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st9.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "دراسة تحليلية حول التعليم الأساسي",
+     "url": "https://psc.gov.sy/EG8/Studies/st20.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st20.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الاتجاهات والتباينات في إحصاءات النوع الاجتماعي",
+     "url": "https://psc.gov.sy/EG8/Studies/st3.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st3.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "أنماط الأسر وتطورها",
+     "url": "https://psc.gov.sy/EG8/Studies/st13.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st13.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإسقاطات السكانية",
+     "url": "https://psc.gov.sy/EG8/Studies/st4.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st4.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مناطق السكن العشوائي في سورية وربطها مع خصائص الأسر والسكان",
+     "url": "https://psc.gov.sy/EG8/Studies/st24.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st24.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مساهمة المرأة في النشاط الاقتصادي في سورية",
+     "url": "https://psc.gov.sy/EG8/Studies/st22.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st22.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الهجرة الداخلية في سوريا",
+     "url": "https://psc.gov.sy/EG8/Studies/st12.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st12.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "خصائص دخل الأسرة وعلاقتها بخصائص مسكنها",
+     "url": "https://psc.gov.sy/EG8/Studies/st17.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st17.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مشروع تحليل بيانات تعداد السكان لعام 2004 السكان ذوي الاحتياجات الخاصة 2007",
+     "url": "https://psc.gov.sy/EG8/Studies/st10.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st10.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [
+      2004,
+      2007
+     ],
+     "coverage": "2004-2007",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الأمية ( تفاقم المشكلة وتعثر الحلول) 2007 م ـ 1428 هـ",
+     "url": "https://psc.gov.sy/EG8/Studies/st5.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st5.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [
+      2007
+     ],
+     "coverage": "2007",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "التعليم الجامعي في الجمهورية العربية السورية 1994-2005",
+     "url": "https://psc.gov.sy/EG8/Studies/st18.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st18.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [
+      1994,
+      2005
+     ],
+     "coverage": "1994-2005",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "تقييم بيانات التعداد العام للسكان عام 2004",
+     "url": "https://psc.gov.sy/EG8/Studies/st15.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st15.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [
+      2004
+     ],
+     "coverage": "2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "تطور التركيب التعليمي لسكان الجمهورية العربية السورية دراسة مقارنة (1994-2004)",
+     "url": "https://psc.gov.sy/EG8/Studies/st14.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st14.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [
+      1994,
+      2004
+     ],
+     "coverage": "1994-2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مظاهر التغير بواقع المسنين في الجمهورية العربية السورية بين عامي 1994 - 2004",
+     "url": "https://psc.gov.sy/EG8/Studies/st23.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st23.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [
+      1994,
+      2004
+     ],
+     "coverage": "1994-2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "البطالة في سورية 1994- 2004",
+     "url": "https://psc.gov.sy/EG8/Studies/st7.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st7.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [
+      1994,
+      2004
+     ],
+     "coverage": "1994-2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرات قوة العمل",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15268&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرة قوة العمل على مستوى المحافظات 2010",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15022&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [
+      2010
+     ],
+     "coverage": "2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات الصحة الإنجابية للنساء",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15362&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات التعليم",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15360&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات الإعاقة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15352&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مؤشرات ديمغرافية من 2020 حتى 2024",
+     "url": "https://psc.gov.sy/EG8/Indicators/Demographic/2020-2024/Demographic-2020-2024.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Indicators/Demographic/2020-2024/Demographic-2020-2024.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      2020,
+      2024
+     ],
+     "coverage": "2020-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المؤشرات المتعلقة بالإعالة من 1994 حتى 2006",
+     "url": "https://psc.gov.sy/EG8/Indicators/Demographic/1994-2006/dependency.htm",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      1994,
+      2006
+     ],
+     "coverage": "1994-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات السكان والمساكن لعام 2004",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15283&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      2004
+     ],
+     "coverage": "2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المؤشرات المتعلقة بالمساكن من 1994 حتى 2006 حسب المحافظات",
+     "url": "https://psc.gov.sy/EG8/Indicators/Demographic/1994-2006/house-1994-2006.htm",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      1994,
+      2006
+     ],
+     "coverage": "1994-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المؤشرات المتعلقة بالوضع الاقتصادي من 1994 حتى 2006 حسب المحافظات",
+     "url": "https://psc.gov.sy/EG8/Indicators/Demographic/1994-2006/ecu-1994-2006.htm",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      1994,
+      2006
+     ],
+     "coverage": "1994-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات التركيب العمري من 1994 حتى 2006 حسب المحافظات",
+     "url": "https://psc.gov.sy/EG8/Indicators/Demographic/1994-2006/age-1994-2006.htm",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      1994,
+      2006
+     ],
+     "coverage": "1994-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات قوة العمل",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15062&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات البطالة من 1994 حتى 2006",
+     "url": "https://psc.gov.sy/EG8/Indicators/social/work/Unemployment-1994-2006.htm",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      1994,
+      2006
+     ],
+     "coverage": "1994-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات المشتغلين من 1994 حتى 2006 حسب المحافظات",
+     "url": "http://psc.gov.sy/EG8/Indicators/social/work/mosh-1994-2006.htm",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      1994,
+      2006
+     ],
+     "coverage": "1994-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات قوة العمل من 2020 حتى 2023",
+     "url": "https://psc.gov.sy/EG8/Indicators/social/work/work-2020-2023.htm",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      2020,
+      2023
+     ],
+     "coverage": "2020-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات التعليم",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15226&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات الالتحاق بالتعليم للأعوام 2003-2004-2006",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15277&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      2003,
+      2004,
+      2006
+     ],
+     "coverage": "2003-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات التعليم من 1994 حتى 2006 حسب المحافظات",
+     "url": "http://psc.gov.sy/EG8/Indicators/social/Education/education-1994-2006.htm",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      1994,
+      2006
+     ],
+     "coverage": "1994-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مؤشرات التعليم من 2020 حتى 2023",
+     "url": "https://psc.gov.sy/EG8/Indicators/social/Education/educatio-2020-2023.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Indicators/social/Education/educatio-2020-2023.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      2020,
+      2023
+     ],
+     "coverage": "2020-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات الصحة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15230&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مؤشرات الصحة من 2020 حتى 2023",
+     "url": "https://psc.gov.sy/EG8/Indicators/social/Health/health-2020-2023.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Indicators/social/Health/health-2020-2023.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      2020,
+      2023
+     ],
+     "coverage": "2020-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "إطلاق الخطة الاستراتيجية الوطنية لوزارة الشؤون الاجتماعية والعمل",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14926&First=0&Last=3&CurrentPage=0&mid=&refBack=",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=57169&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "خطط واستراتيجيات التنمية الوطنية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الخطة الاستراتيجية الخاصة بوزارة الصحة",
+     "url": "https://psc.gov.sy/EG8/StrategicPlans/HealthStrategy.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14928&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/StrategicPlans/HealthStrategy.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "الخميس, 18 كانون الأول, 2025",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "قوة العمل",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=15211&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14940&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "السلاسل الزمنية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "سلاسل قوة العمل خلال الفترة من 2001 حتى 2011",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=15027&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14940&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "السلاسل الزمنية",
+     "years": [
+      2001,
+      2011
+     ],
+     "coverage": "2001-2011",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  },
+  "economic_statistics": {
+   "label": "Economic statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "تعداد المنشآت",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14924&",
+     "page_url": "https://psc.gov.sy/site/arabic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "هيئة التخطيط والإحصاء",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "إطلاق الاستراتيجية الوطنية الزراعية السورية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14927&",
+     "page_url": "https://psc.gov.sy/site/arabic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "هيئة التخطيط والإحصاء",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "تعداد المنشآت 2019-2020",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15055&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14922&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "التعداد",
+     "years": [
+      2019,
+      2020
+     ],
+     "coverage": "2019-2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الخطة الاستراتيجية الخاصة بوزارة الزراعة",
+     "url": "https://psc.gov.sy/EG8/StrategicPlans/FarmingStrategy.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14927&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/StrategicPlans/FarmingStrategy.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "الأربعاء, 18 شباط, 2026",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الصناعة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14914&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الاستثمار الأجنبي المباشر",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14953&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الاستثمار الأجنبي المباشر 2008",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15122&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2008
+     ],
+     "coverage": "2008",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نتائج مسح الاستثمار الأجنبي المباشر 2008",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14955&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2008
+     ],
+     "coverage": "2008",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المسح الصناعي في القطاع الخاص",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14959&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المسح الصناعي في القطاع الخاص 2006",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14958&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2006
+     ],
+     "coverage": "2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المسح الصناعي في القطاع الخاص 2007",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14962&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2007
+     ],
+     "coverage": "2007",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المسح الصناعي في القطاع الخاص 2009",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14963&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2009
+     ],
+     "coverage": "2009",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المسح الصناعي في القطاع الخاص 2010",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14964&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2010
+     ],
+     "coverage": "2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "المسح الصناعي في القطاع الخاص 2011",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2011.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2011.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2011
+     ],
+     "coverage": "2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "المسح الصناعي في القطاع الخاص 2012",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2012.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2012.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "المسح الصناعي في القطاع الخاص 2013",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2013.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2013.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "المسح الصناعي في القطاع الخاص 2014",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2014.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2014.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "المسح الصناعي في القطاع الخاص 2015",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2015.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2015.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "المسح الصناعي في القطاع الخاص 2016",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2016.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2016.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2016
+     ],
+     "coverage": "2016",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "المسح الصناعي في القطاع الخاص 2017",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2017.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2017.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "المسح الصناعي في القطاع الخاص 2019",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2019.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2019.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "المسح الصناعي في القطاع الخاص 2020",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2020.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2020.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "المسح الصناعي في القطاع الخاص 2021",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2021.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2021.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2021
+     ],
+     "coverage": "2021",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "المسح الصناعي في القطاع الخاص 2022",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2022.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2022.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "المسح الصناعي في القطاع الخاص 2023",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2023.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2023.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "المسح الصناعي في القطاع الخاص 2024",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2024.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2024.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14985&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي من 2007 حتى 2011",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15112&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2007,
+      2011
+     ],
+     "coverage": "2007-2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي 2012",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2012.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2012.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي 2013",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2013.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2013.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي 2014",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2014.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2014.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي 2015",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2015.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2015.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي 2016",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2016.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2016.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2016
+     ],
+     "coverage": "2016",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي 2017",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2017.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2017.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي 2018",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2018.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2018.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2018
+     ],
+     "coverage": "2018",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي 2019",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2019.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2019.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي 2020",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2020.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2020.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي 2021",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2021.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2021.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2021
+     ],
+     "coverage": "2021",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي 2022",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2022.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2022.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي 2023",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2023.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2023.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والمبيعات في القطاع العام الصناعي 2024",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2024.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2024.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز في القطاع العام الصناعي",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14990&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز من 2007 حتى 2011",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15113&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2007,
+      2011
+     ],
+     "coverage": "2007-2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز 2012",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2012.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2012.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز 2013",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2013.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2013.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز 2014",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2014.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2014.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز 2015",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2015.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2015.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز 2016",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2016.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2016.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2016
+     ],
+     "coverage": "2016",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز 2017",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2017.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2017.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز 2018",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2018.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2018.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2018
+     ],
+     "coverage": "2018",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز 2019",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2019.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2019.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز 2020",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2020.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2020.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز 2021",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2021.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2021.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2021
+     ],
+     "coverage": "2021",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز 2022",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2022.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2022.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز 2023",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2023.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2023.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الإنتاج والناتج والتكاليف والفائض والعجز 2024",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2024.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2024.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "إحصاءات التجارة الخارجية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15146&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "إحصاءات التجارة الخارجية 2010",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15149&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2010
+     ],
+     "coverage": "2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "إحصاءات التجارة الخارجية 2011",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15150&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2011
+     ],
+     "coverage": "2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "إحصاءات التجارة الخارجية 2012",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2012.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2012.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "إحصاءات التجارة الخارجية 2013",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2013.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2013.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "إحصاءات التجارة الخارجية 2014",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2014.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2014.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "إحصاءات التجارة الخارجية 2015",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2015.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2015.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "إحصاءات التجارة الخارجية 2016",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2016.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2016.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2016
+     ],
+     "coverage": "2016",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "إحصاءات التجارة الخارجية 2017",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2017.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2017.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "إحصاءات التجارة الخارجية 2018",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2018.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2018.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2018
+     ],
+     "coverage": "2018",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "إحصاءات التجارة الخارجية 2019",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2019.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2019.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "إحصاءات التجارة الخارجية 2020",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2020.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2020.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "إحصاءات التجارة الخارجية 2021",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2021.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2021.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2021
+     ],
+     "coverage": "2021",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "إحصاءات التجارة الخارجية 2022",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2022.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2022.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "إحصاءات التجارة الخارجية 2023",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2023.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2023.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "خلاصة التجارة الخارجية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15145&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "خلاصة التجارة الخارجية من عام 2004 حتى عام 2011",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15148&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2004,
+      2011
+     ],
+     "coverage": "2004-2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "خلاصة التجارة الخارجية 2012",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2012.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2012.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "خلاصة التجارة الخارجية 2013",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2013.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2013.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "خلاصة التجارة الخارجية 2014",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2014.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2014.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "خلاصة التجارة الخارجية 2015",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2015.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2015.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "خلاصة التجارة الخارجية 2016",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2016.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2016.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2016
+     ],
+     "coverage": "2016",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "خلاصة التجارة الخارجية 2018",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2018.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2018.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2018
+     ],
+     "coverage": "2018",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "خلاصة التجارة الخارجية 2019",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2019.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2019.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "خلاصة التجارة الخارجية من عام 2015 حتى 2020",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15051&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2015,
+      2020
+     ],
+     "coverage": "2015-2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "خلاصة التجارة الخارجية 2020",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2020.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2020.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "خلاصة التجارة الخارجية 2021",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2021.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2021.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2021
+     ],
+     "coverage": "2021",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "خلاصة التجارة الخارجية 2022",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2022.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2022.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "خلاصة التجارة الخارجية 2023",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2023.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Trade/summary/summray-2023.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الزراعة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14919&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح العينة العشوائية الزراعية للمحاصيل الرئيسية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14995&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المساحة والإنتاج والغلة للعدس",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14998&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المساحة والإنتاج والغلة للشعير",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14997&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المساحة والإنتاج والغلة للقمح",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14996&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح المحاصيل الرئيسية 2013",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2013.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2013.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح المحاصيل الرئيسية 2014",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2014.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2014.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح المحاصيل الرئيسية 2015",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2015.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2015.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح المحاصيل الرئيسية 2016",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2016.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2016.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2016
+     ],
+     "coverage": "2016",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح المحاصيل الرئيسية 2017",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2017.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2017.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح المحاصيل الرئيسية 2018",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2018.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2018.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2018
+     ],
+     "coverage": "2018",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح المحاصيل الرئيسية 2019",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2019.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2019.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح المحاصيل الرئيسية 2020",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2020.xls",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2020.xls"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "مسح المحاصيل الرئيسية 2021",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2021.xls",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2021.xls"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2021
+     ],
+     "coverage": "2021",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "مسح المحاصيل الرئيسية 2022",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2022.xls",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2022.xls"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "مسح المحاصيل الرئيسية 2023",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2023.xls",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2023.xls"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "مسح المحاصيل الرئيسية 2024",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2024.xls",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Main-Crops/main-crops-2024.xls"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "الزراعات المحمية 2013",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Crops-Protected/Crops-Protected-2013.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Crops-Protected/Crops-Protected-2013.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الزراعات المحمية 2014",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Crops-Protected/Crops-Protected-2014.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Crops-Protected/Crops-Protected-2014.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الزراعات المحمية 2015",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Crops-Protected/Crops-Protected-2015.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Crops-Protected/Crops-Protected-2015.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الزراعات المحمية 2016",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Crops-Protected/Crops-Protected-2016.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Crops-Protected/Crops-Protected-2016.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2016
+     ],
+     "coverage": "2016",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "تعداد الثروة الحيوانية 2010",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15327&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2010
+     ],
+     "coverage": "2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "السياحة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14918&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح الفنادق",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14991&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح الفنادق 2008",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14992&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2008
+     ],
+     "coverage": "2008",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح الفنادق 2009",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14994&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2009
+     ],
+     "coverage": "2009",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح الفنادق 2012",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2012.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2012.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح الفنادق 2013",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2013.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2013.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح الفنادق 2014",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2014.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2014.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح الفنادق 2015",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2015.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2015.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح الفنادق 2017",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2017.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2017.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح الفنادق 2020",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2020.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2020.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح الفنادق 2021",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2021.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2021.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2021
+     ],
+     "coverage": "2021",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح الفنادق 2023",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2023.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Tourism/Hotel/Hotel_2023.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح السياحة الوافدة والمغادرة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14993&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "البناء",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14920&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح عينة البناء المنفذ والمرخص",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15005&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح عينة البناء المنفذ والمرخص 2008",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15006&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2008
+     ],
+     "coverage": "2008",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح عينة البناء المنفذ والمرخص 2009",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15007&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2009
+     ],
+     "coverage": "2009",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح عينة البناء المنفذ والمرخص 2010",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15008&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2010
+     ],
+     "coverage": "2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح عينة البناء المنفذ والمرخص 2011",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15009&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2011
+     ],
+     "coverage": "2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح عينة البناء المنفذ والمرخص 2012",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15010&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح عينة البناء المنفذ والمرخص 2020",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Build/Accomplished/Accomplished-2020.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Build/Accomplished/Accomplished-2020.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح وسطي تكلفة واحدة القياس المنجزة في البناء السكني",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15011&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح وسطي تكلفة واحدة القياس المنجزة في البناء السكني 2008",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15012&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2008
+     ],
+     "coverage": "2008",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح وسطي تكلفة واحدة القياس المنجزة في البناء السكني 2009",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15013&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2009
+     ],
+     "coverage": "2009",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح وسطي تكلفة واحدة القياس المنجزة في البناء السكني 2010",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15014&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2010
+     ],
+     "coverage": "2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح وسطي تكلفة واحدة القياس المنجزة في البناء السكني 2011",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15015&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2011
+     ],
+     "coverage": "2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح وسطي تكلفة واحدة القياس المنجزة في البناء السكني 2012",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15016&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح وسطي تكلفة واحدة القياس المنجزة في البناء السكني 2023",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Build/Costs/Cost-2023.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Build/Costs/Cost-2023.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح وسطي تكلفة واحدة القياس المنجزة في البناء السكني 2024",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Build/Costs/Cost-2024.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Build/Costs/Cost-2024.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح وسطي تكلفة واحدة القياس المنجزة في البناء السكني 2025",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Build/Costs/Cost-2025.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Build/Costs/Cost-2025.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مسح وسطي تكلفة واحدة القياس المنجزة في البناء السكني 2026",
+     "url": "https://psc.gov.sy/EG8/EeconomyStatistics/Build/Costs/Cost-2026.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/EeconomyStatistics/Build/Costs/Cost-2026.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "النقل",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14921&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المسح الاجتماعي والاقتصادي لمحافظة الحسكة 2011",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15043&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2011
+     ],
+     "coverage": "2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "تقرير المسح الاجتماعي والاقتصادي في الحسكة",
+     "url": "https://psc.gov.sy/EG8/Demographic/Hasaka_2011/Report1.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Demographic/Hasaka_2011/Report1.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [
+      2011
+     ],
+     "coverage": "2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نسبة توزع المنشآت",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15349&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "إحصاءات",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "التضخم في سورية بين المصادر الوطنية والدولية - 2026",
+     "url": "https://psc.gov.sy/EG8/InternationalReports/Report_Inflation.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15058&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/InternationalReports/Report_Inflation.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "سوريا في التقارير الدولية",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الزراعة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14972&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14893&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "الكتاب الإحصائي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الصناعة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14973&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14893&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "الكتاب الإحصائي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "البناء والتشييد",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14974&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14893&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "الكتاب الإحصائي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "النقل والمواصلات",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14975&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14893&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "الكتاب الإحصائي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "السياحة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14976&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14893&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "الكتاب الإحصائي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "التجارة الخارجية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14977&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14893&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "الكتاب الإحصائي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الأسعار والتجارة الداخلية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14978&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14893&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "الكتاب الإحصائي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المالية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14982&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14893&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "الكتاب الإحصائي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الحسابات القومية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14983&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14893&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "الكتاب الإحصائي",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "دراسة التضخم في سوريا 2010-2025",
+     "url": "https://psc.gov.sy/EG8/Studies/inflation-2010-2025.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/inflation-2010-2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [
+      2010,
+      2025
+     ],
+     "coverage": "2010-2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "تقرير النمو الاقتصادي 2010-2024",
+     "url": "https://psc.gov.sy/EG8/Studies/st25.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st25.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [
+      2010,
+      2024
+     ],
+     "coverage": "2010-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الحيازات الزراعية",
+     "url": "https://psc.gov.sy/EG8/Studies/st19.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st19.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "دراسة تحليلية للمنشآت الصناعية",
+     "url": "https://psc.gov.sy/EG8/Studies/st11.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st11.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "مساهمة المرأة في النشاط الاقتصادي في سورية",
+     "url": "https://psc.gov.sy/EG8/Studies/st22.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st22.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "تطور آليات الري و المكننة الزراعية 1994 - 2004",
+     "url": "https://psc.gov.sy/EG8/Studies/st8.pdf",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Studies/st8.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "دراسات وتقارير",
+     "years": [
+      1994,
+      2004
+     ],
+     "coverage": "1994-2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرات الصناعة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15201&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرة المسح الصناعي في القطاع الخاص 2024",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15266&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرة الإنتاج والمبيعات في القطاع العام الصناعي 2024",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15265&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرة الإنتاج والناتج والتكاليف والفائض والعجز في القطاع العام الصناعي 2024",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15267&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرة إحصاءات التجارة الخارجية 2023",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15269&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرة خلاصة التجارة الخارجية 2023",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15270&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرات الزراعة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15200&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرة مسح العينة العشوائية الزراعية للمحاصيل الرئيسية 2024",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15272&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرات السياحة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15273&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرة مسح الفنادق 2023",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15274&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرات البناء",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15381&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح وسطي تكلفة واحدة القياس المنجزة في البناء السكني 2026",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15382&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "نشرات النقل",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15275&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15059&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "نشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات الصناعة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15319&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مسح المؤشرات الصناعية للأعوام 2005-2006-2007",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=14965&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      2005,
+      2006,
+      2007
+     ],
+     "coverage": "2005-2007",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات السياحة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15067&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مـؤشـرات الســياحة للأعوام 2006-2007",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15284&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      2006,
+      2007
+     ],
+     "coverage": "2006-2007",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات الزراعة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15066&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات الزراعة للأعوام 2006-2007-2008",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15285&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      2006,
+      2007,
+      2008
+     ],
+     "coverage": "2006-2008",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات النقل",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15065&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات النقل لعامي 2006 - 2007",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15288&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      2006,
+      2007
+     ],
+     "coverage": "2006-2007",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات قطاع الخدمات المالية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15406&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات قطاع الاتصالات",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15405&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشر زمن الوصول إلى المرافق الصحية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15353&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "المؤشرات المتعلقة بالوضع الاقتصادي من 1994 حتى 2006 حسب المحافظات",
+     "url": "https://psc.gov.sy/EG8/Indicators/Demographic/1994-2006/ecu-1994-2006.htm",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [
+      1994,
+      2006
+     ],
+     "coverage": "1994-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "مؤشرات الحسابات القومية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15063&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الناتج المحلـى الإجمـالي",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15291&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الإنتاج المحلـى الإجمـالي",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55174&cat=15290&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "مؤشرات إحصائية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "إطلاق الاستراتيجية الوطنية الزراعية السورية",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14927&First=0&Last=3&CurrentPage=0&mid=&refBack=",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=57169&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "خطط واستراتيجيات التنمية الوطنية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الصناعة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=15091&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14940&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "السلاسل الزمنية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "السلاسل الزمنية للأعوام من ( 1970 حتى 2023 )",
+     "url": "https://psc.gov.sy/EG8/Time_Series/Industry/‏‏‏‏Time Series_eco_2023.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14940&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Time_Series/Industry/‏‏‏‏Time Series_eco_2023.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "السلاسل الزمنية",
+     "years": [
+      1970,
+      2023
+     ],
+     "coverage": "1970-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "السلاسل الزمنية للأعوام من ( 1970 حتى 2019 )",
+     "url": "https://psc.gov.sy/EG8/Time_Series/Industry/‏‏‏‏Time_Series_eco_2019.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14940&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Time_Series/Industry/‏‏‏‏Time_Series_eco_2019.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "السلاسل الزمنية",
+     "years": [
+      1970,
+      2019
+     ],
+     "coverage": "1970-2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "الزراعة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=15092&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14940&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "السلاسل الزمنية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "السلاسل الزمنية للأعوام من ( 1999 حتى 2019 )",
+     "url": "https://psc.gov.sy/EG8/Time_Series/Agriculture/Time-series-Fram_2019.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14940&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Time_Series/Agriculture/Time-series-Fram_2019.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "السلاسل الزمنية",
+     "years": [
+      1999,
+      2019
+     ],
+     "coverage": "1999-2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "السياحة",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=15096&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14940&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "السلاسل الزمنية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "السلاسل الزمنية للأعوام من ( 1997 حتى 2019 )",
+     "url": "https://psc.gov.sy/EG8/Time_Series/Tourism/Time_Series_tourism_2019.rar",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14940&",
+     "formats": [
+      "RAR"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/Time_Series/Tourism/Time_Series_tourism_2019.rar"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "السلاسل الزمنية",
+     "years": [
+      1997,
+      2019
+     ],
+     "coverage": "1997-2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "البناء",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=15089&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14940&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "السلاسل الزمنية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "النقل",
+     "url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=15088&",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14940&",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "السلاسل الزمنية",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "الأرقام القياسية لأسعار المستهلك 2011-2017 حسب المجموعات الرئيسة والأشهر على مستوى القطر",
+     "url": "https://psc.gov.sy/EG8/CPI/inflation_2011_2017.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14941&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/CPI/inflation_2011_2017.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "الأرقام القياسية",
+     "years": [
+      2011,
+      2017
+     ],
+     "coverage": "2011-2017",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "الأرقام القياسية لأسعار المستهلك 2017-2023 حسب المجموعات الرئيسة والأشهر على مستوى القطر",
+     "url": "https://psc.gov.sy/EG8/CPI/inflation_2017_2023.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14941&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/CPI/inflation_2017_2023.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "الأرقام القياسية",
+     "years": [
+      2017,
+      2023
+     ],
+     "coverage": "2017-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "بيانات التضخم على مستوى القطر 2011-2024",
+     "url": "https://psc.gov.sy/EG8/CPI/inflation_2011_2024.xlsx",
+     "page_url": "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14941&",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://psc.gov.sy/EG8/CPI/inflation_2011_2024.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "الأرقام القياسية",
+     "years": [
+      2011,
+      2024
+     ],
+     "coverage": "2011-2024",
+     "frequency": "",
+     "data_file": true
+    }
+   ]
+  }
+ },
+ "limitations": [
+  "No English version: the non-English pages were analysed (keywords cover Arabic and French)."
+ ],
+ "recognized": [],
+ "suggested_sources": [
+  {
+   "nso": "SYR",
+   "theme": "social_statistics",
+   "method": "scrape",
+   "connector": "scrape",
+   "enabled": false,
+   "pages": [
+    "https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14926&",
+    "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+    "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+    "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&",
+    "https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14928&"
+   ],
+   "render_js": "auto",
+   "notes": "43 social statistics file(s) found on these pages - review before enabling"
+  },
+  {
+   "nso": "SYR",
+   "theme": "economic_statistics",
+   "method": "scrape",
+   "connector": "scrape",
+   "enabled": false,
+   "pages": [
+    "https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14927&",
+    "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&",
+    "https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15058&",
+    "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&",
+    "https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14940&"
+   ],
+   "render_js": "auto",
+   "notes": "107 economic statistics file(s) found on these pages - review before enabling"
+  }
+ ],
+ "indicator_samples": [],
+ "site": {
+  "url": "https://psc.gov.sy/",
+  "reachable": true,
+  "status": 200,
+  "final_url": "https://psc.gov.sy/site/arabic/",
+  "title": "هيئة التخطيط والإحصاء",
+  "lang": "",
+  "english": "no",
+  "english_url": "",
+  "platforms": [],
+  "blocked": "",
+  "rendered": false,
+  "insecure_tls": false,
+  "notes": []
+ },
+ "files": {
+  "formats": {
+   "RAR": 217,
+   "PDF": 47,
+   "XLSX": 33,
+   "XLS": 10
+  },
+  "total": 307,
+  "pages_crawled": 40,
+  "pages_rendered": 0
+ },
+ "api": {
+  "docs": [],
+  "how_to": {},
+  "endpoints": [],
+  "js_findings": {
+   "scripts_scanned": 13,
+   "base_urls": [],
+   "endpoint_paths": [],
+   "api_urls": []
+  },
+  "doc_links": [],
+  "status": "none",
+  "python_access": "no",
+  "summary": "No API found (no documented platform, no data calls seen while browsing). Data is published as files/pages only: Agent 2 would use the 'scrape' connector."
+ },
+ "sniff_pages": [
+  {
+   "url": "https://psc.gov.sy/site/arabic/",
+   "final_url": "https://psc.gov.sy/site/arabic/",
+   "status": 200,
+   "title": "هيئة التخطيط والإحصاء"
+  },
+  {
+   "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14922&",
+   "final_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14922&",
+   "status": 200,
+   "title": "التعداد"
+  },
+  {
+   "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14924&",
+   "final_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14924&",
+   "status": 200,
+   "title": "تعداد المنشآت"
+  },
+  {
+   "url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14923&",
+   "final_url": "https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14923&",
+   "status": 200,
+   "title": "التعداد العام"
+  }
+ ],
+ "duration_s": 105.3
+}

@@ -1,0 +1,2164 @@
+{
+ "id": "SOM",
+ "country": "Somalia",
+ "nso": "Somalia National Bureau of Statistics (SNBS)",
+ "url": "https://nbs.gov.so",
+ "english_config": "yes",
+ "languages": [
+  "en",
+  "so"
+ ],
+ "config_notes": "",
+ "checked_at": "2026-09-29 11:13",
+ "themes": {
+  "social_statistics": {
+   "label": "Social statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/district-level-poverty-estimates-in-somalia-a-fay-herriot-model-approach/",
+     "page_url": "https://nbs.gov.so",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Somali National Bureau of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "READ FULL REPORT",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/07/SOCIO-DEMOGRAPHIC-SURVEY-SDS-2026-Report.pdf",
+     "page_url": "https://nbs.gov.so",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/07/SOCIO-DEMOGRAPHIC-SURVEY-SDS-2026-Report.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Somalia National Bureau of Statistics",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "The Socio-Demographic Survey 2026",
+     "url": "https://nbs.gov.so/the-socio-demographic-survey-2026/",
+     "page_url": "https://nbs.gov.so/consumer-price-index-cpi-july-2026/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) July 2026 -",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Read Full Report",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/05/Somali-Labour-Force-survey-2019.pdf",
+     "page_url": "https://nbs.gov.so/somali-labor-force-survey-2019/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/05/Somali-Labour-Force-survey-2019.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Somalia National Bureau of Statistics",
+     "years": [
+      2019,
+      2023
+     ],
+     "coverage": "2019-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Somalia National Bureau of Statistics",
+     "url": "https://nbs.gov.so/wp-content/uploads/2025/05/DIGITAL-District-Level-Poverty-Estimates-in-Somalia.pdf",
+     "page_url": "https://nbs.gov.so/district-level-poverty-estimates-in-somalia-a-fay-herriot-model-approach/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2025/05/DIGITAL-District-Level-Poverty-Estimates-in-Somalia.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Somalia National Bureau of Statistics",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Publications",
+     "url": "https://nbs.gov.so/wp-content/uploads/2024/01/SOMALIA-INTEGRATED-HOUSEHOLD-BUDGET-SURVEY-SIHBS-2022.pdf",
+     "page_url": "https://nbs.gov.so/statistical-publications/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2024/01/SOMALIA-INTEGRATED-HOUSEHOLD-BUDGET-SURVEY-SIHBS-2022.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Publications",
+     "years": [
+      2022,
+      2024
+     ],
+     "coverage": "2022-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Publications",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/07/Somali-Gender-Statistics-Booklet-2nd-edition-2022.pdf",
+     "page_url": "https://nbs.gov.so/statistical-publications/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/07/Somali-Gender-Statistics-Booklet-2nd-edition-2022.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Publications",
+     "years": [
+      2022,
+      2023
+     ],
+     "coverage": "2022-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Publications",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/07/Women-and-Men-in-Somalia-2020.pdf",
+     "page_url": "https://nbs.gov.so/statistical-publications/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/07/Women-and-Men-in-Somalia-2020.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Publications",
+     "years": [
+      2020,
+      2023
+     ],
+     "coverage": "2020-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Publications",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/07/Somali-Poverty-and-Vulnerability-Assessment.pdf",
+     "page_url": "https://nbs.gov.so/statistical-publications/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/07/Somali-Poverty-and-Vulnerability-Assessment.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Publications",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Publications",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/07/Housing-and-Household-Assets-of-the-Somali-People-–-Volume-5.pdf",
+     "page_url": "https://nbs.gov.so/statistical-publications/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/07/Housing-and-Household-Assets-of-the-Somali-People-–-Volume-5.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Publications",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Publications",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/07/Educational-Characteristics-of-the-Somali-People-–-Volume-3.pdf",
+     "page_url": "https://nbs.gov.so/statistical-publications/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/07/Educational-Characteristics-of-the-Somali-People-–-Volume-3.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Publications",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Publications",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/07/Population-Composition-and-Demographic-Characteristics-of-the-Somali-People-–-Volume-2.pdf",
+     "page_url": "https://nbs.gov.so/statistical-publications/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/07/Population-Composition-and-Demographic-Characteristics-of-the-Somali-People-–-Volume-2.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Publications",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "READ FULL REPORT",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/07/Social-Sector-Statistics-Strategy-Somalia-2023-2027.pdf",
+     "page_url": "https://nbs.gov.so/laws-policies/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/07/Social-Sector-Statistics-Strategy-Somalia-2023-2027.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "LATEST LAWS & POLICIES",
+     "years": [
+      2023,
+      2027
+     ],
+     "coverage": "2023-2027",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/census-2/",
+     "page_url": "https://nbs.gov.so/projects/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Projects -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/directorate-of-population-and-social-statistics/",
+     "page_url": "https://nbs.gov.so/snbs-directorates/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "SNBS Directorate -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Somalia Integrated Household Budget Survey (SIHBS) 2022",
+     "url": "https://microdata.nbs.gov.so/index.php/catalog/59",
+     "page_url": "https://microdata.nbs.gov.so/index.php/home",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Home",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population Estimation Survey of Somalia 2014 Urban Round",
+     "url": "https://microdata.nbs.gov.so/index.php/catalog/4",
+     "page_url": "https://microdata.nbs.gov.so/index.php/home",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Somaliland Household Survey 2013 Adapted for the Somali High Frequency Survey",
+     "url": "https://microdata.nbs.gov.so/index.php/catalog/6",
+     "page_url": "https://microdata.nbs.gov.so/index.php/home",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Somali Health and Demographic Survey 2020",
+     "url": "https://microdata.nbs.gov.so/index.php/catalog/50",
+     "page_url": "https://microdata.nbs.gov.so/index.php/home",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "24 September 2024 SNBS Attends Launch of the World Bank Somalia Poverty and Equity Assessment Report",
+     "url": "https://goaltracker.nbs.gov.so/news/7/",
+     "page_url": "https://goaltracker.nbs.gov.so/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Goal Tracker",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "25 April 2022 SDGs Consultation Workshop for Civil Society, Private Sectors and Youth April 25 –26, 2022 MOGADISHU, SOMALIA",
+     "url": "https://goaltracker.nbs.gov.so/news/4/",
+     "page_url": "https://goaltracker.nbs.gov.so/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Goal Tracker",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "SOMALIA POVERTY REPORT2023",
+     "url": "https://nbs.gov.so/somalia-poverty-report2023/",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Economics -",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Read Full Report",
+     "url": "https://nbs.gov.so/wp-content/uploads/2024/08/Somalia-Poverty-Report-2023.pdf",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2024/08/Somalia-Poverty-Report-2023.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "SOMALIA POVERTY REPORT2023",
+     "years": [
+      2023,
+      2024
+     ],
+     "coverage": "2023-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/food-security-and-nutrition-statistics-section-fsnss/",
+     "page_url": "https://nbs.gov.so/production-statistics-directorate/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Production Statistics Directorate - Directorate Production Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  },
+  "economic_statistics": {
+   "label": "Economic statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/modernizing-somalias-statistical-infrastructure-the-cpi-reform-initiative/",
+     "page_url": "https://nbs.gov.so",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Somali National Bureau of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "READ FULL REPORT",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/06/Somalia-GDP-2025.pdf",
+     "page_url": "https://nbs.gov.so",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/06/Somalia-GDP-2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia National Bureau of Statistics",
+     "years": [
+      2025,
+      2026
+     ],
+     "coverage": "2025-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Somalia National Bureau of Statistics",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/08/CPI-_July-2026.pdf",
+     "page_url": "https://nbs.gov.so/consumer-price-index-cpi-july-2026/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/08/CPI-_July-2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia National Bureau of Statistics",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index (CPI) July 2026",
+     "url": "https://nbs.gov.so/consumer-price-index-cpi-july-2026/",
+     "page_url": "https://nbs.gov.so/consumer-price-index-cpi-july-2026/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) July 2026 -",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index (CPI) June 2026",
+     "url": "https://nbs.gov.so/consumer-price-index-cpi-june-2026/",
+     "page_url": "https://nbs.gov.so/consumer-price-index-cpi-july-2026/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) July 2026 -",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Economics",
+     "url": "https://nbs.gov.so/category/economics/",
+     "page_url": "https://nbs.gov.so/somalia-gross-domestic-product-gdp-2025/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia Gross Domestic Product (GDP) 2025 -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Download GDP Deflators (Excel)",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/07/GDP-Deflators.csv",
+     "page_url": "https://nbs.gov.so/somalia-gross-domestic-product-gdp-2025/",
+     "formats": [
+      "CSV"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/07/GDP-Deflators.csv"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download GDP Deflators (Excel)",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Download GDP Revisions (Excel)",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/07/GDP-Revisions.csv",
+     "page_url": "https://nbs.gov.so/somalia-gross-domestic-product-gdp-2025/",
+     "formats": [
+      "CSV"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/07/GDP-Revisions.csv"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download GDP Revisions (Excel)",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Download GDP Growth Revisions (Excel)",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/07/GDP-Growth-Revisions.csv",
+     "page_url": "https://nbs.gov.so/somalia-gross-domestic-product-gdp-2025/",
+     "formats": [
+      "CSV"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/07/GDP-Growth-Revisions.csv"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download GDP Growth Revisions (Excel)",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Read Full Report",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/05/Somali-Labour-Force-survey-2019.pdf",
+     "page_url": "https://nbs.gov.so/somali-labor-force-survey-2019/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/05/Somali-Labour-Force-survey-2019.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Somalia National Bureau of Statistics",
+     "years": [
+      2019,
+      2023
+     ],
+     "coverage": "2019-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Somalia National Bureau of Statistics",
+     "url": "https://nbs.gov.so/wp-content/uploads/2025/05/CPI-Reform-Initiative.pdf",
+     "page_url": "https://nbs.gov.so/modernizing-somalias-statistical-infrastructure-the-cpi-reform-initiative/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2025/05/CPI-Reform-Initiative.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia National Bureau of Statistics",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "READ FULL REPORT",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/03/Somalias-Inflation-Outlook.pdf",
+     "page_url": "https://nbs.gov.so/somalias-inflation-outlook-intersections-ofglobal-oil-shocks-import-dependence-andclimate-crises/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/03/Somalias-Inflation-Outlook.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia National Bureau of Statistics",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Publications",
+     "url": "https://nbs.gov.so/wp-content/uploads/2024/01/SOMALIA-INTEGRATED-HOUSEHOLD-BUDGET-SURVEY-SIHBS-2022.pdf",
+     "page_url": "https://nbs.gov.so/statistical-publications/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2024/01/SOMALIA-INTEGRATED-HOUSEHOLD-BUDGET-SURVEY-SIHBS-2022.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Publications",
+     "years": [
+      2022,
+      2024
+     ],
+     "coverage": "2022-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Publications",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/07/Somalia-Gross-Domestic-Product-Report-2022-1.pdf",
+     "page_url": "https://nbs.gov.so/statistical-publications/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/07/Somalia-Gross-Domestic-Product-Report-2022-1.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Publications",
+     "years": [
+      2022,
+      2023
+     ],
+     "coverage": "2022-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Publications",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/06/National-Accounts-Concepts-Sources-and-Methods.pdf",
+     "page_url": "https://nbs.gov.so/statistical-publications/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/06/National-Accounts-Concepts-Sources-and-Methods.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Publications",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Publications",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/07/Economic-Characteristics-of-the-Somali-People-–-Volume-4.pdf",
+     "page_url": "https://nbs.gov.so/statistical-publications/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/07/Economic-Characteristics-of-the-Somali-People-–-Volume-4.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Publications",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "SNBS Featured Paper",
+     "url": "https://nbs.gov.so/modernizing-somalias-consumer-price-index/",
+     "page_url": "https://nbs.gov.so/featured-paper/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Featured Paper -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "READ FULL REPORT",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/04/Somalias-Inflation-Outlook.pdf",
+     "page_url": "https://nbs.gov.so/policy-brief/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/04/Somalias-Inflation-Outlook.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia National Bureau of Statistics",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/macroeconomic-and-financial-statistics-directorate/",
+     "page_url": "https://nbs.gov.so/snbs-directorates/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "SNBS Directorate -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/production-statistics-directorate/",
+     "page_url": "https://nbs.gov.so/snbs-directorates/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "SNBS Directorate -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/directorate-of-information-communication-technology/",
+     "page_url": "https://nbs.gov.so/snbs-directorates/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "SNBS Directorate -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/administration-finance-directorate/",
+     "page_url": "https://nbs.gov.so/snbs-directorates/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "SNBS Directorate -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Somalia Integrated Household Budget Survey (SIHBS) 2022",
+     "url": "https://microdata.nbs.gov.so/index.php/catalog/59",
+     "page_url": "https://microdata.nbs.gov.so/index.php/home",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Home",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Global Financial Inclusion (Global Findex) Database 2011",
+     "url": "https://microdata.nbs.gov.so/index.php/catalog/5",
+     "page_url": "https://microdata.nbs.gov.so/index.php/home",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home",
+     "years": [
+      2011
+     ],
+     "coverage": "2011",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Finances",
+     "url": "https://goaltracker.nbs.gov.so/finances/",
+     "page_url": "https://goaltracker.nbs.gov.so/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Goal Tracker",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index (CPI) June 2026",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/08/TSB-Juun-2026.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/08/TSB-Juun-2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) June 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index (CPI) June 2026",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/07/June-CPI-2026.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/07/June-CPI-2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) June 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index (CPI) March 2026",
+     "url": "https://nbs.gov.so/consumer-price-index-cpi-march-2026/",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "CPI -",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index (CPI) March 2026",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/07/TSB-da_Maarso-_2026.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/07/TSB-da_Maarso-_2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) March 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index (CPI) March 2026",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/05/March-CPI-Report-2026.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/05/March-CPI-Report-2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) March 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index (CPI) May 2026",
+     "url": "https://nbs.gov.so/consumer-price-index-cpi-may-2026/",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "CPI -",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index (CPI) May 2026",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/07/TSB-da_Maajo-_2026.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/07/TSB-da_Maajo-_2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) May 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index (CPI) May 2026",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/07/May-CPI-Report-2026.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/07/May-CPI-Report-2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) May 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index (CPI) February 2026",
+     "url": "https://nbs.gov.so/consumer-price-index-cpi-february-2026/",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "CPI -",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index (CPI) February 2026",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_febraayo-_2026.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_febraayo-_2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) February 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index (CPI) February 2026",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/04/February-CPI-Report-2026.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/04/February-CPI-Report-2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) February 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index (CPI) January 2026",
+     "url": "https://nbs.gov.so/consumer-price-index-cpi-january-2026/",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "CPI -",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index (CPI) January 2026",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_Janaury-_2026.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_Janaury-_2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) January 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index (CPI) January 2026",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/04/January-CPI-Report-2026.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/04/January-CPI-Report-2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) January 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index (CPI) April 2026",
+     "url": "https://nbs.gov.so/consumer-price-index-cpi-april-2026/",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "CPI -",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index (CPI) April 2026",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/07/TSB-da_Abrill-_2026.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/07/TSB-da_Abrill-_2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) April 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index (CPI) April 2026",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/07/April-CPI-Report-2026.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/07/April-CPI-Report-2026.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) April 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index (CPI) December 2025",
+     "url": "https://nbs.gov.so/consumer-price-index-cpi-december-2025/",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "CPI -",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Somali",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_Disember-_2025.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_Disember-_2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) December 2025",
+     "years": [
+      2025,
+      2026
+     ],
+     "coverage": "2025-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "English",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/02/CPI-December-2025.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/02/CPI-December-2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) December 2025",
+     "years": [
+      2025,
+      2026
+     ],
+     "coverage": "2025-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index (CPI) November 2025",
+     "url": "https://nbs.gov.so/consumer-price-index-cpi-november-2025/",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "CPI -",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Somali",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_nofember-_2025.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_nofember-_2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) November 2025",
+     "years": [
+      2025,
+      2026
+     ],
+     "coverage": "2025-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "English",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/01/CPI-Report-November-2025.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/01/CPI-Report-November-2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) November 2025",
+     "years": [
+      2025,
+      2026
+     ],
+     "coverage": "2025-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index (CPI) October 2025",
+     "url": "https://nbs.gov.so/consumer-price-index-cpi-october-2025/",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "CPI -",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Somali",
+     "url": "https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_oktoober-_2025.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_oktoober-_2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) October 2025",
+     "years": [
+      2025,
+      2026
+     ],
+     "coverage": "2025-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "English",
+     "url": "https://nbs.gov.so/wp-content/uploads/2025/11/CPI-October-2025.pdf",
+     "page_url": "https://nbs.gov.so/category/consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2025/11/CPI-October-2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) October 2025",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Somalia Gross Domestic Product (GDP) 2025",
+     "url": "https://nbs.gov.so/somalia-gross-domestic-product-gdp-2025/",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economics -",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Gross Domestic Product",
+     "url": "https://nbs.gov.so/category/gdp/",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economics -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Somalia Gross Domestic Product (GDP) 2024",
+     "url": "https://nbs.gov.so/somalia-gross-domestic-product-gdp-2024/",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economics -",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Read Full Report",
+     "url": "https://nbs.gov.so/wp-content/uploads/2025/06/Somalia-GDP-2024-release-text-v3-2025.pdf",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2025/06/Somalia-GDP-2024-release-text-v3-2025.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia Gross Domestic Product (GDP) 2024",
+     "years": [
+      2024,
+      2025
+     ],
+     "coverage": "2024-2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Somalia CPI – Methodological Note",
+     "url": "https://nbs.gov.so/somalia-cpi-methodological-note/",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economics -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Somalia Gross Domestic Product (GDP) 2023",
+     "url": "https://nbs.gov.so/somalia-gross-domestic-product-gdp-2023/",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economics -",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Read Full Report",
+     "url": "https://nbs.gov.so/wp-content/uploads/2024/07/Gross-Domestic-Product-GDP-2023.pdf",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2024/07/Gross-Domestic-Product-GDP-2023.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia Gross Domestic Product (GDP) 2023",
+     "years": [
+      2023,
+      2024
+     ],
+     "coverage": "2023-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Somalia Gross Domestic Product (GDP) 2022",
+     "url": "https://nbs.gov.so/somalia-gross-domestic-product-gdp-2022/",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economics -",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Read Full Report",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/07/Somalia-Gross-Domestic-Product-Report-2022.pdf",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/07/Somalia-Gross-Domestic-Product-Report-2022.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia Gross Domestic Product (GDP) 2022",
+     "years": [
+      2022,
+      2023
+     ],
+     "coverage": "2022-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index (CPI) April 2023",
+     "url": "https://nbs.gov.so/consumer-price-index-cpi-april-2023/",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economics -",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Somali",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/05/TSB-Abriil-2023.pdf",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/05/TSB-Abriil-2023.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) April 2023",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "English",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/05/CPI-Report-April-2023.pdf",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/05/CPI-Report-April-2023.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Consumer Price Index (CPI) April 2023",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Somalia Gross Domestic Product (GDP)",
+     "url": "https://nbs.gov.so/somalia-gross-domestic-product-gdp/",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economics -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Read Full Report",
+     "url": "https://nbs.gov.so/wp-content/uploads/2023/05/Somalia-Gross-Domestic-Product-Report-June-2022.pdf",
+     "page_url": "https://nbs.gov.so/category/economics/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2023/05/Somalia-Gross-Domestic-Product-Report-June-2022.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia Gross Domestic Product (GDP)",
+     "years": [
+      2022,
+      2023
+     ],
+     "coverage": "2022-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "On May 4, 2025, the Somalia National Bureau of Statistics (SNBS) achieved a historic milestone by launching a modernized Consumer Price Index (CPI). This was the first nationally representative CPI. A",
+     "url": "https://nbs.gov.so/wp-content/uploads/2025/06/SNBS-Featured-Paper-Volume-1-Issue-1.pdf",
+     "page_url": "https://nbs.gov.so/modernizing-somalias-consumer-price-index/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://nbs.gov.so/wp-content/uploads/2025/06/SNBS-Featured-Paper-Volume-1-Issue-1.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia National Bureau of Statistics",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/price-statistics/",
+     "page_url": "https://nbs.gov.so/macroeconomic-and-financial-statistics-directorate/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Macroeconomic and Financial Statistics Directorate -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/external-and-financial-statistics/",
+     "page_url": "https://nbs.gov.so/macroeconomic-and-financial-statistics-directorate/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Macroeconomic and Financial Statistics Directorate -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/business-and-industrial-statistics/",
+     "page_url": "https://nbs.gov.so/macroeconomic-and-financial-statistics-directorate/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Macroeconomic and Financial Statistics Directorate -",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/agriculture-statistics-section/",
+     "page_url": "https://nbs.gov.so/production-statistics-directorate/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Production Statistics Directorate - Directorate Production Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/water-and-energy-statistics/",
+     "page_url": "https://nbs.gov.so/production-statistics-directorate/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Production Statistics Directorate - Directorate Production Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://nbs.gov.so/transport-and-infrastructure-statistics/",
+     "page_url": "https://nbs.gov.so/production-statistics-directorate/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Production Statistics Directorate - Directorate Production Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "DDI/XML",
+     "url": "https://microdata.nbs.gov.so/index.php/metadata/export/59/ddi",
+     "page_url": "https://microdata.nbs.gov.so/index.php/catalog/59",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia - Somalia Integrated Household Budget Survey (SIHBS) 2022",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "JSON",
+     "url": "https://microdata.nbs.gov.so/index.php/metadata/export/59/json",
+     "page_url": "https://microdata.nbs.gov.so/index.php/catalog/59",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia - Somalia Integrated Household Budget Survey (SIHBS) 2022",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "DDI/XML",
+     "url": "https://microdata.nbs.gov.so/index.php/metadata/export/4/ddi",
+     "page_url": "https://microdata.nbs.gov.so/index.php/catalog/4",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia - Population Estimation Survey of Somalia 2014",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "JSON",
+     "url": "https://microdata.nbs.gov.so/index.php/metadata/export/4/json",
+     "page_url": "https://microdata.nbs.gov.so/index.php/catalog/4",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia - Population Estimation Survey of Somalia 2014",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "DDI/XML",
+     "url": "https://microdata.nbs.gov.so/index.php/metadata/export/5/ddi",
+     "page_url": "https://microdata.nbs.gov.so/index.php/catalog/5",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia - Global Financial Inclusion (Global Findex) Database 2011",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "JSON",
+     "url": "https://microdata.nbs.gov.so/index.php/metadata/export/5/json",
+     "page_url": "https://microdata.nbs.gov.so/index.php/catalog/5",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Somalia - Global Financial Inclusion (Global Findex) Database 2011",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  }
+ },
+ "limitations": [],
+ "recognized": [],
+ "suggested_sources": [
+  {
+   "nso": "SOM",
+   "theme": "social_statistics",
+   "method": "scrape",
+   "connector": "scrape",
+   "enabled": false,
+   "pages": [
+    "https://nbs.gov.so",
+    "https://nbs.gov.so/somali-labor-force-survey-2019/",
+    "https://nbs.gov.so/district-level-poverty-estimates-in-somalia-a-fay-herriot-model-approach/",
+    "https://nbs.gov.so/statistical-publications/",
+    "https://nbs.gov.so/laws-policies/"
+   ],
+   "render_js": "auto",
+   "notes": "12 social statistics file(s) found on these pages - review before enabling"
+  },
+  {
+   "nso": "SOM",
+   "theme": "economic_statistics",
+   "method": "scrape",
+   "connector": "scrape",
+   "enabled": false,
+   "pages": [
+    "https://nbs.gov.so",
+    "https://nbs.gov.so/consumer-price-index-cpi-july-2026/",
+    "https://nbs.gov.so/somalia-gross-domestic-product-gdp-2025/",
+    "https://nbs.gov.so/somali-labor-force-survey-2019/",
+    "https://nbs.gov.so/modernizing-somalias-statistical-infrastructure-the-cpi-reform-initiative/"
+   ],
+   "render_js": "auto",
+   "notes": "38 economic statistics file(s) found on these pages - review before enabling"
+  }
+ ],
+ "indicator_samples": [],
+ "site": {
+  "url": "https://nbs.gov.so",
+  "reachable": true,
+  "status": 200,
+  "final_url": "https://nbs.gov.so",
+  "title": "Home - Somali National Bureau of Statistics",
+  "lang": "en-US",
+  "english": "yes",
+  "english_url": "https://nbs.gov.so",
+  "platforms": [
+   "WordPress"
+  ],
+  "blocked": "",
+  "rendered": false,
+  "insecure_tls": false,
+  "notes": []
+ },
+ "files": {
+  "formats": {
+   "PDF": 77,
+   "CSV": 8
+  },
+  "total": 85,
+  "pages_crawled": 40,
+  "pages_rendered": 1
+ },
+ "api": {
+  "docs": [],
+  "how_to": {
+   "curl": "curl -H \"accept-language: en-US\" -H \"x-requested-with: XMLHttpRequest\" -H \"accept: application/json, text/javascript, */*; q=0.01\" \"https://nbs.gov.so/wp-json/wp/v2/\"",
+   "python": "import requests\n\nurl = \"https://nbs.gov.so/wp-json/wp/v2/\"\nheaders = {\"accept-language\": \"en-US\", \"x-requested-with\": \"XMLHttpRequest\", \"accept\": \"application/json, text/javascript, */*; q=0.01\"}\nresponse = requests.get(url, headers=headers, timeout=60)\nresponse.raise_for_status()\ndata = response.json()"
+  },
+  "endpoints": [
+   {
+    "method": "GET",
+    "template": "nbs.gov.so/wp-json/wp/v2/",
+    "example_url": "https://nbs.gov.so/wp-json/wp/v2/",
+    "count": 1,
+    "content_type": "application/json; charset=UTF-8",
+    "post_data": "",
+    "sample": "{\"namespace\":\"wp\\/v2\",\"routes\":{\"\\/wp\\/v2\":{\"namespace\":\"wp\\/v2\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"namespace\":{\"default\":\"wp\\/v2\",\"required\":false},\"context\":{\"default\":\"view\",\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/nbs.gov.so\\/wp-json\\/wp\\/v2\"}]}},\"\\/wp\\/v2\\/posts\":{\"namespace\":\"wp\\/v2\",\"methods\":[\"GET\",\"POST\"],\"endpoints\":[{\"methods\":[\"GET\"],\"allow_batch\":{\"v1\":true},\"args\":{\"context\":{\"description\":\"Scope under which the request is made; determines fields present in response.\",\"type\":\"string\",\"enum\":[\"view\",\"embed\",\"edit\"],\"default\":\"view\",\"required\":false},\"page\":{\"description\":\"Current page of the collection.\",\"type\":\"integer\",\"default\":1,\"minimum\":1,\"required\":false},\"per_page\":{\"description\":\"Maximum number of items to be returned in result",
+    "size": 481104,
+    "python_headers": {
+     "accept-language": "en-US",
+     "x-requested-with": "XMLHttpRequest",
+     "accept": "application/json, text/javascript, */*; q=0.01"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   }
+  ],
+  "js_findings": {
+   "scripts_scanned": 36,
+   "base_urls": [],
+   "endpoint_paths": [],
+   "api_urls": []
+  },
+  "doc_links": [
+   {
+    "text": "Somalia Data Portal",
+    "url": "https://somalia.opendataforafrica.org/"
+   }
+  ],
+  "status": "undocumented",
+  "python_access": "yes",
+  "summary": "No official documentation, but the website's own data API at nbs.gov.so answers plain Python requests (found by API sniffing)."
+ },
+ "sniff_pages": [
+  {
+   "url": "https://nbs.gov.so",
+   "final_url": "https://nbs.gov.so/",
+   "status": 200,
+   "title": "Home - Somali National Bureau of Statistics"
+  },
+  {
+   "url": "https://nbs.gov.so/modernizing-somalias-statistical-infrastructure-the-cpi-reform-initiative/",
+   "final_url": "https://nbs.gov.so/modernizing-somalias-statistical-infrastructure-the-cpi-reform-initiative/",
+   "status": 200,
+   "title": "Modernizing Somalia’s Statistical Infrastructure: The CPI Reform Initiative -"
+  },
+  {
+   "url": "https://nbs.gov.so/district-level-poverty-estimates-in-somalia-a-fay-herriot-model-approach/",
+   "final_url": "https://nbs.gov.so/district-level-poverty-estimates-in-somalia-a-fay-herriot-model-approach/",
+   "status": 200,
+   "title": "District-Level Poverty Estimates in Somalia a Fay Herriot Model Approach -"
+  },
+  {
+   "url": "https://nbs.gov.so/consumer-price-index-cpi-july-2026/",
+   "final_url": "https://nbs.gov.so/consumer-price-index-cpi-july-2026/",
+   "status": 200,
+   "title": "Consumer Price Index (CPI) July 2026 -"
+  }
+ ],
+ "duration_s": 237.2
+}

@@ -1,0 +1,304 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Syrian Arab Republic  -  Planning and Statistics Commission (formerly Central Bureau of Statistics)
+Checked 2026-09-29 11:18  |  Agent 1 (agent1_diagnose.py)  |  took 105.3 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://psc.gov.sy/
+   Reachable       : yes (HTTP 200)
+   English version : no English version
+   Note: CBS was merged into the Planning and Statistics Commission in 2025; the old domain
+     cbssyr.sy is parked.
+
+2. API
+   Verdict         : NONE - not callable from Python
+   No API found (no documented platform, no data calls seen while browsing). Data is published as
+     files/pages only: Agent 2 would use the 'scrape' connector.
+   Documentation   : none official
+
+3. SOCIAL STATISTICS  (66 pages, 43 files)
+     - أنماط الأسر وتطورها | PDF
+       https://psc.gov.sy/EG8/Studies/st13.pdf
+     - الأمن الغذائي 2015 | 2015 | XLSX
+       https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2015.xlsx
+     - الأمن الغذائي 2017 | 2017 | XLSX
+       https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2017.xlsx
+     - الأمن الغذائي 2019 | 2019 | XLSX
+       https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2019.xlsx
+     - الأمن الغذائي 2020 | 2020 | XLSX
+       https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2020.xlsx
+     - الأمن الغذائي 2021 | 2021 | XLSX
+       https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2021.xlsx
+     - الأمن الغذائي 2022 | 2022 | XLSX
+       https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2022.xlsx
+     - الأمن الغذائي 2023 | 2023 | XLSX
+       https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2023.xlsx
+     - الأمن الغذائي 2024 | 2024 | XLSX
+       https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2024.xlsx
+     - الأمن الغذائي 2025 | 2025 | XLSX
+       https://psc.gov.sy/EG8/Demographic/Household/FoodSecurity/FoodSecurity2025.xlsx
+     - الأمية ( تفاقم المشكلة وتعثر الحلول) 2007 م ـ 1428 هـ | 2007 | PDF
+       https://psc.gov.sy/EG8/Studies/st5.pdf
+     - الإسقاطات السكانية | PDF
+       https://psc.gov.sy/EG8/Studies/st4.pdf
+     - الاتجاهات والتباينات في إحصاءات النوع الاجتماعي | PDF
+       https://psc.gov.sy/EG8/Studies/st3.pdf
+     - البطالة في سورية 1994- 2004 | 1994-2004 | PDF
+       https://psc.gov.sy/EG8/Studies/st7.pdf
+     - التعليم الجامعي في الجمهورية العربية السورية 1994-2005 | 1994-2005 | PDF
+       https://psc.gov.sy/EG8/Studies/st18.pdf
+     - التقرير النهائي للمسح | 2014 | PDF
+       https://psc.gov.sy/EG8/Demographic/population/PopulationSituation/2014/final_pepole_20
+         14.pdf
+     - التقرير النهائي لنتائج المسح | 2006 | PDF
+       https://psc.gov.sy/EG8/Demographic/population/Multi-
+         purpose_cluster/2006/Final_Report.pdf
+     - الخطة الاستراتيجية الخاصة بوزارة الشؤون الاجتماعية والعمل | PDF
+       https://psc.gov.sy/EG8/StrategicPlans/SocialAffairs.pdf
+     - الخطة الاستراتيجية الخاصة بوزارة الصحة | PDF
+       https://psc.gov.sy/EG8/StrategicPlans/HealthStrategy.pdf
+     - السكان المقيمون غير السوريين و خصائصهم | PDF
+       https://psc.gov.sy/EG8/Studies/st9.pdf
+     - الهجرة الداخلية في سوريا | PDF
+       https://psc.gov.sy/EG8/Studies/st12.pdf
+     - تطور التركيب التعليمي لسكان الجمهورية العربية السورية دراسة مقارنة (1994-2004) |
+       1994-2004 | PDF
+       https://psc.gov.sy/EG8/Studies/st14.pdf
+     - تقرير المسح الاجتماعي والاقتصادي في الحسكة | 2011 | PDF
+       https://psc.gov.sy/EG8/Demographic/Hasaka_2011/Report1.pdf
+     - تقرير مسح الامن الغذائي الأسري لعام 2025 | 2025 | PDF
+       https://psc.gov.sy/EG8/Studies/FoodSecurity_2025.pdf
+     - تقرير نتائج مسح الاحتياجات العامة للأسر السورية 2026 | 2026 | PDF
+       https://psc.gov.sy/EG8/Studies/FamilyNeeds_2026.pdf
+     - تقييم بيانات التعداد العام للسكان عام 2004 | 2004 | PDF
+       https://psc.gov.sy/EG8/Studies/st15.pdf
+     - توزع السكان جديد | PDF
+       https://psc.gov.sy/EG8/Studies/st16.pdf
+     - خصائص دخل الأسرة وعلاقتها بخصائص مسكنها | PDF
+       https://psc.gov.sy/EG8/Studies/st17.pdf
+     - دراسة تحليلية حول التعليم الأساسي | PDF
+       https://psc.gov.sy/EG8/Studies/st20.pdf
+     - مؤشرات التعليم من 2020 حتى 2023 | 2020-2023 | PDF
+       https://psc.gov.sy/EG8/Indicators/social/Education/educatio-2020-2023.pdf
+     - مؤشرات الصحة من 2020 حتى 2023 | 2020-2023 | PDF
+       https://psc.gov.sy/EG8/Indicators/social/Health/health-2020-2023.pdf
+     - مؤشرات ديمغرافية من 2020 حتى 2024 | 2020-2024 | PDF
+       https://psc.gov.sy/EG8/Indicators/Demographic/2020-2024/Demographic-2020-2024.pdf
+     - مساهمة المرأة في النشاط الاقتصادي في سورية | PDF
+       https://psc.gov.sy/EG8/Studies/st22.pdf
+     - مسح قوة العمل 2015 | 2015 | XLSX
+       https://psc.gov.sy/EG8/Demographic/social/work/work-2015.xlsx
+     - مسح قوة العمل 2016 | 2016 | XLSX
+       https://psc.gov.sy/EG8/Demographic/social/work/work-2016.xlsx
+     - مسح قوة العمل 2017 | 2017 | XLSX
+       https://psc.gov.sy/EG8/Demographic/social/work/work-2017.xlsx
+     - مسح قوة العمل 2018 | 2018 | XLSX
+       https://psc.gov.sy/EG8/Demographic/social/work/work-2018.xlsx
+     - مسح قوة العمل 2019 | 2019 | XLSX
+       https://psc.gov.sy/EG8/Demographic/social/work/work-2019.xlsx
+     - مسح قوة العمل 2020 | 2020 | XLSX
+       https://psc.gov.sy/EG8/Demographic/social/work/work-2020.xlsx
+     - مشروع تحليل بيانات تعداد السكان لعام 2004 السكان ذوي الاحتياجات الخاصة 2007 | 2004-2007
+       | PDF
+       https://psc.gov.sy/EG8/Studies/st10.pdf
+     - مظاهر التغير بواقع المسنين في الجمهورية العربية السورية بين عامي 1994 - 2004 | 1994-2004
+       | PDF
+       https://psc.gov.sy/EG8/Studies/st23.pdf
+     - مناطق السكن العشوائي في سورية وربطها مع خصائص الأسر والسكان | PDF
+       https://psc.gov.sy/EG8/Studies/st24.pdf
+     - منهجية المسح الميداني | 2014 | PDF
+       https://psc.gov.sy/EG8/Demographic/population/PopulationSituation/2014/pepole_2014.pdf
+     - إطلاق الخطة الاستراتيجية الوطنية لوزارة الشؤون الاجتماعية والعمل
+       https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14926&
+     - إطلاق الخطة الاستراتيجية الوطنية لوزارة الشؤون الاجتماعية والعمل
+       https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14926&First=0&Last=3&CurrentPa
+         ge=0&mid=&refBack=
+     - التعداد
+       https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14922&
+     - التعداد العام
+       https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14923&
+     - التعداد العام للسكان والمساكن 2004 | 2004
+       https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15367&
+     - التعليم
+       https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15196&
+     - التعليم والثقافة
+       https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14979&
+     - السكان والمؤشرات الديموغرافية
+       https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14970&
+     - الصحة
+       https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15195&
+     - الصحة
+       https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14980&
+     - المؤشرات المتعلقة بالإعالة من 1994 حتى 2006 | 1994-2006
+       https://psc.gov.sy/EG8/Indicators/Demographic/1994-2006/dependency.htm
+     - المؤشرات المتعلقة بالمساكن من 1994 حتى 2006 حسب المحافظات | 1994-2006
+       https://psc.gov.sy/EG8/Indicators/Demographic/1994-2006/house-1994-2006.htm
+     - المؤشرات المتعلقة بالوضع الاقتصادي من 1994 حتى 2006 حسب المحافظات | 1994-2006
+       https://psc.gov.sy/EG8/Indicators/Demographic/1994-2006/ecu-1994-2006.htm
+     - المسح الاجتماعي والاقتصادي لمحافظة الحسكة 2011 | 2011
+       https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15043&
+     - المسح الديمغرافي الاجتماعي المتكامل المتعدد الأغراض 2017 - 2018 | 2017-2018
+       https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15047&
+     - المسح الصحي الأسري 2009 - 2010 | 2009-2010
+       https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15039&
+     - تعداد الثروة الحيوانية 2010 | 2010
+       https://psc.gov.sy/site/arabic/index.php?node=55148&cat=15327&
+     ... and 49 more (full list in SYR.json)
+
+4. ECONOMIC STATISTICS  (92 pages, 107 files)
+     - إحصاءات التجارة الخارجية 2012 | 2012 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2012.rar
+     - إحصاءات التجارة الخارجية 2013 | 2013 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2013.rar
+     - إحصاءات التجارة الخارجية 2014 | 2014 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2014.rar
+     - إحصاءات التجارة الخارجية 2015 | 2015 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2015.rar
+     - إحصاءات التجارة الخارجية 2016 | 2016 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2016.rar
+     - إحصاءات التجارة الخارجية 2017 | 2017 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2017.rar
+     - إحصاءات التجارة الخارجية 2018 | 2018 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2018.rar
+     - إحصاءات التجارة الخارجية 2019 | 2019 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2019.rar
+     - إحصاءات التجارة الخارجية 2020 | 2020 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2020.rar
+     - إحصاءات التجارة الخارجية 2021 | 2021 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2021.rar
+     - إحصاءات التجارة الخارجية 2022 | 2022 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2022.rar
+     - إحصاءات التجارة الخارجية 2023 | 2023 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Trade/surveys/survey_2023.rar
+     - الأرقام القياسية لأسعار المستهلك 2011-2017 حسب المجموعات الرئيسة والأشهر على مستوى القطر
+       | 2011-2017 | XLSX
+       https://psc.gov.sy/EG8/CPI/inflation_2011_2017.xlsx
+     - الأرقام القياسية لأسعار المستهلك 2017-2023 حسب المجموعات الرئيسة والأشهر على مستوى القطر
+       | 2017-2023 | XLSX
+       https://psc.gov.sy/EG8/CPI/inflation_2017_2023.xlsx
+     - الإنتاج والمبيعات في القطاع العام الصناعي 2012 | 2012 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2012.rar
+     - الإنتاج والمبيعات في القطاع العام الصناعي 2013 | 2013 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2013.rar
+     - الإنتاج والمبيعات في القطاع العام الصناعي 2014 | 2014 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2014.rar
+     - الإنتاج والمبيعات في القطاع العام الصناعي 2015 | 2015 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2015.rar
+     - الإنتاج والمبيعات في القطاع العام الصناعي 2016 | 2016 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2016.rar
+     - الإنتاج والمبيعات في القطاع العام الصناعي 2017 | 2017 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2017.rar
+     - الإنتاج والمبيعات في القطاع العام الصناعي 2018 | 2018 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2018.rar
+     - الإنتاج والمبيعات في القطاع العام الصناعي 2019 | 2019 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2019.rar
+     - الإنتاج والمبيعات في القطاع العام الصناعي 2020 | 2020 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2020.rar
+     - الإنتاج والمبيعات في القطاع العام الصناعي 2021 | 2021 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2021.rar
+     - الإنتاج والمبيعات في القطاع العام الصناعي 2022 | 2022 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2022.rar
+     - الإنتاج والمبيعات في القطاع العام الصناعي 2023 | 2023 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2023.rar
+     - الإنتاج والمبيعات في القطاع العام الصناعي 2024 | 2024 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Production_Sales/PS_2024.rar
+     - الإنتاج والناتج والتكاليف والفائض والعجز 2012 | 2012 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2012.rar
+     - الإنتاج والناتج والتكاليف والفائض والعجز 2013 | 2013 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2013.rar
+     - الإنتاج والناتج والتكاليف والفائض والعجز 2014 | 2014 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2014.rar
+     - الإنتاج والناتج والتكاليف والفائض والعجز 2015 | 2015 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2015.rar
+     - الإنتاج والناتج والتكاليف والفائض والعجز 2016 | 2016 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2016.rar
+     - الإنتاج والناتج والتكاليف والفائض والعجز 2017 | 2017 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2017.rar
+     - الإنتاج والناتج والتكاليف والفائض والعجز 2018 | 2018 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2018.rar
+     - الإنتاج والناتج والتكاليف والفائض والعجز 2019 | 2019 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2019.rar
+     - الإنتاج والناتج والتكاليف والفائض والعجز 2020 | 2020 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2020.rar
+     - الإنتاج والناتج والتكاليف والفائض والعجز 2021 | 2021 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2021.rar
+     - الإنتاج والناتج والتكاليف والفائض والعجز 2022 | 2022 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2022.rar
+     - الإنتاج والناتج والتكاليف والفائض والعجز 2023 | 2023 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2023.rar
+     - الإنتاج والناتج والتكاليف والفائض والعجز 2024 | 2024 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Output_Costs/OC-2024.rar
+     - التضخم في سورية بين المصادر الوطنية والدولية - 2026 | 2026 | PDF
+       https://psc.gov.sy/EG8/InternationalReports/Report_Inflation.pdf
+     - الحيازات الزراعية | PDF
+       https://psc.gov.sy/EG8/Studies/st19.pdf
+     - الخطة الاستراتيجية الخاصة بوزارة الزراعة | PDF
+       https://psc.gov.sy/EG8/StrategicPlans/FarmingStrategy.pdf
+     - الزراعات المحمية 2013 | 2013 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Crops-Protected/Crops-
+         Protected-2013.rar
+     - الزراعات المحمية 2014 | 2014 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Crops-Protected/Crops-
+         Protected-2014.rar
+     - الزراعات المحمية 2015 | 2015 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Crops-Protected/Crops-
+         Protected-2015.rar
+     - الزراعات المحمية 2016 | 2016 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Agriculture/Crops-Protected/Crops-
+         Protected-2016.rar
+     - السلاسل الزمنية للأعوام من ( 1970 حتى 2019 ) | 1970-2019 | RAR
+       https://psc.gov.sy/EG8/Time_Series/Industry/‏‏‏‏Time_Series_eco_2019.rar
+     - السلاسل الزمنية للأعوام من ( 1970 حتى 2023 ) | 1970-2023 | RAR
+       https://psc.gov.sy/EG8/Time_Series/Industry/‏‏‏‏Time Series_eco_2023.rar
+     - السلاسل الزمنية للأعوام من ( 1997 حتى 2019 ) | 1997-2019 | RAR
+       https://psc.gov.sy/EG8/Time_Series/Tourism/Time_Series_tourism_2019.rar
+     - السلاسل الزمنية للأعوام من ( 1999 حتى 2019 ) | 1999-2019 | RAR
+       https://psc.gov.sy/EG8/Time_Series/Agriculture/Time-series-Fram_2019.rar
+     - المسح الصناعي في القطاع الخاص 2011 | 2011 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2011.rar
+     - المسح الصناعي في القطاع الخاص 2012 | 2012 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2012.rar
+     - المسح الصناعي في القطاع الخاص 2013 | 2013 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2013.rar
+     - المسح الصناعي في القطاع الخاص 2014 | 2014 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2014.rar
+     - المسح الصناعي في القطاع الخاص 2015 | 2015 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2015.rar
+     - المسح الصناعي في القطاع الخاص 2016 | 2016 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2016.rar
+     - المسح الصناعي في القطاع الخاص 2017 | 2017 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2017.rar
+     - المسح الصناعي في القطاع الخاص 2019 | 2019 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2019.rar
+     - المسح الصناعي في القطاع الخاص 2020 | 2020 | RAR
+       https://psc.gov.sy/EG8/EeconomyStatistics/Industry/Private_Sector/PSE_2020.rar
+     ... and 139 more (full list in SYR.json)
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (0 rendered in a browser); 307 file links
+   Formats: RAR 217, PDF 47, XLSX 33, XLS 10
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: SYR
+       theme: social_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14926&', 'https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&',
+         'https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&', 'https://psc.gov.sy/site/arabic/index.php?node=55174&nid=14950&',
+         'https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14928&']
+       render_js: auto
+       notes: 43 social statistics file(s) found on these pages - review before enabling
+     - nso: SYR
+       theme: economic_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://psc.gov.sy/site/arabic/index.php?node=55169&nid=14927&', 'https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14890&',
+         'https://psc.gov.sy/site/arabic/index.php?node=55174&nid=15058&', 'https://psc.gov.sy/site/arabic/index.php?node=55148&cat=14938&',
+         'https://psc.gov.sy/site/arabic/index.php?node=55167&cat=14940&']
+       render_js: auto
+       notes: 107 economic statistics file(s) found on these pages - review before enabling
+
+7. LIMITATIONS / NEXT STEPS
+   - No English version: the non-English pages were analysed (keywords cover Arabic and French).

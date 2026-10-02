@@ -1,0 +1,34 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Sudan  -  Central Bureau of Statistics (CBS)
+Checked 2026-09-29 11:17  |  Agent 1 (agent1_diagnose.py)  |  took 53.7 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : http://www.cbs.gov.sd
+   Reachable       : NO - no response
+   English version : unknown
+   Note: plain HTTP request failed: ConnectError: [Errno 11002] getaddrinfo failed
+   Note: browser could not open it either: Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at
+     http://www.cbs.gov.sd/ Call log:   - navigating to "http://www.cbs.gov.sd/", waiting until
+     "domcontentloaded"
+   Note: The official domain does not resolve (checked 2026-09-29) - site offline.
+
+2. API
+   Verdict         : NONE - not callable from Python
+   No API found (no documented platform, no data calls seen while browsing). Data is published as
+     files/pages only: Agent 2 would use the 'scrape' connector.
+   Documentation   : none official
+
+3. SOCIAL STATISTICS  (nothing found)
+
+4. ECONOMIC STATISTICS  (nothing found)
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   0 pages crawled (0 rendered in a browser); 0 file links
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+   none - nothing machine-readable was found automatically; see limitations below
+
+7. LIMITATIONS / NEXT STEPS
+   - Website not reachable from this network: no response. Run Agent 1 from another network (or
+     ask the Claude subagent to investigate).

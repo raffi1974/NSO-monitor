@@ -1,0 +1,3568 @@
+{
+ "id": "MAR",
+ "country": "Morocco",
+ "nso": "Haut-Commissariat au Plan (HCP)",
+ "url": "https://www.hcp.ma/",
+ "english_config": "no",
+ "languages": [
+  "fr",
+  "ar"
+ ],
+ "config_notes": "French only (/en returns 404).",
+ "checked_at": "2026-09-29 11:05",
+ "themes": {
+  "social_statistics": {
+   "label": "Social statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "Marché du travail",
+     "url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Revenu & conditions de vie",
+     "url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population & démographie",
+     "url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Situation du marché du travail au Maroc au deuxième trimestre de 2026 à partir de la nouvelle enquête sur la main-d’œuvre (EMO2026)",
+     "url": "https://www.hcp.ma/Situation-du-marche-du-travail-au-Maroc-au-deuxieme-trimestre-de-2026-a-partir-de-la-nouvelle-enquete-sur-la-main-d_a4342.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Nutrition et sécurité alimentaire : le HCP et la FAO présentent la Table Marocaine de Composition des Aliments",
+     "url": "https://www.hcp.ma/Nutrition-et-securite-alimentaire-le-HCP-et-la-FAO-presentent-la-Table-Marocaine-de-Composition-des-Aliments_a4327.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Situation du marché du travail au Maroc au premier trimestre de 2026 à partir de la nouvelle enquête sur la main-d’œuvre (EMO2026)",
+     "url": "https://www.hcp.ma/Situation-du-marche-du-travail-au-Maroc-au-premier-trimestre-de-2026-a-partir-de-la-nouvelle-enquete-sur-la-main-d_a4309.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population légale selon RGPH 2024 36 828 330",
+     "url": "https://www.hcp.ma/Population-legale-du-Royaume-du-Maroc-repartie-par-regions-provinces-et-prefectures-et-communes-selon-les-resultats-du_a3974.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Taux de chômage + 13,3 %",
+     "url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Jeunes NEET au Maroc : Profilage statistique au profit de l’action publique",
+     "url": "https://www.hcp.ma/Jeunes-NEET-au-Maroc-Profilage-statistique-au-profit-de-l-action-publique_a4301.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Simuler votre emploi du temps",
+     "url": "https://www.hcp.ma/Simuler-votre-emploi-du-temps_a2889.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Découvrir les rapports sociaux au temps du COVID",
+     "url": "https://www.hcp.ma/Genre-et-impact-Covid-19-sur-les-menages_a2890.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "S'informer sur le marché de l'emploi et moi",
+     "url": "https://www.hcp.ma/Le-marche-du-travail-et-moi_a2888.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consulter les chiffres clés du marché de l'emploi",
+     "url": "https://www.hcp.ma/Le-marche-du-travail-en-chiffres-interagisser_a2887.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "RGPH Recensement population 2014",
+     "url": "https://www.hcp.ma/Visualiser-les-donnees-du-RGPH-2014-en-cartes_a2891.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Les comptes régionaux. Produit intérieur brut et dépenses de consommation finale des ménages 2024",
+     "url": "https://www.hcp.ma/Les-comptes-regionaux-Produit-interieur-brut-et-depenses-de-consommation-finale-des-menages-2024_a4334.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Emploi",
+     "url": "https://www.hcp.ma/Emploi_r433.html",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Chômage",
+     "url": "https://www.hcp.ma/Chomage_r438.html",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Etudes relatives au marché du travail",
+     "url": "https://www.hcp.ma/Etudes-Marche-du-travail_r651.html",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Plateforme \"Le marché du travail en chiffres\"",
+     "url": "https://www.hcp.ma/Le-marche-du-travail-en-chiffres-interagissez_a2887.html",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquêtes marché travail",
+     "url": "https://www.hcp.ma/Enquetes-Marche-du-travail_r646.html",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Actualité",
+     "url": "https://www.hcp.ma/Actualite-marche-du-travail_r424.html",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Publications",
+     "url": "https://www.hcp.ma/Publications-Marche-du-travail_r425.html",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Note à l’occasion de la journée mondiale contre le travail des enfants, 2026",
+     "url": "https://www.hcp.ma/Note-a-l-occasion-de-la-journee-mondiale-contre-le-travail-des-enfants-2026_a4320.html",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Principaux indicateurs trimestriels rétropolés provisoires du marché de travail selon la méthodologie EMO. Période de 2017 à 2025",
+     "url": "https://www.hcp.ma/Principaux-indicateurs-trimestriels-retropoles-provisoires-du-marche-de-travail-selon-la-methodologie-EMO-Periode-de_a4343.html",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2017,
+      2025
+     ],
+     "coverage": "2017-2025",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Informalité, genre et vieillissement : inégalités cumulatives et effets intergénérationnels, Mai 2026",
+     "url": "https://www.hcp.ma/Informalite-genre-et-vieillissement-inegalites-cumulatives-et-effets-intergenerationnels-Mai-2026_a4311.html",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Activité, emploi et chômage, résultats annuels 2025",
+     "url": "https://www.hcp.ma/Activite-emploi-et-chomage-resultats-annuels-2025_a4310.html",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "8.5.2 Taux de chômage, par sexe, âge et situation au regard du handicap",
+     "url": "http://plateforme-odd.hcp.ma/ODD_HCP/fr/indicateurs/?ind=8.5.2&color=a31d44&sdg=8",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Niveau de vie",
+     "url": "https://www.hcp.ma/Niveau-de-vie_r448.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Conditions d'habitation",
+     "url": "https://www.hcp.ma/Conditions-d-habitation_r458.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Nutrition et santé",
+     "url": "https://www.hcp.ma/Nutrition-sante_r483.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Education",
+     "url": "https://www.hcp.ma/Education_r488.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Pauvreté et vulnérabilité",
+     "url": "https://www.hcp.ma/Pauvrete-vulnerabilite_r493.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Inégalité sociale",
+     "url": "https://www.hcp.ma/Inegalite-sociale_r508.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Etudes relatives à ce thème",
+     "url": "https://www.hcp.ma/Etudes-Revenu-et-conditions-de-vie_r652.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Plateforme interactive “Simulez votre emploi du temps”",
+     "url": "http://budget-temps.hcp.ma",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Plateforme interactive “Genre et impact Covid -19 sur les ménages”",
+     "url": "https://applications-web.hcp.ma/enquete-covid-19/",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Synthèse : Cartographie de la pauvreté multidimensionnelle, paysage territorial et dynamique, Mai 2025",
+     "url": "https://www.hcp.ma/Synthese-Cartographie-de-la-pauvrete-multidimensionnelle-paysage-territorial-et-dynamique-Mai-2025_a4103.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Note sur les principaux résultats de l’Enquête Nationale sur le Niveau de Vie des Ménages 2022-2023",
+     "url": "https://www.hcp.ma/Note-sur-les-principaux-resultats-de-l-Enquete-Nationale-sur-le-Niveau-de-Vie-des-Menages-2022-2023_a4061.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2022,
+      2023
+     ],
+     "coverage": "2022-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Note d’information du Haut-Commissariat au Plan sur les sans-abris au Maroc à l’occasion de la journée mondiale de l’habitat du 2 octobre 2017",
+     "url": "https://www.hcp.ma/Note-d-information-du-Haut-Commissariat-au-Plan-sur-les-sans-abris-au-Maroc-a-l-occasion-de-la-journee-mondiale-de-l_a2021.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Note d’information du Haut-Commissariat au Plan à l’occasion de la journée internationale de l'alphabétisation du 8 septembre 2017",
+     "url": "https://www.hcp.ma/Note-d-information-du-Haut-Commissariat-au-Plan-a-l-occasion-de-la-journee-internationale-de-l-alphabetisation-du-8_a2009.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Le Niveau et l'évolution des dépenses de scolarisation des ménages marocains",
+     "url": "https://www.hcp.ma/Le-Niveau-et-l-evolution-des-depenses-de-scolarisation-des-menages-marocains_a504.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Parc logement urbain au Maroc selon les résultats du recensement général de la population et de l'habitat de 2024, Décembre 2025",
+     "url": "https://www.hcp.ma/Parc-logement-urbain-au-Maroc-selon-les-resultats-du-recensement-general-de-la-population-et-de-l-habitat-de-2024_a4227.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2024,
+      2025
+     ],
+     "coverage": "2024-2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "RGPH 2024, Région de Rabat - Salé - Kénitra : Dynamique de la pauvreté multidimensionnelle entre 2014 et 2024, Octobre 2025",
+     "url": "https://www.hcp.ma/RGPH-2024-Region-de-Rabat-Sale-Kenitra-Dynamique-de-la-pauvrete-multidimensionnelle-entre-2014-et-2024-Octobre-2025_a4215.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2014,
+      2024,
+      2025
+     ],
+     "coverage": "2014-2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Les résultats de l’enquête de conjoncture auprès des ménages, deuxième trimestre de l'année 2026",
+     "url": "https://www.hcp.ma/Les-resultats-de-l-enquete-de-conjoncture-aupres-des-menages-deuxieme-trimestre-de-l-annee-2026_a4335.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Lutte contre la pauvreté, réduction des inégalités sociales et territoriales, développement humain et équité de genre au Maroc. Progrès et défis",
+     "url": "https://www.hcp.ma/Lutte-contre-la-pauvrete-reduction-des-inegalites-sociales-et-territoriales-developpement-humain-et-equite-de-genre-au_a4170.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Demande de soins de santé dans les provinces cibles du BAJ 1: Niveau et déterminants (1998)",
+     "url": "https://www.hcp.ma/Demande-de-soins-de-sante-dans-les-provinces-cibles-du-BAJ-1-Niveau-et-determinants-1998_a3194.html",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      1998
+     ],
+     "coverage": "1998",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "10.1.1 : Taux de croissance des dépenses des ménages ou du revenu par habitant pour les 40% de la population les plus pauvres et pour l’ensemble de la population (%)",
+     "url": "http://plateforme-odd.hcp.ma/ODD_HCP/fr/indicateurs/?ind=10.1.1&color=df1a83&sdg=10",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Recensement général de la population et de l'habitat",
+     "url": "https://www.hcp.ma/Recensement-general-RGPH_r518.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Structure de la population",
+     "url": "https://www.hcp.ma/Structure-de-la-population_r523.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Naissance et fécondité",
+     "url": "https://www.hcp.ma/Naissances-et-fecondite_r554.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Mortalité et espérance de vie",
+     "url": "https://www.hcp.ma/Mortalite-et-esperance-de-vie_r559.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Couples et familles",
+     "url": "https://www.hcp.ma/Couples-et-familles_r564.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Vieillissement de la population",
+     "url": "https://www.hcp.ma/Vieillissement-de-la-population_r569.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Genre",
+     "url": "https://www.hcp.ma/Genre_r579.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Education et formation",
+     "url": "https://www.hcp.ma/Education-et-formation_r584.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Santé et personnes à besoins spécifiques",
+     "url": "https://www.hcp.ma/Sante-et-personnes-a-besoins-specifiques_r589.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Etudes population et démographie",
+     "url": "https://www.hcp.ma/Etudes-Population-et-demographies_r653.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquêtes Population et démographie",
+     "url": "https://www.hcp.ma/Enquetes-Population-demographie_r660.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "L’UNFPA et le HCP explorent les enjeux de la fécondité à l’occasion de la Journée mondiale de la population",
+     "url": "https://www.hcp.ma/L-UNFPA-et-le-HCP-explorent-les-enjeux-de-la-fecondite-a-l-occasion-de-la-Journee-mondiale-de-la-population_a4144.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Synthèse : Cartographie de la pauvreté multidimensionnelle, paysage territorial et dynamique, Mai 2025",
+     "url": "https://www.hcp.ma/Synthese-Cartographie-de-la-pauvrete-multidimensionnelle-paysage-territorial-et-dynamique-Mai-2025_a4112.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Note d'information à l'occasion de la Journée Internationale des Femmes 2026",
+     "url": "https://www.hcp.ma/Note-d-information-a-l-occasion-de-la-Journee-Internationale-des-Femmes-2026_a4262.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Table Ronde : Plan d’Action National adopté pour la mise en place du Système d’Information Intégré et Harmonisé sur la Migration Internationale au Maroc",
+     "url": "https://www.hcp.ma/Table-Ronde-Plan-d-Action-National-adopte-pour-la-mise-en-place-du-Systeme-d-Information-Integre-et-Harmonise-sur-la_a3557.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Approche géo-démographique des risques d’exposition au Covid-19",
+     "url": "https://www.hcp.ma/Approche-geo-demographique-des-risques-d-exposition-au-Covid-19_a2511.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Note sur le niveau et la tendance de la fécondité au Maroc",
+     "url": "https://www.hcp.ma/Note-sur-le-niveau-et-la-tendance-de-la-fecondite-au-Maroc_a2301.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "La table de mortalité au Maroc 2009-2010",
+     "url": "https://www.hcp.ma/La-table-de-mortalite-au-Maroc-2009-2010_a970.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2009,
+      2010
+     ],
+     "coverage": "2009-2010",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Synthèse des premiers résultats de l'enquête Nationale sur la Famille",
+     "url": "https://www.hcp.ma/Synthese-des-premiers-resultats-de-l-enquete-Nationale-sur-la-Famille_a4289.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Mode de transport domicile-lieu de travail des actifs occupés selon les résultats du recensement général de la population et de l'habitat 2024, Juin 2026",
+     "url": "https://www.hcp.ma/Mode-de-transport-domicile-lieu-de-travail-des-actifs-occupes-selon-les-resultats-du-recensement-general-de-la_a4324.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2024,
+      2026
+     ],
+     "coverage": "2024-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Migration interne selon les résultats du recensement général de la population et de l'habitat de 2024, Octobre 2025",
+     "url": "https://www.hcp.ma/Migration-interne-selon-les-resultats-du-recensement-general-de-la-population-et-de-l-habitat-de-2024-Octobre-2025_a4203.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2024,
+      2025
+     ],
+     "coverage": "2024-2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Projections de la population du Maroc 2024 - 2060",
+     "url": "https://www.hcp.ma/Projections-de-la-population-du-Maroc-2024-2060_a4332.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Rapport national sur la population et développement au Maroc : trente ans après la conférence du Caire de 1994",
+     "url": "https://www.hcp.ma/Rapport-national-sur-la-population-et-developpement-au-Maroc-trente-ans-apres-la-conference-du-Caire-de-1994_a3854.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      1994
+     ],
+     "coverage": "1994",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Les personnes en situation de handicap au Maroc, Analyse issue du RGPH de 2024, Mars 2026",
+     "url": "https://www.hcp.ma/Les-personnes-en-situation-de-handicap-au-Maroc-Analyse-issue-du-RGPH-de-2024-Mars-2026_a4269.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2024,
+      2026
+     ],
+     "coverage": "2024-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "3.1.1 :Taux de mortalité maternelle (pour 100 000 des naissances vivantes)",
+     "url": "http://plateforme-odd.hcp.ma/ODD_HCP/fr/indicateurs/?ind=3.1.1&color=4ca146&sdg=3",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Méthodologie de notre enquête emploi",
+     "url": "https://www.hcp.ma/Enquete-nationale-sur-l-emploi_a89.html",
+     "page_url": "https://www.hcp.ma/Situation-du-marche-du-travail-au-Maroc-au-deuxieme-trimestre-de-2026-a-partir-de-la-nouvelle-enquete-sur-la-main-d_a4342.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Situation du marché du travail au Maroc au deuxième trimestre de 2026 à partir de la nouvelle enquête sur la main-d’œuvre (EMO2026)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Actualité recensement général RGPH",
+     "url": "https://www.hcp.ma/Actualite-recensement-general-RGPH_r519.html",
+     "page_url": "https://www.hcp.ma/Population-legale-du-Royaume-du-Maroc-repartie-par-regions-provinces-et-prefectures-et-communes-selon-les-resultats-du_a3974.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du Recensement général de la...",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du Recensement général de la population et de l’habitat 2024 (version Fr)",
+     "url": "https://www.hcp.ma/file/242227/",
+     "page_url": "https://www.hcp.ma/Population-legale-du-Royaume-du-Maroc-repartie-par-regions-provinces-et-prefectures-et-communes-selon-les-resultats-du_a3974.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du Recensement général de la...",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du Recensement général de la population et de l’habitat 2024 (version Ar)",
+     "url": "https://www.hcp.ma/file/242228/",
+     "page_url": "https://www.hcp.ma/Population-legale-du-Royaume-du-Maroc-repartie-par-regions-provinces-et-prefectures-et-communes-selon-les-resultats-du_a3974.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du Recensement général de la...",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population légale du Royaume du Maroc selon les résultats du RGPH 2024, format PDF",
+     "url": "https://www.hcp.ma/file/242342/",
+     "page_url": "https://www.hcp.ma/Population-legale-du-Royaume-du-Maroc-repartie-par-regions-provinces-et-prefectures-et-communes-selon-les-resultats-du_a3974.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du Recensement général de la...",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population légale du Royaume du Maroc selon les résultats du RGPH 2024, format EXCEL",
+     "url": "https://www.hcp.ma/file/242341/",
+     "page_url": "https://www.hcp.ma/Population-legale-du-Royaume-du-Maroc-repartie-par-regions-provinces-et-prefectures-et-communes-selon-les-resultats-du_a3974.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du Recensement général de la...",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Indicateurs Chômage",
+     "url": "https://www.hcp.ma/Indicateurs-Chomage_r441.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Durée de chômage au niveau national par année",
+     "url": "https://www.hcp.ma/Duree-de-chomage-au-niveau-national-par-annee_a3403.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Durée de chômage au niveau National par trimestre",
+     "url": "https://www.hcp.ma/Duree-de-chomage-au-niveau-National-par-trimestre_a358.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Durée de chômage en milieu rural par année",
+     "url": "https://www.hcp.ma/Duree-de-chomage-en-milieu-rural-par-annee_a3404.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Durée de chômage en milieu rural par trimestre",
+     "url": "https://www.hcp.ma/Duree-de-chomage-en-milieu-rural-par-trimestre_a357.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Durée de chômage en milieu urbain par année",
+     "url": "https://www.hcp.ma/Duree-de-chomage-en-milieu-urbain-par-annee_a3405.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Durée de chômage en milieu urbain par trimestre",
+     "url": "https://www.hcp.ma/Duree-de-chomage-en-milieu-urbain-par-trimestre_a356.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Type de Chômage au niveau National annuel",
+     "url": "https://www.hcp.ma/Type-de-Chomage-au-niveau-National-annuel_a3116.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Type de Chômage au niveau National trimestriel",
+     "url": "https://www.hcp.ma/Type-de-Chomage-au-niveau-National-trimestriel_a355.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Type de chômage annuel en milieu urbain",
+     "url": "https://www.hcp.ma/Type-de-chomage-annuel-en-milieu-urbain_a3011.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Type de chômage trimestriel en milieu urbain",
+     "url": "https://www.hcp.ma/Type-de-chomage-trimestriel-en-milieu-urbain_a353.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Taux de chômage annuel national selon le diplôme",
+     "url": "https://www.hcp.ma/Taux-de-chomage-annuel-national-selon-le-diplome_a3010.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Taux de chômage trimestriel national selon le diplôme",
+     "url": "https://www.hcp.ma/Taux-de-chomage-trimestriel-national-selon-le-diplome_a267.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Taux de chômage annuel de la population féminine selon le diplôme",
+     "url": "https://www.hcp.ma/Taux-de-chomage-annuel-de-la-population-feminine-selon-le-diplome_a3009.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Taux de chômage trimestriel de la population féminine selon le diplôme",
+     "url": "https://www.hcp.ma/Taux-de-chomage-trimestriel-de-la-population-feminine-selon-le-diplome_a266.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Taux de chômage annuel de la population masculine selon le diplôme",
+     "url": "https://www.hcp.ma/Taux-de-chomage-annuel-de-la-population-masculine-selon-le-diplome_a3008.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Taux de chômage trimestriel de la population masculine selon le diplôme",
+     "url": "https://www.hcp.ma/Taux-de-chomage-trimestriel-de-la-population-masculine-selon-le-diplome_a265.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Taux de chômage trimestriel au milieu rural selon le diplôme",
+     "url": "https://www.hcp.ma/Taux-de-chomage-trimestriel-au-milieu-rural-selon-le-diplome_a3007.html",
+     "page_url": "https://www.hcp.ma/Taux-de-Chomage-trimestriel-selon-le-milieu_a255.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Taux de Chômage trimestriel selon le milieu",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Avant-propos : Comprendre le phénomène des jeunes NEET au Maroc, par M. Le Haut-Commissaire au Plan (version Fr et Ar)",
+     "url": "https://www.hcp.ma/file/247667/",
+     "page_url": "https://www.hcp.ma/Jeunes-NEET-au-Maroc-Profilage-statistique-au-profit-de-l-action-publique_a4301.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Jeunes NEET au Maroc : Profilage statistique au profit de l’action publique",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Note statistique : Profilage statistique des jeunes NEET au Maroc (version Fr)",
+     "url": "https://www.hcp.ma/file/247671/",
+     "page_url": "https://www.hcp.ma/Jeunes-NEET-au-Maroc-Profilage-statistique-au-profit-de-l-action-publique_a4301.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Jeunes NEET au Maroc : Profilage statistique au profit de l’action publique",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Note statistique : Profilage statistique des jeunes NEET au Maroc (version Ar)",
+     "url": "https://www.hcp.ma/file/247670/",
+     "page_url": "https://www.hcp.ma/Jeunes-NEET-au-Maroc-Profilage-statistique-au-profit-de-l-action-publique_a4301.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Jeunes NEET au Maroc : Profilage statistique au profit de l’action publique",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Résumé Exécutif : Profilage statistique des jeunes NEET au Maroc (version Fr et Ar)",
+     "url": "https://www.hcp.ma/file/247672/",
+     "page_url": "https://www.hcp.ma/Jeunes-NEET-au-Maroc-Profilage-statistique-au-profit-de-l-action-publique_a4301.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Jeunes NEET au Maroc : Profilage statistique au profit de l’action publique",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Recensement population 2024",
+     "url": "https://www.hcp.ma/Plateforme-interactive-du-RGPH-2024_a4026.html",
+     "page_url": "https://www.hcp.ma/Bases-de-donnees_r631.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Les bases de données du Haut Commissariat aux compte du Maroc | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Recensement population 2014",
+     "url": "https://www.hcp.ma/Recensement-population-RGPH-2014_a2941.html",
+     "page_url": "https://www.hcp.ma/Bases-de-donnees_r631.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Les bases de données du Haut Commissariat aux compte du Maroc | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Recensement population 2004",
+     "url": "https://www.hcp.ma/Recensement-population-RGPH-2004_a2942.html",
+     "page_url": "https://www.hcp.ma/Bases-de-donnees_r631.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Les bases de données du Haut Commissariat aux compte du Maroc | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2004
+     ],
+     "coverage": "2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Recensement population 2014",
+     "url": "https://www.hcp.ma/Recensement-General-de-la-Population-et-de-l-Habitat-RGPH-2014_a2945.html",
+     "page_url": "https://www.hcp.ma/Bases-de-donnees_r631.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Les bases de données du Haut Commissariat aux compte du Maroc | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2014
+     ],
+     "coverage": "2014",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête Nationale sur la Consommation et les Dépenses des Ménages",
+     "url": "https://www.hcp.ma/Enquete-Nationale-sur-la-Consommation-et-les-Depenses-des-Menages-ENCDM-2014_a2946.html",
+     "page_url": "https://www.hcp.ma/Bases-de-donnees_r631.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Les bases de données du Haut Commissariat aux compte du Maroc | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête Nationale sur l'Emploi du Temps",
+     "url": "https://www.hcp.ma/Enquete-Nationale-sur-l-Emploi-du-Temps-ENET-2012_a2947.html",
+     "page_url": "https://www.hcp.ma/Bases-de-donnees_r631.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Les bases de données du Haut Commissariat aux compte du Maroc | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête Nationale sur les Niveaux de Vie des Ménages",
+     "url": "https://www.hcp.ma/Enquete-Nationale-sur-les-niveaux-de-vie-des-Menages-ENNVM-2007_a2948.html",
+     "page_url": "https://www.hcp.ma/Bases-de-donnees_r631.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Les bases de données du Haut Commissariat aux compte du Maroc | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Le plan de développement économique et social 2000 - 2004",
+     "url": "https://www.hcp.ma/downloads/?tag=Le+plan+de+d%C3%A9veloppement+%C3%A9conomique+et+social+2000+-+2004",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2000,
+      2004
+     ],
+     "coverage": "2000-2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquêtes marché travail",
+     "url": "https://www.hcp.ma/downloads/?tag=Enqu%C3%AAtes+march%C3%A9+du+travail",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête sur les perceptions des chômeurs sur le chômage dans la région de l'Oriental",
+     "url": "https://www.hcp.ma/downloads/?tag=Enqu%C3%AAte+sur+les+perceptions+des+ch%C3%B4meurs+sur+le+ch%C3%B4mage+dans+la+r%C3%A9gion+de+l%27Oriental",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête nationale sur l’emploi du temps",
+     "url": "https://www.hcp.ma/downloads/?tag=Enqu%C3%AAte+nationale+sur+l%27emploi+du+temps",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population et démographie",
+     "url": "https://www.hcp.ma/downloads/?tag=Population+et+d%C3%A9mographie",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Recensement général",
+     "url": "https://www.hcp.ma/downloads/?tag=Recensement+g%C3%A9n%C3%A9ral",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Chômage",
+     "url": "https://www.hcp.ma/downloads/?tag=Ch%C3%B4mage",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Emploi",
+     "url": "https://www.hcp.ma/downloads/?tag=Emploi",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Marché du travail",
+     "url": "https://www.hcp.ma/downloads/?tag=March%C3%A9+du+travail",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Conditions d'habitation",
+     "url": "https://www.hcp.ma/downloads/?tag=Conditions+d%27habitation",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Niveau de vie",
+     "url": "https://www.hcp.ma/downloads/?tag=Niveau+de+vie",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Revenu et conditions de vie",
+     "url": "https://www.hcp.ma/downloads/?tag=Revenu+et+conditions+de+vie",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Santé et personnes à mobilité réduite",
+     "url": "https://www.hcp.ma/downloads/?tag=Sant%C3%A9+et+personnes+%C3%A0+mobilit%C3%A9+r%C3%A9duite",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Structure de la population",
+     "url": "https://www.hcp.ma/downloads/?tag=Structure+de+la+population",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "RGPH 2024",
+     "url": "https://www.hcp.ma/Recensement-General-de-la-Population-et-de-l-Habitat-2024_a3825.html",
+     "page_url": "https://www.hcp.ma/Videos-Conference-a-l-occasion-de-la-journee-mondiale-de-la-statistique-2025_a4193.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Vidéos : Conférence à l'occasion de la journée mondiale de la statistique 2025",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Covid 19",
+     "url": "https://www.hcp.ma/Covid-19_a3522.html",
+     "page_url": "https://www.hcp.ma/Videos-Conference-a-l-occasion-de-la-journee-mondiale-de-la-statistique-2025_a4193.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Vidéos : Conférence à l'occasion de la journée mondiale de la statistique 2025",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Genre",
+     "url": "https://www.hcp.ma/Presentation-de-la-plateforme-Genre_a3519.html",
+     "page_url": "https://www.hcp.ma/Videos-Conference-a-l-occasion-de-la-journee-mondiale-de-la-statistique-2025_a4193.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Vidéos : Conférence à l'occasion de la journée mondiale de la statistique 2025",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête nationale de conjoncture auprès des ménages",
+     "url": "https://www.hcp.ma/downloads/?tag=Enqu%C3%AAte+nationale+de+conjoncture+aupr%C3%A8s+des+m%C3%A9nages",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Publications+th%C3%A9matiques",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquêtes revenu et conditions de vie",
+     "url": "https://www.hcp.ma/downloads/?tag=Enqu%C3%AAtes+revenu+et+conditions+de+vie",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Publications+th%C3%A9matiques",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Rapport national sur la population et développement au Maroc : trente ans après la conférence du Caire de 1994",
+     "url": "https://www.hcp.ma/Rapport-national-sur-la-population-et-developpement-au-Maroc-trente-ans-apres-la-conference-du-Caire-de-1994_a3853.html",
+     "page_url": "https://www.hcp.ma/Developpement-durable_r528.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Développement durable | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      1994
+     ],
+     "coverage": "1994",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Inclusion sociale",
+     "url": "https://www.hcp.ma/Inclusion-sociale_r609.html",
+     "page_url": "https://www.hcp.ma/Nouveau-modele-de-developpement_r594.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Nouveau modèle de développement | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  },
+  "economic_statistics": {
+   "label": "Economic statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "Economie",
+     "url": "https://www.hcp.ma/Economie_r327.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Taux de croissance + 4,6 %",
+     "url": "https://www.hcp.ma/Croissance-economique-evolution-en_a2876.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Inflation - 0,1 %",
+     "url": "https://www.hcp.ma/Inflation_a2950.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "L’indice de la production industrielle, énergétique et minière (IPI), deuxième trimestre 2026",
+     "url": "https://www.hcp.ma/L-indice-de-la-production-industrielle-energetique-et-miniere-IPI--deuxieme-trimestre-2026_a4347.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Résultats des enquêtes trimestrielles de conjoncture auprès des entreprises, 3ème trimestre 2026",
+     "url": "https://www.hcp.ma/Resultats-des-enquetes-trimestrielles-de-conjoncture-aupres-des-entreprises-3eme-trimestre-2026_a4346.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "L’indice des prix à la production industrielle, énergétique et minière (IPPI) du mois de Juillet 2026",
+     "url": "https://www.hcp.ma/L-indice-des-prix-a-la-production-industrielle-energetique-et-miniere-IPPI-du-mois-de-Juillet-2026_a4345.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Calculer le niveau des prix de votre consommation",
+     "url": "https://www.hcp.ma/Simuler-l-indice-des-prix-de-votre-consommation_a2883.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Simuler votre emploi du temps",
+     "url": "https://www.hcp.ma/Simuler-votre-emploi-du-temps_a2889.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "S'informer sur le marché de l'emploi et moi",
+     "url": "https://www.hcp.ma/Le-marche-du-travail-et-moi_a2888.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consulter les chiffres clés du marché de l'emploi",
+     "url": "https://www.hcp.ma/Le-marche-du-travail-en-chiffres-interagisser_a2887.html",
+     "page_url": "https://www.hcp.ma/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Comptes Nationaux",
+     "url": "https://www.hcp.ma/Comptes-nationaux-Serie-des-comptes-Base-2014-Base-2007-Base-1998_a1560.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Comptes nationaux",
+     "url": "https://www.hcp.ma/Comptes-nationaux_r338.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Conjoncture & Prévision économique",
+     "url": "https://www.hcp.ma/Conjoncture-et-prevision-economique_r328.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Conjoncture entreprise",
+     "url": "https://www.hcp.ma/Conjoncture-entreprise_r619.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Indices des prix et production",
+     "url": "https://www.hcp.ma/Indices-des-prix-et-production_r343.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Indices des prix à la consommmation",
+     "url": "https://www.hcp.ma/Indices-des-prix-a-la-consommation-IPC_r348.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Indices des prix à la production industrielle",
+     "url": "https://www.hcp.ma/Indices-des-prix-a-la-production-industrielle-IPPI_r624.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Indices de la production industrielle",
+     "url": "https://www.hcp.ma/Indices-de-la-production-industrielle-IPI_r353.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Indices du commerce extérieur",
+     "url": "https://www.hcp.ma/Indices-du-commerce-exterieur-ICE_r358.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Etudes économiques",
+     "url": "https://www.hcp.ma/Etudes-economiques_r650.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agrégats des comptes nationaux",
+     "url": "https://applications-web.hcp.ma/DCN2022/Accueil.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Indice des prix de votre consommation",
+     "url": "https://applications-web.hcp.ma/sip/",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquêtes économiques",
+     "url": "https://www.hcp.ma/Enquetes-economiques_r656.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "IPC général 119,6 Année 2025",
+     "url": "https://www.hcp.ma/Indice-des-prix-a-la-consommation-IPC-2017-par-grandes-divisions-Annuel_a3055.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "IPIEM secteur d'électricité 135,9 Année 2024",
+     "url": "https://www.hcp.ma/Indice-de-la-production-par-Secteur-Annuel_a3058.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "ICE des importations 111.5 Année 2024",
+     "url": "https://www.hcp.ma/Indice-du-commerce-exterieur-ICE-des-importations-annuel-Base-2019_a3545.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "L'Indice des prix à la consommation (IPC) du mois d'Août 2026",
+     "url": "https://www.hcp.ma/L-Indice-des-prix-a-la-consommation-IPC-du-mois-d-Aout-2026_a4348.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Les indices du commerce extérieur (ICE) au Maroc, premier trimestre 2026",
+     "url": "https://www.hcp.ma/Les-indices-du-commerce-exterieur-ICE-au-Maroc-premier-trimestre-2026_a4329.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Synthèse des principaux résultats de l’Enquête Nationale sur les unités de production opérant dans l’informel 2023/2024",
+     "url": "https://www.hcp.ma/Synthese-des-principaux-resultats-de-l-Enquete-Nationale-sur-les-unites-de-production-operant-dans-l-informel-2023-2024_a4109.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2023,
+      2024
+     ],
+     "coverage": "2023-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Le HCP réitère son appel aux entreprises à souscrire à la plateforme digitale d'échange d'informations sur la conjoncture économique nationale",
+     "url": "https://www.hcp.ma/Le-HCP-reitere-son-appel-aux-entreprises-a-souscrire-a-la-plateforme-digitale-d-echange-d-informations-sur-la_a2807.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Les comptes régionaux. Produit intérieur brut et dépenses de consommation finale des ménages 2024",
+     "url": "https://www.hcp.ma/Les-comptes-regionaux-Produit-interieur-brut-et-depenses-de-consommation-finale-des-menages-2024_a4334.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Budget économique exploratoire 2027 : Perspectives économiques pour les années 2026 et 2027, Juillet 2026",
+     "url": "https://www.hcp.ma/Budget-economique-exploratoire-2027-Perspectives-economiques-pour-les-annees-2026-et-2027-Juillet-2026_a4338.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2026,
+      2027
+     ],
+     "coverage": "2026-2027",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "L’Indice des prix à la consommation (IPC). (Base 100 _ 2017 _ 100 أساس). Avril 2026",
+     "url": "https://www.hcp.ma/L-Indice-des-prix-a-la-consommation-IPC-Base-100--2017--100-أساس-Avril-2026_a4340.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2017,
+      2026
+     ],
+     "coverage": "2017-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "L'Indice des prix à la production industrielle, énergétique et minière (IPPIEM). (Base 100 : 2018 : 100 أساس). Quatrième trimestre 2025",
+     "url": "https://www.hcp.ma/L-Indice-des-prix-a-la-production-industrielle-energetique-et-miniere-IPPIEM-Base-100-2018-100-أساس-Quatrieme_a4307.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2018,
+      2025
+     ],
+     "coverage": "2018-2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "L’Indice de la production industrielle, énergétique et minière (IPIEM). (Base 100 : 2015 : 100 أساس). Troisième trimestre 2025",
+     "url": "https://www.hcp.ma/L-Indice-de-la-production-industrielle-energetique-et-miniere-IPIEM-Base-100-2015-100-أساس-Troisieme-trimestre-2025_a4272.html",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2015,
+      2025
+     ],
+     "coverage": "2015-2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "8.1.1 Taux de croissance annuelle du PIB réel par habitant(%)",
+     "url": "http://plateforme-odd.hcp.ma/ODD_HCP/fr/indicateurs/?ind=8.1.1&color=a31d44&sdg=8",
+     "page_url": "https://www.hcp.ma/Economie_r327.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Emploi",
+     "url": "https://www.hcp.ma/Emploi_r433.html",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Activité, emploi et chômage, résultats annuels 2025",
+     "url": "https://www.hcp.ma/Activite-emploi-et-chomage-resultats-annuels-2025_a4310.html",
+     "page_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Plateforme interactive “Simulez votre emploi du temps”",
+     "url": "http://budget-temps.hcp.ma",
+     "page_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Mode de transport domicile-lieu de travail des actifs occupés selon les résultats du recensement général de la population et de l'habitat 2024, Juin 2026",
+     "url": "https://www.hcp.ma/Mode-de-transport-domicile-lieu-de-travail-des-actifs-occupes-selon-les-resultats-du-recensement-general-de-la_a4324.html",
+     "page_url": "https://www.hcp.ma/Population-demographie_r513.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Population & démographie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2024,
+      2026
+     ],
+     "coverage": "2024-2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Méthodologie de notre enquête emploi",
+     "url": "https://www.hcp.ma/Enquete-nationale-sur-l-emploi_a89.html",
+     "page_url": "https://www.hcp.ma/Situation-du-marche-du-travail-au-Maroc-au-deuxieme-trimestre-de-2026-a-partir-de-la-nouvelle-enquete-sur-la-main-d_a4342.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Situation du marché du travail au Maroc au deuxième trimestre de 2026 à partir de la nouvelle enquête sur la main-d’œuvre (EMO2026)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Indicateurs Comptes nationaux",
+     "url": "https://www.hcp.ma/Indicateurs-Comptes-nationaux_r341.html",
+     "page_url": "https://www.hcp.ma/Croissance-economique-evolution-en_a2876.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Croissance économique (évolution en %)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "PIB par habitant en dirham",
+     "url": "https://www.hcp.ma/PIB-par-habitant-en-dirham_a3126.html",
+     "page_url": "https://www.hcp.ma/Croissance-economique-evolution-en_a2876.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Croissance économique (évolution en %)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Besoin de financement/PIB",
+     "url": "https://www.hcp.ma/Besoin-de-financement-PIB_a3125.html",
+     "page_url": "https://www.hcp.ma/Croissance-economique-evolution-en_a2876.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Croissance économique (évolution en %)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Taux d'épargne/PIB",
+     "url": "https://www.hcp.ma/Taux-d-epargne-PIB_a3124.html",
+     "page_url": "https://www.hcp.ma/Croissance-economique-evolution-en_a2876.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Croissance économique (évolution en %)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Prix implicite du PIB (évolution en %)",
+     "url": "https://www.hcp.ma/Prix-implicite-du-PIB-evolution-en_a3123.html",
+     "page_url": "https://www.hcp.ma/Croissance-economique-evolution-en_a2876.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Croissance économique (évolution en %)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Taux d'investissement/PIB",
+     "url": "https://www.hcp.ma/Taux-d-investissement-PIB_a2878.html",
+     "page_url": "https://www.hcp.ma/Croissance-economique-evolution-en_a2876.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Croissance économique (évolution en %)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Valeur ajoutée agricole (évolution en %)",
+     "url": "https://www.hcp.ma/Valeur-ajoutee-agricole-evolution-en_a2877.html",
+     "page_url": "https://www.hcp.ma/Croissance-economique-evolution-en_a2876.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Croissance économique (évolution en %)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "PIB non agricole (évolution en %)",
+     "url": "https://www.hcp.ma/PIB-non-agricole-evolution-en_a2875.html",
+     "page_url": "https://www.hcp.ma/Croissance-economique-evolution-en_a2876.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Croissance économique (évolution en %)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Indicateurs Conjoncture et prévision économique",
+     "url": "https://www.hcp.ma/Indicateurs-Conjoncture-et-prevision-economique_r331.html",
+     "page_url": "https://www.hcp.ma/Inflation_a2950.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Inflation",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "PIB en volume",
+     "url": "https://www.hcp.ma/PIB-en-volume_a2882.html",
+     "page_url": "https://www.hcp.ma/Inflation_a2950.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Inflation",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Valeur ajoutée primaire",
+     "url": "https://www.hcp.ma/Valeur-ajoutee-primaire_a2879.html",
+     "page_url": "https://www.hcp.ma/Inflation_a2950.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Inflation",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Croissance économique infra-annuelle",
+     "url": "https://www.hcp.ma/Croissance-economique-infra-annuelle_a2949.html",
+     "page_url": "https://www.hcp.ma/Inflation_a2950.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Inflation",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agrégats des comptes nationaux",
+     "url": "https://applications-web.hcp.ma/DCN/Accueil.html",
+     "page_url": "https://www.hcp.ma/L-Indice-des-prix-a-la-consommation-IPC-du-mois-d-Aout-2026_a4348.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "L'Indice des prix à la consommation (IPC) du mois d'Août 2026",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Actualité Indices des prix à la consommation IPC",
+     "url": "https://www.hcp.ma/Actualite-Indices-des-prix-a-la-consommation-IPC_r349.html",
+     "page_url": "https://www.hcp.ma/L-Indice-des-prix-a-la-consommation-IPC-du-mois-d-Aout-2026_a4348.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "L'Indice des prix à la consommation (IPC) du mois d'Août 2026",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Actualité Indices de la production industrielle IPI",
+     "url": "https://www.hcp.ma/Actualite-Indices-de-la-production-industrielle-IPI_r625.html",
+     "page_url": "https://www.hcp.ma/L-indice-de-la-production-industrielle-energetique-et-miniere-IPI--deuxieme-trimestre-2026_a4347.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "L’indice de la production industrielle, énergétique et minière (IPI), deuxième trimestre 2026",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Publications Conjoncture entreprise",
+     "url": "https://www.hcp.ma/Publications-Conjoncture-entreprise_r622.html",
+     "page_url": "https://www.hcp.ma/Resultats-des-enquetes-trimestrielles-de-conjoncture-aupres-des-entreprises-3eme-trimestre-2026_a4346.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Résultats des enquêtes trimestrielles de conjoncture auprès des entreprises, 3ème trimestre 2026",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquêtes trimestrielles de conjoncture, 2026 T3 : Secteur des industries manufacturières, extractives, énergétiques et environnementales et secteur de la construction (version Fr)",
+     "url": "https://www.hcp.ma/file/248971/",
+     "page_url": "https://www.hcp.ma/Resultats-des-enquetes-trimestrielles-de-conjoncture-aupres-des-entreprises-3eme-trimestre-2026_a4346.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Résultats des enquêtes trimestrielles de conjoncture auprès des entreprises, 3ème trimestre 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquêtes trimestrielles de conjoncture, 2026 T3 : Secteur des services marchands non financiers et secteur du commerce de gros (version Fr)",
+     "url": "https://www.hcp.ma/file/248973/",
+     "page_url": "https://www.hcp.ma/Resultats-des-enquetes-trimestrielles-de-conjoncture-aupres-des-entreprises-3eme-trimestre-2026_a4346.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Résultats des enquêtes trimestrielles de conjoncture auprès des entreprises, 3ème trimestre 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquêtes trimestrielles de conjoncture, 2026 T3 : Secteur des industries manufacturières, extractives, énergétiques et environnementales et secteur de la construction (version Ar)",
+     "url": "https://www.hcp.ma/file/248970/",
+     "page_url": "https://www.hcp.ma/Resultats-des-enquetes-trimestrielles-de-conjoncture-aupres-des-entreprises-3eme-trimestre-2026_a4346.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Résultats des enquêtes trimestrielles de conjoncture auprès des entreprises, 3ème trimestre 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquêtes trimestrielles de conjoncture, 2026 T3 : Secteur des services marchands non financiers et secteur du commerce de gros (version Ar)",
+     "url": "https://www.hcp.ma/file/248972/",
+     "page_url": "https://www.hcp.ma/Resultats-des-enquetes-trimestrielles-de-conjoncture-aupres-des-entreprises-3eme-trimestre-2026_a4346.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Résultats des enquêtes trimestrielles de conjoncture auprès des entreprises, 3ème trimestre 2026",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Actualité Indices des prix à la production industrielle IPPI",
+     "url": "https://www.hcp.ma/Actualite-Indices-des-prix-a-la-production-industrielle-IPPI_r354.html",
+     "page_url": "https://www.hcp.ma/L-indice-des-prix-a-la-production-industrielle-energetique-et-miniere-IPPI-du-mois-de-Juillet-2026_a4345.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "L’indice des prix à la production industrielle, énergétique et minière (IPPI) du mois de Juillet 2026",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Comptes Nationaux",
+     "url": "https://www.hcp.ma/Comptes-nationaux_a2938.html",
+     "page_url": "https://www.hcp.ma/Bases-de-donnees_r631.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Les bases de données du Haut Commissariat aux compte du Maroc | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête Nationale sur l'Emploi du Temps",
+     "url": "https://www.hcp.ma/Enquete-Nationale-sur-l-Emploi-du-Temps-ENET-2012_a2947.html",
+     "page_url": "https://www.hcp.ma/Bases-de-donnees_r631.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Les bases de données du Haut Commissariat aux compte du Maroc | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Le plan de développement économique et social 2000 - 2004",
+     "url": "https://www.hcp.ma/downloads/?tag=Le+plan+de+d%C3%A9veloppement+%C3%A9conomique+et+social+2000+-+2004",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [
+      2000,
+      2004
+     ],
+     "coverage": "2000-2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquêtes de conjoncture : Industrie - BTP",
+     "url": "https://www.hcp.ma/downloads/?tag=Enqu%C3%AAtes+de+conjoncture+%3A+Industrie+-+BTP",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête sur la réalisation des constructions autorisées",
+     "url": "https://www.hcp.ma/downloads/?tag=Enqu%C3%AAte+sur+la+r%C3%A9alisation+des+constructions+autoris%C3%A9es",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête nationale sur l’emploi du temps",
+     "url": "https://www.hcp.ma/downloads/?tag=Enqu%C3%AAte+nationale+sur+l%27emploi+du+temps",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Conjoncture entreprise",
+     "url": "https://www.hcp.ma/downloads/?tag=Conjoncture+entreprise",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Economie",
+     "url": "https://www.hcp.ma/downloads/?tag=Economie",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquêtes économiques",
+     "url": "https://www.hcp.ma/downloads/?tag=Enqu%C3%AAtes+%C3%A9conomiques",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquêtes trimestrielles de conjoncture auprès des entreprises",
+     "url": "https://www.hcp.ma/downloads/?tag=Enqu%C3%AAtes+trimestrielles+de+conjoncture+aupr%C3%A8s+des+entreprises",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Emploi",
+     "url": "https://www.hcp.ma/downloads/?tag=Emploi",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Enquête des prix à la consommation",
+     "url": "https://www.hcp.ma/downloads/?tag=Enqu%C3%AAte+des+prix+%C3%A0+la+consommation",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Indice des prix à la consommation",
+     "url": "https://www.hcp.ma/downloads/?tag=Indice+des+prix+%C3%A0+la+consommation",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Indices des prix et production",
+     "url": "https://www.hcp.ma/downloads/?tag=Indices+des+prix+et+production",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Conjoncture et prévision économique",
+     "url": "https://www.hcp.ma/downloads/?tag=Conjoncture+et+pr%C3%A9vision+%C3%A9conomique",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Derni%C3%A8res+parutions",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Comptes nationaux",
+     "url": "https://www.hcp.ma/downloads/?tag=Comptes+nationaux",
+     "page_url": "https://www.hcp.ma/downloads/?tag=Publications+th%C3%A9matiques",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Tags | Téléchargements | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "HCP : Organisation conjointe avec la Commission Economique pour l’Afrique d’un atelier de formation",
+     "url": "https://www.hcp.ma/HCP-Organisation-conjointe-avec-la-Commission-Economique-pour-l-Afrique-d-un-atelier-de-formation_a2458.html",
+     "page_url": "https://www.hcp.ma/Developpement-durable_r528.html",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Développement durable | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  }
+ },
+ "limitations": [
+  "No English version: the non-English pages were analysed (keywords cover Arabic and French)."
+ ],
+ "recognized": [],
+ "suggested_sources": [],
+ "indicator_samples": [],
+ "site": {
+  "url": "https://www.hcp.ma/",
+  "reachable": true,
+  "status": 200,
+  "final_url": "https://www.hcp.ma/",
+  "title": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc",
+  "lang": "fr",
+  "english": "no",
+  "english_url": "",
+  "platforms": [],
+  "blocked": "",
+  "rendered": false,
+  "insecure_tls": false,
+  "notes": []
+ },
+ "files": {
+  "formats": {},
+  "total": 0,
+  "pages_crawled": 40,
+  "pages_rendered": 0
+ },
+ "api": {
+  "docs": [],
+  "how_to": {},
+  "endpoints": [],
+  "js_findings": {
+   "scripts_scanned": 9,
+   "base_urls": [],
+   "endpoint_paths": [],
+   "api_urls": []
+  },
+  "doc_links": [
+   {
+    "text": "Micro données - Open Data",
+    "url": "https://www.hcp.ma/Micro-donnees-Open-data_r632.html"
+   }
+  ],
+  "status": "none",
+  "python_access": "no",
+  "summary": "No API found (no documented platform, no data calls seen while browsing). Data is published as files/pages only: Agent 2 would use the 'scrape' connector."
+ },
+ "sniff_pages": [
+  {
+   "url": "https://www.hcp.ma/",
+   "final_url": "https://www.hcp.ma/",
+   "status": 200,
+   "title": "Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc"
+  },
+  {
+   "url": "https://www.hcp.ma/Economie_r327.html",
+   "final_url": "https://www.hcp.ma/Economie_r327.html",
+   "status": 200,
+   "title": "Economie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc"
+  },
+  {
+   "url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+   "final_url": "https://www.hcp.ma/Marche-du-travail_r423.html",
+   "status": 200,
+   "title": "Marché du travail | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc"
+  },
+  {
+   "url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+   "final_url": "https://www.hcp.ma/Revenu-conditions-de-vie_r443.html",
+   "status": 200,
+   "title": "Revenu & conditions de vie | Site institutionnel du Haut-Commissariat au Plan du Royaume du Maroc"
+  }
+ ],
+ "duration_s": 36.2
+}

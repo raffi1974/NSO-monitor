@@ -1,0 +1,65 @@
+{
+ "id": "SDN",
+ "country": "Sudan",
+ "nso": "Central Bureau of Statistics (CBS)",
+ "url": "http://www.cbs.gov.sd",
+ "english_config": "unknown",
+ "languages": [
+  "ar",
+  "en"
+ ],
+ "config_notes": "The official domain does not resolve (checked 2026-09-29) - site offline.",
+ "checked_at": "2026-09-29 11:17",
+ "themes": {
+  "social_statistics": {
+   "label": "Social statistics",
+   "items": []
+  },
+  "economic_statistics": {
+   "label": "Economic statistics",
+   "items": []
+  }
+ },
+ "limitations": [
+  "Website not reachable from this network: no response. Run Agent 1 from another network (or ask the Claude subagent to investigate)."
+ ],
+ "recognized": [],
+ "suggested_sources": [],
+ "indicator_samples": [],
+ "site": {
+  "url": "http://www.cbs.gov.sd",
+  "reachable": false,
+  "status": null,
+  "final_url": "http://www.cbs.gov.sd",
+  "title": "",
+  "lang": "",
+  "english": "unknown",
+  "english_url": "",
+  "platforms": [],
+  "blocked": "no response",
+  "rendered": false,
+  "insecure_tls": false,
+  "notes": [
+   "plain HTTP request failed: ConnectError: [Errno 11002] getaddrinfo failed",
+   "browser could not open it either: Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.cbs.gov.sd/\nCall log:\n  - navigating to \"http://www.cbs.gov.sd/\", waiting until \"domcontentloaded\"\n"
+  ]
+ },
+ "files": {
+  "formats": {},
+  "total": 0,
+  "pages_crawled": 0,
+  "pages_rendered": 0
+ },
+ "api": {
+  "docs": [],
+  "how_to": {},
+  "endpoints": [],
+  "js_findings": {},
+  "doc_links": [],
+  "status": "none",
+  "python_access": "no",
+  "summary": "No API found (no documented platform, no data calls seen while browsing). Data is published as files/pages only: Agent 2 would use the 'scrape' connector."
+ },
+ "sniff_pages": [],
+ "duration_s": 53.7
+}

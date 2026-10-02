@@ -1,0 +1,66 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Djibouti  -  Institut National de la Statistique de Djibouti (INSTAD)
+Checked 2026-09-29 11:14  |  Agent 1 (agent1_diagnose.py)  |  took 39.1 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://instad.dj/
+   Reachable       : yes (HTTP 200)
+   English version : no English version
+   Note: French only; content is rendered by JavaScript.
+
+2. API
+   Verdict         : UNDOCUMENTED - works from Python (no login needed)
+   No official documentation, but the website's own data API at instad-
+     dj-6abc7b0eb612.herokuapp.com answers plain Python requests (found by API sniffing).
+   Documentation   : none official
+
+   How to call it - curl:
+       curl -H "accept-language: en-US" "https://instad-dj-6abc7b0eb612.herokuapp.com/news"
+
+   How to call it - Python:
+       import requests
+       
+       url = "https://instad-dj-6abc7b0eb612.herokuapp.com/news"
+       headers = {"accept-language": "en-US"}
+       response = requests.get(url, headers=headers, timeout=60)
+       response.raise_for_status()
+       data = response.json()
+
+   API sniffing - data calls the website made: 18 distinct, 12 worked again from plain Python
+     [OK ] GET instad-dj-6abc7b0eb612.herokuapp.com/news  (application/json)
+     [OK ] POST instad-dj-6abc7b0eb612.herokuapp.com/publications  (application/json)
+     [OK ] GET api.iconify.design/material-symbols.json  (application/json)
+     [OK ] GET instad-dj-6abc7b0eb612.herokuapp.com/fichiers/D%C3%A9mographie/undefined
+       (application/json)
+     [OK ] GET instad-dj-6abc7b0eb612.herokuapp.com/headerDatas  (application/json)
+     [OK ] GET api.iconify.design/bi.json  (application/json)
+     [OK ] GET instad-dj-6abc7b0eb612.herokuapp.com/infographics/public/Infographie
+       (application/json)
+     [OK ] GET instad-dj-6abc7b0eb612.herokuapp.com/flashs  (application/json)
+     [OK ] GET api.iconify.design/ion.json  (application/json)
+     [OK ] GET api.iconify.design/fluent.json  (application/json)
+     [OK ] GET api.iconify.design/streamline.json  (application/json)
+     [OK ] GET api.iconify.design/ri.json  (application/json)
+     [n/t] GET api.iconify.design/akar-icons.json  (application/json)
+     [n/t] GET api.iconify.design/heroicons.json  (application/json)
+     [n/t] GET instad.dj/_nuxt/builds/meta/d390c9e4-27bb-41e5-8b38-8ccd7e2a5575.json
+       (application/json)
+
+   Found in the site's JavaScript files:
+     1 endpoint paths, e.g. api/_nuxt_icon
+
+3. SOCIAL STATISTICS  (nothing found)
+
+4. ECONOMIC STATISTICS  (nothing found)
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   1 pages crawled (0 rendered in a browser); 0 file links
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+   none - nothing machine-readable was found automatically; see limitations below
+
+7. LIMITATIONS / NEXT STEPS
+   - No theme dataset or file was found automatically - the data may sit behind search forms,
+     dashboards (Tableau/Power BI) or an app. Ask the Claude subagent (/diagnose) to dig deeper.
+   - No English version: the non-English pages were analysed (keywords cover Arabic and French).

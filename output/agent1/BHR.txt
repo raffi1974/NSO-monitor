@@ -1,0 +1,486 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Bahrain  -  Information & eGovernment Authority (iGA) - statistics
+Checked 2026-09-29 10:46  |  Agent 1 (agent1_diagnose.py)  |  took 55.2 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://www.iga.gov.bh/en
+   Reachable       : yes (HTTP 200)
+   English version : yes
+   Built with      : ASP.NET WebForms
+
+2. API
+   Verdict         : DOCUMENTED - works from Python (no login needed)
+   Documented API: Opendatasoft / Huwise at https://www.data.gov.bh (catalogue of 514 datasets)
+   Documentation   :
+     https://www.data.gov.bh/api/explore/v2.1/console
+   Site links mentioning API / open data / databank:
+     Bahrain Open Data Portal Government Data Available to Everyone -> https://www.data.gov.bh/
+
+   How to call it - curl:
+       curl "https://www.data.gov.bh/api/explore/v2.1/catalog/datasets?limit=10"
+
+   How to call it - Python:
+       import requests
+       
+       catalog = requests.get("https://www.data.gov.bh/api/explore/v2.1/catalog/datasets", params={"limit": 100}, timeout=60).json()
+       datasets = [d["dataset_id"] for d in catalog["results"]]
+       csv_text = requests.get("https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/05_bahraini-administrative-research-supported-by-the-institute-/exports/csv", timeout=120).text   # a whole dataset as CSV
+
+3. SOCIAL STATISTICS  (263 datasets, 20 pages, 10 files)
+     - 1. Population by Nationality, Sex & Age Groups | CSV, XLSX, JSON | latest 2026-08-26
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/01-population-by-
+         nationality-sex-agegroups/exports/csv
+     - 2. Population by Governorate, Nationality & Sex | CSV, XLSX, JSON | latest 2026-08-26
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/02-population-by-
+         governorate-nationality-sex/exports/csv
+     - 3. Population by Nationality & Sex | CSV, XLSX, JSON | latest 2026-08-26
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/03-population-by-
+         nationality-and-sex/exports/csv
+     - 4. Population Density by Governorate | CSV, XLSX, JSON | latest 2026-08-26
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/04-population-density-by-
+         governorate/exports/csv
+     - 5. Sex Ratio by Nationality | CSV, XLSX, JSON | latest 2026-08-26
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/5-sex-ratio-by-
+         nationality/exports/csv
+     - Absentees for Workers Covered by Social Insurance System (Private Sector) by Economic
+       Activity and Nationality | CSV, XLSX, JSON | latest 2026-04-21
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/08-absentees-workers-by-
+         social-ins-sys-private-sector-eco-act-nat/exports/csv
+     - Actual Expenditure of the Ministry of Education by Expenditure Items (BD) | CSV, XLSX,
+       JSON | latest 2026-08-26
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/08-actual-expenditure-of-
+         the-ministry-of-education-by-expenditure-items-bd/exports/csv
+     - Admission in Hospital by Sector (Government / Private) | CSV, XLSX, JSON | latest
+       2026-08-26
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/36-admission-in-hospital-by-
+         sector/exports/csv
+     - Age Specific Fertility Rates (Per 1,000 Woman) by Nationality | CSV, XLSX, JSON | latest
+       2026-08-27
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/03-age-specific-fertility-
+         rates/exports/csv
+     - Agricultural Sector Employment and Establishments Indicators | CSV, XLSX, JSON | latest
+       2026-05-13
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/07-agricultural-sector-emp-
+         and-est-indicators/exports/csv
+     - Applications for Minors | CSV, XLSX, JSON | latest 2026-06-07
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/05-applications-for-
+         minors/exports/csv
+     - Audio-visual and Interactive Media (Cinema) | CSV, XLSX, JSON | latest 2026-04-28
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/03a-media-cinema/exports/csv
+     - Audio-visual and Interactive Media (Telecommunication and Video Games) | CSV, XLSX, JSON
+       | latest 2026-04-28
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/03c-media-telecommunication-
+         and-video-games/exports/csv
+     - Audio-visual and Interactive Media (Television and Radio) | CSV, XLSX, JSON | latest
+       2026-06-17
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/03b-media-tv-and-
+         radio/exports/csv
+     - Bahraini Administrative Research Issued from the Master Program | CSV, XLSX, JSON |
+       latest 2025-12-07
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/06_bahraini-administrative-
+         research-issued-from-the-master-program-2018-20220/exports/csv
+     - Bahraini Administrative Research that Participated in Local and International Forums &
+       Conferences by the Institute's Support | CSV, XLSX, JSON | latest 2025-12-07
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/07_-bah-adm-research-local-
+         and-international-forums-2019-2023/exports/csv
+     - Bahraini Live Births Born Abroad by Countries Groups and Sex | CSV, XLSX, JSON | latest
+       2026-08-30
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/39-bahraini-live-births-
+         born-abroad-by-countries-groups-and-sex/exports/csv
+     - Beneficiaries of Social Welfare | CSV, XLSX, JSON | latest 2026-04-08
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/04-beneficiaries-of-social-
+         welfare/exports/csv
+     - Books and Newspapers | CSV, XLSX, JSON | latest 2026-06-17
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/04-books-and-
+         newspapers-4/exports/csv
+     - Buildings by Building Current Usage and Governorate - Census 2020 | 2020 | CSV, XLSX,
+       JSON | latest 2023-06-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/buildings-by-building-
+         current-usage-and-governorate-census-2020/exports/csv
+     - Buildings by Building Type and Governorate - Census 2020 | 2020 | CSV, XLSX, JSON |
+       latest 2023-06-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/buildings-by-building-type-
+         and-governorate-census-2020/exports/csv
+     - Buildings by Ownership Type and Governorate - Census 2020 | 2020 | CSV, XLSX, JSON |
+       latest 2023-06-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/buildings-by-ownership-type-
+         and-governorate-census-2020/exports/csv
+     - Change in the number of Recruitment | CSV, XLSX, JSON | latest 2023-06-25
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/change-in-the-number-of-
+         recruitment/exports/csv
+     - Comprehensive data of university of bahrain students enrolled according to their
+       nationalities. | CSV, XLSX, JSON | latest 2025-12-07
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/01-statistics-of-students-
+         nationalities_updated/exports/csv
+     - Crude Birth Rate by Nationality | CSV, XLSX, JSON | latest 2026-08-27
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/02-crude-birth-rate-by-
+         nationality/exports/csv
+     - Crude Death Rate | CSV, XLSX, JSON | latest 2026-08-27
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/21-crude-death-
+         rate/exports/csv
+     - Crude Divorce Rate | CSV, XLSX, JSON | latest 2026-08-04
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/2c-crude-divorce-
+         rate/exports/csv
+     - Crude Marriage Rate | CSV, XLSX, JSON | latest 2026-08-04
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/2a-crude-marriage-
+         rate/exports/csv
+     - Culture and Media- Religious Domain | CSV, XLSX, JSON | latest 2026-04-28
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/05a-religious-
+         domain-5a/exports/csv
+     - Deaths by Age Groups, Nationality and Sex | CSV, XLSX, JSON | latest 2026-08-30
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/22-deaths-by-age-
+         groups/exports/csv
+     - Deaths by Nationality and Sex | CSV, XLSX, JSON | latest 2026-08-27
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/20-deaths-by-nationality-
+         and-sex/exports/csv
+     - Deaths by Underlying Cause of Death | CSV, XLSX, JSON | latest 2026-08-27
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/23-cause-of-
+         death/exports/csv
+     - Deaths for Workers Covered by Social Insurance System (Private Sector) by Economic
+       Activity and Nationality | CSV, XLSX, JSON | latest 2026-04-21
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/09-deaths-for-workers-by-
+         social-ins-sys-private-sector-eco-act-nat/exports/csv
+     - Disabled Population (15 Years & Above) by Sex, Marital Status and Type of Disability -
+       Census 2020 | 2020 | CSV, XLSX, JSON | latest 2023-06-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/disabled-
+         population-15-years-and-above-by-sex-marital-status-and-type-of-disabil/exports/csv
+     - Disabled Population by Age Groups, Nationality and Sex - Census 2020 | 2020 | CSV, XLSX,
+       JSON | latest 2023-06-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/disabled-population-by-age-
+         groups-nationality-and-sex-census-2020/exports/csv
+     - Disabled Population by Sex, Cause of Disability and Type of Disability - Census 2020 |
+       2020 | CSV, XLSX, JSON | latest 2023-06-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/disabled-population-by-sex-
+         cause-of-disability-and-type-of-disability-census-200/exports/csv
+     - Disabled Population by Sex, Governorate and Type of Disability - Census 2020 | 2020 |
+       CSV, XLSX, JSON | latest 2023-06-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/disabled-population-by-sex-
+         governorate-and-type-of-disability-census-2020/exports/csv
+     - Disabled Population by Type of Disability, Nationality and Sex - Census 2020 | 2020 |
+       CSV, XLSX, JSON | latest 2023-06-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/disabled-population-by-type-
+         of-disability-nationality-and-sex-census-2020/exports/csv
+     - Distribution Population by Governorate & Nationality of Households - Census 2020 | 2020
+       | CSV, XLSX, JSON | latest 2023-06-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/distribution-population-by-
+         governorate-and-nationality-of-households-census-2020/exports/csv
+     - Distribution of Average Households by Governorate & Nationality of Households - Census
+       2020 | 2020 | CSV, XLSX, JSON | latest 2023-06-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/distribution-of-average-
+         households-by-governorate-and-nationality-of-households-/exports/csv
+     - Distribution of Households by Governorate & Nationality of Households - Census 2020 |
+       2020 | CSV, XLSX, JSON | latest 2023-06-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/distribution-households-by-
+         governorate-and-nationality-of-households-census-2020/exports/csv
+     - Distribution of Humanitarian Aid to Bahraini Citizens by Type of Assistance and Number
+       of Beneficiaries | CSV, XLSX, JSON | latest 2026-04-28
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/01-humanitarian-
+         assistance/exports/csv
+     - Divorce Cases (Bahraini Divorced Husband) by Nationality of Divorced Wife, Type of
+       Divorce & Duration of Marriage | CSV, XLSX, JSON | latest 2023-08-03
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/divorce-cases-bahraini-
+         divorced-husband-by-nationality-of-divorced-wife-type-of0/exports/csv
+     - Divorce Cases (Non-Bahraini Divorced Husband) by Nationality of Divorced Wife, Type of
+       Divorce & Duration of Marriage | CSV, XLSX, JSON | latest 2023-08-03
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/divorce-cases-non-bahraini-
+         divorced-husband-by-nationality-of-divorced-wife-typ0/exports/csv
+     - Divorce Cases by Age Groups, Nationality & Sex | CSV, XLSX, JSON | latest 2023-05-26
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/divorce-cases-by-age-
+         groups/exports/csv
+     - Divorce Cases by Classification of Nationality of the Spouses | CSV, XLSX, JSON | latest
+       2026-08-04
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/20a-divorce-cases-by-
+         classification-of-nationality-of-the-spouses/exports/csv
+     - Divorce Cases by Duration of Marriage | CSV, XLSX, JSON | latest 2026-08-04
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/20b-divorce-cases-by-
+         duration-of-marriage/exports/csv
+     - Divorce Cases by Husband Age Groups | CSV, XLSX, JSON | latest 2026-08-04
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/20c-divorce-cases-by-
+         husband-age-group/exports/csv
+     - Divorce Cases by Nationality | CSV, XLSX, JSON | latest 2023-05-26
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/divorce-cases/exports/csv
+     - Divorce Cases by Nationality of the Husband & Wife | CSV, XLSX, JSON | latest 2023-05-26
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/divorce-cases-by-
+         nationality-of-the-husband-and-wife/exports/csv
+     - Divorce Cases by Nationality, Age Groups & Duration of Marriage of Divorced Husband |
+       CSV, XLSX, JSON | latest 2023-08-03
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/divorce-cases-by-
+         nationality-age-groups-and-duration-of-marriage-of-divorced-hus/exports/csv
+     - Divorce Cases by Nationality, Age Groups & Duration of Marriage of Divorced Wife | CSV,
+       XLSX, JSON | latest 2023-08-03
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/divorce-cases-by-
+         nationality-age-groups-and-duration-of-marriage-of-divorced-wif/exports/csv
+     - Divorce Cases by Nationality, Highest Educational Attainment & Age Groups of Divorced
+       Husband | CSV, XLSX, JSON | latest 2023-08-03
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/divorce-cases-by-
+         nationality-highest-educational-attainment-and-age-groups-of-di/exports/csv
+     - Divorce Cases by Nationality, Highest Educational Attainment & Age Groups of Divorced
+       Wife | CSV, XLSX, JSON | latest 2023-08-03
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/divorce-cases-by-
+         nationality-highest-educational-attainment-and-age-groups-of-d0/exports/csv
+     - Divorce Cases by Nationality, Highest Educational Attainment of Divorced Husband & Major
+       Nationality Groups of Divorced Wife | CSV, XLSX, JSON | latest 2023-08-03
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/divorce-cases-by-
+         nationality-highest-educational-attainment-of-divorced-husband0/exports/csv
+     - Divorce Cases by Wife Age Groups | CSV, XLSX, JSON | latest 2026-08-04
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/20d-divorce-cases-by-wife-
+         age-group/exports/csv
+     - Divorce Cases of Bahraini Husband by Highest Educational Attainment of Divorced Husband,
+       Nationality & Highest  Educational Attainment of Divorced Wife | CSV, XLSX, JSON |
+       latest 2023-08-03
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/divorce-cases-of-bahraini-
+         husband-by-highest-educational-attainment-of-divorced0/exports/csv
+     - Divorce Cases of Non-Bahraini Husband by Highest Educational Attainment of Divorced
+       Husband, Nationality & Highest  Educational Attainment of Divorced Wife | CSV, XLSX,
+       JSON | latest 2023-08-03
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/divorce-cases-of-non-
+         bahraini-husband-by-highest-educational-attainment-of-divo0/exports/csv
+     - Economically Active Population (15 Years & Above) by Age Groups, Nationality and Sex -
+       Census 2020 | 2020 | CSV, XLSX, JSON | latest 2023-06-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/economically-active-
+         population-15-years-and-above-by-age-groups-nationality-and-/exports/csv
+     - Economically Active Population (15 Years & Above) by Governorate, Nationality and Sex -
+       Census 2020 | 2020 | CSV, XLSX, JSON | latest 2023-06-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/economically-active-
+         population-15-years-and-above-by-governorate-nationality-and/exports/csv
+     ... and 233 more (full list in BHR.json)
+
+4. ECONOMIC STATISTICS  (240 datasets, 8 pages, 4 files)
+     - 1. Quarterly GDP by Type of Economic Activity at Current Prices | CSV, XLSX, JSON |
+       latest 2026-08-27
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/1quarterly-gva-
+         cp/exports/csv
+     - 10. Quarterly Gross Domestic Product at Constant Prices - Expenditure Approach | CSV,
+       XLSX, JSON | latest 2026-09-08
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/10-gdp-exp-kp/exports/csv
+     - 11. Quarterly GDP by Type Expenditure at Constant Prices (Growth rate %) compared with
+       the same quarter in previous year | CSV, XLSX, JSON | latest 2026-09-08
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/11-gdp-exp-growth-kp-
+         compare-with-same-qrt/exports/csv
+     - 12. Quarterly GDP by Type Expenditure at Constant Prices (contribution %) | CSV, XLSX,
+       JSON | latest 2026-09-08
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/12quarterly-contribu-kp-exp-
+         contrib/exports/csv
+     - 2. Quarterly GDP by Type of Economic Activity at Current Prices (Growth Rate%) | CSV,
+       XLSX, JSON | latest 2026-08-27
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/2-quarterly-growth-cp-
+         change/exports/csv
+     - 3. Quarterly GDP by Type of Economic Activity at Current Prices (% Contribution to GDP)
+       | CSV, XLSX, JSON | latest 2026-08-27
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/3-quarterly-contribu-cp-
+         contrib0/exports/csv
+     - 4. Gross Domestic Product at Current Prices - Expenditure Approach | CSV, XLSX, JSON |
+       latest 2026-09-08
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/4quarterly-gva-cp-
+         exp/exports/csv
+     - 5. Quarterly GDP by type expenditure at current Prices (growth rate %) compared with the
+       same quarter in the previous year | CSV, XLSX, JSON | latest 2026-09-08
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/5quarterly-growth-cp-exp-
+         change/exports/csv
+     - 6. Quarterly GDP by Type Expenditure at Current Prices (contribution %) | CSV, XLSX,
+       JSON | latest 2026-09-08
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/6-gdp-exp-contribution-
+         cp/exports/csv
+     - 7. Quarterly GDP by Type of Economic Activity at Constant Prices | CSV, XLSX, JSON |
+       latest 2026-08-27
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/7-quarterly-gva-
+         kp/exports/csv
+     - 8. Quarterly GDP by Type of Economic Activity at Constant Prices (Growth Rate%) | CSV,
+       XLSX, JSON | latest 2026-08-27
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/8-qaurterly-growth-
+         kp/exports/csv
+     - 9. Quarterly GDP by Type of Economic Activity at Constant Prices (% Contribution to GDP)
+       | CSV, XLSX, JSON | latest 2026-08-27
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/9-quarterly-contribu-kp-
+         contrib/exports/csv
+     - Absentees for Workers Covered by Social Insurance System (Private Sector) by Economic
+       Activity and Nationality | CSV, XLSX, JSON | latest 2026-04-21
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/08-absentees-workers-by-
+         social-ins-sys-private-sector-eco-act-nat/exports/csv
+     - Accidents Classified by Region and Type of Accident | CSV, XLSX, JSON | latest
+       2026-04-13
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/07-accidents-classified-by-
+         region/exports/csv
+     - Actual Government Expenditure - Million BD | CSV, XLSX, JSON | latest 2026-01-18
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/01-actual-government-
+         expenditure/exports/csv
+     - Actual Government Revenues - Million BD | CSV, XLSX, JSON | latest 2026-01-18
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/02-actual-government-
+         revenues/exports/csv
+     - Agricultural Sector Employment and Establishments Indicators | CSV, XLSX, JSON | latest
+       2026-05-13
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/07-agricultural-sector-emp-
+         and-est-indicators/exports/csv
+     - Agriculture Production | CSV, XLSX, JSON | latest 2026-06-14
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/03-agriculture-
+         production/exports/csv
+     - Air Cargo Movement at Bahrain International Airport | CSV, XLSX, JSON | latest
+       2026-04-13
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/21-air-cargo-movement-at-
+         bahrain-international-airport/exports/csv
+     - Air Mail | CSV, XLSX, JSON | latest 2026-02-22
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/14-air-mail/exports/csv
+     - Aircraft Movements at Bahrain International Airport | CSV, XLSX, JSON | latest
+       2026-04-13
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/22-aircraft-movements-at-
+         bahrain-international-airport/exports/csv
+     - Aluminium Industry Products Exported Overseas By Type of Products - in Metric Ton | CSV,
+       XLSX, JSON | latest 2023-06-01
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/02-aluminum-industry-
+         products-sold/exports/csv
+     - Aluminium Industry Products Sold Locally by Type of Products - in Metric Ton | CSV,
+       XLSX, JSON | latest 2023-06-01
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/03-aluminum-industry-
+         products/exports/csv
+     - Aluminium Industry Products by Type and Month - in Metric Ton | CSV, XLSX, JSON | latest
+       2023-06-01
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/01-aluminum-industry-
+         products-by-type/exports/csv
+     - Aluminum Primary Materials Produced Locally Used in Aluminium Industry by Type of
+       Materials - in Metric Ton | CSV, XLSX, JSON | latest 2023-06-01
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/04-aluminum-primary-
+         materials/exports/csv
+     - Animal production | CSV, XLSX, JSON | latest 2026-06-14
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/01-animal-
+         production/exports/csv
+     - Annual Foreign Trade Statistics | CSV, XLSX, JSON | latest 2025-03-19
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/a-annual-foreign-trade-
+         statistics/exports/csv
+     - Annual Visitor Expenditure | CSV, XLSX, JSON | latest 2026-06-29
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/03b-expenditure-per-
+         visitor/exports/csv
+     - Arrivals and departures at ports by air, sea and land | CSV, XLSX, JSON | latest
+       2026-02-22
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/10-arrivals-and-departures-
+         in-air-and-sea-and-causeway/exports/csv
+     - Associated Gas Production- MMCUFT | CSV, XLSX, JSON | latest 2026-08-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/10-production-of-associated-
+         gas-v1/exports/csv
+     - Average Daily Water Consumption - Million Gallons | CSV, XLSX, JSON | latest 2026-09-13
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/average-daily-water-
+         consumption0/exports/csv
+     - Average Expenditure per Visitor per Trip | CSV, XLSX, JSON | latest 2026-05-13
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/01-average-expenditure-per-
+         visitor-per-trip/exports/csv
+     - Average Expenditure per Visitor per Trip - Annual | CSV, XLSX, JSON | latest 2026-06-29
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/01b-average-expenditure-per-
+         visitor-per-trip/exports/csv
+     - Average Length of Stay | CSV, XLSX, JSON | latest 2026-05-13
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/02-average-length-of-
+         stay/exports/csv
+     - Average Length of Stay - Annual | CSV, XLSX, JSON | latest 2026-06-29
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/02b-average-length-of-
+         stay/exports/csv
+     - Average daily per capita fish consumption (grams) | CSV, XLSX, JSON | latest 2026-08-13
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/14-average-daily-per-capita-
+         fish-consumption-grams/exports/csv
+     - Bahrain Field Crude Oil Production (Thousands of US Barrels) | CSV, XLSX, JSON | latest
+       2026-08-06
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/01-crude-oil-
+         produced-v1/exports/csv
+     - Bahrain Insurance Market Manpower | CSV, XLSX, JSON | latest 2025-03-19
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/03-bahrain-insurance-market-
+         manpower/exports/csv
+     - Balance of Payments - Million BD | CSV, XLSX, JSON | latest 2026-05-20
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/balance-of-payments-million-
+         bd/exports/csv
+     - Banking and Financial Institution Operating in Bahrain Distributed According to Type of
+       Activity | CSV, XLSX, JSON | latest 2026-08-13
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/06-financial-institution-in-
+         bahrain/exports/csv
+     - Banking and Financial Services | CSV, XLSX, JSON | latest 2023-06-05
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/banking-and-financial-
+         services/exports/csv
+     - Change in the number of Recruitment | CSV, XLSX, JSON | latest 2023-06-25
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/change-in-the-number-of-
+         recruitment/exports/csv
+     - Compensation of Employees at Constant Prices by Type of Economic Activity | CSV, XLSX,
+       JSON | latest 2026-01-20
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/10-annually-compensation-of-
+         employees-kp-value/exports/csv
+     - Compensation of Employees at Current Prices by Type of Economic Activity | CSV, XLSX,
+       JSON | latest 2026-01-20
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/09-annually-compensation-of-
+         employees-cp-value/exports/csv
+     - Consumer Price Index (CPI)- Division and Group - Index Number | CSV, XLSX, JSON | latest
+       2026-09-28
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/01-consumer-price-index-
+         division-and-group-index-number/exports/csv
+     - Consumers Price Index (CPI) - Divisions and Groups Percentage Change from Same Month of
+       Previous Year | CSV, XLSX, JSON | latest 2026-09-29
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/06-percentage-change-from-
+         previous-year/exports/csv
+     - Consumers Price Index (CPI), COICOP Divisions & Groups, Yearly Index Percentage Changes
+       | CSV, XLSX, JSON | latest 2026-09-28
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/04-consumers-price-index-
+         cpi-coicop-divisions-and-ggroups-yearly-index-percentag/exports/csv
+     - Consumers Price Index (CPI), Division - Index Numbers by Nationality | CSV, XLSX, JSON |
+       latest 2026-09-28
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/02-cpi-division-index-
+         number-by-nationality/exports/csv
+     - Consumers Price Index (CPI), Divisions & Groups, Yearly Index Numbers | CSV, XLSX, JSON
+       | latest 2026-09-28
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/03-cpi-consumers-price-
+         index-divisions-and-groups-yearly-index-numbers/exports/csv
+     - Consumers Price Index(CPI), Divisions and Groups Percentage Change from Previous Month |
+       CSV, XLSX, JSON | latest 2026-09-28
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/05-percentage-change-from-
+         previous-month/exports/csv
+     - Consumption of Fixed Capital at Constant Prices by Type of Economic Activity | CSV,
+       XLSX, JSON | latest 2026-01-20
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/12-annually-consumption-of-
+         fixed-capital-kp-value/exports/csv
+     - Consumption of Fixed Capital at Current Prices by Type of Economic Activity | CSV, XLSX,
+       JSON | latest 2026-01-20
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/11-annually-consumption-of-
+         fixed-capital-cp-value/exports/csv
+     - Container Statistics at Khalifa Bin Salman Port | CSV, XLSX, JSON | latest 2026-09-22
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/01-container-statistics-at-
+         khalifa-bin-salman-port/exports/csv
+     - Containers Movement at Mina Khalifa bin Salman | CSV, XLSX, JSON | latest 2026-02-22
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/19-containers-movement-at-
+         mina-khalifa-bin-salman/exports/csv
+     - Cow Milk Production – Metric Tons | CSV, XLSX, JSON | latest 2026-05-13
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/01b-cow-milk-production-
+         metric-tons/exports/csv
+     - Currency Issued - Million BD | CSV, XLSX, JSON | latest 2025-03-19
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/05-currency-issued-in-
+         bahrain/exports/csv
+     - Deaths for Workers Covered by Social Insurance System (Private Sector) by Economic
+       Activity and Nationality | CSV, XLSX, JSON | latest 2026-04-21
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/09-deaths-for-workers-by-
+         social-ins-sys-private-sector-eco-act-nat/exports/csv
+     - Driving Licenses Issued by Type of License | CSV, XLSX, JSON | latest 2026-04-30
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/04-driving-licenses-issued-
+         by-type-of-license/exports/csv
+     - EXPORTS (NATIONAL ORIGIN) 2020-2022 | 2020-2022 | CSV, XLSX, JSON | latest 2023-08-08
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/02-national-
+         export-2019-2022/exports/csv
+     - EXPORTS (NATIONAL ORIGIN) 2023 | 2023 | CSV, XLSX, JSON | latest 2025-03-19
+       https://www.data.gov.bh/api/explore/v2.1/catalog/datasets/exports-national-
+         origin-2023/exports/csv
+     ... and 192 more (full list in BHR.json)
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (0 rendered in a browser); 81 file links
+   Formats: PDF 81
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: BHR
+       theme: economic_statistics
+       method: api
+       connector: opendatasoft
+       enabled: true
+       options: {portal: 'https://www.data.gov.bh'}
+       notes: Opendatasoft/Huwise Explore API v2.1 (documented)
+     - nso: BHR
+       theme: social_statistics
+       method: api
+       connector: opendatasoft
+       enabled: true
+       options: {portal: 'https://www.data.gov.bh'}
+       notes: Opendatasoft/Huwise Explore API v2.1 (documented)
+
+7. LIMITATIONS / NEXT STEPS
+   - none noted

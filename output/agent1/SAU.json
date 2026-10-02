@@ -1,0 +1,1147 @@
+{
+ "id": "SAU",
+ "country": "Saudi Arabia",
+ "nso": "General Authority for Statistics (GASTAT)",
+ "url": "https://www.stats.gov.sa/en",
+ "english_config": "yes",
+ "languages": [
+  "en",
+  "ar"
+ ],
+ "config_notes": "",
+ "checked_at": "2026-09-29 11:11",
+ "themes": {
+  "social_statistics": {
+   "label": "Social statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "Labor Market Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119025&subindex=123704",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Health Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119025&subindex=123758",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Gender and Diversity Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119025&subindex=123610",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Vitals and Demographics Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119025&subindex=124141",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Living Conditions Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119025&subindex=127325",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Sports Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119025&subindex=123932",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Housing Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119025&subindex=124107",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Education Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119025&subindex=124262",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Social Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119025&subindex=127321",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Saudi Census Statistics 2022",
+     "url": "https://www.stats.gov.sa/statistics?index=119025&subindex=127380",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT organizes a workshop to discuss the Transformation in Health Statistics and the Women and Child Health Survey as part of Road to Riyadh events",
+     "url": "https://www.stats.gov.sa/en/w/news/217",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT signs MoU with King Saud University to foster research collaboration and innovation",
+     "url": "https://www.stats.gov.sa/en/w/news/210",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Social Awareness",
+     "url": "https://www.stats.gov.sa/survey-awareness?category=55163",
+     "page_url": "https://www.stats.gov.sa/en/survey-awareness",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey Awareness - General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More",
+     "url": "https://www.stats.gov.sa/en/school-broadcast",
+     "page_url": "https://www.stats.gov.sa/en/knowledge-competition",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Statistical Knowledge Program - General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  },
+  "economic_statistics": {
+   "label": "Economic statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "About Us",
+     "url": "https://www.stats.gov.sa/en/gastat-about-us",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Budget and Expenses",
+     "url": "https://www.stats.gov.sa/en/budget-and-expenses",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "National Accounts Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119021&subindex=120034",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Comprehensive Economic Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119021&subindex=2197208",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Digital Economy Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119021&subindex=122937",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Prices Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119021&subindex=121417",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Business Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119021&subindex=419271",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Short-Term Business Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119021&subindex=419285",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Investment Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119021&subindex=419305",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tourism ,Hajj and Umrah Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=124295&subindex=124300",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Transportation and logistic services statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=124295&subindex=124890",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agriculture Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=124295&subindex=124516",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Energy Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=124295&subindex=124703",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Business center (Statistical services)",
+     "url": "https://www.stats.gov.sa/en/business-statistics",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "GASTAT branding",
+     "url": "https://www.stats.gov.sa/en/logo-and-identity-user-guide",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Non oil International trade in goods for Saudi Arabia in August 2026",
+     "url": "https://www.stats.gov.sa/statistics-tabs?tab=436312&category=123481",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Construction Cost Index for August 2026",
+     "url": "https://www.stats.gov.sa/statistics-tabs?tab=436312&category=3453505",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "url": "https://www.stats.gov.sa/en/w/news/219",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More \"الإحصاء\": تطلق منتجًا إحصائيًا شهريًا للتجارة الدولية في السلع غير البترولية",
+     "url": "https://www.stats.gov.sa/en/w/news/218",
+     "page_url": "https://www.stats.gov.sa/en",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "GASTAT",
+     "url": "https://www.stats.gov.sa/en/authority",
+     "page_url": "https://www.stats.gov.sa/en/gastat-about-us",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "About Us - General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Download User Guide",
+     "url": "https://www.stats.gov.sa/documents/20117/2435245/Business_Center_userguideEN.pdf_fixed_2990914/04f60b58-bdc4-b1b1-1e8f-92308d211a1f?t=1745495657712",
+     "page_url": "https://www.stats.gov.sa/en/business-statistics",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Business center (Statistical services)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Economic Statistics",
+     "url": "https://www.stats.gov.sa/statistics?index=119021",
+     "page_url": "https://www.stats.gov.sa/en/statistics-tabs?tab=436312&category=123481",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT organizes a workshop to discuss the Transformation in Health Statistics and the Women and Child Health Survey as part of Road to Riyadh events",
+     "url": "https://www.stats.gov.sa/en/w/news/217",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT: Exports and imports at Saudi Arabia’s ports exceed 341 million tons in 2025",
+     "url": "https://www.stats.gov.sa/en/w/news/216",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More UN commends GASTAT for developing RAD tool and adopts it as an applied model",
+     "url": "https://www.stats.gov.sa/en/w/news/215",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT: Inflation in Saudi Arabia reaches 1.8% in August 2026",
+     "url": "https://www.stats.gov.sa/en/w/news/214",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT President participates in the 17th Session of the ESCWA Statistical Committee",
+     "url": "https://www.stats.gov.sa/en/w/news/213",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT: Operating Revenues Index for Wholesale and Retail Trade Increases by 3.2% in Q2 of 2026",
+     "url": "https://www.stats.gov.sa/en/w/news/212",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT signs MoU with King Saud University to foster research collaboration and innovation",
+     "url": "https://www.stats.gov.sa/en/w/news/210",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT recognized as a Great Place To Work in 2026",
+     "url": "https://www.stats.gov.sa/en/w/news/211",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT: Operating Revenues Index for short-term business increases by 11.4% in May 2026",
+     "url": "https://www.stats.gov.sa/en/w/news/209",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT opens registration for the 6th UN World Data Forum 2026",
+     "url": "https://www.stats.gov.sa/en/w/news/206",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT organizes a webinar titled: 6th UN World Data Forum: A platform for implementation and coordination",
+     "url": "https://www.stats.gov.sa/en/w/news/207",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT prepares to open registration for the 6th UN World Data Forum 2026 and the Second Saudi Statistics Forum",
+     "url": "https://www.stats.gov.sa/en/w/news/204",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT: Saudi Arabia among the world safest countries in 2025",
+     "url": "https://www.stats.gov.sa/en/w/news/205",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT President extends congratulations to the leadership on the 92nd National Day",
+     "url": "https://www.stats.gov.sa/en/w/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D9%84%D9%84%D8%A5%D8%AD%D8%B5%D8%A7%D8%A1-%D9%8A%D9%87%D9%86%D8%A6-%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A8%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Read More GASTAT organizes a workshop on statistical quality assurance framework",
+     "url": "https://www.stats.gov.sa/en/w/news/201",
+     "page_url": "https://www.stats.gov.sa/en/w/news/219",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "GASTAT hosts the 51st meeting of the Board of Trustees of the Arab Institute for Training and Research in Statistics (AITRS)",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "View More",
+     "url": "https://www.stats.gov.sa/en/w/%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9-%D9%85%D8%B9%D8%A7%D9%84%D9%8A-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D9%88%D8%A7%D9%84%D8%AA%D8%AE%D8%B7%D9%8A%D8%B7-%D9%84%D9%84%D9%85%D8%AE%D8%AA%D8%A8%D8%B1",
+     "page_url": "https://www.stats.gov.sa/en/innovation",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Statistical Innovation",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Economic Awareness",
+     "url": "https://www.stats.gov.sa/survey-awareness?category=55145",
+     "page_url": "https://www.stats.gov.sa/en/survey-awareness",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Survey Awareness - General Authority for Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  }
+ },
+ "limitations": [],
+ "recognized": [],
+ "suggested_sources": [],
+ "indicator_samples": [],
+ "site": {
+  "url": "https://www.stats.gov.sa/en",
+  "reachable": true,
+  "status": 200,
+  "final_url": "https://www.stats.gov.sa/en",
+  "title": "General Authority for Statistics",
+  "lang": "en-US",
+  "english": "yes",
+  "english_url": "https://www.stats.gov.sa/en",
+  "platforms": [],
+  "blocked": "",
+  "rendered": false,
+  "insecure_tls": false,
+  "notes": []
+ },
+ "files": {
+  "formats": {},
+  "total": 0,
+  "pages_crawled": 40,
+  "pages_rendered": 0
+ },
+ "api": {
+  "docs": [],
+  "how_to": {
+   "curl": "curl -H \"accept-language: en-US\" -H \"accept: application/json, text/plain, */*\" \"https://www.stats.gov.sa/o/gastat-enhanced-angular-app/i18n/ar.json\"",
+   "python": "import requests\n\nurl = \"https://www.stats.gov.sa/o/gastat-enhanced-angular-app/i18n/ar.json\"\nheaders = {\"accept-language\": \"en-US\", \"accept\": \"application/json, text/plain, */*\"}\nresponse = requests.get(url, headers=headers, timeout=60)\nresponse.raise_for_status()\ndata = response.json()"
+  },
+  "endpoints": [
+   {
+    "method": "GET",
+    "template": "www.stats.gov.sa/o/gastat-enhanced-angular-app/i18n/ar.json",
+    "example_url": "https://www.stats.gov.sa/o/gastat-enhanced-angular-app/i18n/ar.json",
+    "count": 1,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "{\r\n  \"contactUs\": \"تواصل معنا\",\r\n  \"firstName\": \"الاسم الأول\",\r\n  \"lastName\": \"اسم العائلة\",\r\n  \"middleName\": \"الإسم الأوسط\",\r\n  \"email\": \"البريد الإلكتروني\",\r\n  \"phoneNumber\": \"رقم الجوال\",\r\n  \"subject\": \"الموضوع\",\r\n  \"type\": \"النوع\",\r\n  \"details\": \"التفاصيل\",\r\n  \"messageText\": \"نص الرسالة\",\r\n  \"messageTextPlaceHolder\": \"أخبرنا بإيجاز عن مشروعك وأهدافك الحالية، كيف يمكننا مساعدتك؟\",\r\n  \"isRequired\": \"هذا الحقل مطلوب\",\r\n  \"isMaxNumber\": \"الحد الأقصى لطول هذا الحقل هو 20\",\r\n  \"projectQuantityMax\": \"الحد الأقصى لطول هذا الحقل هو 5\",\r\n  \"PercentageMax\": \" الحد الاقصى لطول ه�",
+    "size": 62058,
+    "python_headers": {
+     "accept-language": "en-US",
+     "accept": "application/json, text/plain, */*"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "www.stats.gov.sa/o/gastat-enhanced-angular-app/i18n/en.json",
+    "example_url": "https://www.stats.gov.sa/o/gastat-enhanced-angular-app/i18n/en.json",
+    "count": 1,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "{\r\n  \"contactUs\": \"Contact Us\",\r\n  \"firstName\": \"First Name\",\r\n  \"lastName\": \"Last Name\",\r\n  \"middleName\": \"Middle Name\",\r\n  \"email\": \"Email\",\r\n  \"phoneNumber\": \"Phone Number\",\r\n  \"subject\": \"Subject\",\r\n  \"type\": \"Type\",\r\n  \"details\": \"Details\",\r\n  \"messageText\": \"Message Text\",\r\n  \"messageTextPlaceHolder\": \"Tell us briefly about your project and current goals,How can we assist you?\",\r\n  \"isRequired\": \"This field is required\",\r\n  \"projectQuantityMax\": \"This filed maxlength is 5\",\r\n  \"PercentageMax\": \"This filed maxlength is 2\",\r\n  \"isMaxNumber\": \"This filed maxlength is 20\",\r\n  \"FieldNotAcceptNumbers\": \"This field does not accept numeric values\",\r\n  \"FieldNotAcceptNumbersAndSymbols\": \"This field only not accepts numbers or symbols\",\r\n  \"send\": \"Send\",\r\n  \"search\": \"Search\",\r\n  \"enter\": \"En",
+    "size": 48874,
+    "python_headers": {
+     "accept-language": "en-US",
+     "accept": "application/json, text/plain, */*"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "www.stats.gov.sa/o/angular-client-extension/assets/i18n/en.json",
+    "example_url": "https://www.stats.gov.sa/o/angular-client-extension/assets/i18n/en.json?restrictFields=actions,keywords",
+    "count": 4,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "{\r\n  \"contactUs\": \"Contact Us\",\r\n  \"firstName\": \"First Name\",\r\n  \"lastName\": \"Last Name\",\r\n  \"email\": \"Email\",\r\n  \"phoneNumber\": \"Phone Number\",\r\n  \"subject\": \"Subject\",\r\n  \"type\": \"Type\",\r\n  \"details\": \"Details\",\r\n  \"messageText\": \"Message Text\",\r\n  \"messageTextPlaceHolder\": \"Tell us briefly about your project and current goals,How can we assist you?\",\r\n  \"isRequired\": \"This field is required\",\r\n  \"projectQuantityMax\": \"This filed maxlength is 5\",\r\n  \"PercentageMax\": \"This filed maxlength is 2\",\r\n  \"isMaxNumber\": \"This filed maxlength is 20\",\r\n  \"FieldNotAcceptNumbers\": \"This field does not accept numeric values\",\r\n  \"FieldNotAcceptNumbersAndSymbols\": \"This field only not accepts numbers or symbols\",\r\n  \"send\": \"Send\",\r\n  \"search\": \"Search\",\r\n  \"enter\": \"Enter\",\r\n  \"choose\": \"Choose\",\r\n  ",
+    "size": 36314,
+    "python_headers": {
+     "x-accept-all-languages": "true",
+     "accept-language": "en-US",
+     "accept": "application/json, text/plain, */*"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "www.stats.gov.sa/o/c/pagefeedbacks/",
+    "example_url": "https://www.stats.gov.sa/o/c/pagefeedbacks/?page=1&pageSize=2&filter=pageUrl%20eq%20%27/en/gastat-about-us%27&fields=id&aggregationTerms=isUseful",
+    "count": 3,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "{\n  \"actions\" : {\n    \"get\" : {\n      \"method\" : \"GET\",\n      \"href\" : \"https://www.stats.gov.sa/o/c/pagefeedbacks/\"\n    },\n    \"create\" : {\n      \"method\" : \"POST\",\n      \"href\" : \"https://www.stats.gov.sa/o/c/pagefeedbacks/\"\n    },\n    \"createBatch\" : {\n      \"method\" : \"POST\",\n      \"href\" : \"https://www.stats.gov.sa/o/c/pagefeedbacks/batch\"\n    }\n  },\n  \"facets\" : [ {\n    \"facetCriteria\" : \"isUseful\",\n    \"facetValues\" : [ {\n      \"numberOfOccurrences\" : 1,\n      \"term\" : \"false\"\n    }, {\n      \"numberOfOccurrences\" : 3,\n      \"term\" : \"true\"\n    } ]\n  } ],\n  \"items\" : [ {\n    \"id\" : 12440528\n  }, {\n    \"id\" : 12556101\n  } ],\n  \"lastPage\" : 2,\n  \"page\" : 1,\n  \"pageSize\" : 2,\n  \"totalCount\" : 4\n}",
+    "size": 708,
+    "python_headers": {
+     "accept-language": "en-US",
+     "accept": "application/json, text/plain, */*"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "cdn.userway.org/widgetapp/2026-09-01-10-22-26/locales/en-US.json",
+    "example_url": "https://cdn.userway.org/widgetapp/2026-09-01-10-22-26/locales/en-US.json",
+    "count": 1,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "{\"widget\":{\"html_lst_title\":\"Translations Menu\",\"html_title\":\"Accessibility Menu\",\"text_icon_small\":\"Accessibility\",\"text_icon_large\":\"Accessibility</br>Menu\",\"new_tab\":\"opens in a new tab\",\"new_tab_substring\":\"new tab\",\"new_window_substring\":\"new window\",\"broken_links\":{\"target_site_not_available\":\"target website may not be available\"}},\"skip_links\":{\"open_accessibility_nav\":\"Open the Accessible Navigation Menu\",\"open_accessibility_menu\":\"Open the accessibility menu\",\"skip\":\"Skip to main content\",\"enable_visually_impaired\":\"Enable accessibility for low vision\",\"disable_visually_impaired\":\"Disable accessibility for low vision\",\"title\":\"Quick Accessibility Options\"}}",
+    "size": 674,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "POST",
+    "template": "api.userway.org/api/v1/tunings/SOijGuwnEb",
+    "example_url": "https://api.userway.org/api/v1/tunings/SOijGuwnEb",
+    "count": 4,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "{\"s\":{},\"o\":\"https://www.stats.gov.sa\",\"uid\":\"4914b3e5-c3c4-4dc2-9f59-18792a8790f8\",\"v\":\"2026-09-01-10-22-26\",\"wl\":\"full\",\"c\":\"\"}",
+    "sample": "{\"code\":200,\"data\":{\"tunings\":{\"widget_color\":null,\"widget_language\":null,\"widget_icon_type\":null,\"widget_position\":null,\"widget_icon_size\":null,\"site_name\":\"stats.gov.sa\",\"isLAUser\":false,\"widget_no_report\":true,\"dynamic_alpine_images_processing\":true,\"new_manage\":true},\"services\":{}},\"checksum\":\"44fae386f7150e37421bcb0767d6beaa35f944969ee993ad5ca9207c1d592259\"}",
+    "size": 365,
+    "python_headers": {
+     "content-type": "text/plain;charset=UTF-8",
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "www.stats.gov.sa/o/c/budgetandexpenseses",
+    "example_url": "https://www.stats.gov.sa/o/c/budgetandexpenseses?page=0&pageSize=0&aggregationTerms=year&fields=facets&restrictFields=actions,keywords",
+    "count": 2,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "{\n  \"actions\" : { },\n  \"facets\" : [ {\n    \"facetCriteria\" : \"year\",\n    \"facetValues\" : [ {\n      \"numberOfOccurrences\" : 3,\n      \"term\" : \"2023\"\n    }, {\n      \"numberOfOccurrences\" : 3,\n      \"term\" : \"2024\"\n    } ]\n  } ],\n  \"items\" : [ { }, { }, { }, { }, { }, { } ],\n  \"lastPage\" : -6,\n  \"page\" : -1,\n  \"pageSize\" : -1,\n  \"totalCount\" : 6\n}",
+    "size": 345,
+    "python_headers": {
+     "x-accept-all-languages": "true",
+     "accept-language": "en-US",
+     "accept": "application/json, text/plain, */*"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "www.stats.gov.sa/o/c/bookmarks/",
+    "example_url": "https://www.stats.gov.sa/o/c/bookmarks/?filter=pageURL%20eq%20%27/en%27&restrictFields=actions,keywords",
+    "count": 4,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "{\n  \"actions\" : { },\n  \"facets\" : [ ],\n  \"items\" : [ ],\n  \"lastPage\" : 1,\n  \"page\" : 1,\n  \"pageSize\" : 20,\n  \"totalCount\" : 0\n}",
+    "size": 127,
+    "python_headers": {
+     "x-accept-all-languages": "true",
+     "accept-language": "en-US",
+     "accept": "application/json, text/plain, */*"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "api.userway.org/api/a11y-data/v0/page/https%3A%2F%2Fwww.stats.gov.sa%2Fen%2Fgastat-about-us/DESKTOP/WIDGET_OFF/status",
+    "example_url": "https://api.userway.org/api/a11y-data/v0/page/https%3A%2F%2Fwww.stats.gov.sa%2Fen%2Fgastat-about-us/DESKTOP/WIDGET_OFF/status",
+    "count": 1,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "{\"payload\":{\"status\":\"CONTRIB_PRESENT\"},\"payloadType\":\"PageContribStatusDto\"}",
+    "size": 77,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "api.userway.org/api/a11y-data/v0/page/https%3A%2F%2Fwww.stats.gov.sa%2Fen/DESKTOP/WIDGET_OFF/status",
+    "example_url": "https://api.userway.org/api/a11y-data/v0/page/https%3A%2F%2Fwww.stats.gov.sa%2Fen/DESKTOP/WIDGET_OFF/status",
+    "count": 1,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "",
+    "size": 0,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   }
+  ],
+  "js_findings": {
+   "scripts_scanned": 12,
+   "base_urls": [],
+   "endpoint_paths": [
+    "api/jsonws/invoke"
+   ],
+   "api_urls": []
+  },
+  "doc_links": [
+   {
+    "text": "Open Data Portal",
+    "url": "https://open.data.gov.sa"
+   }
+  ],
+  "status": "undocumented",
+  "python_access": "yes",
+  "summary": "No official documentation, but the website's own data API at www.stats.gov.sa answers plain Python requests (found by API sniffing)."
+ },
+ "sniff_pages": [
+  {
+   "url": "https://www.stats.gov.sa/en",
+   "final_url": "https://www.stats.gov.sa/en",
+   "status": 200,
+   "title": "General Authority for Statistics"
+  },
+  {
+   "url": "https://www.stats.gov.sa/en/gastat-about-us",
+   "final_url": "https://www.stats.gov.sa/en/gastat-about-us",
+   "status": 200,
+   "title": "About Us - General Authority for Statistics"
+  },
+  {
+   "url": "https://www.stats.gov.sa/en/budget-and-expenses",
+   "final_url": "https://www.stats.gov.sa/en/budget-and-expenses",
+   "status": 200,
+   "title": "Budget and Expenses - General Authority for Statistics"
+  },
+  {
+   "url": "https://www.stats.gov.sa/statistics?index=119021&subindex=120034",
+   "final_url": "https://www.stats.gov.sa/en/statistics?index=119021&subindex=120034",
+   "status": 200,
+   "title": "Statistics Categories"
+  }
+ ],
+ "duration_s": 106.9
+}

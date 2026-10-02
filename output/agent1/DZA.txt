@@ -1,0 +1,238 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Algeria  -  Office National des Statistiques (ONS)
+Checked 2026-09-29 10:44  |  Agent 1 (agent1_diagnose.py)  |  took 125.8 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://www.ons.dz
+   Reachable       : yes (HTTP 200)
+   English version : no English version
+   Security        : the site's TLS certificate is invalid (checked without certificate validation)
+   Note: French site, no English version. The UN web filter blocks it for browsers on this
+     network (plain HTTP works).
+
+2. API
+   Verdict         : NONE - not callable from Python
+   No API found (no documented platform, no data calls seen while browsing). Data is published as
+     files/pages only: Agent 2 would use the 'scrape' connector.
+   Documentation   : none official
+
+3. SOCIAL STATISTICS  (27 pages, 4 files)
+     - 12. Les Tableaux des Ressources et des Emplois 2021 - 2023 (Base 2001) | 2001-2026 | PDF
+       https://www.ons.dz/IMG/pdf/TRE2021_2023.pdf
+     - Tableaux excel | 2019 | XLSX
+       https://www.ons.dz/IMG/xlsx/salaire_mai2019.xlsx
+     - Télécharger le Document | 2024 | PDF
+       https://www.ons.dz/IMG/pdf/Chomage2024.pdf
+     - Télécharger le document | PDF
+       https://www.ons.dz/IMG/pdf/habitat-hor-2.pdf
+     - Démographie
+       https://www.ons.dz/spip.php?rubrique242
+     - Démographie
+       https://www.ons.dz/spip.php?rubrique34
+     - Dépenses de consommation des ménages
+       https://www.ons.dz/spip.php?rubrique200
+     - Education
+       https://www.ons.dz/spip.php?rubrique45
+     - Emploi et chômage
+       https://www.ons.dz/spip.php?rubrique16
+     - Employement and Unemployement
+       https://www.ons.dz/spip.php?rubrique222
+     - Enquête sur l’Emploi du temps ENET Algérie 2012 | 2012
+       https://www.ons.dz/spip.php?rubrique231
+     - Habitat
+       https://www.ons.dz/spip.php?rubrique15
+     - Les Nomenclatures sociales
+       https://www.ons.dz/spip.php?rubrique286
+     - Les principaux indicateurs du secteur de l’éducation nationale année scolaire
+       https://www.ons.dz/spip.php?rubrique404
+     - Les salaires auprès des entreprises -Mai 2012- | 2012
+       https://www.ons.dz/spip.php?article1279
+     - Les salaires auprès des entreprises Mai 2015 | 2015
+       https://www.ons.dz/spip.php?article1929
+     - Population
+       https://www.ons.dz/spip.php?rubrique33
+     - Population et Démographie
+       https://www.ons.dz/spip.php?rubrique13
+     - Premier Recensement Economique de l'Algérie
+       https://www.ons.dz/spip.php?rubrique166
+     - Protection Sociale
+       https://www.ons.dz/spip.php?rubrique18
+     - Répartition des logements inscrits et des livraisons par wilaya
+       https://www.ons.dz/spip.php?rubrique47
+     - Résultats de l’enquête annuelle sur les salaires auprès des entreprises -Mai 2013- |
+       Annual | 2013
+       https://www.ons.dz/spip.php?article1501
+     - Résultats de l’enquête annuelle sur les salaires auprès des entreprises en mai 2019 |
+       Annual | 2019
+       https://www.ons.dz/spip.php?article2753
+     - Résultats de l’enquête annuelle sur les salaires auprès des entreprises en mai 2021 |
+       Annual | 2021
+       https://www.ons.dz/spip.php?article2989
+     - Salaires
+       https://www.ons.dz/spip.php?rubrique17
+     - Santé
+       https://www.ons.dz/spip.php?rubrique14
+     - Santé 1998 | 1998
+       https://www.ons.dz/spip.php?rubrique36
+     - Santé 2003-2008 | 2003-2008
+       https://www.ons.dz/spip.php?rubrique35
+     - Statistiques Sociales
+       https://www.ons.dz/spip.php?rubrique3
+     - les salaires auprès des entreprises -Mai 2011- | 2011
+       https://www.ons.dz/spip.php?article1126
+     - التشــغيل و البطالــة
+       https://www.ons.dz/spip.php?rubrique209
+
+4. ECONOMIC STATISTICS  (34 pages, 22 files)
+     - 1. Indice des prix à la Consommation - Juillet 2026 - | 2022-2026 | PDF
+       https://www.ons.dz/IMG/pdf/IPC_juillet2026.pdf
+     - 10. Indices du commerce extérieur de marchandises 1 er trimestre 2025 (Base 2019) |
+       2019-2026 | PDF
+       https://www.ons.dz/IMG/pdf/commerce_ext1T2025base2019.pdf
+     - 11. Indices du commerce extérieur de marchandises - Année 2024 - (Base 2019) | 2019-2026
+       | PDF
+       https://www.ons.dz/IMG/pdf/commerce_ext_base2019anne2024.pdf
+     - 12. Les Tableaux des Ressources et des Emplois 2021 - 2023 (Base 2001) | 2001-2026 | PDF
+       https://www.ons.dz/IMG/pdf/TRE2021_2023.pdf
+     - 2. Les répertoires des agents économique et sociaux - Personnes Physiques au 31/12/2023
+       - | 2022-2026 | PDF
+       https://www.ons.dz/IMG/pdf/Prsphys_S2_2023.pdf
+     - 3. Les répertoires des agents économique et sociaux - Personnes Physiques au 31/12/2022
+       - | 2022-2026 | PDF
+       https://www.ons.dz/IMG/pdf/Prsphys_S2_2022.pdf
+     - 4. Enquête sur la situation et les perspectives dans l’industrie au 2 éme trimestre 2025
+       | 2022-2026 | PDF
+       https://www.ons.dz/IMG/pdf/industrie2T2025.pdf
+     - 5. Les Comptes Nationaux Trimestriels au 2 éme trimestre 2025 - | Quarterly | 2022-2026
+       | PDF
+       https://www.ons.dz/IMG/pdf/CNT2T2025.pdf
+     - 6. Indices du commerce extérieur de marchandises 1 er semestre 2025 - | 2022-2026 | PDF
+       https://www.ons.dz/IMG/pdf/indice_commerce_exterieur_s1_2025.pdf
+     - 7. Indice de la Production Industrielle au 2 éme trimestre 2025 - | 2022-2026 | PDF
+       https://www.ons.dz/IMG/pdf/I.IPI2T2025.pdf
+     - 8. Indice des Prix à la Production Industrielle au 2 éme trimestre 2025 | 2022-2026 |
+       PDF
+       https://www.ons.dz/IMG/pdf/IPPI2T2025.pdf
+     - 9. Les Comptes Economiques de 2021 à 2024 - | 2021-2026 | PDF
+       https://www.ons.dz/IMG/pdf/comptes_econoniques__2021_2024.pdf
+     - Année de 2002 à 2006 | 2002-2006 | PDF
+       https://www.ons.dz/IMG/pdf/IPI-Production2002-2006.pdf
+     - Année de 2007 à 2009 | 2007-2009 | PDF
+       https://www.ons.dz/IMG/pdf/IPI-Production2007-2009.pdf
+     - Calendrier des Publications Année 2025 | 2025 | PDF
+       https://www.ons.dz/IMG/pdf/CalendrierONS_2025.pdf
+     - Formulaire | PDF
+       https://www.ons.dz/IMG/Formulaire_NIS_PM_PP.pdf
+     - Télécharger le Document | 2026 | PDF
+       https://www.ons.dz/IMG/pdf/IPC_Juillet2026.pdf
+     - Télécharger le Document | 2024 | PDF
+       https://www.ons.dz/IMG/pdf/Chomage2024.pdf
+     - Télécharger le Document | 2001-2022 | PDF
+       https://www.ons.dz/IMG/pdf/Compte_Economique_Base_2001.pdf
+     - Télécharger le document | 2003-2009 | PDF
+       https://www.ons.dz/IMG/pdf/Equilibre_financier2003-2009_.pdf
+     - décret législatif n°94-01 du 15 janvier 1994 relatif au système statistique | 1994 | PDF
+       https://www.ons.dz/IMG/pdf/DN-94-01-15-01-1994.pdf
+     - plus de détails voir → | Monthly | 2001 | PDF
+       https://www.ons.dz/IMG/pdf/ipc_meth.pdf
+     - Agriculture et Pêche
+       https://www.ons.dz/spip.php?rubrique306
+     - Chambres de commerce et d’industrie
+       https://www.ons.dz/spip.php?article688
+     - Commerce Extérieur
+       https://www.ons.dz/spip.php?rubrique19
+     - Compte de production et compte d’exploitation de 2001 à 2015 | 2001-2015
+       https://www.ons.dz/spip.php?rubrique59
+     - Comptes économiques
+       https://www.ons.dz/spip.php?rubrique5
+     - Comptes économiques
+       https://www.ons.dz/spip.php?rubrique317
+     - Consumer Prices Index
+       https://www.ons.dz/spip.php?rubrique221
+     - Emploi et chômage
+       https://www.ons.dz/spip.php?rubrique16
+     - Energie
+       https://www.ons.dz/spip.php?rubrique6
+     - Enquête d’Opinion dans l’industrie et le commerce
+       https://www.ons.dz/spip.php?rubrique202
+     - Enquête sur l’Emploi du temps ENET Algérie 2012 | 2012
+       https://www.ons.dz/spip.php?rubrique231
+     - Industrie
+       https://www.ons.dz/spip.php?rubrique249
+     - Les Comptes Economiques
+       https://www.ons.dz/spip.php?rubrique61
+     - Les salaires auprès des entreprises -Mai 2012- | 2012
+       https://www.ons.dz/spip.php?article1279
+     - Les salaires auprès des entreprises Mai 2015 | 2015
+       https://www.ons.dz/spip.php?article1929
+     - L’Indice Brut des Prix à la Consommation de la ville d’Alger enregistre une baisse de
+       près de 0,8% en juillet 2026. | 2026
+       https://www.ons.dz/spip.php?article3157
+     - Monnaie 2009-2013 | 2009-2013
+       https://www.ons.dz/spip.php?rubrique7
+     - Office Algérien de Promotion du Commerce Extérieur
+       http://www.ons.dz/cnig/index.htm
+     - Premier Recensement Economique de l'Algérie
+       https://www.ons.dz/spip.php?rubrique166
+     - Prix à la Production Industrielle
+       https://www.ons.dz/spip.php?rubrique27
+     - Prix à la consommation
+       https://www.ons.dz/spip.php?rubrique26
+     - Production Industrielle
+       https://www.ons.dz/spip.php?rubrique28
+     - Questionnaires : Enquêtes trimestrielles auprès des entreprises | Quarterly
+       https://www.ons.dz/spip.php?rubrique302
+     - Recencement Economique 2011 | 2011
+       https://www.ons.dz/spip.php?rubrique245
+     - Résultats de l’enquête annuelle sur les salaires auprès des entreprises -Mai 2013- |
+       Annual | 2013
+       https://www.ons.dz/spip.php?article1501
+     - Résultats de l’enquête annuelle sur les salaires auprès des entreprises en mai 2019 |
+       Annual | 2019
+       https://www.ons.dz/spip.php?article2753
+     - Résultats de l’enquête annuelle sur les salaires auprès des entreprises en mai 2021 |
+       Annual | 2021
+       https://www.ons.dz/spip.php?article2989
+     - Statistiques Economiques
+       https://www.ons.dz/spip.php?rubrique4
+     - Tableau Economique d’Ensemble
+       https://www.ons.dz/spip.php?rubrique233
+     - Tourisme
+       https://www.ons.dz/spip.php?rubrique21
+     - Transports
+       https://www.ons.dz/spip.php?rubrique20
+     - Variation des Indices de la Production Industrielle par secteur d’activité. (Secteur
+       Public National)
+       https://www.ons.dz/spip.php?rubrique84
+     - les salaires auprès des entreprises -Mai 2011- | 2011
+       https://www.ons.dz/spip.php?article1126
+     - الحسابات الاقتصادية
+       https://www.ons.dz/spip.php?rubrique210
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (0 rendered in a browser); 81 file links
+   Formats: PDF 75, XLS 5, XLSX 1
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: DZA
+       theme: social_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://www.ons.dz', 'https://www.ons.dz/spip.php?article3059', 'https://www.ons.dz/spip.php?rubrique15',
+         'https://www.ons.dz/spip.php?rubrique17']
+       render_js: auto
+       notes: 4 social statistics file(s) found on these pages - review before enabling
+     - nso: DZA
+       theme: economic_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://www.ons.dz', 'https://www.ons.dz/spip.php?rubrique28', 'https://www.ons.dz/spip.php?rubrique161',
+         'https://www.ons.dz/spip.php?rubrique294', 'https://www.ons.dz/spip.php?rubrique12']
+       render_js: auto
+       notes: 22 economic statistics file(s) found on these pages - review before enabling
+
+7. LIMITATIONS / NEXT STEPS
+   - No English version: the non-English pages were analysed (keywords cover Arabic and French).

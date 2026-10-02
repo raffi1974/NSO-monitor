@@ -1,0 +1,234 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Kuwait  -  Central Statistical Bureau (CSB)
+Checked 2026-09-29 11:00  |  Agent 1 (agent1_diagnose.py)  |  took 57.5 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://www.csb.gov.kw/Default_EN
+   Reachable       : yes (HTTP 200)
+   English version : yes
+   Built with      : ASP.NET WebForms
+
+2. API
+   Verdict         : NONE - not callable from Python
+   No API found (no documented platform, no data calls seen while browsing). Data is published as
+     files/pages only: Agent 2 would use the 'scrape' connector.
+   Documentation   : none official
+
+3. SOCIAL STATISTICS  (42 pages)
+     - Building and Dwelling Census
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=7&ParentCatID= 1
+     - Building and Dwelling Census
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=7&ParentCatID=1
+     - Demographic Indicators
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=52&ParentCatID= 5
+     - Demographic Indicators
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=52&ParentCatID=5
+     - Demographic and Economic indicators Home for Kuwaiti Women
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=49&ParentCatID= 5
+     - Demographic and Economic indicators Home for Kuwaiti Women
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=49&ParentCatID=5
+     - Determination of minimum standard of living for Kuwaiti limited income Group
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=46&ParentCatID= 5
+     - Determination of minimum standard of living for Kuwaiti limited income Group
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=46&ParentCatID=5
+     - Education statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=58&ParentCatID= 70
+     - Education statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=58&ParentCatID=70
+     - Establishment Census
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=8&ParentCatID= 1
+     - Establishment Census
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=8&ParentCatID=1
+     - Establishments Private Non-Profit Institutions Serving Household
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=32&ParentCatID= 3
+     - Establishments Private Non-Profit Institutions Serving Household
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=32&ParentCatID=3
+     - Expatriate Labour Employment
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=63&ParentCatID= 1
+     - Expatriate Labour Employment
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=63&ParentCatID=1
+     - General Population Census
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=6&ParentCatID= 1
+     - General Population Census
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=6&ParentCatID=1
+     - Health statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=59&ParentCatID= 70
+     - Health statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=59&ParentCatID=70
+     - Income and Expenditure Household Survey
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=16&ParentCatID= 1
+     - Income and Expenditure Household Survey
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=16&ParentCatID=1
+     - Income and Expenditure Survey in the Household Sector
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=53&ParentCatID= 5
+     - Income and Expenditure Survey in the Household Sector
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=53&ParentCatID=5
+     - Indicators of Gender EQuality
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=48&ParentCatID= 5
+     - Indicators of Gender EQuality
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=48&ParentCatID=5
+     - Kuwait Census
+       https://census.csb.gov.kw/index_EN
+     - Labor Market Information System
+       https://lmis.csb.gov.kw/
+     - Labour Force Survey
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=64&ParentCatID= 1
+     - Labour Force Survey
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=64&ParentCatID=1
+     - Marriage and Divorce
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=12&ParentCatID= 1
+     - Marriage and Divorce
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=12&ParentCatID=1
+     - Migration Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=56&ParentCatID= 1
+     - Migration Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=56&ParentCatID=1
+     - Ministry Of Social Affairs Data
+       https://www.csb.gov.kw/Mosal/Mosal_login.aspx
+     - Population Estimates
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=67&ParentCatID= 1
+     - Population Estimates
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=67&ParentCatID=1
+     - Population Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en?ID=6&ParentCatID=1
+     - Social Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=40&ParentCatID= 70
+     - Social Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=40&ParentCatID=70
+     - Vital Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=10&ParentCatID= 1
+     - Vital Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=10&ParentCatID=1
+
+4. ECONOMIC STATISTICS  (66 pages)
+     - Agricultural Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=42&ParentCatID= 4
+     - Agricultural Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=42&ParentCatID=4
+     - All Items Consumer Price Index Number June 2026 : %0.00 | 2026
+       https://www.csb.gov.kw/Pages/Monthly_Report_en.aspx
+     - Annual Survey of Establishments | Annual
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=28&ParentCatID= 3
+     - Annual Survey of Establishments | Annual
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=28&ParentCatID=3
+     - Communications and Information Technology Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=60&ParentCatID= 70
+     - Communications and Information Technology Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=60&ParentCatID=70
+     - Consumer Price Index Numbers
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=34&ParentCatID= 3
+     - Consumer Price Index Numbers
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=34&ParentCatID=3
+     - Consumer Prices System
+       https://cprice.csb.gov.kw/
+     - Demographic and Economic indicators Home for Kuwaiti Women
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=49&ParentCatID= 5
+     - Demographic and Economic indicators Home for Kuwaiti Women
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=49&ParentCatID=5
+     - Economic Indicators
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=50&ParentCatID= 5
+     - Economic Indicators
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=50&ParentCatID=5
+     - Economic Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en?ID=34&ParentCatID=3
+     - Establishment Census
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=8&ParentCatID= 1
+     - Establishment Census
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=8&ParentCatID=1
+     - Establishment Industry
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=30&ParentCatID= 3
+     - Establishment Industry
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=30&ParentCatID=3
+     - Establishments Construction
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=29&ParentCatID= 3
+     - Establishments Construction
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=29&ParentCatID=3
+     - Establishments Fainancial Services
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=54&ParentCatID= 3
+     - Establishments Fainancial Services
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=54&ParentCatID=3
+     - Establishments Non-Fainancial Services
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=31&ParentCatID= 3
+     - Establishments Non-Fainancial Services
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=31&ParentCatID=3
+     - Establishments Private Non-Profit Institutions Serving Household
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=32&ParentCatID= 3
+     - Establishments Private Non-Profit Institutions Serving Household
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=32&ParentCatID=3
+     - Estimates of Quarterly Gross Domestic Product | Quarterly
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=69&ParentCatID= 3
+     - Estimates of Quarterly Gross Domestic Product | Quarterly
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=69&ParentCatID=3
+     - Foreign Trade Indices
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=65&ParentCatID= 4
+     - Foreign Trade Indices
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=65&ParentCatID=4
+     - Foreign Trade Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=38&ParentCatID= 4
+     - Foreign Trade Statistics 4th Quarter 2025 | 2025
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=38&ParentCatID=4
+     - Foreign trade indices were rebased… More
+       https://www.csb.gov.kw/Pages/Statistics_en?ID=65&ParentCatID=4
+     - GDP estimates at current and constant prices (Time series)
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=80&ParentCatID= 3
+     - GDP estimates at current and constant prices (Time series)
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=80&ParentCatID=3
+     - Government Finance Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=24&ParentCatID= 3
+     - Government Finance Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=24&ParentCatID=3
+     - Labour Force Survey
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=64&ParentCatID= 1
+     - Labour Force Survey
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=64&ParentCatID=1
+     - National Accounts Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=25&ParentCatID= 3
+     - National Accounts Statistics
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=25&ParentCatID=3
+     - National Accounts Statistics Input & Output Tables
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=26&ParentCatID= 3
+     - National Accounts Statistics Input & Output Tables
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=26&ParentCatID=3
+     - Oil Ministry and Companies Data
+       https://www.csb.gov.kw/Petrol/Pet_Login.aspx
+     - Producer Prices Index Numbers
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=62&ParentCatID= 3
+     - Producer Prices Index Numbers
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=62&ParentCatID=3
+     - Quarterly Bulletin of Fisheries Statistics | Quarterly
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=68&ParentCatID= 5
+     - Quarterly Bulletin of Fisheries Statistics | Quarterly
+       https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=68&ParentCatID=5
+     - Quarterly Bulletin of Retial Prices | Quarterly
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=36&ParentCatID= 3
+     - Quarterly Bulletin of Retial Prices | Quarterly
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=36&ParentCatID=3
+     - Quarterly Bulletin of Wholesale Price | Quarterly
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=37&ParentCatID= 3
+     - Quarterly Bulletin of Wholesale Price | Quarterly
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=37&ParentCatID=3
+     - Revised & Provisional Estimates National Accounts - At Constsnt Prices
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=23&ParentCatID= 3
+     - Revised & Provisional Estimates National Accounts - At Constsnt Prices
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=23&ParentCatID=3
+     - Revised and Provisional Estimates -National Accounts At Current Prices
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=55&ParentCatID= 3
+     - Revised and Provisional Estimates -National Accounts At Current Prices
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=55&ParentCatID=3
+     - Statistical Bulletin of the direct investment survey
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=61&ParentCatID= 3
+     - Statistical Bulletin of the direct investment survey
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=61&ParentCatID=3
+     - Statistics of Transportation
+       https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=41&ParentCatID= 70
+     ... and 6 more (full list in KWT.json)
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (0 rendered in a browser); 0 file links
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+   none - nothing machine-readable was found automatically; see limitations below
+
+7. LIMITATIONS / NEXT STEPS
+   - none noted

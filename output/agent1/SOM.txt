@@ -1,0 +1,256 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Somalia  -  Somalia National Bureau of Statistics (SNBS)
+Checked 2026-09-29 11:13  |  Agent 1 (agent1_diagnose.py)  |  took 237.2 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://nbs.gov.so
+   Reachable       : yes (HTTP 200)
+   English version : yes
+   Built with      : WordPress
+
+2. API
+   Verdict         : UNDOCUMENTED - works from Python (no login needed)
+   No official documentation, but the website's own data API at nbs.gov.so answers plain Python
+     requests (found by API sniffing).
+   Documentation   : none official
+   Site links mentioning API / open data / databank:
+     Somalia Data Portal -> https://somalia.opendataforafrica.org/
+
+   How to call it - curl:
+       curl -H "accept-language: en-US" -H "x-requested-with: XMLHttpRequest" -H "accept:
+         application/json, text/javascript, */*; q=0.01" "https://nbs.gov.so/wp-json/wp/v2/"
+
+   How to call it - Python:
+       import requests
+       
+       url = "https://nbs.gov.so/wp-json/wp/v2/"
+       headers = {"accept-language": "en-US", "x-requested-with": "XMLHttpRequest", "accept": "application/json, text/javascript, */*; q=0.01"}
+       response = requests.get(url, headers=headers, timeout=60)
+       response.raise_for_status()
+       data = response.json()
+
+   API sniffing - data calls the website made: 1 distinct, 1 worked again from plain Python
+     [OK ] GET nbs.gov.so/wp-json/wp/v2/  (application/json)
+
+3. SOCIAL STATISTICS  (12 pages, 12 files)
+     - Publications | 2022-2024 | PDF
+       https://nbs.gov.so/wp-content/uploads/2024/01/SOMALIA-INTEGRATED-HOUSEHOLD-BUDGET-
+         SURVEY-SIHBS-2022.pdf
+     - Publications | 2022-2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/07/Somali-Gender-Statistics-Booklet-2nd-
+         edition-2022.pdf
+     - Publications | 2020-2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/07/Women-and-Men-in-Somalia-2020.pdf
+     - Publications | 2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/07/Somali-Poverty-and-Vulnerability-
+         Assessment.pdf
+     - Publications | 2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/07/Housing-and-Household-Assets-of-the-
+         Somali-People-–-Volume-5.pdf
+     - Publications | 2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/07/Educational-Characteristics-of-the-
+         Somali-People-–-Volume-3.pdf
+     - Publications | 2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/07/Population-Composition-and-Demographic-
+         Characteristics-of-the-Somali-People-–-Volume-2.pdf
+     - READ FULL REPORT | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/07/SOCIO-DEMOGRAPHIC-SURVEY-
+         SDS-2026-Report.pdf
+     - READ FULL REPORT | 2023-2027 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/07/Social-Sector-Statistics-Strategy-
+         Somalia-2023-2027.pdf
+     - Read Full Report | 2019-2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/05/Somali-Labour-Force-survey-2019.pdf
+     - Read Full Report | 2023-2024 | PDF
+       https://nbs.gov.so/wp-content/uploads/2024/08/Somalia-Poverty-Report-2023.pdf
+     - Somalia National Bureau of Statistics | 2025 | PDF
+       https://nbs.gov.so/wp-content/uploads/2025/05/DIGITAL-District-Level-Poverty-
+         Estimates-in-Somalia.pdf
+     - 24 September 2024 SNBS Attends Launch of the World Bank Somalia Poverty and Equity
+       Assessment Report | 2024
+       https://goaltracker.nbs.gov.so/news/7/
+     - 25 April 2022 SDGs Consultation Workshop for Civil Society, Private Sectors and Youth
+       April 25 –26, 2022 MOGADISHU, SOMALIA | 2022
+       https://goaltracker.nbs.gov.so/news/4/
+     - Population Estimation Survey of Somalia 2014 Urban Round | 2014
+       https://microdata.nbs.gov.so/index.php/catalog/4
+     - Read More
+       https://nbs.gov.so/district-level-poverty-estimates-in-somalia-a-fay-herriot-model-
+         approach/
+     - Read More
+       https://nbs.gov.so/census-2/
+     - Read More
+       https://nbs.gov.so/directorate-of-population-and-social-statistics/
+     - Read More
+       https://nbs.gov.so/food-security-and-nutrition-statistics-section-fsnss/
+     - SOMALIA POVERTY REPORT2023 | 2023
+       https://nbs.gov.so/somalia-poverty-report2023/
+     - Somali Health and Demographic Survey 2020 | 2020
+       https://microdata.nbs.gov.so/index.php/catalog/50
+     - Somalia Integrated Household Budget Survey (SIHBS) 2022 | 2022
+       https://microdata.nbs.gov.so/index.php/catalog/59
+     - Somaliland Household Survey 2013 Adapted for the Somali High Frequency Survey | 2013
+       https://microdata.nbs.gov.so/index.php/catalog/6
+     - The Socio-Demographic Survey 2026 | 2026
+       https://nbs.gov.so/the-socio-demographic-survey-2026/
+
+4. ECONOMIC STATISTICS  (40 pages, 38 files)
+     - Consumer Price Index (CPI) April 2026 | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/07/TSB-da_Abrill-_2026.pdf
+     - Consumer Price Index (CPI) April 2026 | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/07/April-CPI-Report-2026.pdf
+     - Consumer Price Index (CPI) February 2026 | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_febraayo-_2026.pdf
+     - Consumer Price Index (CPI) February 2026 | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/04/February-CPI-Report-2026.pdf
+     - Consumer Price Index (CPI) January 2026 | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_Janaury-_2026.pdf
+     - Consumer Price Index (CPI) January 2026 | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/04/January-CPI-Report-2026.pdf
+     - Consumer Price Index (CPI) June 2026 | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/08/TSB-Juun-2026.pdf
+     - Consumer Price Index (CPI) June 2026 | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/07/June-CPI-2026.pdf
+     - Consumer Price Index (CPI) March 2026 | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/07/TSB-da_Maarso-_2026.pdf
+     - Consumer Price Index (CPI) March 2026 | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/05/March-CPI-Report-2026.pdf
+     - Consumer Price Index (CPI) May 2026 | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/07/TSB-da_Maajo-_2026.pdf
+     - Consumer Price Index (CPI) May 2026 | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/07/May-CPI-Report-2026.pdf
+     - Download GDP Deflators (Excel) | 2026 | CSV
+       https://nbs.gov.so/wp-content/uploads/2026/07/GDP-Deflators.csv
+     - Download GDP Growth Revisions (Excel) | 2026 | CSV
+       https://nbs.gov.so/wp-content/uploads/2026/07/GDP-Growth-Revisions.csv
+     - Download GDP Revisions (Excel) | 2026 | CSV
+       https://nbs.gov.so/wp-content/uploads/2026/07/GDP-Revisions.csv
+     - English | 2025-2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/02/CPI-December-2025.pdf
+     - English | 2025-2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/01/CPI-Report-November-2025.pdf
+     - English | 2025 | PDF
+       https://nbs.gov.so/wp-content/uploads/2025/11/CPI-October-2025.pdf
+     - English | 2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/05/CPI-Report-April-2023.pdf
+     - On May 4, 2025, the Somalia National Bureau of Statistics (SNBS) achieved a historic
+       milestone by launching a modernized Consumer Price Index (CPI). This was the first
+       nationally representative CPI. A | 2025 | PDF
+       https://nbs.gov.so/wp-content/uploads/2025/06/SNBS-Featured-Paper-Volume-1-Issue-1.pdf
+     - Publications | 2022-2024 | PDF
+       https://nbs.gov.so/wp-content/uploads/2024/01/SOMALIA-INTEGRATED-HOUSEHOLD-BUDGET-
+         SURVEY-SIHBS-2022.pdf
+     - Publications | 2022-2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/07/Somalia-Gross-Domestic-Product-
+         Report-2022-1.pdf
+     - Publications | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/06/National-Accounts-Concepts-Sources-and-
+         Methods.pdf
+     - Publications | 2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/07/Economic-Characteristics-of-the-Somali-
+         People-–-Volume-4.pdf
+     - READ FULL REPORT | 2025-2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/06/Somalia-GDP-2025.pdf
+     - READ FULL REPORT | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/03/Somalias-Inflation-Outlook.pdf
+     - READ FULL REPORT | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/04/Somalias-Inflation-Outlook.pdf
+     - Read Full Report | 2019-2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/05/Somali-Labour-Force-survey-2019.pdf
+     - Read Full Report | 2024-2025 | PDF
+       https://nbs.gov.so/wp-content/uploads/2025/06/Somalia-GDP-2024-release-
+         text-v3-2025.pdf
+     - Read Full Report | 2023-2024 | PDF
+       https://nbs.gov.so/wp-content/uploads/2024/07/Gross-Domestic-Product-GDP-2023.pdf
+     - Read Full Report | 2022-2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/07/Somalia-Gross-Domestic-Product-
+         Report-2022.pdf
+     - Read Full Report | 2022-2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/05/Somalia-Gross-Domestic-Product-Report-
+         June-2022.pdf
+     - Somali | 2025-2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_Disember-_2025.pdf
+     - Somali | 2025-2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_nofember-_2025.pdf
+     - Somali | 2025-2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/05/TSB-da_oktoober-_2025.pdf
+     - Somali | 2023 | PDF
+       https://nbs.gov.so/wp-content/uploads/2023/05/TSB-Abriil-2023.pdf
+     - Somalia National Bureau of Statistics | 2026 | PDF
+       https://nbs.gov.so/wp-content/uploads/2026/08/CPI-_July-2026.pdf
+     - Somalia National Bureau of Statistics | 2025 | PDF
+       https://nbs.gov.so/wp-content/uploads/2025/05/CPI-Reform-Initiative.pdf
+     - Consumer Price Index (CPI) April 2023 | 2023
+       https://nbs.gov.so/consumer-price-index-cpi-april-2023/
+     - Consumer Price Index (CPI) April 2026 | 2026
+       https://nbs.gov.so/consumer-price-index-cpi-april-2026/
+     - Consumer Price Index (CPI) December 2025 | 2025
+       https://nbs.gov.so/consumer-price-index-cpi-december-2025/
+     - Consumer Price Index (CPI) February 2026 | 2026
+       https://nbs.gov.so/consumer-price-index-cpi-february-2026/
+     - Consumer Price Index (CPI) January 2026 | 2026
+       https://nbs.gov.so/consumer-price-index-cpi-january-2026/
+     - Consumer Price Index (CPI) July 2026 | 2026
+       https://nbs.gov.so/consumer-price-index-cpi-july-2026/
+     - Consumer Price Index (CPI) June 2026 | 2026
+       https://nbs.gov.so/consumer-price-index-cpi-june-2026/
+     - Consumer Price Index (CPI) March 2026 | 2026
+       https://nbs.gov.so/consumer-price-index-cpi-march-2026/
+     - Consumer Price Index (CPI) May 2026 | 2026
+       https://nbs.gov.so/consumer-price-index-cpi-may-2026/
+     - Consumer Price Index (CPI) November 2025 | 2025
+       https://nbs.gov.so/consumer-price-index-cpi-november-2025/
+     - Consumer Price Index (CPI) October 2025 | 2025
+       https://nbs.gov.so/consumer-price-index-cpi-october-2025/
+     - DDI/XML
+       https://microdata.nbs.gov.so/index.php/metadata/export/59/ddi
+     - DDI/XML
+       https://microdata.nbs.gov.so/index.php/metadata/export/4/ddi
+     - DDI/XML
+       https://microdata.nbs.gov.so/index.php/metadata/export/5/ddi
+     - Economics
+       https://nbs.gov.so/category/economics/
+     - Finances
+       https://goaltracker.nbs.gov.so/finances/
+     - Global Financial Inclusion (Global Findex) Database 2011 | 2011
+       https://microdata.nbs.gov.so/index.php/catalog/5
+     - Gross Domestic Product
+       https://nbs.gov.so/category/gdp/
+     - JSON
+       https://microdata.nbs.gov.so/index.php/metadata/export/59/json
+     - JSON
+       https://microdata.nbs.gov.so/index.php/metadata/export/4/json
+     - JSON
+       https://microdata.nbs.gov.so/index.php/metadata/export/5/json
+     - Read More
+       https://nbs.gov.so/modernizing-somalias-statistical-infrastructure-the-cpi-reform-
+         initiative/
+     ... and 18 more (full list in SOM.json)
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (1 rendered in a browser); 85 file links
+   Formats: PDF 77, CSV 8
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: SOM
+       theme: social_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://nbs.gov.so', 'https://nbs.gov.so/somali-labor-force-survey-2019/', 'https://nbs.gov.so/district-level-poverty-estimates-in-somalia-a-fay-herriot-model-approach/',
+         'https://nbs.gov.so/statistical-publications/', 'https://nbs.gov.so/laws-policies/']
+       render_js: auto
+       notes: 12 social statistics file(s) found on these pages - review before enabling
+     - nso: SOM
+       theme: economic_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://nbs.gov.so', 'https://nbs.gov.so/consumer-price-index-cpi-july-2026/', 'https://nbs.gov.so/somalia-gross-domestic-product-gdp-2025/',
+         'https://nbs.gov.so/somali-labor-force-survey-2019/', 'https://nbs.gov.so/modernizing-somalias-statistical-infrastructure-the-cpi-reform-initiative/']
+       render_js: auto
+       notes: 38 economic statistics file(s) found on these pages - review before enabling
+
+7. LIMITATIONS / NEXT STEPS
+   - none noted

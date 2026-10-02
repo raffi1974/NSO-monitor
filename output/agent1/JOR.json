@@ -1,0 +1,4275 @@
+{
+ "id": "JOR",
+ "country": "Jordan",
+ "nso": "Department of Statistics (DoS)",
+ "url": "https://dosweb.dos.gov.jo",
+ "english_config": "yes",
+ "languages": [
+  "en",
+  "ar"
+ ],
+ "config_notes": "",
+ "checked_at": "2026-09-29 10:54",
+ "themes": {
+  "social_statistics": {
+   "label": "Social statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "Household Expenditures & Income Survey",
+     "url": "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "POPULATION",
+     "url": "https://dosweb.dos.gov.jo/population/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population",
+     "url": "https://dosweb.dos.gov.jo/population/population-2/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Marriage and Divorce",
+     "url": "https://dosweb.dos.gov.jo/population/marriage-and-divorce/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Births and deaths",
+     "url": "https://dosweb.dos.gov.jo/population/births-and-deaths/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Jordanian Women Statistics",
+     "url": "https://dosweb.dos.gov.jo/population/woman-statistics/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Gender Indicators",
+     "url": "https://dosweb.dos.gov.jo/population/gender-indicators/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Family Health",
+     "url": "https://dosweb.dos.gov.jo/population/health/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Poverty statistics",
+     "url": "https://dosweb.dos.gov.jo/population/poverty/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Labour Force",
+     "url": "https://dosweb.dos.gov.jo/labourforce/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Employment and Unemployment",
+     "url": "https://dosweb.dos.gov.jo/labourforce/employment-and-unemployment/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Job Creation",
+     "url": "https://dosweb.dos.gov.jo/labourforce/job-creation/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Employment in Establishment",
+     "url": "https://dosweb.dos.gov.jo/economic/employment-in-establishment/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Information Technology use at homes",
+     "url": "https://dosweb.dos.gov.jo/labourforce/use_technology/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "CENSUSES",
+     "url": "https://dosweb.dos.gov.jo/censuses/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population and Housing",
+     "url": "https://dosweb.dos.gov.jo/censuses/population_housing/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agricultural",
+     "url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishments",
+     "url": "https://dosweb.dos.gov.jo/censuses/establish-census/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "More",
+     "url": "https://dosweb.dos.gov.jo/censuses/population_housing/census2015/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Employment in Establishment",
+     "url": "https://dosweb.dos.gov.jo/labourforce/employment-in-establishment/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ECONOMIC - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Aqaba City Population & Housing Census 2007",
+     "url": "https://dosweb.dos.gov.jo/censuses/population_housing/census-aqaba2007/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ECONOMIC - Department of Statistics",
+     "years": [
+      2007
+     ],
+     "coverage": "2007",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population and Housing 2004",
+     "url": "https://dosweb.dos.gov.jo/censuses/population_housing/census2004/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ECONOMIC - Department of Statistics",
+     "years": [
+      2004
+     ],
+     "coverage": "2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population and Housing1994",
+     "url": "https://dosweb.dos.gov.jo/censuses/population_housing/census1994/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "ECONOMIC - Department of Statistics",
+     "years": [
+      1994
+     ],
+     "coverage": "1994",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Economic Establishments Census 2018",
+     "url": "https://dosweb.dos.gov.jo/censuses/establish-census/establish-census-2018/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ECONOMIC - Department of Statistics",
+     "years": [
+      2018
+     ],
+     "coverage": "2018",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Household Expenditures and Income Survey Methodology 2017",
+     "url": "http://dosweb.dos.gov.jo/DataBank/household/Methodology/Methodology_2017_en.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "http://dosweb.dos.gov.jo/DataBank/household/Methodology/Methodology_2017_en.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Household Expenditures & Income Survey",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "HIES Questionnaire 2017",
+     "url": "http://dosweb.dos.gov.jo/DataBank/household/Methodology/HIES_Questionnaire_2017.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "http://dosweb.dos.gov.jo/DataBank/household/Methodology/HIES_Questionnaire_2017.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Household Expenditures & Income Survey",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "General and Income Questionnaire",
+     "url": "http://dosweb.dos.gov.jo/DataBank/household/Methodology/2013/General_questionnaire.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "http://dosweb.dos.gov.jo/DataBank/household/Methodology/2013/General_questionnaire.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Household Expenditures & Income Survey",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Food Item Questionnaire",
+     "url": "http://dosweb.dos.gov.jo/DataBank/household/Methodology/2013/food item_questionnaire.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "http://dosweb.dos.gov.jo/DataBank/household/Methodology/2013/food item_questionnaire.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Household Expenditures & Income Survey",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Nonfood Items Questionnaire",
+     "url": "http://dosweb.dos.gov.jo/DataBank/household/Methodology/2013/nonfood items_questionnaire.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "http://dosweb.dos.gov.jo/DataBank/household/Methodology/2013/nonfood items_questionnaire.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Household Expenditures & Income Survey",
+     "years": [
+      2013
+     ],
+     "coverage": "2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: Household Expenditures & Income Survey",
+     "url": "http://dosweb.dos.gov.jo/economic/expenditures-income/expend_tables/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Household Expenditures & Income Survey - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for Household Expenditures & Income Survey main indicators.",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Economic/Household_Income/HIES.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Economic/Household_Income/HIES.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "The Department of Statistics (DoS) conducts the Household Income and Expenditure Survey (HIES)",
+     "url": "https://dosweb.dos.gov.jo/the-department-of-statistics-dos-conducts-the-household-income-and-expenditure-survey-hies/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Household Expenditures & Income Survey - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/population/",
+     "page_url": "https://dosweb.dos.gov.jo/population/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "POPULATION - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/population/population-2/",
+     "page_url": "https://dosweb.dos.gov.jo/population/population-2/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Estimated population of 2025 and some of selected data. Population projections for individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the Kingdom by Governorate, Loca",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/Population_Estimares/PopulationEstimates.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/population/population-2/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/Population_Estimares/PopulationEstimates.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population",
+     "years": [
+      2015,
+      2025
+     ],
+     "coverage": "2015-2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Estimated population of 2025 and some of selected data. Population projections for individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the Kingdom by Governorate, Loca",
+     "url": "https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimates.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/population/population-2/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimates.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population",
+     "years": [
+      2015,
+      2025
+     ],
+     "coverage": "2015-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Estimated population of 2025 and some of selected data. Population projections for individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the Kingdom by Governorate, Loca",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/Population_Estimares/POP_PROJECTIONS(2015-2050).pdf",
+     "page_url": "https://dosweb.dos.gov.jo/population/population-2/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/Population_Estimares/POP_PROJECTIONS(2015-2050).pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population",
+     "years": [
+      2015,
+      2025
+     ],
+     "coverage": "2015-2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Estimated population of 2025 and some of selected data. Population projections for individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the Kingdom by Governorate, Loca",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/Population_Estimares/PopulationEstimatesbyLocality.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/population/population-2/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/Population_Estimares/PopulationEstimatesbyLocality.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population",
+     "years": [
+      2015,
+      2025
+     ],
+     "coverage": "2015-2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Estimated population of 2025 and some of selected data. Population projections for individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the Kingdom by Governorate, Loca",
+     "url": "https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimatesbyLocality.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/population/population-2/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimatesbyLocality.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population",
+     "years": [
+      2015,
+      2025
+     ],
+     "coverage": "2015-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Estimated population of 2025 and some of selected data. Population projections for individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the Kingdom by Governorate, Loca",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/Population_Estimares/Municipalities.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/population/population-2/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/Population_Estimares/Municipalities.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population",
+     "years": [
+      2015,
+      2025
+     ],
+     "coverage": "2015-2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Estimated population of 2025 and some of selected data. Population projections for individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the Kingdom by Governorate, Loca",
+     "url": "https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/Municipalities.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/population/population-2/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/Municipalities.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population",
+     "years": [
+      2015,
+      2025
+     ],
+     "coverage": "2015-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Read more Methodology of Annual Population Estimation",
+     "url": "http://www.dos.gov.jo/dos_home_e/main/Demograghy/Methodology.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/population/population-2/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "http://www.dos.gov.jo/dos_home_e/main/Demograghy/Methodology.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Interactive Report",
+     "url": "https://jorinfo.dos.gov.jo/Databank/pxweb/en/PopulationStatistics/",
+     "page_url": "https://dosweb.dos.gov.jo/population/population-2/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata Demographic Statistics",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Pupulation_2025.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/population/population-2/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Pupulation_2025.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/population/marriage-and-divorce/",
+     "page_url": "https://dosweb.dos.gov.jo/population/marriage-and-divorce/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Marriage and divorce - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables of Marriage and divorce",
+     "url": "https://databank.dos.gov.jo/Databank/pxweb/en/Divorce_Marriage/",
+     "page_url": "https://dosweb.dos.gov.jo/population/marriage-and-divorce/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Marriage and divorce - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/population/births-and-deaths/",
+     "page_url": "https://dosweb.dos.gov.jo/population/births-and-deaths/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Births and Deaths - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables of Births and deaths",
+     "url": "https://databank.dos.gov.jo/Databank/population/births-and-deaths/tables-birthsdeaths/",
+     "page_url": "https://dosweb.dos.gov.jo/population/births-and-deaths/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Births and Deaths - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Interactive Report",
+     "url": "https://jorinfo.dos.gov.jo/Databank/pxweb/en/Births_Deaths/",
+     "page_url": "https://dosweb.dos.gov.jo/population/births-and-deaths/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Births and Deaths - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/population/woman-statistics/",
+     "page_url": "https://dosweb.dos.gov.jo/population/woman-statistics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Jordan women statistics - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata of Jordanian Women’s Statistics",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/Woman_Statistics/Woman_Statistics.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/population/woman-statistics/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/Woman_Statistics/Woman_Statistics.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/population/gender-indicators/",
+     "page_url": "https://dosweb.dos.gov.jo/population/gender-indicators/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Gender Indicators - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Interactive Report",
+     "url": "https://jorinfo.dos.gov.jo/Databank/pxweb/en/GenderStatistcs/",
+     "page_url": "https://dosweb.dos.gov.jo/population/gender-indicators/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Gender Indicators - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for gender indicators",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/Gender/Gender_Statistics.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/population/gender-indicators/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/Gender/Gender_Statistics.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/population/health/",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Health - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Jordan Population and Family Health Survey 2023",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/Health/DHS2023_Survey.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/Health/DHS2023_Survey.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & Family Health",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Jordan Population and Family Health Survey key Indicators 2023",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/Health/DHS2023.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/Health/DHS2023.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & Family Health",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Summary of the results of the Population and Family Health Survey 2023",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/Health/JPFHS_Summary_Report__2023_en.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/Health/JPFHS_Summary_Report__2023_en.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & Family Health",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Jordan Population and Family Health Survey 2017-2018",
+     "url": "http://www.dos.gov.jo/dos_home_e/main/linked-html/DHS2017_en.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "http://www.dos.gov.jo/dos_home_e/main/linked-html/DHS2017_en.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & Family Health",
+     "years": [
+      2017,
+      2018,
+      2023
+     ],
+     "coverage": "2017-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Summary of the results of the Population and Family Health Survey 2017-2018",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/Health/DHS2017_KF.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/Health/DHS2017_KF.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & Family Health",
+     "years": [
+      2017,
+      2018,
+      2023
+     ],
+     "coverage": "2017-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Family Health Bulletin 2017-2018",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/Health/DHS2017_en.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/Health/DHS2017_en.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & Family Health",
+     "years": [
+      2017,
+      2018,
+      2023
+     ],
+     "coverage": "2017-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Family Health Bulletin 2012",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/Health/HealthPopulation2012.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/Health/HealthPopulation2012.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & Family Health",
+     "years": [
+      2012,
+      2023
+     ],
+     "coverage": "2012-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Family Health Bulletin 2009",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/Health/HealthPopulation2009.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/Health/HealthPopulation2009.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & Family Health",
+     "years": [
+      2009,
+      2023
+     ],
+     "coverage": "2009-2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for the Population and Family Health Survey (PFHS) main indicators.",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/PopulationHealth.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/PopulationHealth.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & Family Health",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "Dr. Al- Zoubi: Launch of the Key Indicators Report for the Jordan Population and Family Health Survey (JPFHS)",
+     "url": "https://dosweb.dos.gov.jo/dr-al-zoubi-launch-of-the-key-indicators-report-for-the-jordan-population-and-family-health-survey-jpfhs/",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Health - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Launching the results of the Key Indicators Report of the Population and Family Health Survey 2017-2018",
+     "url": "https://dosweb.dos.gov.jo/dhs-2017/",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Health - Department of Statistics",
+     "years": [
+      2017,
+      2018
+     ],
+     "coverage": "2017-2018",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Important clarification by the Department of Statistics (DoS) on the implementation of the Seventh Population and Family Health Survey (PFHS)",
+     "url": "https://dosweb.dos.gov.jo/important-clarification-by-the-department-of-statistics-dos-on-the-implementation-of-the-seventh-population-and-family-health-survey-pfhs/",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Health - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/population/poverty/",
+     "page_url": "https://dosweb.dos.gov.jo/population/poverty/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Poverty statistics - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Interactive Report",
+     "url": "https://jorinfo.dos.gov.jo/Databank/pxweb/en/Poverty/",
+     "page_url": "https://dosweb.dos.gov.jo/population/poverty/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Poverty statistics - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata of Poverty Statistics",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Population/poverty/Poverty_Statistics.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/population/poverty/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Population/poverty/Poverty_Statistics.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/labourforce/",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Labour Force - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Unemployment Rate for Total Population Decreased to 16.1% in Q2 2026",
+     "url": "https://dosweb.dos.gov.jo/unemp_092026/",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Labour Force - Department of Statistics",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Unemployment Rate Decreased to 16.1% in Q1 2026",
+     "url": "https://dosweb.dos.gov.jo/unemp_062026/",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Labour Force - Department of Statistics",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Unemployment Rate Decreased to 16.1%",
+     "url": "https://dosweb.dos.gov.jo/unemp_042026-2/",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Labour Force - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/labourforce/employment-and-unemployment/",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/employment-and-unemployment/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Employment and Unemployment - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Labor Force Survey (First Round) 2024 Questionnaire",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Labour_Force/Employment_Unemployment/Labor_Force_Survey_questionnaire_2024.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/employment-and-unemployment/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Labour_Force/Employment_Unemployment/Labor_Force_Survey_questionnaire_2024.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Employment and Unemployment",
+     "years": [
+      2020,
+      2024
+     ],
+     "coverage": "2020-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Labor Force Survey (First Round) 2020 Questionnaire",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Labour_Force/Employment_Unemployment/Labor_Force%20_Survey_questionnaire.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/employment-and-unemployment/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Labour_Force/Employment_Unemployment/Labor_Force%20_Survey_questionnaire.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Employment and Unemployment",
+     "years": [
+      2020,
+      2024
+     ],
+     "coverage": "2020-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: Employment and Unemployment",
+     "url": "http://www.dos.gov.jo/dos_home_e/main/linked-html/Emp&Un.htm",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/employment-and-unemployment/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Employment and Unemployment - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for Employment and Unemployment Survey main indicators.",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Emp_unemp.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/employment-and-unemployment/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Emp_unemp.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/labourforce/job-creation/",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/job-creation/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Job Creation - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Job Creation Survey (First Round) 2021 Questionnaire",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Labour_Force/Job_Creation/Job_Creation_Questionnaire.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/job-creation/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Labour_Force/Job_Creation/Job_Creation_Questionnaire.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Job Creation",
+     "years": [
+      2021
+     ],
+     "coverage": "2021",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/labourforce/employment-in-establishment/",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/employment-in-establishment/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Employment in Establishment - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: Employment in Establishment",
+     "url": "http://dosweb.dos.gov.jo/labourforce/employment-in-establishment/tables-of-employment-in-establishment/",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/employment-in-establishment/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Employment in Establishment - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for Employment in Establishment Survey main indicators.",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Employment_Establishment.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/employment-in-establishment/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Employment_Establishment.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/labourforce/use_technology/",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/use_technology/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Information technology use at homes - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Number of New Born and Mortality of Livestock",
+     "url": "http://dos.gov.jo/owa-user/owa/FOCAL_AGR_anm.show_param?LANG=E&dis=3",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/livestock/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Livestock - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Number of Employees in the Livestock Activity aged 16 Years and Above by Kind of Labor, Sex and Nationality",
+     "url": "http://dos.gov.jo/owa-user/owa/FOCAL_AGR_anm.show_param?LANG=E&dis=6",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/livestock/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Livestock - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Hired Labour",
+     "url": "http://www.dos.gov.jo/owa-user/owa/FOCAL_AGR.agr_kk?LANG=E&dis=4",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/crops-statistics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Crops Statistics - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/censuses/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "CENSUSES - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/censuses/population_housing/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/population_housing/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population and Housing - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population and housing 2015",
+     "url": "http://dosweb.dos.gov.jo/censuses/population_housing/census2015/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/population_housing/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population and Housing - Department of Statistics",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Aqaba city population housing census 2007",
+     "url": "http://dosweb.dos.gov.jo/censuses/population_housing/census-aqaba2007/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/population_housing/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population and Housing - Department of Statistics",
+     "years": [
+      2007
+     ],
+     "coverage": "2007",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population and housing 2004",
+     "url": "http://dosweb.dos.gov.jo/censuses/population_housing/census2004/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/population_housing/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population and Housing - Department of Statistics",
+     "years": [
+      2004
+     ],
+     "coverage": "2004",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population and housing 1994",
+     "url": "http://dosweb.dos.gov.jo/censuses/population_housing/census1994/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/population_housing/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population and Housing - Department of Statistics",
+     "years": [
+      1994
+     ],
+     "coverage": "1994",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/censuses/agriculture-census/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Agricultural census - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Methodology 2017",
+     "url": "http://dosweb.dos.gov.jo/DataBank/Agri/Methodology/Methodology2017_En.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "http://dosweb.dos.gov.jo/DataBank/Agri/Methodology/Methodology2017_En.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Agricultural census",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Questionnair 2017",
+     "url": "http://dosweb.dos.gov.jo/DataBank/Agri2017/Questionare/Questionnair_en.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "http://dosweb.dos.gov.jo/DataBank/Agri2017/Questionare/Questionnair_en.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "The Agriculture Census Questionnaire 2017",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "General results of The Agricultural Census 2017",
+     "url": "http://dosweb.dos.gov.jo/censuses/agriculture-census/census2017_tables/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Agricultural census - Department of Statistics",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "General results of The Agricultural Census 2007",
+     "url": "http://dosweb.dos.gov.jo/censuses/agriculture-census/census2007_tables/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Agricultural census - Department of Statistics",
+     "years": [
+      2007
+     ],
+     "coverage": "2007",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agricultural Census – 2017 Technical Committee Meeting",
+     "url": "https://dosweb.dos.gov.jo/agricultural-census-2017-technical-committee-meeting/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Agricultural census - Department of Statistics",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  },
+  "economic_statistics": {
+   "label": "Economic statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "ECONOMIC",
+     "url": "https://dosweb.dos.gov.jo/economic/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "External Trade",
+     "url": "https://dosweb.dos.gov.jo/economic/externaltrade/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Energy in Homes",
+     "url": "https://dosweb.dos.gov.jo/economic/energy-in-homes/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Household Expenditures & Income Survey",
+     "url": "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Food security",
+     "url": "https://dosweb.dos.gov.jo/economic/food-security/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Domestic Tourism",
+     "url": "https://dosweb.dos.gov.jo/economic/domestic-tourism/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Arrival and Departures",
+     "url": "https://dosweb.dos.gov.jo/economic/arrival-and-departures/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Industry",
+     "url": "https://dosweb.dos.gov.jo/industry/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Internal Trade",
+     "url": "https://dosweb.dos.gov.jo/industry/internal-trade/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Industry",
+     "url": "https://dosweb.dos.gov.jo/industry/industry-and-energy/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Services",
+     "url": "https://dosweb.dos.gov.jo/industry/services/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Construction",
+     "url": "https://dosweb.dos.gov.jo/industry/construction/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Banks",
+     "url": "https://dosweb.dos.gov.jo/industry/banks/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Insurance",
+     "url": "https://dosweb.dos.gov.jo/industry/insurance/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Transport, storage and mail",
+     "url": "https://dosweb.dos.gov.jo/industry/transport-storage-and-mail/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Building Licences",
+     "url": "https://dosweb.dos.gov.jo/economic/building-licenses/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Price Indices",
+     "url": "https://dosweb.dos.gov.jo/economic/price-indices/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Labour Force",
+     "url": "https://dosweb.dos.gov.jo/labourforce/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Employment in Establishment",
+     "url": "https://dosweb.dos.gov.jo/economic/employment-in-establishment/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agriculture",
+     "url": "https://dosweb.dos.gov.jo/agriculture/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Livestock",
+     "url": "https://dosweb.dos.gov.jo/agriculture/livestock/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Crops Statistics",
+     "url": "https://dosweb.dos.gov.jo/agriculture/crops-statistics/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agricultural Prices",
+     "url": "https://dosweb.dos.gov.jo/agriculture/agricultural-prices/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Food budget",
+     "url": "https://dosweb.dos.gov.jo/agriculture/food-budget/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agricultural Strategy",
+     "url": "https://dosweb.dos.gov.jo/agriculture/agricultural-strategy/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agricultural",
+     "url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishments",
+     "url": "https://dosweb.dos.gov.jo/censuses/establish-census/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Industrial Production Quantities for the First Seven Months of 2026 Increased by 0.21%",
+     "url": "https://dosweb.dos.gov.jo/ipi_092026/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Prices Decreased by 0.25% in August Compared to July, and the Price Levels Remained Relatively Stable During the First Eight Months of 2026",
+     "url": "https://dosweb.dos.gov.jo/cpi_092026/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Industrial Producer Prices Increase by 2.06% in the First Seven Months of 2026",
+     "url": "https://dosweb.dos.gov.jo/ppi_092026/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Price list",
+     "url": "http://dosweb.dos.gov.jo/data_price/",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Department of Statistics Jordan - Home",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "list includes paper and CD-ROMs",
+     "url": "http://dosweb.dos.gov.jo/DataBank/Services/Publication_library.pdf",
+     "page_url": "https://dosweb.dos.gov.jo",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "http://dosweb.dos.gov.jo/DataBank/Services/Publication_library.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Prices of paper and CD-ROMs",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/economic/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ECONOMIC - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Building Licenses",
+     "url": "https://dosweb.dos.gov.jo/industry/building-licenses/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "ECONOMIC - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Employment in Establishment",
+     "url": "https://dosweb.dos.gov.jo/labourforce/employment-in-establishment/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ECONOMIC - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Economic Establishments Census 2018",
+     "url": "https://dosweb.dos.gov.jo/censuses/establish-census/establish-census-2018/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "ECONOMIC - Department of Statistics",
+     "years": [
+      2018
+     ],
+     "coverage": "2018",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/economic/externaltrade/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/externaltrade/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "External Trade - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: External Trade",
+     "url": "http://www.dos.gov.jo/dos_home_e/main/linked-html/ex_trad.htm",
+     "page_url": "https://dosweb.dos.gov.jo/economic/externaltrade/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "External Trade - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for External trade survey main indicators.",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Economic/External_Trade/External-trade.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/economic/externaltrade/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Economic/External_Trade/External-trade.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "Total Exports Increased by 14.5% during the First Half of 2026",
+     "url": "https://dosweb.dos.gov.jo/ext_082026/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/externaltrade/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "External Trade - Department of Statistics",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "National Exports Grew by 5.8% During the First Five Months of 2026",
+     "url": "https://dosweb.dos.gov.jo/ext_72026/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/externaltrade/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "External Trade - Department of Statistics",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Department of Statistics (DoS): National exports grew by 7.3%",
+     "url": "https://dosweb.dos.gov.jo/ext072026/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/externaltrade/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "External Trade - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/economic/energy-in-homes/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/energy-in-homes/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Energy in Homes - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "(45 KB)",
+     "url": "https://dosweb.dos.gov.jo/DataBank/power/Methodology_en.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/economic/energy-in-homes/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/power/Methodology_en.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Energy in Homes",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: Energy in Homes",
+     "url": "https://dosweb.dos.gov.jo/economic/energy-in-homes/energy_2008/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/energy-in-homes/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Energy in Homes - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/economic/expenditures-income/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Household Expenditures & Income Survey - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: Household Expenditures & Income Survey",
+     "url": "http://dosweb.dos.gov.jo/economic/expenditures-income/expend_tables/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Household Expenditures & Income Survey - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for Household Expenditures & Income Survey main indicators.",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Economic/Household_Income/HIES.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Economic/Household_Income/HIES.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/economic/food-security/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/food-security/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Food Security - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/economic/domestic-tourism/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/domestic-tourism/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Domestic Tourism - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Read more Methodology 2008",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Economic/Domestic_Tourism/2012/Meth_en.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/economic/domestic-tourism/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Economic/Domestic_Tourism/2012/Meth_en.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Domestic Tourism",
+     "years": [
+      2008,
+      2012
+     ],
+     "coverage": "2008-2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Read more Methodology 2012",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Economic/Domestic_Tourism/2008/Methodology_en.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/economic/domestic-tourism/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Economic/Domestic_Tourism/2008/Methodology_en.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Domestic Tourism",
+     "years": [
+      2008,
+      2012
+     ],
+     "coverage": "2008-2012",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: Demostric Toursim",
+     "url": "https://dosweb.dos.gov.jo/economic/domestic-tourism/tourism_tables/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/domestic-tourism/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Domestic Tourism - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/economic/arrival-and-departures/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/arrival-and-departures/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Arrival and Departures - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: Arrival and Departures",
+     "url": "http://dosweb.dos.gov.jo/economic/arrival-and-departures/tables-of-arrivals-and-departures/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/arrival-and-departures/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Arrival and Departures - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/industry/",
+     "page_url": "https://dosweb.dos.gov.jo/industry/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "INDUSTRY - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/industry/internal-trade/",
+     "page_url": "https://dosweb.dos.gov.jo/industry/internal-trade/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Internal Trade - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for Internal Trade Survey main indicators.",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Internal_Trade.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/industry/internal-trade/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Internal_Trade.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/industry/industry-and-energy/",
+     "page_url": "https://dosweb.dos.gov.jo/industry/industry-and-energy/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Industry and Energy - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for Industry and Energy Survey main indicators.",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Industry _Energy .xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/industry/industry-and-energy/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Industry _Energy .xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/industry/services/",
+     "page_url": "https://dosweb.dos.gov.jo/industry/services/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Services - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/industry/construction/",
+     "page_url": "https://dosweb.dos.gov.jo/industry/construction/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Construction - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for Construction Survey main indicators.",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Construction.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/industry/construction/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Construction.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/industry/banks/",
+     "page_url": "https://dosweb.dos.gov.jo/industry/banks/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Banks - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for Finance and Insurance main indicators.",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Finance and Insurance.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/industry/banks/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Finance and Insurance.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/industry/insurance/",
+     "page_url": "https://dosweb.dos.gov.jo/industry/insurance/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Insurance - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/industry/transport-storage-and-mail/",
+     "page_url": "https://dosweb.dos.gov.jo/industry/transport-storage-and-mail/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Transport, storage and mail - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for Transport, storage and mail Survey main indicators.",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/trasnport.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/industry/transport-storage-and-mail/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/trasnport.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/industry/building-licenses/",
+     "page_url": "https://dosweb.dos.gov.jo/industry/building-licenses/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Building Licenses - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/economic/price-indices/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/price-indices/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Price Indices - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: Price Indices",
+     "url": "http://dosweb.dos.gov.jo/economic/price-indices/table-price-indices/",
+     "page_url": "https://dosweb.dos.gov.jo/economic/price-indices/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Price Indices - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Price Indices",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/price-indices.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/economic/price-indices/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/price-indices.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/CPI.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/economic/price-indices/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/CPI.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Industrial Producer Price Index",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/PPI.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/economic/price-indices/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/PPI.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Trade Price Index",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Trade.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/economic/price-indices/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Trade.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Industrial Production Index",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/IPI.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/economic/price-indices/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/IPI.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "Important clarification by the Department of Statistics (DoS) on the implementation of the Seventh Population and Family Health Survey (PFHS)",
+     "url": "https://dosweb.dos.gov.jo/important-clarification-by-the-department-of-statistics-dos-on-the-implementation-of-the-seventh-population-and-family-health-survey-pfhs/",
+     "page_url": "https://dosweb.dos.gov.jo/population/health/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Health - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Labor Force Survey (First Round) 2024 Questionnaire",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Labour_Force/Employment_Unemployment/Labor_Force_Survey_questionnaire_2024.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/employment-and-unemployment/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Labour_Force/Employment_Unemployment/Labor_Force_Survey_questionnaire_2024.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Employment and Unemployment",
+     "years": [
+      2020,
+      2024
+     ],
+     "coverage": "2020-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Labor Force Survey (First Round) 2020 Questionnaire",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Labour_Force/Employment_Unemployment/Labor_Force%20_Survey_questionnaire.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/employment-and-unemployment/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Labour_Force/Employment_Unemployment/Labor_Force%20_Survey_questionnaire.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Employment and Unemployment",
+     "years": [
+      2020,
+      2024
+     ],
+     "coverage": "2020-2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Job Creation Survey (First Round) 2021 Questionnaire",
+     "url": "https://dosweb.dos.gov.jo/DataBank/Labour_Force/Job_Creation/Job_Creation_Questionnaire.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/job-creation/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/DataBank/Labour_Force/Job_Creation/Job_Creation_Questionnaire.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Job Creation",
+     "years": [
+      2021
+     ],
+     "coverage": "2021",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/labourforce/employment-in-establishment/",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/employment-in-establishment/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Employment in Establishment - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: Employment in Establishment",
+     "url": "http://dosweb.dos.gov.jo/labourforce/employment-in-establishment/tables-of-employment-in-establishment/",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/employment-in-establishment/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Employment in Establishment - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for Employment in Establishment Survey main indicators.",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Employment_Establishment.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/labourforce/employment-in-establishment/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Employment_Establishment.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/agriculture/",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Agriculture - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agricultural Producers Price Index Increased by 3.2% in February 2026",
+     "url": "https://dosweb.dos.gov.jo/agr_042026/",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Agriculture - Department of Statistics",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agricultural Producers Price Index Increased by 2.7% in January 2026",
+     "url": "https://dosweb.dos.gov.jo/agr_032026/",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Agriculture - Department of Statistics",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agricultural Producers Price Index Increased by 3.8% in 2025",
+     "url": "https://dosweb.dos.gov.jo/appi_022026/",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Agriculture - Department of Statistics",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/agriculture/livestock/",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/livestock/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Livestock - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Number of Livestock by Governorate",
+     "url": "http://dos.gov.jo/owa-user/owa/FOCAL_AGR_anm.show_param?LANG=E&dis=1",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/livestock/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Livestock - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Number and Characteristics of Livestock",
+     "url": "http://dos.gov.jo/owa-user/owa/FOCAL_AGR_anm.show_param?LANG=E&dis=2",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/livestock/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Livestock - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Number of New Born and Mortality of Livestock",
+     "url": "http://dos.gov.jo/owa-user/owa/FOCAL_AGR_anm.show_param?LANG=E&dis=3",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/livestock/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Livestock - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Value of Physical Inputs used in Livestock Production",
+     "url": "http://dos.gov.jo/owa-user/owa/FOCAL_AGR_anm.show_param?LANG=E&dis=4",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/livestock/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Livestock - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Livestock Production Value and Quantity",
+     "url": "http://dos.gov.jo/owa-user/owa/FOCAL_AGR_anm.show_param?LANG=E&dis=5",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/livestock/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Livestock - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Number of Employees in the Livestock Activity aged 16 Years and Above by Kind of Labor, Sex and Nationality",
+     "url": "http://dos.gov.jo/owa-user/owa/FOCAL_AGR_anm.show_param?LANG=E&dis=6",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/livestock/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Livestock - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Livestock Statistics",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Livestock_Statistics.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/livestock/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Livestock_Statistics.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Livestock Survey",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Livestock.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/livestock/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Livestock.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Economic Quarters Indicators",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Economic Indicators.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/livestock/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Economic Indicators.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/agriculture/crops-statistics/",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/crops-statistics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Crops Statistics - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Area, Average Yield and Production of Vegetables",
+     "url": "http://www.dos.gov.jo/owa-user/owa/FOCAL_AGR.agr_kk?LANG=E&dis=1",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/crops-statistics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Crops Statistics - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Area, Average Yield and Production of Field Crops",
+     "url": "http://www.dos.gov.jo/owa-user/owa/FOCAL_AGR.agr_kk?LANG=E&dis=2",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/crops-statistics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Crops Statistics - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Area, Number, Average Yield and Production of Fruit Trees",
+     "url": "http://www.dos.gov.jo/owa-user/owa/FOCAL_AGR.agr_kk?LANG=E&dis=3",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/crops-statistics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Crops Statistics - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Crops Statistics",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Crops_Statistics.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/crops-statistics/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Crops_Statistics.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Agricultural areas survey",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Agricultural_areas.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/crops-statistics/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Agricultural_areas.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/agriculture/agricultural-prices/",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-prices/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Agricultural Prices - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: Marketing Costs, Selling Prices in Central Markets and Farm-Gate Prices of Sold Quantities By Month",
+     "url": "http://www.dos.gov.jo/owa-user/owa/FOCAL_AGR_pric.show_param?LANG=E&dis=1",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-prices/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Agricultural Prices - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: Marketing Costs, Selling Prices and Farm-Gate Prices of Sold Quantities on Farm or Adjacent to it By Month",
+     "url": "http://www.dos.gov.jo/owa-user/owa/FOCAL_AGR_pric.show_param?LANG=E&dis=2",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-prices/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Agricultural Prices - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: Percentage of Monthly Sold Quantities to Total Sold Quantities by Area of Production",
+     "url": "http://www.dos.gov.jo/owa-user/owa/FOCAL_AGR_pric.show_param?LANG=E&dis=3",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-prices/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Agricultural Prices - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tables: Monthly Farm Gate Price Index",
+     "url": "http://www.dos.gov.jo/owa-user/owa/FOCAL_AGR_pric.show_param?LANG=E&dis=5",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-prices/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Agricultural Prices - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "Monthly",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for Agricultural Prices Survey main indicators.",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Agricultural-prices.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-prices/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Agricultural-prices.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for Study of Agricultural prices Survey.",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Study_of_agricultural_prices.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-prices/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Study_of_agricultural_prices.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/agriculture/food-budget/",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/food-budget/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Food budget - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Metadata for Food budget Survey main indicators.",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Agricultural_Food_Balance.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/food-budget/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Agricultural_Food_Balance.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/agriculture/agricultural-strategy/",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-strategy/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Agricultural Strategy - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Interactive Reports: Olive Oil Presses survey",
+     "url": "https://jorinfo.dos.gov.jo/Databank/pxweb/en/Olive_Oil/",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-strategy/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Agricultural Strategy - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Interactive Reports: Agriculture Nurseries survey",
+     "url": "https://jorinfo.dos.gov.jo/Databank/pxweb/en/Agriculture_Nurseries/",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-strategy/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Agricultural Strategy - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Agricultural_marine fishing production",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Agriculture_Fish_farming.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-strategy/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Agriculture_Fish_farming.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Agricultural Nurseries",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Agricultural_Nurseries.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-strategy/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Agricultural_Nurseries.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Olive oil presses",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Olive_oil_presses.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-strategy/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Olive_oil_presses.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Fish farming survey",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Fish_farming.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-strategy/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Fish_farming.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Marine Fisheries",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Marine_Fisheries.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-strategy/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Marine_Fisheries.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Honeybee study survey",
+     "url": "https://dosweb.dos.gov.jo/Databank/Metadata/Honeybee.xlsx",
+     "page_url": "https://dosweb.dos.gov.jo/agriculture/agricultural-strategy/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://dosweb.dos.gov.jo/Databank/Metadata/Honeybee.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data Bank",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "العربية ( Arabic )",
+     "url": "https://dosweb.dos.gov.jo/ar/censuses/agriculture-census/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Agricultural census - Department of Statistics",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Methodology 2017",
+     "url": "http://dosweb.dos.gov.jo/DataBank/Agri/Methodology/Methodology2017_En.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "http://dosweb.dos.gov.jo/DataBank/Agri/Methodology/Methodology2017_En.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Agricultural census",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Questionnair 2017",
+     "url": "http://dosweb.dos.gov.jo/DataBank/Agri2017/Questionare/Questionnair_en.pdf",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "http://dosweb.dos.gov.jo/DataBank/Agri2017/Questionare/Questionnair_en.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "The Agriculture Census Questionnaire 2017",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "General results of The Agricultural Census 2017",
+     "url": "http://dosweb.dos.gov.jo/censuses/agriculture-census/census2017_tables/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Agricultural census - Department of Statistics",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "General results of The Agricultural Census 2007",
+     "url": "http://dosweb.dos.gov.jo/censuses/agriculture-census/census2007_tables/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Agricultural census - Department of Statistics",
+     "years": [
+      2007
+     ],
+     "coverage": "2007",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agricultural Census – 2017 Technical Committee Meeting",
+     "url": "https://dosweb.dos.gov.jo/agricultural-census-2017-technical-committee-meeting/",
+     "page_url": "https://dosweb.dos.gov.jo/censuses/agriculture-census/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Agricultural census - Department of Statistics",
+     "years": [
+      2017
+     ],
+     "coverage": "2017",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  }
+ },
+ "limitations": [
+  "PX-Web catalogue listing failed: HTTPStatusError: Client error '404 Not Found' for url 'https://jorinfo.dos.gov.jo/Databank/api/v1/en/Births_Deaths/'\nFor more information check: https://developer.mozi"
+ ],
+ "recognized": [],
+ "suggested_sources": [
+  {
+   "nso": "JOR",
+   "theme": "social_statistics",
+   "method": "scrape",
+   "connector": "scrape",
+   "enabled": false,
+   "pages": [
+    "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+    "https://dosweb.dos.gov.jo/population/population-2/",
+    "https://dosweb.dos.gov.jo/population/woman-statistics/",
+    "https://dosweb.dos.gov.jo/population/gender-indicators/",
+    "https://dosweb.dos.gov.jo/population/health/"
+   ],
+   "render_js": "auto",
+   "notes": "34 social statistics file(s) found on these pages - review before enabling"
+  },
+  {
+   "nso": "JOR",
+   "theme": "economic_statistics",
+   "method": "scrape",
+   "connector": "scrape",
+   "enabled": false,
+   "pages": [
+    "https://dosweb.dos.gov.jo",
+    "https://dosweb.dos.gov.jo/economic/externaltrade/",
+    "https://dosweb.dos.gov.jo/economic/energy-in-homes/",
+    "https://dosweb.dos.gov.jo/economic/expenditures-income/",
+    "https://dosweb.dos.gov.jo/economic/domestic-tourism/"
+   ],
+   "render_js": "auto",
+   "notes": "36 economic statistics file(s) found on these pages - review before enabling"
+  }
+ ],
+ "indicator_samples": [],
+ "site": {
+  "url": "https://dosweb.dos.gov.jo",
+  "reachable": true,
+  "status": 200,
+  "final_url": "https://dosweb.dos.gov.jo",
+  "title": "Department of Statistics Jordan - Home",
+  "lang": "en-US",
+  "english": "yes",
+  "english_url": "https://dosweb.dos.gov.jo",
+  "platforms": [
+   "WordPress",
+   "PX-Web databank"
+  ],
+  "blocked": "",
+  "rendered": false,
+  "insecure_tls": false,
+  "notes": []
+ },
+ "files": {
+  "formats": {
+   "PDF": 70,
+   "XLSX": 39
+  },
+  "total": 109,
+  "pages_crawled": 40,
+  "pages_rendered": 0
+ },
+ "api": {
+  "docs": [
+   "https://www.scb.se/en/services/open-data-api/api-for-the-statistical-database/"
+  ],
+  "how_to": {
+   "curl": "curl -X POST -H \"accept-language: en-US\" -H \"x-requested-with: XMLHttpRequest\" -H \"accept: */*\" -H \"content-type: application/x-www-form-urlencoded; charset=UTF-8\" --data 'time=1790668800133&KQxLlGThS=EB6SiUC&YHV_FdunspWa=bI36z5xWVJjC9.BH' \"https://dosweb.dos.gov.jo/?wc-ajax=get_refreshed_fragments\"",
+   "python": "import requests\n\nurl = \"https://dosweb.dos.gov.jo/?wc-ajax=get_refreshed_fragments\"\nheaders = {\"accept-language\": \"en-US\", \"x-requested-with\": \"XMLHttpRequest\", \"accept\": \"*/*\", \"content-type\": \"application/x-www-form-urlencoded; charset=UTF-8\"}\nresponse = requests.post(url, headers=headers, data='time=1790668800133&KQxLlGThS=EB6SiUC&YHV_FdunspWa=bI36z5xWVJjC9.BH', timeout=60)\nresponse.raise_for_status()\ndata = response.json()"
+  },
+  "endpoints": [
+   {
+    "method": "POST",
+    "template": "dosweb.dos.gov.jo/",
+    "example_url": "https://dosweb.dos.gov.jo/?wc-ajax=get_refreshed_fragments",
+    "count": 1,
+    "content_type": "application/json; charset=UTF-8",
+    "post_data": "time=1790668800133&KQxLlGThS=EB6SiUC&YHV_FdunspWa=bI36z5xWVJjC9.BH",
+    "sample": "{\"fragments\":{\"div.widget_shopping_cart_content\":\"<div class=\\\"widget_shopping_cart_content\\\">\\r\\n\\r\\n<div class=\\\"total-count text-v-dark clearfix\\\"><span>0 ITEMS<\\/span><a class=\\\"text-v-dark pull-right text-uppercase\\\" href=\\\"https:\\/\\/dosweb.dos.gov.jo\\\">View cart<\\/a><\\/div>\\r\\n<ul class=\\\"cart_list product_list_widget scrollbar-inner \\\">\\r\\n\\t\\r\\n\\t\\t<li class=\\\"woocommerce-mini-cart__empty-message empty\\\">\\r\\n\\t\\t\\tNo products in the cart.\\t\\t<\\/li>\\r\\n\\r\\n\\t\\r\\n<\\/ul><!-- end product list -->\\r\\n\\r\\n\\r\\n<\\/div>\",\"#mini-cart .cart-subtotal\":\"<span class=\\\"cart-subtotal\\\">Cart <span class=\\\"cart-price\\\"><\\/span><\\/span>\",\"#mini-cart .cart-items\":\"<span class=\\\"cart-items\\\">0<\\/span>\",\"#mini-cart .cart-items-text\":\"<span class=\\\"cart-items-text\\\">0 items<\\/span>\"},\"cart_hash\":\"\"}",
+    "size": 795,
+    "python_headers": {
+     "accept-language": "en-US",
+     "x-requested-with": "XMLHttpRequest",
+     "accept": "*/*",
+     "content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   }
+  ],
+  "js_findings": {
+   "scripts_scanned": 12,
+   "base_urls": [],
+   "endpoint_paths": [],
+   "api_urls": []
+  },
+  "doc_links": [
+   {
+    "text": "Services",
+    "url": "https://dosweb.dos.gov.jo/DataBank/Services/Services2017_En.pdf"
+   },
+   {
+    "text": "More",
+    "url": "https://jorinfo.dos.gov.jo/Databank/pxweb/en/"
+   },
+   {
+    "text": "list includes paper and CD-ROMs",
+    "url": "http://dosweb.dos.gov.jo/DataBank/Services/Publication_library.pdf"
+   },
+   {
+    "text": "SDMX Tool for MDG Indicators",
+    "url": "https://data.un.org/countryData/Data/ShowDetail/JOR"
+   }
+  ],
+  "status": "documented",
+  "python_access": "yes",
+  "summary": "Documented API: PX-Web at https://jorinfo.dos.gov.jo/Databank/api/v1/en/ (PX-Web API listing 10 database(s))"
+ },
+ "sniff_pages": [
+  {
+   "url": "https://dosweb.dos.gov.jo",
+   "final_url": "https://dosweb.dos.gov.jo/",
+   "status": 200,
+   "title": "Department of Statistics Jordan - Home"
+  },
+  {
+   "url": "https://dosweb.dos.gov.jo/economic/",
+   "final_url": "https://dosweb.dos.gov.jo/economic/",
+   "status": 200,
+   "title": "ECONOMIC - Department of Statistics"
+  },
+  {
+   "url": "https://dosweb.dos.gov.jo/economic/externaltrade/",
+   "final_url": "https://dosweb.dos.gov.jo/economic/externaltrade/",
+   "status": 200,
+   "title": "External Trade - Department of Statistics"
+  },
+  {
+   "url": "https://dosweb.dos.gov.jo/economic/energy-in-homes/",
+   "final_url": "https://dosweb.dos.gov.jo/economic/energy-in-homes/",
+   "status": 200,
+   "title": "Energy in Homes - Department of Statistics"
+  }
+ ],
+ "duration_s": 394.7
+}

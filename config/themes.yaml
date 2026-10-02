@@ -1,0 +1,76 @@
+# THEMES - shared by Agent 1 (diagnostics) and Agent 2 (daily monitor).
+#
+# A theme is a list of keywords in English (en), Arabic (ar) and French (fr). A dataset, page or file
+# belongs to a theme when its title or nearby text contains one of the theme's keywords.
+#   * matching ignores case, accents and Arabic spelling variants (أ/إ/آ -> ا, ة -> ه, ى -> ي, diacritics)
+#   * English/French keywords match at the START of a word: "industr" matches industry, industrial
+#   * Arabic keywords match anywhere (Arabic attaches ال / و / ب to the word)
+#   * one dataset can belong to several themes (e.g. "Labour Force Survey" is social AND economic here)
+#
+# TO ADD A THEME: copy one block below, give it a new id (lower_case_with_underscores), a label and
+# keywords. Agent 1 picks it up on its next run; for Agent 2, add sources that use the new theme id in
+# config/agent2_sources.yaml. Each theme gets its own two databases in data/<theme id>/.
+
+# NOT_A_DATASET - reserved block, not a theme (Agent 1 skips this id when loading themes above/below).
+# Agent 1's reports only cover datasets: tables, time series, publications and files that actually hold
+# data, downloadable or not. A file or page whose OWN title matches one of these keywords is a supporting
+# document, not a dataset (e.g. a MICS "Anthropometry Questionnaire (Arabic)" PDF), and is left out of
+# the report entirely - it still exists on the website, Agent 1 just doesn't list it.
+#   * same matching rules as theme keywords above (case/accent/Arabic-variant-insensitive)
+#   * TO EXCLUDE MORE: add a keyword here - no code change needed, next Agent 1 run picks it up.
+#   * TO KEEP SOMETHING THAT WRONGLY DISAPPEARED: remove or narrow the keyword that matched its title
+#     (check output/agent1/<ID>.json -> "analyst_findings" or re-run with a narrower list to see why).
+not_a_dataset:
+  keywords:
+    en: [questionnaire, interviewer, enumerator, field manual, field guide, training manual,
+         tabulation plan, concept note, terms of reference, informed consent, protocol,
+         user guide, user's guide, metadata note, press release, vacancy, vacancies, tender,
+         procurement, job announcement, organigram, organizational chart, brochure, leaflet,
+         code of conduct, complaint form, feedback form]
+    ar: [استبيان, استماره, دليل الباحث, دليل العداد, دليل ميداني, خطة الجدوله, مذكره مفاهيميه,
+         بروتوكول, دليل المستخدم, بيان صحفي, اعلان وظيفه, وظائف شاغره, مناقصه, نموذج شكوي]
+    fr: [questionnaire, enqueteur, agent recenseur, guide de terrain, plan de tabulation,
+         note conceptuelle, protocole, guide utilisateur, communique de presse, avis de vacance,
+         appel d'offres]
+
+social_statistics:
+  label: Social statistics
+  keywords:
+    en: [population, census, demograph, migra, birth, death, fertility, mortality, marriage, divorce,
+         vital statistic, household, famil, labour, labor, employment, unemploy, workforce, wage,
+         education, school, student, literacy, university, health, hospital, disease, nutrition, covid,
+         poverty, household income, household expenditure, living condition, standard of living,
+         social, pension, disabilit, elderly, housing, dwelling, crime, justice, prison, culture, cultural,
+         sport, gender, women, youth, child, time use]
+    ar: [السكان, سكاني, تعداد, الهجره, المواليد, الوفيات, الخصوبه, الزواج, الطلاق, الحيويه, الاسره, الاسر,
+         العمل, العماله, القوي العامله, البطاله, التشغيل, الاجور, التعليم, المدارس, الطلاب, الاميه, الصحه,
+         المستشفيات, الامراض, التغذيه, الفقر, الدخل, الانفاق, مستوي المعيشه, الاجتماعيه, الاجتماعي,
+         المعاشات, الاعاقه, المسنين, الاسكان, المساكن, الجريمه, العداله, السجون, الثقافه, الثقافيه,
+         الرياضه, النوع الاجتماعي, المراه, النساء, الشباب, الطفل, الاطفال]
+    fr: [population, recensement, demograph, migra, naissance, deces, fecondite, mortalite, mariage,
+         divorce, etat civil, menage, famille, emploi, chomage, travail, salaire, education, enseignement,
+         scolar, ecole, alphabetisation, sante, hopita, maladi, nutrition, pauvrete, conditions de vie,
+         niveau de vie, social, sociale, retraite, handicap, logement, habitat, crimin, justice, culture,
+         sport, genre, femmes, jeunes, enfant]
+
+economic_statistics:
+  label: Economic statistics
+  keywords:
+    en: [economic, economy, national accounts, gdp, gross domestic, value added, establishment, enterprise,
+         business, industr, manufactur, production index, industrial production, price, inflation, cpi,
+         foreign trade, external trade, export, import, trade balance, internal trade, retail, wholesale,
+         balance of payments, financ, fiscal, budget, public debt, monetary, banking, investment,
+         agricultur, livestock, crop, fisher, water resources, energy, electricity, petroleum, oil, gas,
+         mining, construction, building permit, transport, communication, tourism, hotel, storage,
+         utilities, labour force, labor force]
+    ar: [الاقتصاديه, الاقتصادي, الاقتصاد, الحسابات القوميه, الناتج المحلي, القيمه المضافه, المنشات,
+         الصناعه, الصناعي, الانتاج, الاسعار, الرقم القياسي, التضخم, التجاره الخارجيه, الصادرات,
+         الواردات, الميزان التجاري, التجاره الداخليه, ميزان المدفوعات, الماليه, الموازنه, الدين العام,
+         النقد, المصارف, البنوك, الاستثمار, الزراعه, الزراعي, الثروه الحيوانيه, الاسماك, الموارد المائيه,
+         الطاقه, الكهرباء, النفط, البترول, الغاز, التعدين, التشييد, البناء, النقل, الاتصالات, السياحه,
+         الفنادق, التخزين, المرافق, القوي العامله]
+    fr: [economi, comptes nationaux, pib, produit interieur, valeur ajoutee, entreprise, etablissement,
+         industri, production, prix, inflation, commerce exterieur, exportation, importation,
+         balance commerciale, commerce interieur, balance des paiements, financ, budget, dette, monnaie,
+         bancaire, investissement, agricult, elevage, peche, energie, electricite, petrole, mines,
+         construction, transport, communication, tourisme, hotel, emploi]

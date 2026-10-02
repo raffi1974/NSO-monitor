@@ -1,0 +1,330 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Morocco  -  Haut-Commissariat au Plan (HCP)
+Checked 2026-09-29 11:05  |  Agent 1 (agent1_diagnose.py)  |  took 36.2 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://www.hcp.ma/
+   Reachable       : yes (HTTP 200)
+   English version : no English version
+   Note: French only (/en returns 404).
+
+2. API
+   Verdict         : NONE - not callable from Python
+   No API found (no documented platform, no data calls seen while browsing). Data is published as
+     files/pages only: Agent 2 would use the 'scrape' connector.
+   Documentation   : none official
+   Site links mentioning API / open data / databank:
+     Micro données - Open Data -> https://www.hcp.ma/Micro-donnees-Open-data_r632.html
+
+3. SOCIAL STATISTICS  (128 pages)
+     - 10.1.1 : Taux de croissance des dépenses des ménages ou du revenu par habitant pour les
+       40% de la population les plus pauvres et pour l’ensemble de la population (%)
+       http://plateforme-odd.hcp.ma/ODD_HCP/fr/indicateurs/?ind=10.1.1&color=df1a83&sdg=10
+     - 3.1.1 :Taux de mortalité maternelle (pour 100 000 des naissances vivantes)
+       http://plateforme-odd.hcp.ma/ODD_HCP/fr/indicateurs/?ind=3.1.1&color=4ca146&sdg=3
+     - 8.5.2 Taux de chômage, par sexe, âge et situation au regard du handicap
+       http://plateforme-odd.hcp.ma/ODD_HCP/fr/indicateurs/?ind=8.5.2&color=a31d44&sdg=8
+     - Activité, emploi et chômage, résultats annuels 2025 | Annual | 2025
+       https://www.hcp.ma/Activite-emploi-et-chomage-resultats-annuels-2025_a4310.html
+     - Actualité
+       https://www.hcp.ma/Actualite-marche-du-travail_r424.html
+     - Actualité recensement général RGPH
+       https://www.hcp.ma/Actualite-recensement-general-RGPH_r519.html
+     - Approche géo-démographique des risques d’exposition au Covid-19
+       https://www.hcp.ma/Approche-geo-demographique-des-risques-d-exposition-au-
+         Covid-19_a2511.html
+     - Avant-propos : Comprendre le phénomène des jeunes NEET au Maroc, par M. Le Haut-
+       Commissaire au Plan (version Fr et Ar)
+       https://www.hcp.ma/file/247667/
+     - Chômage
+       https://www.hcp.ma/Chomage_r438.html
+     - Chômage
+       https://www.hcp.ma/downloads/?tag=Ch%C3%B4mage
+     - Conditions d'habitation
+       https://www.hcp.ma/Conditions-d-habitation_r458.html
+     - Conditions d'habitation
+       https://www.hcp.ma/downloads/?tag=Conditions+d%27habitation
+     - Consulter les chiffres clés du marché de l'emploi
+       https://www.hcp.ma/Le-marche-du-travail-en-chiffres-interagisser_a2887.html
+     - Couples et familles
+       https://www.hcp.ma/Couples-et-familles_r564.html
+     - Covid 19
+       https://www.hcp.ma/Covid-19_a3522.html
+     - Demande de soins de santé dans les provinces cibles du BAJ 1: Niveau et déterminants
+       (1998) | 1998
+       https://www.hcp.ma/Demande-de-soins-de-sante-dans-les-provinces-cibles-du-
+         BAJ-1-Niveau-et-determinants-1998_a3194.html
+     - Durée de chômage au niveau National par trimestre
+       https://www.hcp.ma/Duree-de-chomage-au-niveau-National-par-trimestre_a358.html
+     - Durée de chômage au niveau national par année
+       https://www.hcp.ma/Duree-de-chomage-au-niveau-national-par-annee_a3403.html
+     - Durée de chômage en milieu rural par année
+       https://www.hcp.ma/Duree-de-chomage-en-milieu-rural-par-annee_a3404.html
+     - Durée de chômage en milieu rural par trimestre
+       https://www.hcp.ma/Duree-de-chomage-en-milieu-rural-par-trimestre_a357.html
+     - Durée de chômage en milieu urbain par année
+       https://www.hcp.ma/Duree-de-chomage-en-milieu-urbain-par-annee_a3405.html
+     - Durée de chômage en milieu urbain par trimestre
+       https://www.hcp.ma/Duree-de-chomage-en-milieu-urbain-par-trimestre_a356.html
+     - Découvrir les rapports sociaux au temps du COVID
+       https://www.hcp.ma/Genre-et-impact-Covid-19-sur-les-menages_a2890.html
+     - Education
+       https://www.hcp.ma/Education_r488.html
+     - Education et formation
+       https://www.hcp.ma/Education-et-formation_r584.html
+     - Emploi
+       https://www.hcp.ma/Emploi_r433.html
+     - Emploi
+       https://www.hcp.ma/downloads/?tag=Emploi
+     - Enquête Nationale sur l'Emploi du Temps
+       https://www.hcp.ma/Enquete-Nationale-sur-l-Emploi-du-Temps-ENET-2012_a2947.html
+     - Enquête Nationale sur la Consommation et les Dépenses des Ménages
+       https://www.hcp.ma/Enquete-Nationale-sur-la-Consommation-et-les-Depenses-des-Menages-
+         ENCDM-2014_a2946.html
+     - Enquête Nationale sur les Niveaux de Vie des Ménages
+       https://www.hcp.ma/Enquete-Nationale-sur-les-niveaux-de-vie-des-Menages-
+         ENNVM-2007_a2948.html
+     - Enquête nationale de conjoncture auprès des ménages
+       https://www.hcp.ma/downloads/?tag=Enqu%C3%AAte+nationale+de+conjoncture+aupr%C3%A8s+de
+         s+m%C3%A9nages
+     - Enquête nationale sur l’emploi du temps
+       https://www.hcp.ma/downloads/?tag=Enqu%C3%AAte+nationale+sur+l%27emploi+du+temps
+     - Enquête sur les perceptions des chômeurs sur le chômage dans la région de l'Oriental
+       https://www.hcp.ma/downloads/?tag=Enqu%C3%AAte+sur+les+perceptions+des+ch%C3%B4meurs+s
+         ur+le+ch%C3%B4mage+dans+la+r%C3%A9gion+de+l%27Oriental
+     - Enquêtes Population et démographie
+       https://www.hcp.ma/Enquetes-Population-demographie_r660.html
+     - Enquêtes marché travail
+       https://www.hcp.ma/Enquetes-Marche-du-travail_r646.html
+     - Enquêtes marché travail
+       https://www.hcp.ma/downloads/?tag=Enqu%C3%AAtes+march%C3%A9+du+travail
+     - Enquêtes revenu et conditions de vie
+       https://www.hcp.ma/downloads/?tag=Enqu%C3%AAtes+revenu+et+conditions+de+vie
+     - Etudes population et démographie
+       https://www.hcp.ma/Etudes-Population-et-demographies_r653.html
+     - Etudes relatives au marché du travail
+       https://www.hcp.ma/Etudes-Marche-du-travail_r651.html
+     - Etudes relatives à ce thème
+       https://www.hcp.ma/Etudes-Revenu-et-conditions-de-vie_r652.html
+     - Genre
+       https://www.hcp.ma/Genre_r579.html
+     - Genre
+       https://www.hcp.ma/Presentation-de-la-plateforme-Genre_a3519.html
+     - Inclusion sociale
+       https://www.hcp.ma/Inclusion-sociale_r609.html
+     - Indicateurs Chômage
+       https://www.hcp.ma/Indicateurs-Chomage_r441.html
+     - Informalité, genre et vieillissement : inégalités cumulatives et effets
+       intergénérationnels, Mai 2026 | 2026
+       https://www.hcp.ma/Informalite-genre-et-vieillissement-inegalites-cumulatives-et-
+         effets-intergenerationnels-Mai-2026_a4311.html
+     - Inégalité sociale
+       https://www.hcp.ma/Inegalite-sociale_r508.html
+     - Jeunes NEET au Maroc : Profilage statistique au profit de l’action publique
+       https://www.hcp.ma/Jeunes-NEET-au-Maroc-Profilage-statistique-au-profit-de-l-action-
+         publique_a4301.html
+     - La table de mortalité au Maroc 2009-2010 | 2009-2010
+       https://www.hcp.ma/La-table-de-mortalite-au-Maroc-2009-2010_a970.html
+     - Le Niveau et l'évolution des dépenses de scolarisation des ménages marocains
+       https://www.hcp.ma/Le-Niveau-et-l-evolution-des-depenses-de-scolarisation-des-menages-
+         marocains_a504.html
+     - Le plan de développement économique et social 2000 - 2004 | 2000-2004
+       https://www.hcp.ma/downloads/?tag=Le+plan+de+d%C3%A9veloppement+%C3%A9conomique+et+soc
+         ial+2000+-+2004
+     - Les comptes régionaux. Produit intérieur brut et dépenses de consommation finale des
+       ménages 2024 | 2024
+       https://www.hcp.ma/Les-comptes-regionaux-Produit-interieur-brut-et-depenses-de-
+         consommation-finale-des-menages-2024_a4334.html
+     - Les personnes en situation de handicap au Maroc, Analyse issue du RGPH de 2024, Mars
+       2026 | 2024-2026
+       https://www.hcp.ma/Les-personnes-en-situation-de-handicap-au-Maroc-Analyse-issue-du-
+         RGPH-de-2024-Mars-2026_a4269.html
+     - Les résultats de l’enquête de conjoncture auprès des ménages, deuxième trimestre de
+       l'année 2026 | 2026
+       https://www.hcp.ma/Les-resultats-de-l-enquete-de-conjoncture-aupres-des-menages-
+         deuxieme-trimestre-de-l-annee-2026_a4335.html
+     - Lutte contre la pauvreté, réduction des inégalités sociales et territoriales,
+       développement humain et équité de genre au Maroc. Progrès et défis
+       https://www.hcp.ma/Lutte-contre-la-pauvrete-reduction-des-inegalites-sociales-et-
+         territoriales-developpement-humain-et-equite-de-genre-au_a4170.html
+     - L’UNFPA et le HCP explorent les enjeux de la fécondité à l’occasion de la Journée
+       mondiale de la population
+       https://www.hcp.ma/L-UNFPA-et-le-HCP-explorent-les-enjeux-de-la-fecondite-a-l-
+         occasion-de-la-Journee-mondiale-de-la-population_a4144.html
+     - Marché du travail
+       https://www.hcp.ma/Marche-du-travail_r423.html
+     - Marché du travail
+       https://www.hcp.ma/downloads/?tag=March%C3%A9+du+travail
+     - Migration interne selon les résultats du recensement général de la population et de
+       l'habitat de 2024, Octobre 2025 | 2024-2025
+       https://www.hcp.ma/Migration-interne-selon-les-resultats-du-recensement-general-de-la-
+         population-et-de-l-habitat-de-2024-Octobre-2025_a4203.html
+     - Mode de transport domicile-lieu de travail des actifs occupés selon les résultats du
+       recensement général de la population et de l'habitat 2024, Juin 2026 | 2024-2026
+       https://www.hcp.ma/Mode-de-transport-domicile-lieu-de-travail-des-actifs-occupes-
+         selon-les-resultats-du-recensement-general-de-la_a4324.html
+     - Mortalité et espérance de vie
+       https://www.hcp.ma/Mortalite-et-esperance-de-vie_r559.html
+     ... and 68 more (full list in MAR.json)
+
+4. ECONOMIC STATISTICS  (79 pages)
+     - 8.1.1 Taux de croissance annuelle du PIB réel par habitant(%) | Annual
+       http://plateforme-odd.hcp.ma/ODD_HCP/fr/indicateurs/?ind=8.1.1&color=a31d44&sdg=8
+     - Activité, emploi et chômage, résultats annuels 2025 | Annual | 2025
+       https://www.hcp.ma/Activite-emploi-et-chomage-resultats-annuels-2025_a4310.html
+     - Actualité Indices de la production industrielle IPI
+       https://www.hcp.ma/Actualite-Indices-de-la-production-industrielle-IPI_r625.html
+     - Actualité Indices des prix à la consommation IPC
+       https://www.hcp.ma/Actualite-Indices-des-prix-a-la-consommation-IPC_r349.html
+     - Actualité Indices des prix à la production industrielle IPPI
+       https://www.hcp.ma/Actualite-Indices-des-prix-a-la-production-industrielle-
+         IPPI_r354.html
+     - Agrégats des comptes nationaux
+       https://applications-web.hcp.ma/DCN2022/Accueil.html
+     - Agrégats des comptes nationaux
+       https://applications-web.hcp.ma/DCN/Accueil.html
+     - Besoin de financement/PIB
+       https://www.hcp.ma/Besoin-de-financement-PIB_a3125.html
+     - Budget économique exploratoire 2027 : Perspectives économiques pour les années 2026 et
+       2027, Juillet 2026 | 2026-2027
+       https://www.hcp.ma/Budget-economique-exploratoire-2027-Perspectives-economiques-pour-
+         les-annees-2026-et-2027-Juillet-2026_a4338.html
+     - Calculer le niveau des prix de votre consommation
+       https://www.hcp.ma/Simuler-l-indice-des-prix-de-votre-consommation_a2883.html
+     - Comptes Nationaux
+       https://www.hcp.ma/Comptes-nationaux-Serie-des-comptes-
+         Base-2014-Base-2007-Base-1998_a1560.html
+     - Comptes Nationaux
+       https://www.hcp.ma/Comptes-nationaux_a2938.html
+     - Comptes nationaux
+       https://www.hcp.ma/Comptes-nationaux_r338.html
+     - Comptes nationaux
+       https://www.hcp.ma/downloads/?tag=Comptes+nationaux
+     - Conjoncture & Prévision économique
+       https://www.hcp.ma/Conjoncture-et-prevision-economique_r328.html
+     - Conjoncture entreprise
+       https://www.hcp.ma/Conjoncture-entreprise_r619.html
+     - Conjoncture entreprise
+       https://www.hcp.ma/downloads/?tag=Conjoncture+entreprise
+     - Conjoncture et prévision économique
+       https://www.hcp.ma/downloads/?tag=Conjoncture+et+pr%C3%A9vision+%C3%A9conomique
+     - Consulter les chiffres clés du marché de l'emploi
+       https://www.hcp.ma/Le-marche-du-travail-en-chiffres-interagisser_a2887.html
+     - Croissance économique infra-annuelle | Annual
+       https://www.hcp.ma/Croissance-economique-infra-annuelle_a2949.html
+     - Economie
+       https://www.hcp.ma/Economie_r327.html
+     - Economie
+       https://www.hcp.ma/downloads/?tag=Economie
+     - Emploi
+       https://www.hcp.ma/Emploi_r433.html
+     - Emploi
+       https://www.hcp.ma/downloads/?tag=Emploi
+     - Enquête Nationale sur l'Emploi du Temps
+       https://www.hcp.ma/Enquete-Nationale-sur-l-Emploi-du-Temps-ENET-2012_a2947.html
+     - Enquête des prix à la consommation
+       https://www.hcp.ma/downloads/?tag=Enqu%C3%AAte+des+prix+%C3%A0+la+consommation
+     - Enquête nationale sur l’emploi du temps
+       https://www.hcp.ma/downloads/?tag=Enqu%C3%AAte+nationale+sur+l%27emploi+du+temps
+     - Enquête sur la réalisation des constructions autorisées
+       https://www.hcp.ma/downloads/?tag=Enqu%C3%AAte+sur+la+r%C3%A9alisation+des+constructio
+         ns+autoris%C3%A9es
+     - Enquêtes de conjoncture : Industrie - BTP
+       https://www.hcp.ma/downloads/?tag=Enqu%C3%AAtes+de+conjoncture+%3A+Industrie+-+BTP
+     - Enquêtes trimestrielles de conjoncture auprès des entreprises | Quarterly
+       https://www.hcp.ma/downloads/?tag=Enqu%C3%AAtes+trimestrielles+de+conjoncture+aupr%C3%
+         A8s+des+entreprises
+     - Enquêtes trimestrielles de conjoncture, 2026 T3 : Secteur des industries
+       manufacturières, extractives, énergétiques et environnementales et secteur de la
+       construction (version Ar) | Quarterly | 2026
+       https://www.hcp.ma/file/248970/
+     - Enquêtes trimestrielles de conjoncture, 2026 T3 : Secteur des industries
+       manufacturières, extractives, énergétiques et environnementales et secteur de la
+       construction (version Fr) | Quarterly | 2026
+       https://www.hcp.ma/file/248971/
+     - Enquêtes trimestrielles de conjoncture, 2026 T3 : Secteur des services marchands non
+       financiers et secteur du commerce de gros (version Ar) | Quarterly | 2026
+       https://www.hcp.ma/file/248972/
+     - Enquêtes trimestrielles de conjoncture, 2026 T3 : Secteur des services marchands non
+       financiers et secteur du commerce de gros (version Fr) | Quarterly | 2026
+       https://www.hcp.ma/file/248973/
+     - Enquêtes économiques
+       https://www.hcp.ma/Enquetes-economiques_r656.html
+     - Enquêtes économiques
+       https://www.hcp.ma/downloads/?tag=Enqu%C3%AAtes+%C3%A9conomiques
+     - Etudes économiques
+       https://www.hcp.ma/Etudes-economiques_r650.html
+     - HCP : Organisation conjointe avec la Commission Economique pour l’Afrique d’un atelier
+       de formation
+       https://www.hcp.ma/HCP-Organisation-conjointe-avec-la-Commission-Economique-pour-l-
+         Afrique-d-un-atelier-de-formation_a2458.html
+     - ICE des importations 111.5 Année 2024 | 2024
+       https://www.hcp.ma/Indice-du-commerce-exterieur-ICE-des-importations-annuel-
+         Base-2019_a3545.html
+     - IPC général 119,6 Année 2025 | 2025
+       https://www.hcp.ma/Indice-des-prix-a-la-consommation-IPC-2017-par-grandes-divisions-
+         Annuel_a3055.html
+     - IPIEM secteur d'électricité 135,9 Année 2024 | 2024
+       https://www.hcp.ma/Indice-de-la-production-par-Secteur-Annuel_a3058.html
+     - Indicateurs Comptes nationaux
+       https://www.hcp.ma/Indicateurs-Comptes-nationaux_r341.html
+     - Indicateurs Conjoncture et prévision économique
+       https://www.hcp.ma/Indicateurs-Conjoncture-et-prevision-economique_r331.html
+     - Indice des prix de votre consommation
+       https://applications-web.hcp.ma/sip/
+     - Indice des prix à la consommation
+       https://www.hcp.ma/downloads/?tag=Indice+des+prix+%C3%A0+la+consommation
+     - Indices de la production industrielle
+       https://www.hcp.ma/Indices-de-la-production-industrielle-IPI_r353.html
+     - Indices des prix et production
+       https://www.hcp.ma/Indices-des-prix-et-production_r343.html
+     - Indices des prix et production
+       https://www.hcp.ma/downloads/?tag=Indices+des+prix+et+production
+     - Indices des prix à la consommmation
+       https://www.hcp.ma/Indices-des-prix-a-la-consommation-IPC_r348.html
+     - Indices des prix à la production industrielle
+       https://www.hcp.ma/Indices-des-prix-a-la-production-industrielle-IPPI_r624.html
+     - Indices du commerce extérieur
+       https://www.hcp.ma/Indices-du-commerce-exterieur-ICE_r358.html
+     - Inflation - 0,1 %
+       https://www.hcp.ma/Inflation_a2950.html
+     - L'Indice des prix à la consommation (IPC) du mois d'Août 2026 | 2026
+       https://www.hcp.ma/L-Indice-des-prix-a-la-consommation-IPC-du-mois-d-
+         Aout-2026_a4348.html
+     - L'Indice des prix à la production industrielle, énergétique et minière (IPPIEM). (Base
+       100 : 2018 : 100 أساس). Quatrième trimestre 2025 | 2018-2025
+       https://www.hcp.ma/L-Indice-des-prix-a-la-production-industrielle-energetique-et-
+         miniere-IPPIEM-Base-100-2018-100-أساس-Quatrieme_a4307.html
+     - Le HCP réitère son appel aux entreprises à souscrire à la plateforme digitale d'échange
+       d'informations sur la conjoncture économique nationale
+       https://www.hcp.ma/Le-HCP-reitere-son-appel-aux-entreprises-a-souscrire-a-la-
+         plateforme-digitale-d-echange-d-informations-sur-la_a2807.html
+     - Le plan de développement économique et social 2000 - 2004 | 2000-2004
+       https://www.hcp.ma/downloads/?tag=Le+plan+de+d%C3%A9veloppement+%C3%A9conomique+et+soc
+         ial+2000+-+2004
+     - Les comptes régionaux. Produit intérieur brut et dépenses de consommation finale des
+       ménages 2024 | 2024
+       https://www.hcp.ma/Les-comptes-regionaux-Produit-interieur-brut-et-depenses-de-
+         consommation-finale-des-menages-2024_a4334.html
+     - Les indices du commerce extérieur (ICE) au Maroc, premier trimestre 2026 | 2026
+       https://www.hcp.ma/Les-indices-du-commerce-exterieur-ICE-au-Maroc-premier-
+         trimestre-2026_a4329.html
+     - L’Indice de la production industrielle, énergétique et minière (IPIEM). (Base 100 : 2015
+       : 100 أساس). Troisième trimestre 2025 | 2015-2025
+       https://www.hcp.ma/L-Indice-de-la-production-industrielle-energetique-et-miniere-
+         IPIEM-Base-100-2015-100-أساس-Troisieme-trimestre-2025_a4272.html
+     - L’Indice des prix à la consommation (IPC). (Base 100 _ 2017 _ 100 أساس). Avril 2026 |
+       2017-2026
+       https://www.hcp.ma/L-Indice-des-prix-a-la-consommation-IPC-Base-100--2017--100-أساس-
+         Avril-2026_a4340.html
+     ... and 19 more (full list in MAR.json)
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (0 rendered in a browser); 0 file links
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+   none - nothing machine-readable was found automatically; see limitations below
+
+7. LIMITATIONS / NEXT STEPS
+   - No English version: the non-English pages were analysed (keywords cover Arabic and French).

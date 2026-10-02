@@ -1,0 +1,28 @@
+NSO DIAGNOSTICS - SUMMARY (one line per NSO; details in <ID>.txt)
+======================================================================================================
+ID   Country                Reach  English  API                Python   social_sta economic_s  Formats
+------------------------------------------------------------------------------------------------------
+DZA  Algeria                yes    no       none               no               31         56  PDF, XLS, XLSX
+BHR  Bahrain                yes    yes      documented         yes             293        252  PDF
+COM  Comoros                yes    yes      documented         yes              42         34  
+DJI  Djibouti               yes    no       undocumented       yes               0          0  
+EGY  Egypt                  yes    in-app   undocumented       yes           3,012      4,454  PDF
+IRQ  Iraq                   yes    no       none               no               50        583  PDF, XLSX, XLS, DOCX
+JOR  Jordan                 yes    yes      documented         yes             100        127  PDF, XLSX
+KWT  Kuwait                 yes    yes      none               no               42         66  
+LBN  Lebanon                yes    yes      content API only   partial         113        108  XLSX, XLS, PDF
+LBY  Libya                  yes    no       undocumented       yes              40        173  PDF
+MRT  Mauritania             yes    no       undocumented       yes              12         18  PDF
+MAR  Morocco                yes    no       none               no              128         79  
+OMN  Oman                   yes    yes      undocumented       yes              20         49  PDF, XLSX, XML
+PSE  Palestine              yes    yes      none               no              479        467  PDF, ZIP, DOCX, XLSX
+QAT  Qatar                  yes    yes      documented         yes           1,186      1,065  PDF, XLSX, XML, XLS
+SAU  Saudi Arabia           yes    yes      undocumented       yes              14         39  
+SOM  Somalia                yes    yes      undocumented       yes              24         78  PDF, CSV
+SDN  Sudan                  NO     unknown  none               no                0          0  
+SYR  Syrian Arab Republic   yes    no       none               no              109        199  RAR, PDF, XLSX, XLS
+TUN  Tunisia                yes    yes      undocumented       yes             233        181  PDF, XLSX, DOCX
+ARE  United Arab Emirates   NO     yes      none               no                0          0  
+YEM  Yemen                  NO     unknown  none               no                0          0  
+
+Columns per theme = datasets / publications / tables / files / time series found.

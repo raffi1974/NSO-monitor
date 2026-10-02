@@ -1,0 +1,1842 @@
+{
+ "id": "KWT",
+ "country": "Kuwait",
+ "nso": "Central Statistical Bureau (CSB)",
+ "url": "https://www.csb.gov.kw/Default_EN",
+ "english_config": "yes",
+ "languages": [
+  "en",
+  "ar"
+ ],
+ "config_notes": "",
+ "checked_at": "2026-09-29 11:00",
+ "themes": {
+  "social_statistics": {
+   "label": "Social statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "Population Estimates",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=67&ParentCatID= 1",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "General Population Census",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=6&ParentCatID= 1",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Building and Dwelling Census",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=7&ParentCatID= 1",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishment Census",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=8&ParentCatID= 1",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Vital Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=10&ParentCatID= 1",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Marriage and Divorce",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=12&ParentCatID= 1",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Expatriate Labour Employment",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=63&ParentCatID= 1",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Labour Force Survey",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=64&ParentCatID= 1",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Income and Expenditure Household Survey",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=16&ParentCatID= 1",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Migration Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=56&ParentCatID= 1",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishments Private Non-Profit Institutions Serving Household",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=32&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Social Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=40&ParentCatID= 70",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Education statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=58&ParentCatID= 70",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Health statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=59&ParentCatID= 70",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Determination of minimum standard of living for Kuwaiti limited income Group",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=46&ParentCatID= 5",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Indicators of Gender EQuality",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=48&ParentCatID= 5",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Demographic and Economic indicators Home for Kuwaiti Women",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=49&ParentCatID= 5",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Demographic Indicators",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=52&ParentCatID= 5",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Income and Expenditure Survey in the Household Sector",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=53&ParentCatID= 5",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Kuwait Census",
+     "url": "https://census.csb.gov.kw/index_EN",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Ministry Of Social Affairs Data",
+     "url": "https://www.csb.gov.kw/Mosal/Mosal_login.aspx",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=6&ParentCatID=1",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Labor Market Information System",
+     "url": "https://lmis.csb.gov.kw/",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population Estimates",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=67&ParentCatID=1",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "General Population Census",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=6&ParentCatID=1",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Building and Dwelling Census",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=7&ParentCatID=1",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishment Census",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=8&ParentCatID=1",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Vital Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=10&ParentCatID=1",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Marriage and Divorce",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=12&ParentCatID=1",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Expatriate Labour Employment",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=63&ParentCatID=1",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Labour Force Survey",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=64&ParentCatID=1",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Income and Expenditure Household Survey",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=16&ParentCatID=1",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Migration Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=56&ParentCatID=1",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishments Private Non-Profit Institutions Serving Household",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=32&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Social Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=40&ParentCatID=70",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Education statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=58&ParentCatID=70",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Health statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=59&ParentCatID=70",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Determination of minimum standard of living for Kuwaiti limited income Group",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=46&ParentCatID=5",
+     "page_url": "https://www.csb.gov.kw/Pages/Studies_en?ID=46&ParentCatID=%205",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Studies and Reports - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Indicators of Gender EQuality",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=48&ParentCatID=5",
+     "page_url": "https://www.csb.gov.kw/Pages/Studies_en?ID=46&ParentCatID=%205",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Studies and Reports - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Demographic and Economic indicators Home for Kuwaiti Women",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=49&ParentCatID=5",
+     "page_url": "https://www.csb.gov.kw/Pages/Studies_en?ID=46&ParentCatID=%205",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Studies and Reports - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Demographic Indicators",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=52&ParentCatID=5",
+     "page_url": "https://www.csb.gov.kw/Pages/Studies_en?ID=46&ParentCatID=%205",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Studies and Reports - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Income and Expenditure Survey in the Household Sector",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=53&ParentCatID=5",
+     "page_url": "https://www.csb.gov.kw/Pages/Studies_en?ID=46&ParentCatID=%205",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Studies and Reports - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  },
+  "economic_statistics": {
+   "label": "Economic statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "Establishment Census",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=8&ParentCatID= 1",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Labour Force Survey",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=64&ParentCatID= 1",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Estimates of Quarterly Gross Domestic Product",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=69&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "GDP estimates at current and constant prices (Time series)",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=80&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Revised and Provisional Estimates -National Accounts At Current Prices",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=55&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Revised & Provisional Estimates National Accounts - At Constsnt Prices",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=23&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Government Finance Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=24&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "National Accounts Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=25&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "National Accounts Statistics Input & Output Tables",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=26&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Annual Survey of Establishments",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=28&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishments Construction",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=29&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishment Industry",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=30&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishments Non-Fainancial Services",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=31&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishments Private Non-Profit Institutions Serving Household",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=32&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index Numbers",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=34&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Wholesale Price Index Numbers",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=35&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Quarterly Bulletin of Retial Prices",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=36&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Quarterly Bulletin of Wholesale Price",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=37&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishments Fainancial Services",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=54&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Statistical Bulletin of the direct investment survey",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=61&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Producer Prices Index Numbers",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=62&ParentCatID= 3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Foreign Trade Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=38&ParentCatID= 4",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Foreign Trade Indices",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=65&ParentCatID= 4",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agricultural Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=42&ParentCatID= 4",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Communications and Information Technology Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=60&ParentCatID= 70",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Statistics of Transportation",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=41&ParentCatID= 70",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tourism Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=81&ParentCatID= 70",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Demographic and Economic indicators Home for Kuwaiti Women",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=49&ParentCatID= 5",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Economic Indicators",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=50&ParentCatID= 5",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Quarterly Bulletin of Fisheries Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=68&ParentCatID= 5",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Oil Ministry and Companies Data",
+     "url": "https://www.csb.gov.kw/Petrol/Pet_Login.aspx",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Prices System",
+     "url": "https://cprice.csb.gov.kw/",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "All Items Consumer Price Index Number June 2026 : %0.00",
+     "url": "https://www.csb.gov.kw/Pages/Monthly_Report_en.aspx",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Foreign Trade Statistics 4th Quarter 2025",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=38&ParentCatID=4",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Foreign trade indices were rebased… More",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=65&ParentCatID=4",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Economic Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=34&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Trade, Agricultural and Services Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=38&ParentCatID=4",
+     "page_url": "https://www.csb.gov.kw/Default_EN",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Home - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishment Census",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=8&ParentCatID=1",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Labour Force Survey",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=64&ParentCatID=1",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Estimates of Quarterly Gross Domestic Product",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=69&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "GDP estimates at current and constant prices (Time series)",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=80&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Revised and Provisional Estimates -National Accounts At Current Prices",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=55&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Revised & Provisional Estimates National Accounts - At Constsnt Prices",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=23&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Government Finance Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=24&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "National Accounts Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=25&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "National Accounts Statistics Input & Output Tables",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=26&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Annual Survey of Establishments",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=28&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishments Construction",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=29&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishment Industry",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=30&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishments Non-Fainancial Services",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=31&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishments Private Non-Profit Institutions Serving Household",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=32&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index Numbers",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=34&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Wholesale Price Index Numbers",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=35&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Quarterly Bulletin of Retial Prices",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=36&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Quarterly Bulletin of Wholesale Price",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=37&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Establishments Fainancial Services",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=54&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Statistical Bulletin of the direct investment survey",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=61&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Producer Prices Index Numbers",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=62&ParentCatID=3",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Foreign Trade Indices",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=65&ParentCatID=4",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agricultural Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=42&ParentCatID=4",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Communications and Information Technology Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=60&ParentCatID=70",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Statistics of Transportation",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=41&ParentCatID=70",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Tourism Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=81&ParentCatID=70",
+     "page_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Main Page - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Demographic and Economic indicators Home for Kuwaiti Women",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=49&ParentCatID=5",
+     "page_url": "https://www.csb.gov.kw/Pages/Studies_en?ID=46&ParentCatID=%205",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Studies and Reports - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Economic Indicators",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=50&ParentCatID=5",
+     "page_url": "https://www.csb.gov.kw/Pages/Studies_en?ID=46&ParentCatID=%205",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Studies and Reports - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Quarterly Bulletin of Fisheries Statistics",
+     "url": "https://www.csb.gov.kw/Pages/Studies_en.aspx?ID=68&ParentCatID=5",
+     "page_url": "https://www.csb.gov.kw/Pages/Studies_en?ID=46&ParentCatID=%205",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Studies and Reports - Central Statistical Bureau",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    }
+   ]
+  }
+ },
+ "limitations": [],
+ "recognized": [],
+ "suggested_sources": [],
+ "indicator_samples": [],
+ "site": {
+  "url": "https://www.csb.gov.kw/Default_EN",
+  "reachable": true,
+  "status": 200,
+  "final_url": "https://www.csb.gov.kw/Default_EN",
+  "title": "Home - Central Statistical Bureau",
+  "lang": "en",
+  "english": "yes",
+  "english_url": "https://www.csb.gov.kw/Default_EN",
+  "platforms": [
+   "ASP.NET WebForms"
+  ],
+  "blocked": "",
+  "rendered": false,
+  "insecure_tls": false,
+  "notes": []
+ },
+ "files": {
+  "formats": {},
+  "total": 0,
+  "pages_crawled": 40,
+  "pages_rendered": 0
+ },
+ "api": {
+  "docs": [],
+  "how_to": {},
+  "endpoints": [],
+  "js_findings": {
+   "scripts_scanned": 13,
+   "base_urls": [],
+   "endpoint_paths": [],
+   "api_urls": []
+  },
+  "doc_links": [],
+  "status": "none",
+  "python_access": "no",
+  "summary": "No API found (no documented platform, no data calls seen while browsing). Data is published as files/pages only: Agent 2 would use the 'scrape' connector."
+ },
+ "sniff_pages": [
+  {
+   "url": "https://www.csb.gov.kw/Default_EN",
+   "final_url": "https://www.csb.gov.kw/Default_EN",
+   "status": 200,
+   "title": "Home - Central Statistical Bureau"
+  },
+  {
+   "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=67&ParentCatID= 1",
+   "final_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=67&ParentCatID=%201",
+   "status": 200,
+   "title": "Main Page - Central Statistical Bureau"
+  },
+  {
+   "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=6&ParentCatID= 1",
+   "final_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=6&ParentCatID=%201",
+   "status": 200,
+   "title": "Main Page - Central Statistical Bureau"
+  },
+  {
+   "url": "https://www.csb.gov.kw/Pages/Statistics_en.aspx?ID=7&ParentCatID= 1",
+   "final_url": "https://www.csb.gov.kw/Pages/Statistics_en?ID=7&ParentCatID=%201",
+   "status": 200,
+   "title": "Main Page - Central Statistical Bureau"
+  }
+ ],
+ "duration_s": 57.5
+}

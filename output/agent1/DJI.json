@@ -1,0 +1,352 @@
+{
+ "id": "DJI",
+ "country": "Djibouti",
+ "nso": "Institut National de la Statistique de Djibouti (INSTAD)",
+ "url": "https://instad.dj/",
+ "english_config": "no",
+ "languages": [
+  "fr"
+ ],
+ "config_notes": "French only; content is rendered by JavaScript.",
+ "checked_at": "2026-09-29 11:14",
+ "themes": {
+  "social_statistics": {
+   "label": "Social statistics",
+   "items": []
+  },
+  "economic_statistics": {
+   "label": "Economic statistics",
+   "items": []
+  }
+ },
+ "limitations": [
+  "No theme dataset or file was found automatically - the data may sit behind search forms, dashboards (Tableau/Power BI) or an app. Ask the Claude subagent (/diagnose) to dig deeper.",
+  "No English version: the non-English pages were analysed (keywords cover Arabic and French)."
+ ],
+ "recognized": [],
+ "suggested_sources": [],
+ "indicator_samples": [],
+ "site": {
+  "url": "https://instad.dj/",
+  "reachable": true,
+  "status": 200,
+  "final_url": "https://instad.dj/",
+  "title": "Institut National de la Statistique de Djibouti - INSTAD",
+  "lang": "",
+  "english": "no",
+  "english_url": "",
+  "platforms": [],
+  "blocked": "",
+  "rendered": false,
+  "insecure_tls": false,
+  "notes": []
+ },
+ "files": {
+  "formats": {},
+  "total": 0,
+  "pages_crawled": 1,
+  "pages_rendered": 0
+ },
+ "api": {
+  "docs": [],
+  "how_to": {
+   "curl": "curl -H \"accept-language: en-US\" \"https://instad-dj-6abc7b0eb612.herokuapp.com/news\"",
+   "python": "import requests\n\nurl = \"https://instad-dj-6abc7b0eb612.herokuapp.com/news\"\nheaders = {\"accept-language\": \"en-US\"}\nresponse = requests.get(url, headers=headers, timeout=60)\nresponse.raise_for_status()\ndata = response.json()"
+  },
+  "endpoints": [
+   {
+    "method": "GET",
+    "template": "instad-dj-6abc7b0eb612.herokuapp.com/news",
+    "example_url": "https://instad-dj-6abc7b0eb612.herokuapp.com/news",
+    "count": 1,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "[{\"_id\":\"697edf4eec94379c69891774\",\"title\":\"Memorandum d'entente majeur\",\"content\":\"<p>📊 𝐋’𝐈𝐧𝐬𝐭𝐢𝐭𝐮𝐭 𝐝𝐞 𝐥𝐚 𝐒𝐭𝐚𝐭𝐢𝐬𝐭𝐢𝐪𝐮𝐞 𝐝𝐞 𝐃𝐣𝐢𝐛𝐨𝐮𝐭𝐢 (INSTAD) et 𝐥𝐚 𝐁𝐚𝐧𝐪𝐮𝐞 𝐦𝐨𝐧𝐝𝐢𝐚𝐥𝐞 ont procédé à la signature d’un 𝐦𝐞́𝐦𝐨𝐫𝐚𝐧𝐝𝐮𝐦 𝐝’𝐞𝐧𝐭𝐞𝐧𝐭𝐞 𝐦𝐚𝐣𝐞𝐮𝐫 pour l’avenir du système statistique national. L’événement s’est tenu au cabinet du Ministre, marquant une étape importante dans le renforcement de la coopération entre les deux institutions 🤝.</p><p><br></p><p>📈 Cet accord vise à améliorer le partage des données et, surtout, à renforcer 𝐥𝐞𝐬 𝐜𝐚𝐩𝐚𝐜",
+    "size": 20273,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": true,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "POST",
+    "template": "instad-dj-6abc7b0eb612.herokuapp.com/publications",
+    "example_url": "https://instad-dj-6abc7b0eb612.herokuapp.com/publications",
+    "count": 1,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "[\"Infographie\",\"NewsLetters\"]",
+    "sample": "[{\"zone\":null,\"periode\":null,\"format\":null,\"_id\":\"69bb88672b7455abb848b4fb\",\"title\":\"EDST T4 2025\",\"description\":\"\",\"year\":0,\"month\":-1,\"extension\":\"\",\"imgUrl\":\"https://firebasestorage.googleapis.com/v0/b/instad-dj.appspot.com/o/Sociale%2F0%2FRapport%20EDST_T4_2025_VF.pdf?alt=media&token=699191a4-e130-42a7-a1ea-e1c379190dd8\",\"fichierImageUrl\":\"https://firebasestorage.googleapis.com/v0/b/instad-dj.appspot.com/o/Sociale%2F0%2FCapture%20d%E2%80%99%C3%A9cran%202026-05-09%20114853.png?alt=media&token=8daef4ea-be2d-468b-9b27-4d3da9b5708f\",\"trimestre\":-1,\"enabled\":true,\"categorie\":\"Sociale\",\"createdAt\":\"2026-03-19T05:19:49.902Z\",\"updatedAt\":\"2026-05-14T06:41:47.955Z\",\"__v\":1,\"isClassified\":true,\"motsCles\":[],\"theme\":\"Statistiques économiques\",\"projet\":\"Enquête djiboutienne sur les statistiques ",
+    "size": 17048,
+    "python_headers": {
+     "accept-language": "en-US",
+     "accept": "application/json",
+     "content-type": "application/json"
+    },
+    "needs_auth": true,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "api.iconify.design/material-symbols.json",
+    "example_url": "https://api.iconify.design/material-symbols.json?icons=files",
+    "count": 7,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "{\"prefix\":\"material-symbols\",\"lastModified\":1790080274,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"analytics\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M7 17h2v-5H7zm8 0h2V7h-2zm-4 0h2v-3h-2zm0-5h2v-2h-2zm-6 9q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21z\\\"/>\"},\"arrow-back\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"m7.825 13l5.6 5.6L12 20l-8-8l8-8l1.425 1.4l-5.6 5.6H20v2z\\\"/>\"},\"arrow-forward\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M16.175 13H4v-2h12.175l-5.6-5.6L12 4l8 8l-8 8l-1.425-1.4z\\\"/>\"},\"arrow-outward\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M6.4 18L5 16.6L14.6 7H6V5h12v12h-2V8.4z\\\"/>\"},\"bolt\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"m8 22l1-7H4l9-13h2l-1 8h6L10 22z\\\"/>\"},\"call\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M19.95",
+    "size": 5488,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "instad-dj-6abc7b0eb612.herokuapp.com/fichiers/D%C3%A9mographie/undefined",
+    "example_url": "https://instad-dj-6abc7b0eb612.herokuapp.com/fichiers/D%C3%A9mographie/undefined",
+    "count": 2,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "[{\"typeContenu\":null,\"zone\":null,\"periode\":null,\"format\":null,\"_id\":\"682b35fb75bf5b4a4c28f579\",\"title\":\"Situtation des personnes vivant avec handicap\",\"year\":0,\"month\":0,\"extension\":\"\",\"imgUrl\":\"https://firebasestorage.googleapis.com/v0/b/instad-dj.appspot.com/o/D%C3%A9mographie%2F0%2FTome%2013_Situtation%20des%20personnes%20vivant%20avec%20handicap_22042025_Rapport_Provisoire.pdf?alt=media&token=68e1bfce-2121-444b-84f5-4d8c519e070d\",\"trimestre\":0,\"enabled\":true,\"categorie\":\"Démographie\",\"createdAt\":\"2025-05-19T13:41:36.552Z\",\"updatedAt\":\"2026-05-03T00:12:48.585Z\",\"__v\":1,\"isClassified\":true,\"motsCles\":[],\"projet\":\"RGPH-3\",\"description\":\"\",\"fichierImageUrl\":\"\",\"theme\":\"Statistiques sociales et démographiques\"},{\"typeContenu\":null,\"zone\":null,\"projet\":null,\"periode\":null,\"format\":null,\"_i",
+    "size": 4224,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": true,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "instad-dj-6abc7b0eb612.herokuapp.com/headerDatas",
+    "example_url": "https://instad-dj-6abc7b0eb612.herokuapp.com/headerDatas",
+    "count": 1,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "[{\"_id\":\"66b8b6795693aefec253ec30\",\"title\":\"Population totale des femmes\",\"value\":536447,\"date\":\"RGPH-3 2024\",\"position\":3,\"icon\":\"material-symbols:arrow-warm-up-rounded\",\"enabled\":true,\"createdAt\":\"2024-08-11T12:59:57.168Z\",\"updatedAt\":\"2024-08-11T13:08:39.049Z\",\"__v\":0},{\"_id\":\"66b8b790b7dd3dd0eaf0abff\",\"title\":\"Population totale des hommes\",\"value\":530362,\"date\":\"RGPH-3 2024\",\"position\":2,\"icon\":\"material-symbols:arrow-warm-up-rounded\",\"enabled\":true,\"createdAt\":\"2024-08-11T12:59:57.168Z\",\"updatedAt\":\"2024-08-11T13:08:39.952Z\",\"__v\":0},{\"_id\":\"66b8b6deb7dd3dd0eaf0abfb\",\"title\":\"Densité (Nbre d’hbts/km2)\",\"value\":46,\"date\":\"RGPH-3 2024\",\"position\":6,\"icon\":\"material-symbols:arrow-warm-up-rounded\",\"enabled\":true,\"createdAt\":\"2024-08-11T12:59:57.168Z\",\"updatedAt\":\"2024-12-12T15:58:52.59",
+    "size": 1597,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": true,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "api.iconify.design/bi.json",
+    "example_url": "https://api.iconify.design/bi.json?icons=file-earmark-pdf",
+    "count": 1,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "{\"prefix\":\"bi\",\"lastModified\":1764827218,\"aliases\":{},\"icons\":{\"file-earmark-pdf\":{\"body\":\"<g fill=\\\"currentColor\\\"><path d=\\\"M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z\\\"/><path d=\\\"M4.603 14.087a.8.8 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102c.198-.307.526-.568.897-.787a7.7 7.7 0 0 1 1.482-.645a20 20 0 0 0 1.062-2.227a7.3 7.3 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136c.075-.354.274-.672.65-.823c.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538c.007.188-.012.396-.047.614c-.084.51-.27 1.134-.52 1.794a11 11 0 0 0 .98 1.686a5.8 5.8 0 0 1 1.334.05c.364.066.734.195.96.465c.12.144.193.32.2.518c.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416a.86.86 0 0 1-.51.138c-.3",
+    "size": 1530,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "instad-dj-6abc7b0eb612.herokuapp.com/infographics/public/Infographie",
+    "example_url": "https://instad-dj-6abc7b0eb612.herokuapp.com/infographics/public/Infographie",
+    "count": 1,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "[{\"theme\":null,\"zone\":null,\"projet\":null,\"periode\":null,\"format\":null,\"_id\":\"69c4f1650a95160897da7f40\",\"title\":\"Profil matrimonial et nuptualité de la population\",\"description\":\"Source : RGPH-3\",\"year\":0,\"month\":-1,\"extension\":\"\",\"imgUrl\":\"\",\"fichierImageUrl\":\"https://firebasestorage.googleapis.com/v0/b/instad-dj.appspot.com/o/Infographie%2F0%2FDeux%20emplois%20(4).png?alt=media&token=53ab708f-fd38-4b67-aa45-fdb6f4df15f2\",\"trimestre\":-1,\"enabled\":true,\"categorie\":\"Infographie\",\"createdAt\":\"2026-03-26T08:39:49.220Z\",\"updatedAt\":\"2026-05-02T23:43:12.147Z\",\"__v\":1,\"isClassified\":true,\"motsCles\":[],\"typeContenu\":\"Infographie\"},{\"theme\":null,\"zone\":null,\"projet\":null,\"periode\":null,\"format\":null,\"_id\":\"698832824738a3b8bb3e53ed\",\"title\":\"Indice des prix à la consommation \",\"description\":\"Novem",
+    "size": 1241,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": true,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "instad-dj-6abc7b0eb612.herokuapp.com/flashs",
+    "example_url": "https://instad-dj-6abc7b0eb612.herokuapp.com/flashs",
+    "count": 1,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "[{\"_id\":\"69f998f2e519102d14b4a827\",\"info\":\"ENQUETE DJIBOUTIENNE SUR LES STATISTIQUES DU TRAVAIL - 4ème Trimestre 2025\",\"url\":\"https://firebasestorage.googleapis.com/v0/b/instad-dj.appspot.com/o/Sociale%2F0%2FRapport%20EDST_T4_2025_VF.pdf?alt=media&token=ed111d3f-350e-429b-a718-4ddbe0d2dbee\",\"enabled\":true,\"createdAt\":\"2026-05-05T07:08:27.915Z\",\"updatedAt\":\"2026-05-05T07:08:27.915Z\",\"__v\":0},{\"_id\":\"6a03462311c8b560f6d94235\",\"info\":\"Bulletin Mensuel des Statistiques du Commerce extérieur - Mars 2026\",\"url\":\"https://firebasestorage.googleapis.com/v0/b/instad-dj.appspot.com/o/Indice%20des%20prix%20%C3%A0%20la%20consommation%2F2026%2FBMSCE%2003_26.pdf?alt=media&token=1e0c83e4-e740-460a-a0e3-a65416634dc7\",\"enabled\":true,\"createdAt\":\"2026-05-12T15:24:03.726Z\",\"updatedAt\":\"2026-05-12T15:24:03.7",
+    "size": 1231,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": true,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "api.iconify.design/ion.json",
+    "example_url": "https://api.iconify.design/ion.json?icons=people-circle-outline",
+    "count": 1,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "{\"prefix\":\"ion\",\"lastModified\":1773121730,\"aliases\":{},\"width\":512,\"height\":512,\"icons\":{\"people-circle-outline\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M256 464c-114.69 0-208-93.31-208-208S141.31 48 256 48s208 93.31 208 208s-93.31 208-208 208m0-384c-97 0-176 79-176 176s79 176 176 176s176-78.95 176-176S353.05 80 256 80\\\"/><path fill=\\\"currentColor\\\" d=\\\"M323.67 292c-17.4 0-34.21-7.72-47.34-21.73a83.76 83.76 0 0 1-22-51.32c-1.47-20.7 4.88-39.75 17.88-53.62S303.38 144 323.67 144c20.14 0 38.37 7.62 51.33 21.46s19.47 33 18 53.51a84 84 0 0 1-22 51.3C357.86 284.28 341.06 292 323.67 292m-159.85 3.36c-29.76 0-55.93-27.51-58.33-61.33c-1.23-17.32 4.15-33.33 15.17-45.08s26.22-18 43.15-18s32.12 6.44 43.07 18.14s16.5 27.82 15.25 45c-2.44 33.77-28.6 61.27-58.31 61.27m256.55 59.92c-1.59-4.7-5.46-9.71-13",
+    "size": 1215,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "api.iconify.design/fluent.json",
+    "example_url": "https://api.iconify.design/fluent.json?icons=people-audience-20-filled",
+    "count": 1,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "{\"prefix\":\"fluent\",\"lastModified\":1790422098,\"aliases\":{},\"width\":20,\"height\":20,\"icons\":{\"people-audience-20-filled\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M12.215 5.217a2.227 2.227 0 1 0-4.455 0a2.227 2.227 0 0 0 4.455 0M2.515 12h2.99V9.014l.008-.18c.026-.297.118-.575.26-.82H3.016l-.117.007a1 1 0 0 0-.883.993V11.5a.5.5 0 0 0 .5.5m15.475-.5a.5.5 0 0 1-.5.5h-3.016V9.014l-.006-.149a2 2 0 0 0-.262-.851h2.784a1 1 0 0 1 .993.884l.007.116zm-4.523-2.602a1 1 0 0 0-.994-.884H7.506l-.117.007a1 1 0 0 0-.883.993V12h6.969V9.014zm1.508-5.28a1.913 1.913 0 1 1 0 3.826a1.913 1.913 0 0 1 0-3.827M6.929 5.53a1.913 1.913 0 1 0-3.826 0a1.913 1.913 0 0 0 3.826 0M2.5 13a.5.5 0 0 0-.5.5v1A2.5 2.5 0 0 0 4.5 17h11a2.5 2.5 0 0 0 2.5-2.5v-1a.5.5 0 0 0-.5-.5z\\\"/>\"}}}",
+    "size": 750,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "api.iconify.design/streamline.json",
+    "example_url": "https://api.iconify.design/streamline.json?icons=decent-work-and-economic-growth-solid",
+    "count": 2,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "{\"prefix\":\"streamline\",\"lastModified\":1748325452,\"aliases\":{},\"width\":14,\"height\":14,\"icons\":{\"decent-work-and-economic-growth-solid\":{\"body\":\"<path fill=\\\"currentColor\\\" fill-rule=\\\"evenodd\\\" d=\\\"M10.326.28a.5.5 0 0 1 .506-.229l2.571.429a.5.5 0 0 1 .411.575l-.428 2.572a.5.5 0 0 1-.9.208l-.694-.97l-3.574 2.284a.75.75 0 0 1-.974-.144l-1.993-2.33L1.524 4.59a.75.75 0 1 1-.686-1.334l4.255-2.187a.75.75 0 0 1 .913.18L7.96 3.534l2.96-1.892l-.577-.807a.5.5 0 0 1-.017-.555M3.78 5.19L.878 6.85A.75.75 0 0 0 .5 7.5v5.75c0 .414.336.75.75.75h2.53zM5.03 14h3.668V7.188l-1.649.824l-1.648-2.884a.75.75 0 0 0-.37-.324zm7.72 0H9.948V6.563l2.467-1.234A.75.75 0 0 1 13.5 6v7.25a.75.75 0 0 1-.75.75\\\" clip-rule=\\\"evenodd\\\"/>\"}}}",
+    "size": 712,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "api.iconify.design/ri.json",
+    "example_url": "https://api.iconify.design/ri.json?icons=facebook-box-fill%2Ctwitter-x-line",
+    "count": 3,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "{\"prefix\":\"ri\",\"lastModified\":1770712905,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"facebook-box-fill\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M15.402 21v-6.966h2.333l.349-2.708h-2.682V9.599c0-.784.218-1.319 1.342-1.319h1.434V5.857a19 19 0 0 0-2.09-.107c-2.067 0-3.482 1.262-3.482 3.58v1.996h-2.338v2.708h2.338V21H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1z\\\"/>\"},\"twitter-x-line\":{\"body\":\"<path fill=\\\"currentColor\\\" d=\\\"M10.488 14.651L15.25 21h7l-7.858-10.478L20.93 3h-2.65l-5.117 5.886L8.75 3h-7l7.51 10.015L2.32 21h2.65zM16.25 19L5.75 5h2l10.5 14z\\\"/>\"}}}",
+    "size": 586,
+    "python_headers": {
+     "accept-language": "en-US"
+    },
+    "needs_auth": false,
+    "replay_status": 200,
+    "works_from_python": true
+   },
+   {
+    "method": "GET",
+    "template": "api.iconify.design/akar-icons.json",
+    "example_url": "https://api.iconify.design/akar-icons.json?icons=file",
+    "count": 1,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "{\"prefix\":\"akar-icons\",\"lastModified\":1754898562,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"file\":{\"body\":\"<g fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linejoin=\\\"round\\\" stroke-width=\\\"2\\\"><path stroke-linecap=\\\"round\\\" d=\\\"M4 4v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.342a2 2 0 0 0-.602-1.43l-4.44-4.342A2 2 0 0 0 13.56 2H6a2 2 0 0 0-2 2m5 9h6m-6 4h3\\\"/><path d=\\\"M14 2v4a2 2 0 0 0 2 2h4\\\"/></g>\"}}}",
+    "size": 403
+   },
+   {
+    "method": "GET",
+    "template": "api.iconify.design/heroicons.json",
+    "example_url": "https://api.iconify.design/heroicons.json?icons=chevron-left-20-solid",
+    "count": 2,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "{\"prefix\":\"heroicons\",\"lastModified\":1758346379,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"chevron-left-20-solid\":{\"body\":\"<path fill=\\\"currentColor\\\" fill-rule=\\\"evenodd\\\" d=\\\"M11.78 5.22a.75.75 0 0 1 0 1.06L8.06 10l3.72 3.72a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0\\\" clip-rule=\\\"evenodd\\\"/>\",\"width\":20,\"height\":20}}}",
+    "size": 366
+   },
+   {
+    "method": "GET",
+    "template": "instad.dj/_nuxt/builds/meta/d390c9e4-27bb-41e5-8b38-8ccd7e2a5575.json",
+    "example_url": "https://instad.dj/_nuxt/builds/meta/d390c9e4-27bb-41e5-8b38-8ccd7e2a5575.json",
+    "count": 4,
+    "content_type": "application/json",
+    "post_data": "",
+    "sample": "{\"id\":\"d390c9e4-27bb-41e5-8b38-8ccd7e2a5575\",\"timestamp\":1779646518844,\"matcher\":{\"static\":{},\"wildcard\":{},\"dynamic\":{}},\"prerendered\":[]}",
+    "size": 139
+   },
+   {
+    "method": "POST",
+    "template": "instad-dj-6abc7b0eb612.herokuapp.com/visit",
+    "example_url": "https://instad-dj-6abc7b0eb612.herokuapp.com/visit",
+    "count": 4,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "{\"page\":\"/\"}",
+    "sample": "{\"success\":true,\"isNewVisit\":true,\"stats\":{\"totalVisits\":8659,\"uniqueVisitors\":3123}}",
+    "size": 85
+   },
+   {
+    "method": "GET",
+    "template": "instad-dj-6abc7b0eb612.herokuapp.com/stats",
+    "example_url": "https://instad-dj-6abc7b0eb612.herokuapp.com/stats?page=%2F",
+    "count": 3,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "{\"totalVisits\":8659,\"uniqueVisitors\":3123,\"lastUpdated\":\"2026-09-29T08:14:43.755Z\"}",
+    "size": 83
+   },
+   {
+    "method": "GET",
+    "template": "instad-dj-6abc7b0eb612.herokuapp.com/newsletters/public/NewsLetters",
+    "example_url": "https://instad-dj-6abc7b0eb612.herokuapp.com/newsletters/public/NewsLetters",
+    "count": 1,
+    "content_type": "application/json; charset=utf-8",
+    "post_data": "",
+    "sample": "[]",
+    "size": 2
+   }
+  ],
+  "js_findings": {
+   "scripts_scanned": 14,
+   "base_urls": [],
+   "endpoint_paths": [
+    "api/_nuxt_icon"
+   ],
+   "api_urls": []
+  },
+  "doc_links": [],
+  "status": "undocumented",
+  "python_access": "yes",
+  "summary": "No official documentation, but the website's own data API at instad-dj-6abc7b0eb612.herokuapp.com answers plain Python requests (found by API sniffing)."
+ },
+ "sniff_pages": [
+  {
+   "url": "https://instad.dj/",
+   "final_url": "https://instad.dj/",
+   "status": 200,
+   "title": "ACCUEIL - INSTAD"
+  },
+  {
+   "url": "https://instad.dj/galerie",
+   "final_url": "https://instad.dj/galerie",
+   "status": 200,
+   "title": "404 - Page not found: /galerie | Nuxt - INSTAD"
+  },
+  {
+   "url": "https://instad.dj/themes/economie",
+   "final_url": "https://instad.dj/themes/economie",
+   "status": 200,
+   "title": "RUBRIQUE ECONOMIE - INSTAD"
+  },
+  {
+   "url": "https://instad.dj/themes/demographie",
+   "final_url": "https://instad.dj/themes/demographie",
+   "status": 200,
+   "title": "Démographie - INSTAD"
+  }
+ ],
+ "duration_s": 39.1
+}

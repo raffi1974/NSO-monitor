@@ -1,0 +1,64 @@
+{
+ "id": "ARE",
+ "country": "United Arab Emirates",
+ "nso": "Federal Competitiveness and Statistics Centre (FCSC)",
+ "url": "https://fcsc.gov.ae/en-us",
+ "english_config": "yes",
+ "languages": [
+  "en",
+  "ar"
+ ],
+ "config_notes": "Cloudflare blocks this network (HTTP 403), even for a real browser - diagnose from another network.",
+ "checked_at": "2026-09-29 11:22",
+ "themes": {
+  "social_statistics": {
+   "label": "Social statistics",
+   "items": []
+  },
+  "economic_statistics": {
+   "label": "Economic statistics",
+   "items": []
+  }
+ },
+ "limitations": [
+  "Website not reachable from this network: Cloudflare firewall (HTTP 403) - this network is blocked. Run Agent 1 from another network (or ask the Claude subagent to investigate)."
+ ],
+ "recognized": [],
+ "suggested_sources": [],
+ "indicator_samples": [],
+ "site": {
+  "url": "https://fcsc.gov.ae/en-us",
+  "reachable": false,
+  "status": 403,
+  "final_url": "https://fcsc.gov.ae/en-us",
+  "title": "",
+  "lang": "",
+  "english": "yes",
+  "english_url": "",
+  "platforms": [
+   "behind Cloudflare"
+  ],
+  "blocked": "Cloudflare firewall (HTTP 403) - this network is blocked",
+  "rendered": false,
+  "insecure_tls": false,
+  "notes": []
+ },
+ "files": {
+  "formats": {},
+  "total": 0,
+  "pages_crawled": 0,
+  "pages_rendered": 0
+ },
+ "api": {
+  "docs": [],
+  "how_to": {},
+  "endpoints": [],
+  "js_findings": {},
+  "doc_links": [],
+  "status": "none",
+  "python_access": "no",
+  "summary": "No API found (no documented platform, no data calls seen while browsing). Data is published as files/pages only: Agent 2 would use the 'scrape' connector."
+ },
+ "sniff_pages": [],
+ "duration_s": 13.9
+}

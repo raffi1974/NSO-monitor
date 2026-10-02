@@ -1,0 +1,4809 @@
+{
+ "id": "LBN",
+ "country": "Lebanon",
+ "nso": "Central Administration of Statistics (CAS)",
+ "url": "https://www.cas.gov.lb/",
+ "english_config": "yes",
+ "languages": [
+  "en",
+  "ar",
+  "fr"
+ ],
+ "config_notes": "",
+ "checked_at": "2026-10-01 10:10",
+ "themes": {
+  "social_statistics": {
+   "label": "Social statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "Population & Social conditions",
+     "url": "https://www.cas.gov.lb/population-social-conditions/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Surveys & Censuses",
+     "url": "https://www.cas.gov.lb/surveys-censuses/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Labour Market Labour force participation, employment, unemployment, and working conditions. Population & Social conditions",
+     "url": "https://www.cas.gov.lb/population-social-conditions/labour-market/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Income & Living conditions Income, living standards, housing conditions, and access to basic services. Population & Social conditions",
+     "url": "https://www.cas.gov.lb/population-social-conditions/income-living-conditions/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population & Demography Population size, structure, distribution, households, and demographic dynamics. Population & Social conditions",
+     "url": "https://www.cas.gov.lb/population-social-conditions/population-demography/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Education School attendance, educational attainment, literacy, and learning opportunities. Population & Social conditions",
+     "url": "https://www.cas.gov.lb/population-social-conditions/education/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Health Health coverage, disability, and access to healthcare services. Population & Social conditions",
+     "url": "https://www.cas.gov.lb/population-social-conditions/health/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Expenditure on Goods and Services Household and individual expenditures, consumption, and spending patterns. Population & Social conditions",
+     "url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Children Child health, development, protection, and well-being. Population & Social conditions",
+     "url": "https://www.cas.gov.lb/population-social-conditions/children/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Gender Gender equality, reproductive health, protection, and well-being. Population & Social conditions",
+     "url": "https://www.cas.gov.lb/population-social-conditions/gender/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Human Resources Data on demographic movements and vital statistics. Administrative Statistics",
+     "url": "https://www.cas.gov.lb/administrative-statistics/human-resources/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Justice & Security Data and indicators on justice, security institutions, crime, detention and electoral activity. Administrative Statistics",
+     "url": "https://www.cas.gov.lb/administrative-statistics/justice-security/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Occupations Insights into professions, job categories, and workforce distribution. Administrative Statistics",
+     "url": "https://www.cas.gov.lb/administrative-statistics/occupations/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Reports from household surveys and censuses. Publications",
+     "url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Thematic Publications Analytical publications on social, economic and demographic themes. Publications",
+     "url": "https://www.cas.gov.lb/publications/thematic-publication/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Population (estimated) 4,842,000 (Persons, 2018) Explore link",
+     "url": "https://cas.gov.lb/population-social-conditions/population-demography/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [
+      2018
+     ],
+     "coverage": "2018",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Unemployment rate 29.6 (Percent, 2022) Explore link",
+     "url": "https://cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Explore care employment data and insights →",
+     "url": "https://www.cas.gov.lb/new/women-work-and-care-in-lebanon-a-first-statistical-portrait-from-cas/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Explore Sub-National Lebanon Multiple Indicator Cluster Survey 2023 data →",
+     "url": "https://cas.gov.lb/surveys-censuses/sub-national-lebanon-multiple-indicator-cluster-survey-2023/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Explore the full range of Sub-National Lebanon Multiple Indicator Cluster Survey 2023 indicators →",
+     "url": "https://cas.gov.lb/wp-content/uploads/2025/07/Sub-National_Lebanon_MICS_2023_Statistical-Snapshots.pdf",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://cas.gov.lb/wp-content/uploads/2025/07/Sub-National_Lebanon_MICS_2023_Statistical-Snapshots.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Percentage of women age 20-24 years who were first married before age 18",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "survey & census reports",
+     "url": "https://cas.gov.lb/publications/survey-census-publication/",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Population & Social conditions – cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Sub-National Lebanon Multiple Indicator Cluster Survey 2023 2023 Report Datasets Resources",
+     "url": "https://www.cas.gov.lb/surveys-censuses/sub-national-lebanon-multiple-indicator-cluster-survey-2023/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Surveys and Censuses – cas.gov.lb",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Lebanon Follow-up Labour Force Survey 2022 This Follow-up Labour Force Survey was conducted by Lebanon’s Central Administration of Statistics in January 2022, with the technical and financial support…",
+     "url": "https://www.cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Surveys and Censuses – cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Labour Force and Household Living Conditions Survey 2018-2019 Lebanon Report Key findings Datasets Microdata",
+     "url": "https://www.cas.gov.lb/surveys-censuses/labour-force-and-household-living-conditions-survey-2018-2019-lebanon/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Surveys and Censuses – cas.gov.lb",
+     "years": [
+      2018,
+      2019
+     ],
+     "coverage": "2018-2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Care Employment Statistics – 2018–19 (Thematic release based on LFHLCS 2018–2019 data) Care Employment by Sex and Category Employment Status Economic Activity Sector Educational Attainment Nationality",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/09/LFHLCS-2018_2019_Care-employment.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/labour-market/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/09/LFHLCS-2018_2019_Care-employment.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Labour Market data",
+     "years": [
+      2018,
+      2019
+     ],
+     "coverage": "2018-2019",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Labour Force statistics – 2022 Labour Force Participation Employment Informal Employment Unemployment Labour Underutilization + more Lebanon Follow-up Labour Force Survey 2022 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Labour-force-FULFS-2022.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/labour-market/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Labour-force-FULFS-2022.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Labour Market data",
+     "years": [
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2018-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Labour Force statistics – 2018-19 Labour Force Participation Employment Informal Employment Unemployment Occupations Economic Activity + more Labour Force and Household Living Conditions Survey 2018-2",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Labour-force.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/labour-market/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Labour-force.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Labour Market data",
+     "years": [
+      2018,
+      2019
+     ],
+     "coverage": "2018-2019",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Economic Activity statistics – 2009 Labour Force Participation Employment Unemployment Economic Activity Occupations Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Children 20",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS3-2009_12_Economic-activity.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/labour-market/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS3-2009_12_Economic-activity.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Labour Market data",
+     "years": [
+      2009,
+      2018,
+      2019
+     ],
+     "coverage": "2009-2019",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Live in a Safe & Clean Environment – Water, Sanitation and Hygiene (WASH) 2023 Drinking water Handwashing Sanitation Menstrual hygiene Sub-National Lebanon Multiple Indicator Cluster Survey 2023 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch10-WS-Live-in-a-safe-and-clean-environment-LB_EN.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/income-living-conditions/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch10-WS-Live-in-a-safe-and-clean-environment-LB_EN.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Income & Living conditions data",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Sample Coverage & Characteristics of Respondents – Household & Living Conditions 2023 Housing and household characteristics Household composition Age structure of household population Respondents’ bac",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch04-SR-Sample-coverage-and-characteristics-of-respondents-LB_EN.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/income-living-conditions/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch04-SR-Sample-coverage-and-characteristics-of-respondents-LB_EN.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Income & Living conditions data",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Household Income and Financial Conditions – 2022 Sources of household income Monthly income levels Main currency of income Financial resilience and ability to cope without income Lebanon Follow-up Lab",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/5.Income-2022.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/income-living-conditions/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/5.Income-2022.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Income & Living conditions data",
+     "years": [
+      2022,
+      2023
+     ],
+     "coverage": "2022-2023",
+     "frequency": "Monthly",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Primary Residences – Housing Conditions and Household Amenities 2018-19 Housing type and characteristics Dwelling age and size Housing tenure and occupancy status Water supply and sanitation Waste man",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Primary-Residences-1.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/income-living-conditions/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Primary-Residences-1.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Income & Living conditions data",
+     "years": [
+      2018,
+      2019,
+      2023
+     ],
+     "coverage": "2018-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Household Income and Financial Self-Assessment – 2018-19 Sources of household income Monthly household income levels Financial self-assessment of households Labour Force and Household Living Condition",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Income.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/income-living-conditions/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Income.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Income & Living conditions data",
+     "years": [
+      2018,
+      2019,
+      2023
+     ],
+     "coverage": "2018-2023",
+     "frequency": "Monthly",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Environment – Water Supply, Sanitation and Waste Management 2009 Water Access and Quality Water Management Sanitation and Drainage Waste Management Lebanon Multiple Indicator Cluster Survey on the Sit",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_6_EN_-Environment-1.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/income-living-conditions/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_6_EN_-Environment-1.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Income & Living conditions data",
+     "years": [
+      2009,
+      2023
+     ],
+     "coverage": "2009-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Household Income and Financial Conditions – 2004-05 Household income distribution Household size and composition Employee earnings Average earnings Household Budget Survey 2004-2005 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Income-HBS-2004.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/income-living-conditions/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Income-HBS-2004.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Income & Living conditions data",
+     "years": [
+      2004,
+      2005,
+      2023
+     ],
+     "coverage": "2004-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Emigration Intentions – 2022 Emigration intentions Emigration process Reason for emigration Emigration arrangements Lebanon Follow-up Labour Force Survey 2022 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/6.Intention-to-Immigration-2022-FULFS.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/population-demography/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/6.Intention-to-Immigration-2022-FULFS.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Population & Demography data",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Demography – Population and Household Characteristics 2022 Age Sex Nationality Household composition Household size Household head characteristics Place of residence Dependency ratios Lebanon Follow-u",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/1.Demography-2022-FULFS.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/population-demography/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/1.Demography-2022-FULFS.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Population & Demography data",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Demography – Population and Household Characteristics 2018-19 Age Sex Marital status Household composition Household size Place of residence Place of registration Dependency ratios Sex ratios Labour F",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Demography.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/population-demography/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Demography.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Population & Demography data",
+     "years": [
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2018-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Residents – Population and Household Characteristics 2009 Age Sex Marital status Household composition Household size Place of residence Place of registration Lebanon Multiple Indicator Cluster Survey",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_2_Residents_2009.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/population-demography/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_2_Residents_2009.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Population & Demography data",
+     "years": [
+      2009,
+      2022
+     ],
+     "coverage": "2009-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Education statistics – 2022 School Attendance Educational Attainment Educational Institutions Fields of Study Lebanon Follow-up Labour Force Survey 2022 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/FULFS-2022_Education.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/education/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/FULFS-2022_Education.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Education data",
+     "years": [
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2018-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Education statistics – 2018-19 School Attendance Educational Attainment Educational Institutions Literacy Labour Force and Household Living Conditions Survey 2018-2019 Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Education.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/education/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Education.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Education data",
+     "years": [
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2018-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "School Attendance of Working Children – 2015 Children's Work and School Attendance Children's Involvement in Household Chores and School Attendance Child Labour Survey in Lebanon 2015 PDF",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Child_Labour_Survey_2015_Educational_Characteristics_Pages39_43.pdf",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/education/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Child_Labour_Survey_2015_Educational_Characteristics_Pages39_43.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Education data",
+     "years": [
+      2015,
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2015-2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Education statistics – 2009 School attendance Educational attainment Literacy Gender parity Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Children 2009 (Round 3) XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_9_Education_withoutED12.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/education/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_9_Education_withoutED12.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Education data",
+     "years": [
+      2009,
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2009-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Health Insurance – 2022 Health Insurance Coverage Types of Health Insurance Sources of Health Insurance Insurance Beneficiaries Lebanon Follow-up Labour Force Survey 2022 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/4.Health-Insurance-2022.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/health/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/4.Health-Insurance-2022.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Health data",
+     "years": [
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2018-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Health Insurance & Disability – 2018-19 Health Insurance Coverage Types of Health Insurance Sources of Health Insurance Disability Status Labour Force and Household Living Conditions Survey 2018-2019 ",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Health-insurance-and-Disability.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/health/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Health-insurance-and-Disability.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Health data",
+     "years": [
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2018-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Average Household Expenditures – 2012 Average Household Expenditure Detailed Household Expenditure Expenditure by Item Consumption Expenditure Household Budget Survey 2012 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Detailed-Average-Expenditures-for-Households_Revised.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Detailed-Average-Expenditures-for-Households_Revised.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Individual Expenditure Category – 2012 Household Expenditure by Individual Expenditure Category Individual Expenditure by Individual Expenditure Category Expenditure Structure by Indiv",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Individual-expenditures-categories_Revised.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Individual-expenditures-categories_Revised.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Household Size – 2012 Individual Expenditure by Household Size Household Expenditure by Household Size Expenditure Structure by Household Size Household Budget Survey 2012 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Household-size_Revised.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Household-size_Revised.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Region – 2012 Household Expenditure by Region Individual Expenditure by Region Expenditure Structure by Region Household Budget Survey 2012 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Region_Revised.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Region_Revised.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Household Expenditure Category – 2012 Household Expenditure by Household Expenditure Category Individual Expenditure by Household Expenditure Category Expenditure Structure by Househol",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Household-expenditures-categories_Revised.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Household-expenditures-categories_Revised.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Income Category – 2012 Household Expenditure by Income Category Individual Expenditure by Income Category Expenditure Structure by Income Category Household Budget Survey 2012 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Income-categories_Revised.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Income-categories_Revised.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Individual Expenditure Category – 2004-05 Annual Individual Expenditure Category Household Budget Survey 2004-2005 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/الانفاق-حسب-فئات-إنفاق-الفردonly-in-AR-not-on-the-web.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/الانفاق-حسب-فئات-إنفاق-الفردonly-in-AR-not-on-the-web.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2004,
+      2005,
+      2012
+     ],
+     "coverage": "2004-2012",
+     "frequency": "Annual",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Household Size – 2004-05 Individual Expenditure by Household Size Household Expenditure by Household Size Expenditure Structure by Household Size Household Budget Survey 2004-2005 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/الانفاق-حسب-حجم-الأسرةonly-in-AR-not-on-the-web.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/الانفاق-حسب-حجم-الأسرةonly-in-AR-not-on-the-web.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2004,
+      2005,
+      2012
+     ],
+     "coverage": "2004-2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Region – 2004-05 Household Expenditure by Region Individual Expenditure by Region Expenditure Structure by Region Household Budget Survey 2004-2005 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-regions-2004-2005.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-regions-2004-2005.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2004,
+      2005,
+      2012
+     ],
+     "coverage": "2004-2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Household Characteristics by Annual Household Expenditure Category – 2004-05 Household Distribution Household Composition Household Head Characteristics Household Expenditure Individual Expenditure Ex",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-household-expenditures-2004-2005.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-household-expenditures-2004-2005.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2004,
+      2005,
+      2012
+     ],
+     "coverage": "2004-2012",
+     "frequency": "Annual",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Household Expenditure by Annual Income Category – 2004-05 Household Expenditure Expenditure Distribution Household Distribution by Income Category Household Distribution by Expenditure Category Househ",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-and-revenues-2004-2005.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-and-revenues-2004-2005.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2004,
+      2005,
+      2012
+     ],
+     "coverage": "2004-2012",
+     "frequency": "Annual",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Learn – Child Education 2023 Early childhood education Attendance Parental Involvement Sub-National Lebanon Multiple Indicator Cluster Survey 2023 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch08-LN-Learn-LB_EN.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/children/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch08-LN-Learn-LB_EN.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Children data",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Thrive – Child Health Nutrition & Development 2023 Immunisation Disease episodes Diarrhea Infant and young child feeding Malnutrition Early childhood development Sub-National Lebanon Multiple Indicato",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch07-TC-Thrive-Child-health-nutrition-and-development-LB_EN.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/children/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch07-TC-Thrive-Child-health-nutrition-and-development-LB_EN.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Children data",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Child Mortality – 2009 Infant and under-five mortality Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Children 2009 (Round 3) XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_3_CM_Child-Mortality.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/children/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_3_CM_Child-Mortality.xls"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Children data",
+     "years": [
+      2009,
+      2023
+     ],
+     "coverage": "2009-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Nutrition – 2009 Breastfeeding Infant feeding patterns Low birth weight infants Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Children 2009 (Round 3) XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_4_-NU_Nutrition.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/children/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_4_-NU_Nutrition.xls"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Children data",
+     "years": [
+      2009,
+      2023
+     ],
+     "coverage": "2009-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Child Health – 2009 Vaccinations Oral rehydration treatment Home management of diarrhea Care seeking for suspected pneumonia Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Chi",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_5_-CH_Child-Health.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/children/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_5_-CH_Child-Health.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Children data",
+     "years": [
+      2009,
+      2023
+     ],
+     "coverage": "2009-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Child Development – 2009 Family support for learning Learning materials Children left alone/with other children Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Children 2009 (R",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_8_-CD_Child-Development.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/children/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_8_-CD_Child-Development.xls"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Children data",
+     "years": [
+      2009,
+      2023
+     ],
+     "coverage": "2009-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Child Protection – 2009 Birth registration Child labour Labourer students and student labourers Child discipline Early marriage Spousal age difference Attitudes toward domestic violence Child disabili",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_10_CP_Child-Protection.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/children/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_10_CP_Child-Protection.xls"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Children data",
+     "years": [
+      2009,
+      2023
+     ],
+     "coverage": "2009-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Children’s Living Arrangements & Orphanhood – 2009 Living arrangements Orphanhood Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Children 2009 (Round 3) XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_11_-HA_Childrens-living-arrangements-and-orphanhood.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/children/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_11_-HA_Childrens-living-arrangements-and-orphanhood.xls"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Children data",
+     "years": [
+      2009,
+      2023
+     ],
+     "coverage": "2009-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Protection from Violence & Exploitation – 2023 Child marriage Victimisation Feelings of safety Attitudes toward domestic violence Sub-National Lebanon Multiple Indicator Cluster Survey 2023 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch09-PR-Protected-from-violence-and-exploitation-LB_EN.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/gender/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch09-PR-Protected-from-violence-and-exploitation-LB_EN.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Gender data",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Thrive – Reproductive & Maternal Health 2023 Fertility Early childbearing Family planning Antenatal care Neonatal tetanus Delivery care Birthweight Post-natal care Sub-National Lebanon Multiple Indica",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch06-TM-Thrive-Reproductive-and-maternal-health-LB_EN.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/gender/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS6-Ch06-TM-Thrive-Reproductive-and-maternal-health-LB_EN.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Gender data",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Reproductive Health – 2009 Use of contraception Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Children 2009 (Round 3) XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_7_RH_Reproductive-Health.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/gender/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_7_RH_Reproductive-Health.xls"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Gender data",
+     "years": [
+      2009,
+      2023
+     ],
+     "coverage": "2009-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Vital statistics 1999-2025 Ministry of Interior Affairs XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/Vital-Statistics-1999-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/human-resources/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/Vital-Statistics-1999-2025.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Human Resources data",
+     "years": [
+      1996,
+      1999,
+      2025
+     ],
+     "coverage": "1996-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Arrivals and Departures 1996-2025 General Directorate of the General Security XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/3.-Arrivals-and-Departures-1996-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/human-resources/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/3.-Arrivals-and-Departures-1996-2025.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Human Resources data",
+     "years": [
+      1996,
+      1999,
+      2025
+     ],
+     "coverage": "1996-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Percentage of Lebanese Army (by sex and ranks) 2025 Ministry of Defense XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/عديد-الجيش-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/justice-security/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/عديد-الجيش-2025.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Justice & Security data",
+     "years": [
+      2024,
+      2025
+     ],
+     "coverage": "2024-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Distribution of Internal Security Forces Personnel (by rank and sex) 2024-2025 Internal Security Forces, Ministry of Interior and Municipalities XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/ISF_عديد-قوى-الأمن-الداخلي.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/justice-security/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/ISF_عديد-قوى-الأمن-الداخلي.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download Justice & Security data",
+     "years": [
+      2024,
+      2025
+     ],
+     "coverage": "2024-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "2025",
+     "url": "https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2025",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "2022",
+     "url": "https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2022",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "2020",
+     "url": "https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2020",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2020
+     ],
+     "coverage": "2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "2019",
+     "url": "https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2019",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "2009",
+     "url": "https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2009",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2009
+     ],
+     "coverage": "2009",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "2008",
+     "url": "https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2008",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2008
+     ],
+     "coverage": "2008",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "2006",
+     "url": "https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2006",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2006
+     ],
+     "coverage": "2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "2001",
+     "url": "https://www.cas.gov.lb/publications/survey-census-publication/?pub_year=2001",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2001
+     ],
+     "coverage": "2001",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Sub-National Lebanon Multiple Indicator Cluster Survey 2023 2025 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/sub-national-lebanon-multiple-indicator-cluster-survey-2023/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2023,
+      2025
+     ],
+     "coverage": "2023-2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Lebanon follow-up Labour Force Survey 2022 2022 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/publication-1/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Labour Force and Household Living Conditions Survey in Palestinian Camps and Adjacent Gatherings, Lebanon – July–August 2019 2020 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/labour-force-and-household-living-conditions-survey-in-palestinian-camps-and-adjacent-gatherings-lebanon-july-august-2019/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2019,
+      2020
+     ],
+     "coverage": "2019-2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports District Statistical Profiles 2018-2019 / إحصاءات الأقضية 2018-2019 2020 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/district-statistical-profiles-2018-2019-%d8%a5%d8%ad%d8%b5%d8%a7%d8%a1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%82%d8%b6%d9%8a%d8%a9-2018-2019/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2018,
+      2019,
+      2020
+     ],
+     "coverage": "2018-2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Labour Force and Household Living Conditions Survey 2018-2019 Lebanon 2020 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/labour-force-and-household-living-conditions-survey-2018-2019-lebanon/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2018,
+      2019,
+      2020
+     ],
+     "coverage": "2018-2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Population and Housing Census in the Palestinian Camps and Gatherings in Lebanon 2017 2019 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/population-and-housing-census-in-the-palestinian-camps-and-gatherings-in-lebanon-2017/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2017,
+      2019
+     ],
+     "coverage": "2017-2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Child Labour Survey in Lebanon 2015 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/child-labour-survey-in-lebanon-2015/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2015
+     ],
+     "coverage": "2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Children 2009 (Round 3) /- المسح العنقودي متعدد المؤشرات (الدورة الثالثة) مسح وضع الأطفال والأمهات في لب",
+     "url": "https://www.cas.gov.lb/Publications/lebanon-multiple-indicator-cluster-survey-on-the-situation-of-women-and-children-2009-round-3-%d8%a7%d9%84%d9%85%d8%b3%d8%ad-%d8%a7%d9%84%d8%b9%d9%86%d9%82%d9%88%d8%af%d9%8a-%d9%85%d8%aa%d8%b9/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2009
+     ],
+     "coverage": "2009",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Household Living Conditions Survey 2007 / الدراسة الوطنية للأحوال المعيشية للأسر2007 2008 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/household-living-conditions-survey-2007-%d8%a7%d9%84%d8%af%d8%b1%d8%a7%d8%b3%d8%a9-%d8%a7%d9%84%d9%88%d8%b7%d9%86%d9%8a%d8%a9-%d9%84%d9%84%d8%a3%d8%ad%d9%88%d8%a7%d9%84-%d8%a7%d9%84%d9%85%d8%b9/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2007,
+      2008
+     ],
+     "coverage": "2007-2008",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Household Budget Survey 2004-2005 / 2004-2005 مسح ميزانية الأسرة 2006 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/household-budget-survey-2004-2005-2004-2005-%d9%85%d8%b3%d8%ad-%d9%85%d9%8a%d8%b2%d8%a7%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%b1%d8%a9/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2004,
+      2005,
+      2006
+     ],
+     "coverage": "2004-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Lebanese Family Health Survey 2004 (Pan Arab Project for Family Health – PAPFAM) / المسح اللبناني لصحة الأسرة 2004 2006 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/lebanese-family-health-survey-2004-pan-arab-project-for-family-health-papfam-%d8%a7%d9%84%d9%85%d8%b3%d8%ad-%d8%a7%d9%84%d9%84%d8%a8%d9%86%d8%a7%d9%86%d9%8a-%d9%84%d8%b5%d8%ad%d8%a9/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2004,
+      2006
+     ],
+     "coverage": "2004-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports The National Survey of Household Living Conditions 2004 2006 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/the-national-survey-of-household-living-conditions-2004/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2004,
+      2006
+     ],
+     "coverage": "2004-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports State of the Children in Lebanon 2000 2001 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/state-of-the-children-in-lebanon-2000/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2000,
+      2001
+     ],
+     "coverage": "2000-2001",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Thematic Publications Lebanon Multidimensional Poverty Index 2019 / مؤشر الفقر متعدد الأبعاد في لبنان 2019 2022 Publication Thematic Publications ›",
+     "url": "https://www.cas.gov.lb/Publications/survey-2/",
+     "page_url": "https://www.cas.gov.lb/publications/thematic-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Thematic Publications – cas.gov.lb",
+     "years": [
+      2019,
+      2022
+     ],
+     "coverage": "2019-2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Thematic Publications The Life of Women and Men in Lebanon: A Statistical Portrait (2004-2019) Publication Thematic Publications ›",
+     "url": "https://www.cas.gov.lb/Publications/the-life-of-women-and-men-in-lebanon-a-statistical-portrait-2004-2019/",
+     "page_url": "https://www.cas.gov.lb/publications/thematic-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Thematic Publications – cas.gov.lb",
+     "years": [
+      2004,
+      2019
+     ],
+     "coverage": "2004-2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Thematic Publications Measuring poverty in Lebanon using 2011 HBS: technical report 2015 Publication Thematic Publications ›",
+     "url": "https://www.cas.gov.lb/Publications/measuring-poverty-in-lebanon-using-2011-hbs-technical-report/",
+     "page_url": "https://www.cas.gov.lb/publications/thematic-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Thematic Publications – cas.gov.lb",
+     "years": [
+      2011,
+      2015
+     ],
+     "coverage": "2011-2015",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Thematic Publications Statistics in Focus (Labour Market, Population and Housing, Education, Children) / SIF منشورات إحصائية 2011-2013 Publication Thematic Publications ›",
+     "url": "https://www.cas.gov.lb/Publications/statistics-in-focus-labour-market-population-and-housing-education-children-sif-%d9%85%d9%86%d8%b4%d9%88%d8%b1%d8%a7%d8%aa-%d8%a5%d8%ad%d8%b5%d8%a7%d8%a6%d9%8a%d8%a9/",
+     "page_url": "https://www.cas.gov.lb/publications/thematic-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Thematic Publications – cas.gov.lb",
+     "years": [
+      2011,
+      2013
+     ],
+     "coverage": "2011-2013",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Key Findings: Fact Sheet Follow-Up Labour Force Survey January 2022 Summary of Main Results PDF ›",
+     "url": "https://cas.gov.lb/wp-content/uploads/2025/03/Fact-Sheet-Follow-Up-LFS-Lebanon-2022.pdf",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://cas.gov.lb/wp-content/uploads/2025/03/Fact-Sheet-Follow-Up-LFS-Lebanon-2022.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Reports & Publications",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Demography Demography – Population and Household Characteristics 2022 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/population-and-household-characteristics-3/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Lebanon Follow-up Labour Force Survey 2022 – cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Education Education statistics – 2022 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/education-statistics-2022/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Lebanon Follow-up Labour Force Survey 2022 – cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Labour Force Labour Force statistics – 2022 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/labour-force-2022/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Lebanon Follow-up Labour Force Survey 2022 – cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Health Insurance Health Insurance – 2022 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/health-insurance/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Lebanon Follow-up Labour Force Survey 2022 – cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Income Household Income and Financial Conditions – 2022 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/household-income-and-financial-conditions/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Lebanon Follow-up Labour Force Survey 2022 – cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Intention to Emigrate Emigration Intentions – 2022 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/emigration-intentions/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Lebanon Follow-up Labour Force Survey 2022 – cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "PDF Women, Work and Care in Lebanon: A First Statistical Portrait from CAS PDF",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/09/Final_Care_Employment_in_Lebanon_23092026.pdf",
+     "page_url": "https://www.cas.gov.lb/new/women-work-and-care-in-lebanon-a-first-statistical-portrait-from-cas/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/09/Final_Care_Employment_in_Lebanon_23092026.pdf"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Download statistical article",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "CH04 - SR Sample Coverage & Characteristics of Respondents Sample Coverage & Characteristics of Respondents – Household & Living Conditions 2023 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/household-living-conditions-sample-coverage-characteristics-of-respondents-2023/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/sub-national-lebanon-multiple-indicator-cluster-survey-2023/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Sub-National Lebanon Multiple Indicator Cluster Survey 2023 – cas.gov.lb",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "CH06 - TM Thrive - Reproductive & Maternal Health Thrive – Reproductive & Maternal Health 2023 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/reproductive-and-maternal-health-2023/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/sub-national-lebanon-multiple-indicator-cluster-survey-2023/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Sub-National Lebanon Multiple Indicator Cluster Survey 2023 – cas.gov.lb",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "CH07 - Thrive - Child Health Nutrition & Development Thrive – Child Health Nutrition & Development 2023 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/social-stats-1/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/sub-national-lebanon-multiple-indicator-cluster-survey-2023/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Sub-National Lebanon Multiple Indicator Cluster Survey 2023 – cas.gov.lb",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "CH08 - LN Learn Learn – Child Education 2023 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/child-learning/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/sub-national-lebanon-multiple-indicator-cluster-survey-2023/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Sub-National Lebanon Multiple Indicator Cluster Survey 2023 – cas.gov.lb",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "CH09 - PR Protected from Violence & Exploitation Protection from Violence & Exploitation – 2023 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/protection-from-violence-and-exploitation-2023/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/sub-national-lebanon-multiple-indicator-cluster-survey-2023/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Sub-National Lebanon Multiple Indicator Cluster Survey 2023 – cas.gov.lb",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "CH10 - WS Live in a Safe & Clean Environment Live in a Safe & Clean Environment – Water, Sanitation and Hygiene (WASH) 2023 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/water-sanitation-and-hygiene-wash/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/sub-national-lebanon-multiple-indicator-cluster-survey-2023/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Sub-National Lebanon Multiple Indicator Cluster Survey 2023 – cas.gov.lb",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "CH11 - EQ Equitable Chance in Life XLSX ›",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2025/05/MICS6-Ch11-EQ-Equitable-chance-in-life-LB_EN.xlsx",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/sub-national-lebanon-multiple-indicator-cluster-survey-2023/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2025/05/MICS6-Ch11-EQ-Equitable-chance-in-life-LB_EN.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Annex Tables & Datasets",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "SE Estimates of Sampling Errors XLSX ›",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2025/05/MICS6-ChAppC-SE-Estimates-of-sampling-errors-LB_EN.xlsx",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/sub-national-lebanon-multiple-indicator-cluster-survey-2023/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2025/05/MICS6-ChAppC-SE-Estimates-of-sampling-errors-LB_EN.xlsx"
+     ],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Annex Tables & Datasets",
+     "years": [
+      2023
+     ],
+     "coverage": "2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "Population & Social conditions",
+     "url": "https://www.cas.gov.lb/?menu=statistics/social-and-labor",
+     "page_url": "https://www.cas.gov.lb/statistics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics"
+     ],
+     "category": "Statistics – cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  },
+  "economic_statistics": {
+   "label": "Economic statistics",
+   "items": [
+    {
+     "kind": "page",
+     "title": "National Accounts",
+     "url": "https://www.cas.gov.lb/national-accounts/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Economic Statistics",
+     "url": "https://www.cas.gov.lb/economic-statistics/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index Consumer prices, inflation trends, and changes in the cost of living. Economic Statistics",
+     "url": "https://www.cas.gov.lb/economic-statistics/cpi/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Labour Market Labour force participation, employment, unemployment, and working conditions. Population & Social conditions",
+     "url": "https://www.cas.gov.lb/population-social-conditions/labour-market/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Energy Data and insights about energy production, consumption, and resources. Administrative Statistics",
+     "url": "https://www.cas.gov.lb/administrative-statistics/energy/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Foreign Trade Information on imports, exports, and international trade activity. Administrative Statistics",
+     "url": "https://www.cas.gov.lb/administrative-statistics/foreign-trade/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "International Comparison Program International price comparisons and Purchasing Power Parities (PPPs) used to compare economies and living costs across countries. Economic Statistics",
+     "url": "https://www.cas.gov.lb/economic-statistics/icp/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Agriculture Statistics covering agricultural activities. Administrative Statistics",
+     "url": "https://www.cas.gov.lb/administrative-statistics/agriculture/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Construction Data on construction permits and building activity. Administrative Statistics",
+     "url": "https://www.cas.gov.lb/administrative-statistics/construction/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Industry Statistics and indicators about industrial production and manufacturing sectors. Administrative Statistics",
+     "url": "https://www.cas.gov.lb/administrative-statistics/industry/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Money and Banking Data on monetary and banking activity. Administrative Statistics",
+     "url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Transport Data on transport activity, passenger and cargo movements, and road safety. Administrative Statistics",
+     "url": "https://www.cas.gov.lb/administrative-statistics/transport/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Thematic Publications Analytical publications on social, economic and demographic themes. Publications",
+     "url": "https://www.cas.gov.lb/publications/thematic-publication/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Concepts & Definitions Statistical concepts and definitions used in statistical production. Methodology & Standards",
+     "url": "https://www.cas.gov.lb/methodology-standards/concepts-definitions/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Classifications National and international classifications used in statistical production. Methodology & Standards",
+     "url": "https://www.cas.gov.lb/methodology-standards/classifications/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Annual Inflation rate 14.58 (Percent, 2025) Explore link",
+     "url": "https://cas.gov.lb/economic-statistics/cpi/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [
+      2025
+     ],
+     "coverage": "2025",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Unemployment rate 29.6 (Percent, 2022) Explore link",
+     "url": "https://cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Insights & Highlights 05 Aug 2026 Quality under pressure: How CAS maintained official statistics during economic crisis and war A paper examines how methodological flexibility, transparency and adhere",
+     "url": "https://www.cas.gov.lb/new/quality-under-pressure-how-cas-maintained-official-statistics-during-economic-crisis-and-war/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Event 27 Nov 2025 Launch of the Sub-National Multiple Indicator Cluster Survey (MICS 2023) results The Central Administration of Statistics (CAS), with the technical and financial support of UNICEF, i",
+     "url": "https://www.cas.gov.lb/new/launch-of-the-sub-national-lebanon-multiple-indicator-cluster-survey-mics-2023-results/",
+     "page_url": "https://www.cas.gov.lb/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cas.gov.lb",
+     "years": [
+      2023,
+      2025
+     ],
+     "coverage": "2023-2025",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "National Accounts Estimates for 2024 - Comments and Tables Main annual national accounts publication including comments, estimates, and statistical tables. PDF ›",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/National-Accounts-Estimates-2024.pdf",
+     "page_url": "https://www.cas.gov.lb/national-accounts/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/National-Accounts-Estimates-2024.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data tables and analytical reports",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "NA Tables 2024 Downloadable Excel tables for the 2024 national accounts estimates. XLSX ›",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/National-Accounts-Tables-2024.xlsx",
+     "page_url": "https://www.cas.gov.lb/national-accounts/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/National-Accounts-Tables-2024.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Data tables and analytical reports",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "Annual",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Data Sources and Compilation Methods Overview of the data sources and methods used to compile national accounts estimates. PDF ›",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/Data-sources-and-compilation-methods.pdf",
+     "page_url": "https://www.cas.gov.lb/national-accounts/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/Data-sources-and-compilation-methods.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Methodology Notes and Data sources",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Exchange rates for GDP Note on the exchange rate treatment used in GDP estimates. PDF ›",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/Exchange-rates-for-GDP.pdf",
+     "page_url": "https://www.cas.gov.lb/national-accounts/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/Exchange-rates-for-GDP.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Methodology Notes and Data sources",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "GDP Treatment during Crisis Guidance on the treatment of GDP estimates during crisis periods. PDF ›",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/GDP-Treatment-during-Crisis.pdf",
+     "page_url": "https://www.cas.gov.lb/national-accounts/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/GDP-Treatment-during-Crisis.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Methodology Notes and Data sources",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Methodological Improvement - Real Estate Activity Methodological note on improvements related to real estate activity estimates. PDF ›",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/Methodological-Improvement-Real-Estate-Activity.pdf",
+     "page_url": "https://www.cas.gov.lb/national-accounts/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/Methodological-Improvement-Real-Estate-Activity.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Methodology Notes and Data sources",
+     "years": [
+      2024
+     ],
+     "coverage": "2024",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "SNA 2008 International framework for compiling and presenting national accounts statistics. PDF ›",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/SNA2008.pdf",
+     "page_url": "https://www.cas.gov.lb/national-accounts/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/SNA2008.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Conceptual framework",
+     "years": [
+      2008
+     ],
+     "coverage": "2008",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "View National Accounts historical downloads Archive ›",
+     "url": "https://www.cas.gov.lb/statistics/historical-downloads/?type=national-accounts",
+     "page_url": "https://www.cas.gov.lb/national-accounts/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "National Accounts – cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Lebanon Follow-up Labour Force Survey 2022 This Follow-up Labour Force Survey was conducted by Lebanon’s Central Administration of Statistics in January 2022, with the technical and financial support…",
+     "url": "https://www.cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Surveys and Censuses – cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Labour Force and Household Living Conditions Survey 2018-2019 Lebanon Report Key findings Datasets Microdata",
+     "url": "https://www.cas.gov.lb/surveys-censuses/labour-force-and-household-living-conditions-survey-2018-2019-lebanon/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Surveys and Censuses – cas.gov.lb",
+     "years": [
+      2018,
+      2019
+     ],
+     "coverage": "2018-2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Explanatory Note on CPI Inflation Measures PDF ›",
+     "url": "https://cas.gov.lb/wp-content/uploads/2024/10/Explanatory-Note-on-CPI-Inflation-Measures.pdf",
+     "page_url": "https://www.cas.gov.lb/economic-statistics/cpi/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://cas.gov.lb/wp-content/uploads/2024/10/Explanatory-Note-on-CPI-Inflation-Measures.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Methodology & Technical Notes",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index Methodology and 2019 Results – Lebanon (AR) PDF ›",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/CPI_-_report_2019-1.pdf",
+     "page_url": "https://www.cas.gov.lb/economic-statistics/cpi/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/CPI_-_report_2019-1.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Methodology & Technical Notes",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Inflation figures PDF ›",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/Inflation-in-figures.pdf",
+     "page_url": "https://www.cas.gov.lb/economic-statistics/cpi/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/Inflation-in-figures.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Methodology & Technical Notes",
+     "years": [
+      2019
+     ],
+     "coverage": "2019",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Consumer Price Index (CPI) - Metadata PDF ›",
+     "url": "https://cas.gov.lb/wp-content/uploads/2026/06/CPI-Metadata.pdf",
+     "page_url": "https://www.cas.gov.lb/economic-statistics/cpi/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://cas.gov.lb/wp-content/uploads/2026/06/CPI-Metadata.pdf"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Metadata Documents",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "View CPI historical downloads Archive ›",
+     "url": "https://www.cas.gov.lb/statistics/historical-downloads/?type=cpi",
+     "page_url": "https://www.cas.gov.lb/economic-statistics/cpi/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "cpi – cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Download latest CPI file",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/cpi/latest/8-CPI_AUGUST2026.xlsx",
+     "page_url": "https://www.cas.gov.lb/economic-statistics/cpi/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/cpi/latest/8-CPI_AUGUST2026.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "About this CPI Dashboard",
+     "years": [
+      2026
+     ],
+     "coverage": "2026",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Care Employment Statistics – 2018–19 (Thematic release based on LFHLCS 2018–2019 data) Care Employment by Sex and Category Employment Status Economic Activity Sector Educational Attainment Nationality",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/09/LFHLCS-2018_2019_Care-employment.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/labour-market/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/09/LFHLCS-2018_2019_Care-employment.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Labour Market data",
+     "years": [
+      2018,
+      2019
+     ],
+     "coverage": "2018-2019",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Labour Force statistics – 2022 Labour Force Participation Employment Informal Employment Unemployment Labour Underutilization + more Lebanon Follow-up Labour Force Survey 2022 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Labour-force-FULFS-2022.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/labour-market/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Labour-force-FULFS-2022.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Labour Market data",
+     "years": [
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2018-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Labour Force statistics – 2018-19 Labour Force Participation Employment Informal Employment Unemployment Occupations Economic Activity + more Labour Force and Household Living Conditions Survey 2018-2",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Labour-force.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/labour-market/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Labour-force.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Labour Market data",
+     "years": [
+      2018,
+      2019
+     ],
+     "coverage": "2018-2019",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Economic Activity statistics – 2009 Labour Force Participation Employment Unemployment Economic Activity Occupations Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Children 20",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS3-2009_12_Economic-activity.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/labour-market/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/MICS3-2009_12_Economic-activity.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Labour Market data",
+     "years": [
+      2009,
+      2018,
+      2019
+     ],
+     "coverage": "2009-2019",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Household Income and Financial Conditions – 2022 Sources of household income Monthly income levels Main currency of income Financial resilience and ability to cope without income Lebanon Follow-up Lab",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/5.Income-2022.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/income-living-conditions/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/5.Income-2022.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Income & Living conditions data",
+     "years": [
+      2022,
+      2023
+     ],
+     "coverage": "2022-2023",
+     "frequency": "Monthly",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Household Income and Financial Self-Assessment – 2018-19 Sources of household income Monthly household income levels Financial self-assessment of households Labour Force and Household Living Condition",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Income.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/income-living-conditions/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Income.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Income & Living conditions data",
+     "years": [
+      2018,
+      2019,
+      2023
+     ],
+     "coverage": "2018-2023",
+     "frequency": "Monthly",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Household Income and Financial Conditions – 2004-05 Household income distribution Household size and composition Employee earnings Average earnings Household Budget Survey 2004-2005 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Income-HBS-2004.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/income-living-conditions/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Income-HBS-2004.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Income & Living conditions data",
+     "years": [
+      2004,
+      2005,
+      2023
+     ],
+     "coverage": "2004-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Energy statistics 1995-2025 Electricté du Liban XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/EDL-1995-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/energy/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/EDL-1995-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Energy data",
+     "years": [
+      1995,
+      2025
+     ],
+     "coverage": "1995-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Imported petroleum products (Metric tonnes) 1995-2025 Ministry of Energy and Water XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/Imported-Petroleum-products-1995-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/energy/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/Imported-Petroleum-products-1995-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Energy data",
+     "years": [
+      1995,
+      2025
+     ],
+     "coverage": "1995-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Balance of trade 1993-2025 Banque du Liban XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/05/Balance-of-Trade-1993-2025.xls",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/foreign-trade/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/05/Balance-of-Trade-1993-2025.xls"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Foreign Trade data",
+     "years": [
+      1993,
+      2025
+     ],
+     "coverage": "1993-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Customs receipts 1993-2025 Banque du Liban XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2025/12/Customs-receipts-1993-2025.xls",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/foreign-trade/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2025/12/Customs-receipts-1993-2025.xls"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Foreign Trade data",
+     "years": [
+      1993,
+      2025
+     ],
+     "coverage": "1993-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Emigration Intentions – 2022 Emigration intentions Emigration process Reason for emigration Emigration arrangements Lebanon Follow-up Labour Force Survey 2022 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/6.Intention-to-Immigration-2022-FULFS.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/population-demography/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/6.Intention-to-Immigration-2022-FULFS.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Population & Demography data",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Demography – Population and Household Characteristics 2022 Age Sex Nationality Household composition Household size Household head characteristics Place of residence Dependency ratios Lebanon Follow-u",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/1.Demography-2022-FULFS.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/population-demography/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/1.Demography-2022-FULFS.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Population & Demography data",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Demography – Population and Household Characteristics 2018-19 Age Sex Marital status Household composition Household size Place of residence Place of registration Dependency ratios Sex ratios Labour F",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Demography.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/population-demography/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Demography.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Population & Demography data",
+     "years": [
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2018-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Residents – Population and Household Characteristics 2009 Age Sex Marital status Household composition Household size Place of residence Place of registration Lebanon Multiple Indicator Cluster Survey",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_2_Residents_2009.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/population-demography/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_2_Residents_2009.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Population & Demography data",
+     "years": [
+      2009,
+      2022
+     ],
+     "coverage": "2009-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Education statistics – 2022 School Attendance Educational Attainment Educational Institutions Fields of Study Lebanon Follow-up Labour Force Survey 2022 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/FULFS-2022_Education.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/education/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/FULFS-2022_Education.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Education data",
+     "years": [
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2018-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Education statistics – 2018-19 School Attendance Educational Attainment Educational Institutions Literacy Labour Force and Household Living Conditions Survey 2018-2019 Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Education.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/education/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Education.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Education data",
+     "years": [
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2018-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "School Attendance of Working Children – 2015 Children's Work and School Attendance Children's Involvement in Household Chores and School Attendance Child Labour Survey in Lebanon 2015 PDF",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Child_Labour_Survey_2015_Educational_Characteristics_Pages39_43.pdf",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/education/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Child_Labour_Survey_2015_Educational_Characteristics_Pages39_43.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Education data",
+     "years": [
+      2015,
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2015-2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Education statistics – 2009 School attendance Educational attainment Literacy Gender parity Lebanon Multiple Indicator Cluster Survey on the Situation of Women and Children 2009 (Round 3) XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_9_Education_withoutED12.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/education/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/CAS_MICS3_9_Education_withoutED12.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Education data",
+     "years": [
+      2009,
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2009-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Health Insurance – 2022 Health Insurance Coverage Types of Health Insurance Sources of Health Insurance Insurance Beneficiaries Lebanon Follow-up Labour Force Survey 2022 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/4.Health-Insurance-2022.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/health/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/4.Health-Insurance-2022.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Health data",
+     "years": [
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2018-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Health Insurance & Disability – 2018-19 Health Insurance Coverage Types of Health Insurance Sources of Health Insurance Disability Status Labour Force and Household Living Conditions Survey 2018-2019 ",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Health-insurance-and-Disability.xlsx",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/health/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/LFHLCS_2018_2019_Health-insurance-and-Disability.xlsx"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Health data",
+     "years": [
+      2018,
+      2019,
+      2022
+     ],
+     "coverage": "2018-2022",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Average Household Expenditures – 2012 Average Household Expenditure Detailed Household Expenditure Expenditure by Item Consumption Expenditure Household Budget Survey 2012 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Detailed-Average-Expenditures-for-Households_Revised.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Detailed-Average-Expenditures-for-Households_Revised.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Individual Expenditure Category – 2012 Household Expenditure by Individual Expenditure Category Individual Expenditure by Individual Expenditure Category Expenditure Structure by Indiv",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Individual-expenditures-categories_Revised.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Individual-expenditures-categories_Revised.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Household Size – 2012 Individual Expenditure by Household Size Household Expenditure by Household Size Expenditure Structure by Household Size Household Budget Survey 2012 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Household-size_Revised.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Household-size_Revised.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Region – 2012 Household Expenditure by Region Individual Expenditure by Region Expenditure Structure by Region Household Budget Survey 2012 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Region_Revised.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Region_Revised.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Household Expenditure Category – 2012 Household Expenditure by Household Expenditure Category Individual Expenditure by Household Expenditure Category Expenditure Structure by Househol",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Household-expenditures-categories_Revised.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Household-expenditures-categories_Revised.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Income Category – 2012 Household Expenditure by Income Category Individual Expenditure by Income Category Expenditure Structure by Income Category Household Budget Survey 2012 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Income-categories_Revised.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-Income-categories_Revised.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2012
+     ],
+     "coverage": "2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Individual Expenditure Category – 2004-05 Annual Individual Expenditure Category Household Budget Survey 2004-2005 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/الانفاق-حسب-فئات-إنفاق-الفردonly-in-AR-not-on-the-web.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/الانفاق-حسب-فئات-إنفاق-الفردonly-in-AR-not-on-the-web.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2004,
+      2005,
+      2012
+     ],
+     "coverage": "2004-2012",
+     "frequency": "Annual",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Household Size – 2004-05 Individual Expenditure by Household Size Household Expenditure by Household Size Expenditure Structure by Household Size Household Budget Survey 2004-2005 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/الانفاق-حسب-حجم-الأسرةonly-in-AR-not-on-the-web.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/الانفاق-حسب-حجم-الأسرةonly-in-AR-not-on-the-web.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2004,
+      2005,
+      2012
+     ],
+     "coverage": "2004-2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Expenditures by Region – 2004-05 Household Expenditure by Region Individual Expenditure by Region Expenditure Structure by Region Household Budget Survey 2004-2005 XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-regions-2004-2005.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-regions-2004-2005.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2004,
+      2005,
+      2012
+     ],
+     "coverage": "2004-2012",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Household Characteristics by Annual Household Expenditure Category – 2004-05 Household Distribution Household Composition Household Head Characteristics Household Expenditure Individual Expenditure Ex",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-household-expenditures-2004-2005.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-by-household-expenditures-2004-2005.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2004,
+      2005,
+      2012
+     ],
+     "coverage": "2004-2012",
+     "frequency": "Annual",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Household Expenditure by Annual Income Category – 2004-05 Household Expenditure Expenditure Distribution Household Distribution by Income Category Household Distribution by Expenditure Category Househ",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-and-revenues-2004-2005.xls",
+     "page_url": "https://www.cas.gov.lb/population-social-conditions/expenditure-on-goods-and-services/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/06/Expenditures-and-revenues-2004-2005.xls"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Download Expenditure on Goods and Services data",
+     "years": [
+      2004,
+      2005,
+      2012
+     ],
+     "coverage": "2004-2012",
+     "frequency": "Annual",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Régie des Tabacs 2002-2024 Régie des Tabacs XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/08/11.-Regie-des-Tabacs-2002-2024.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/agriculture/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/08/11.-Regie-des-Tabacs-2002-2024.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Agriculture data",
+     "years": [
+      1996,
+      2002,
+      2006,
+      2012,
+      2018,
+      2024,
+      2025
+     ],
+     "coverage": "1996-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Agricultural permits 2012-2025 Ministry of Agriculture XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/6.-Agricultural-Permits-2012-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/agriculture/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/6.-Agricultural-Permits-2012-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Agriculture data",
+     "years": [
+      1996,
+      2002,
+      2006,
+      2012,
+      2018,
+      2024,
+      2025
+     ],
+     "coverage": "1996-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Green Project Activity 2006-2024 Green Project XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/08/7.-Green-Project-2006-2024.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/agriculture/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/08/7.-Green-Project-2006-2024.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Agriculture data",
+     "years": [
+      1996,
+      2002,
+      2006,
+      2012,
+      2018,
+      2024,
+      2025
+     ],
+     "coverage": "1996-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Weather indicators 1996-2018 Directorate General of Civil Aviation XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/Weather-1996-2018.xls",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/agriculture/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/Weather-1996-2018.xls"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Agriculture data",
+     "years": [
+      1996,
+      2002,
+      2006,
+      2012,
+      2018,
+      2024,
+      2025
+     ],
+     "coverage": "1996-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Construction permits for new buildings by governorate and type of use (m²) 2009-2017 Order of Engineers in Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/Construction-permits-Mohafazat-New-Buildings-Square-Meters-2009-2017.xls",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/construction/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/Construction-permits-Mohafazat-New-Buildings-Square-Meters-2009-2017.xls"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Construction data",
+     "years": [
+      1996,
+      2009,
+      2017,
+      2023
+     ],
+     "coverage": "1996-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Construction permits (transactions) 1996-2023 Order of Engineers in Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/Construction-permits-Mohafazat-transactions-1996-2023.xls",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/construction/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/Construction-permits-Mohafazat-transactions-1996-2023.xls"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Construction data",
+     "years": [
+      1996,
+      2009,
+      2017,
+      2023
+     ],
+     "coverage": "1996-2023",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Cement deliveries 1993-2025 Banque du Liban XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/Cement-deliveries-1993-2025.xls",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/industry/",
+     "formats": [
+      "XLS"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/Cement-deliveries-1993-2025.xls"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Industry data",
+     "years": [
+      1993,
+      2025
+     ],
+     "coverage": "1993-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Banque du Liban Balance Sheet. End of Period 1965-2025 Central Bank of Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/28.-Banque-du-Liban-Balance-Sheet.-End-of-Period-1965-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/28.-Banque-du-Liban-Balance-Sheet.-End-of-Period-1965-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      2017,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Money Aggregates and Counterparts 2017-2025 Central Bank of Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/29.-Money-Aggregates-and-Counterparts-2017-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/29.-Money-Aggregates-and-Counterparts-2017-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      2017,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Total Deposits in the Banking Sector 2017-2025 Central Bank of Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/30.-Total-Deposits-in-the-Banking-Sector-2017-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/30.-Total-Deposits-in-the-Banking-Sector-2017-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      2017,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Interest Rates in Percent End of Period 1993-2025 Central Bank of Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/31.-Interest-Rates-in-Percent-1993-2025.-End-of-Period.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/31.-Interest-Rates-in-Percent-1993-2025.-End-of-Period.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      1993,
+      2017,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Exchange Rates. Yearly Average 1964-2025 Central Bank of Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/32.-Exchange-Rates.-Yearly-Average-1964-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/32.-Exchange-Rates.-Yearly-Average-1964-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1964,
+      1965,
+      2017,
+      2025
+     ],
+     "coverage": "1964-2025",
+     "frequency": "Annual",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Consolidated Balance Sheet of Commercial Banks. End of Period 2017-2025 Central Bank of Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/33.-Consolidated-Balance-Sheet-of-Commercial-Banks.-End-of-Period-2017-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/33.-Consolidated-Balance-Sheet-of-Commercial-Banks.-End-of-Period-2017-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      2017,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Total Deposits in Commercial Banks 2017-2025 Central Bank of Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/34.-Total-Deposits-in-Commercial-Banks-2017-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/34.-Total-Deposits-in-Commercial-Banks-2017-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      2017,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Settled Cheques 1993-2025 Central Bank of Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/35.-Settled-Cheques-1993-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/35.-Settled-Cheques-1993-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      1993,
+      2017,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Requests for Information at the Centrale des Risques 1993-2025 Central Bank of Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/36.-Requests-for-Information-at-the-Centrale-des-Risques-1993-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/36.-Requests-for-Information-at-the-Centrale-des-Risques-1993-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      1993,
+      2017,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Banks Types & Branches 2005-2023 Central Bank of Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/08/37.-Banks-Types-Branches-2005-2023.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/08/37.-Banks-Types-Branches-2005-2023.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      2005,
+      2017,
+      2023,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Concentration of Banking Activity 2008-2020 Association des Banques du Liban XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/08/38.-Concentration-of-Banking-Activity-2008-2020.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/08/38.-Concentration-of-Banking-Activity-2008-2020.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      2008,
+      2017,
+      2020,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Regional Distribution of Banking Deposits & Credits. End of Period 2009-2022 Association des Banques du Liban XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/08/39.-Regional-Distribution-of-Banking-Deposits-Credits.-End-of-Period-2009-2022.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/08/39.-Regional-Distribution-of-Banking-Deposits-Credits.-End-of-Period-2009-2022.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      2009,
+      2017,
+      2022,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Distribution of Beneficiaries by Credit Range. End of Period 2008-2023 Association des Banques du Liban XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/08/40.-Distribution-of-Beneficiaries-by-Credit-Range.-End-of-Period-2008-2023.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/08/40.-Distribution-of-Beneficiaries-by-Credit-Range.-End-of-Period-2008-2023.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      2008,
+      2017,
+      2023,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Credit by Sector 2005-2024 Association des Banques du Liban, CAS XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/08/41.-Credit-by-Sector-2005-2024.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/08/41.-Credit-by-Sector-2005-2024.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      2005,
+      2017,
+      2024,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "ATMs and Payment Cards 2003-2025 Central Bank of Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/08/43.-ATMs-and-Payment-Cards-2003-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/08/43.-ATMs-and-Payment-Cards-2003-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      2003,
+      2017,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Interest Rates in Percent 1972-2025 Central Bank of Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2025/11/44.-Interest-Rates-in-Percent-1972-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/money-and-banking/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2025/11/44.-Interest-Rates-in-Percent-1972-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Money and Banking data",
+     "years": [
+      1965,
+      1972,
+      2017,
+      2025
+     ],
+     "coverage": "1965-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Air transport statistics 1993-2025 Central Bank of Lebanon XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2026/07/26.-Air-Transport-1993-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/transport/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2026/07/26.-Air-Transport-1993-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Transport data",
+     "years": [
+      1993,
+      2007,
+      2025
+     ],
+     "coverage": "1993-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Sea transport statistics 1993-2025 Port of Beirut, Port of Tripoli, and BDL XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/27.-Sea-Transport-1993-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/transport/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/27.-Sea-Transport-1993-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Transport data",
+     "years": [
+      1993,
+      2007,
+      2025
+     ],
+     "coverage": "1993-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "file",
+     "title": "Road transport statistics (Car accidents) 2007-2025 Internal Security Forces XLS",
+     "url": "https://www.cas.gov.lb/wp-content/uploads/2024/10/Car-accidents-2007-2025.xlsx",
+     "page_url": "https://www.cas.gov.lb/administrative-statistics/transport/",
+     "formats": [
+      "XLSX"
+     ],
+     "downloads": [
+      "https://www.cas.gov.lb/wp-content/uploads/2024/10/Car-accidents-2007-2025.xlsx"
+     ],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Download Transport data",
+     "years": [
+      1993,
+      2007,
+      2025
+     ],
+     "coverage": "1993-2025",
+     "frequency": "",
+     "data_file": true
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Lebanon follow-up Labour Force Survey 2022 2022 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/publication-1/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Labour Force and Household Living Conditions Survey in Palestinian Camps and Adjacent Gatherings, Lebanon – July–August 2019 2020 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/labour-force-and-household-living-conditions-survey-in-palestinian-camps-and-adjacent-gatherings-lebanon-july-august-2019/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2019,
+      2020
+     ],
+     "coverage": "2019-2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Labour Force and Household Living Conditions Survey 2018-2019 Lebanon 2020 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/labour-force-and-household-living-conditions-survey-2018-2019-lebanon/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2018,
+      2019,
+      2020
+     ],
+     "coverage": "2018-2020",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Survey & Census Reports Household Budget Survey 2004-2005 / 2004-2005 مسح ميزانية الأسرة 2006 Publication Survey & Census Reports ›",
+     "url": "https://www.cas.gov.lb/Publications/household-budget-survey-2004-2005-2004-2005-%d9%85%d8%b3%d8%ad-%d9%85%d9%8a%d8%b2%d8%a7%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%b1%d8%a9/",
+     "page_url": "https://www.cas.gov.lb/publications/survey-census-publication/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Survey & Census Reports – cas.gov.lb",
+     "years": [
+      2004,
+      2005,
+      2006
+     ],
+     "coverage": "2004-2006",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "file",
+     "title": "Key Findings: Fact Sheet Follow-Up Labour Force Survey January 2022 Summary of Main Results PDF ›",
+     "url": "https://cas.gov.lb/wp-content/uploads/2025/03/Fact-Sheet-Follow-Up-LFS-Lebanon-2022.pdf",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "formats": [
+      "PDF"
+     ],
+     "downloads": [
+      "https://cas.gov.lb/wp-content/uploads/2025/03/Fact-Sheet-Follow-Up-LFS-Lebanon-2022.pdf"
+     ],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Reports & Publications",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Labour Force Labour Force statistics – 2022 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/labour-force-2022/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Lebanon Follow-up Labour Force Survey 2022 – cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Income Household Income and Financial Conditions – 2022 LINK ›",
+     "url": "https://www.cas.gov.lb/pop-social-statistic/household-income-and-financial-conditions/",
+     "page_url": "https://www.cas.gov.lb/surveys-censuses/lebanon-follow-up-labour-force-survey-2022/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "social_statistics",
+      "economic_statistics"
+     ],
+     "category": "Lebanon Follow-up Labour Force Survey 2022 – cas.gov.lb",
+     "years": [
+      2022
+     ],
+     "coverage": "2022",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Quality Under Pressure – Publication Page",
+     "url": "https://cas.gov.lb/Publications/quality-under-pressure-maintaining-the-quality-of-official-statistics-in-lebanon-during-economic-crisis-and-war/",
+     "page_url": "https://www.cas.gov.lb/new/quality-under-pressure-how-cas-maintained-official-statistics-during-economic-crisis-and-war/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Quality under pressure: How CAS maintained official statistics during economic crisis and war – cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "For further information, access the full National Accounts report and related materials on the NA page",
+     "url": "https://cas.gov.lb/national-accounts/",
+     "page_url": "https://www.cas.gov.lb/new/lebanons-economy-recorded-a-nominal-gdp-of-usd-30-5-billion-in-2024-up-from-usd-25-9-billion-in-2023/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Lebanon’s economy recorded a nominal GDP of USD 30.5 billion in 2024, up from USD 25.9 billion in 2023 – cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "National Accounts",
+     "url": "https://www.cas.gov.lb/?menu=statistics/national-accounts",
+     "page_url": "https://www.cas.gov.lb/statistics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Statistics – cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "National Accounts Annual Estimates →",
+     "url": "https://www.cas.gov.lb/national-account-subject/annual-estimates/",
+     "page_url": "https://www.cas.gov.lb/statistics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Statistics – cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "Annual",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "National Accounts Quarterly Estimates →",
+     "url": "https://www.cas.gov.lb/national-account-subject/quarterly-estimates/",
+     "page_url": "https://www.cas.gov.lb/statistics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Statistics – cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "Quarterly",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Economic Statistics",
+     "url": "https://www.cas.gov.lb/?menu=statistics/economic-statistics",
+     "page_url": "https://www.cas.gov.lb/statistics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Statistics – cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "Consumer Price Index →",
+     "url": "https://www.cas.gov.lb/economic-statistics-subject/consumer-price-index-cpi/",
+     "page_url": "https://www.cas.gov.lb/statistics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Statistics – cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    },
+    {
+     "kind": "page",
+     "title": "International Comparison Program →",
+     "url": "https://www.cas.gov.lb/economic-statistics-subject/international-comparison-program-icp/",
+     "page_url": "https://www.cas.gov.lb/statistics/",
+     "formats": [],
+     "downloads": [],
+     "themes": [
+      "economic_statistics"
+     ],
+     "category": "Statistics – cas.gov.lb",
+     "years": [],
+     "coverage": "",
+     "frequency": "",
+     "data_file": false
+    }
+   ]
+  }
+ },
+ "limitations": [],
+ "recognized": [],
+ "suggested_sources": [
+  {
+   "nso": "LBN",
+   "theme": "social_statistics",
+   "method": "scrape",
+   "connector": "scrape",
+   "enabled": false,
+   "pages": [
+    "https://www.cas.gov.lb/",
+    "https://www.cas.gov.lb/population-social-conditions/labour-market/",
+    "https://www.cas.gov.lb/population-social-conditions/income-living-conditions/",
+    "https://www.cas.gov.lb/population-social-conditions/population-demography/",
+    "https://www.cas.gov.lb/population-social-conditions/education/"
+   ],
+   "render_js": "auto",
+   "notes": "52 social statistics file(s) found on these pages - review before enabling"
+  },
+  {
+   "nso": "LBN",
+   "theme": "economic_statistics",
+   "method": "scrape",
+   "connector": "scrape",
+   "enabled": false,
+   "pages": [
+    "https://www.cas.gov.lb/national-accounts/",
+    "https://www.cas.gov.lb/economic-statistics/cpi/",
+    "https://www.cas.gov.lb/population-social-conditions/labour-market/",
+    "https://www.cas.gov.lb/population-social-conditions/income-living-conditions/",
+    "https://www.cas.gov.lb/administrative-statistics/energy/"
+   ],
+   "render_js": "auto",
+   "notes": "71 economic statistics file(s) found on these pages - review before enabling"
+  }
+ ],
+ "indicator_samples": [],
+ "site": {
+  "url": "https://www.cas.gov.lb/",
+  "reachable": true,
+  "status": 200,
+  "final_url": "https://www.cas.gov.lb/",
+  "title": "cas.gov.lb",
+  "lang": "en",
+  "english": "yes",
+  "english_url": "https://www.cas.gov.lb/",
+  "platforms": [
+   "behind Cloudflare",
+   "WordPress",
+   "Drupal"
+  ],
+  "blocked": "",
+  "rendered": false,
+  "insecure_tls": false,
+  "notes": []
+ },
+ "files": {
+  "formats": {
+   "XLSX": 56,
+   "XLS": 32,
+   "PDF": 23
+  },
+  "total": 111,
+  "pages_crawled": 40,
+  "pages_rendered": 0
+ },
+ "api": {
+  "docs": [
+   "https://developer.wordpress.org/rest-api/reference/"
+  ],
+  "how_to": {
+   "curl": "curl \"https://www.cas.gov.lb/wp-json/wp/v2/media?per_page=20\"",
+   "python": "import requests\nfiles = requests.get(\"https://www.cas.gov.lb/wp-json/wp/v2/media\", params={\"per_page\": 50}, timeout=60).json()"
+  },
+  "endpoints": [],
+  "js_findings": {
+   "scripts_scanned": 12,
+   "base_urls": [],
+   "endpoint_paths": [],
+   "api_urls": []
+  },
+  "doc_links": [],
+  "status": "content API only",
+  "python_access": "partial",
+  "summary": "No statistics API; the site's content-management API (WordPress REST) can list pages and uploaded files."
+ },
+ "sniff_pages": [
+  {
+   "url": "https://www.cas.gov.lb/",
+   "final_url": "https://www.cas.gov.lb/",
+   "status": 200,
+   "title": "cas.gov.lb"
+  },
+  {
+   "url": "https://www.cas.gov.lb/population-social-conditions/",
+   "final_url": "https://www.cas.gov.lb/population-social-conditions/",
+   "status": 200,
+   "title": "Population & Social conditions – cas.gov.lb"
+  },
+  {
+   "url": "https://www.cas.gov.lb/national-accounts/",
+   "final_url": "https://www.cas.gov.lb/national-accounts/",
+   "status": 200,
+   "title": "National Accounts – cas.gov.lb"
+  },
+  {
+   "url": "https://www.cas.gov.lb/economic-statistics/",
+   "final_url": "https://www.cas.gov.lb/economic-statistics/",
+   "status": 200,
+   "title": "Economic Statistics – cas.gov.lb"
+  }
+ ],
+ "duration_s": 72.6
+}

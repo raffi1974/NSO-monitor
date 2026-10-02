@@ -1,0 +1,580 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Egypt  -  Central Agency for Public Mobilization and Statistics (CAPMAS)
+Checked 2026-09-29 10:48  |  Agent 1 (agent1_diagnose.py)  |  took 237.7 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://www.capmas.gov.eg/home
+   Reachable       : yes (HTTP 200)
+   English version : yes - language switch inside the site (same address)
+   Built with      : JavaScript-rendered pages
+   Note: React single-page app (EN switch inside the app). Data comes from a public JSON API on
+     port 8080.
+
+2. API
+   Verdict         : UNDOCUMENTED - works from Python (no login needed)
+   No official documentation, but the website's own data API at https://www.capmas.gov.eg:8080
+     answers plain Python requests (found by API sniffing).
+   Documentation   : none official
+
+   How to call it - curl:
+       curl -H "locale: en" "https://www.capmas.gov.eg:8080/api/Publication/Search?SubjectId=
+         21&PageSize=10&CurrentPage=1"
+
+   How to call it - Python:
+       import requests
+       
+       API = "https://www.capmas.gov.eg:8080"
+       headers = {"locale": "en"}
+       # publications (one row per edition) of sub-subject 21 = Vital Statistics
+       r = requests.get(f"{API}/api/Publication/Search", headers=headers,
+                        params={"SubjectId": 21, "PageSize": 100, "CurrentPage": 1}, timeout=60)
+       editions = r.json()["data"]
+       # one indicator's values (2004 = final divorce judgments by governorate)
+       r = requests.get(f"{API}/api/Indicator/IndicatorFilter", headers=headers,
+                        params={"IndicatorId": 2004, "SubSubjectId": 21}, timeout=60)
+       series = r.json()["data"]  # [{name: governorate, data: [{year, value}, ...]}, ...]
+
+   API sniffing - data calls the website made: 19 distinct, 12 worked again from plain Python
+     [OK ] GET www.capmas.gov.eg:8080/api/Subject/SubSubjectWithIndicator/{id}
+       (application/json)
+     [OK ] GET www.capmas.gov.eg:8080/api/News/GetPinnedNews  (application/json)
+     [OK ] GET www.capmas.gov.eg:8080/api/ServiceAndTool/GetHomeTools  (application/json)
+     [OK ] GET www.capmas.gov.eg:8080/api/Subject  (application/json)
+     [OK ] GET www.capmas.gov.eg:8080/api/PublicationDetail/HomePublicationDetail
+       (application/json)
+     [OK ] GET www.capmas.gov.eg:8080/api/Calendar/GetHomeCalendar  (application/json)
+     [OK ] GET www.capmas.gov.eg:8080/api/Governorate  (application/json)
+     [OK ] GET www.capmas.gov.eg:8080/api/Slider  (application/json)
+     [OK ] GET www.capmas.gov.eg:8080/api/SelectedIndicator  (application/json)
+     [OK ] GET www.capmas.gov.eg:8080/api/NewsBar  (application/json)
+     [OK ] GET www.capmas.gov.eg:8080/api/Survey/HomeSurvey  (application/json)
+     [OK ] GET www.capmas.gov.eg:8080/population-proxy/GetPopulationData  (application/json)
+     [n/t] GET www.capmas.gov.eg:8080/api/SiteSelection  (application/json)
+     [n/t] GET www.capmas.gov.eg:8080/api/ContactUs  (application/json)
+     [n/t] GET www.capmas.gov.eg:8080/api/SocialLink  (application/json)
+
+   Found in the site's JavaScript files:
+     API base addresses: https://www.capmas.gov.eg:8090, https://www.capmas.gov.eg:8080,
+       https://www.capmas.gov.eg:8087, https://europe-west1-menusmaker.cloudfunctions.net
+     121 endpoint paths, e.g. api/News, api/News/GetLatestNews, api/News/Search,
+       api/NewsCategory, api/CapmasHead, api/MissionVision, api/MainValue, api/Sector,
+       api/Element, api/CapmasHistory
+
+3. SOCIAL STATISTICS  (62 publications, 2,932 indicator series, 2 files, 16 pages)
+     - Analytical report on Labor Demand and Labor market skills needs | Annual | 2022-2023 | 2
+       editions | PDF | latest 2025-02-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/7055e726-085a-4db8-851f-
+         6e9212681d91.pdf
+     - Assessment of the age and gender composition of data for the general population census |
+       Every 10 years | 2019 | 1 editions | PDF | latest 2019-12-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/775275af-1dee-4eec-9812-
+         86e1135cf329.pdf
+     - Births and Deaths Statistics | Annual | 1922-2024 | 77 editions | PDF, XLSX | latest
+       2025-09-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/e9e3d6e7-c70d-48a6-a613-
+         638ae5897da7.pdf
+     - Births and Deaths Statistics (Analysis Report) | Annual | 2016-2024 | 7 editions | PDF |
+       latest 2025-09-01
+       https://www.capmas.gov.eg:8080/Publication/Pdf/b215dd56-7b3e-4d50-a11d-
+         750a4de2412d.pdf
+     - COVID-19 in Egypt (Exploratory Study) | Irregular | 2020 | 1 editions | PDF | latest
+       2020-09-14
+       https://www.capmas.gov.eg:8080/Publication/Pdf/3c2553af-7745-4bb4-b45b-
+         7ba089e1cf77.pdf
+     - Characteristics of poor families | Biennial | 2014-2020 | 3 editions | PDF | latest
+       2014-08-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/c336c99f-99dc-499c-9cf4-
+         8fedd9e8cd63.pdf
+     - Cultural Statistics | Annual | 2010-2024 | 15 editions | PDF, XLSX | latest 2026-07-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/34ae8b95-929d-4392-8f7f-
+         0d84f8de882a.pdf
+     - Delegated / Returning Scholars from Educational Missions Abroad | Annual | 1985-2025 |
+       22 editions | PDF, XLSX | latest 2026-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/889e8c55-b41b-415a-9b9e-
+         6fa4dd956d17.pdf
+     - Demographic Analysis of the General Census for Population, Housing, and Establishments
+       Data | Every 10 years | 2018 | 1 editions | PDF | latest 2018-03-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/6c1ece4b-b812-4f7a-900d-
+         c9644f71f1c1.pdf
+     - Drivers of Dietary Diversity and Malnutrition Trends Among Children | Irregular | 2021 |
+       1 editions | PDF | latest 2021-12-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/51a1319a-a6de-4fc3-ba88-
+         59d2636bd493.pdf
+     - Economic Costs of Gender-based Violence in Egypt | Irregular | 2015 | 1 editions | PDF |
+       latest 2016-07-14
+       https://www.capmas.gov.eg:8080/Publication/Pdf/c31a4a44-03fa-44e9-87f4-
+         6b02624b2ae0.pdf
+     - Education and Training in Public and Private Training Institutions | Annual | 2012-2025
+       | 14 editions | PDF, XLSX | latest 2026-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/1ad65ed8-9936-4eeb-934e-
+         53a947e7c015.pdf
+     - Egypt Between the First and Second COVID-19 Waves (Exploratory Study) | Irregular | 2021
+       | 1 editions | PDF | latest 2021-02-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/b0f35667-157e-431a-bee1-
+         13c197c91fe1.pdf
+     - Egyptian Emigrants and Egyptians with Other Nationalities | Annual | 1968-2025 | 52
+       editions | PDF, XLSX | latest 2026-07-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/c37a68b6-21af-4caa-856f-
+         bf4987c88455.pdf
+     - Egyptian family expenditure on education | Biennial | 2011-2020 | 5 editions | PDF |
+       latest 2011-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/0d290731-a73e-4816-99b8-
+         ba47abea05a6.pdf
+     - Egyptian family expenditure on food and drink | Biennial | 2011-2020 | 5 editions | PDF
+       | latest 2011-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/ac44fbd0-1427-43bc-b816-
+         a9340d0551c6.pdf
+     - Egyptian family expenditure on health services and care. | Biennial | 2011-2020 | 5
+       editions | PDF | latest 2011-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/f4f6a2cc-19e5-4700-9b60-
+         3cfb86d4eede.pdf
+     - Employment, Wages and Working Hours | Annual | 1985-2024 | 40 editions | PDF, XLSX |
+       latest 2025-12-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/56d5d4dd-2f95-44a6-a852-
+         3e63570dcb93.pdf
+     - Employment, Wages and Working Hours (Analysis Report) | Annual | 2018-2019 | 2 editions
+       | PDF | latest 2020-05-10
+       https://www.capmas.gov.eg:8080/News/Pdf/b405fd7b-5772-45a0-b19e-75ca16ee24dd.pdf
+     - End of the Third COVID-19 Wave (Exploratory Study) | Irregular | 2021 | 1 editions | PDF
+       | latest 2021-08-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/2e95f94a-c48d-4d2c-8315-
+         d9dae97236a5.pdf
+     - Enrolled Students and Faculty in Higher Education | Annual | 2011-2025 | 15 editions |
+       PDF, XLSX | latest 2025-11-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/cdb36a0a-3450-4164-a58f-
+         7dcd59fa417f.pdf
+     - Family expenditure patterns in geographical regions | Biennial | 2014 | 1 editions | PDF
+       | latest 2014-09-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/5ca3efce-
+         bfee-4dab-b47e-9928ab964aed.pdf
+     - Final Results of the General Census for Population, Housing, and Establishments -
+       Buildings and Units | Every 10 years | 1976-2017 | 5 editions | latest 1984-12-15
+       https://www.capmas.gov.eg/publications/152
+     - Final Results of the General Census for Population, Housing, and Establishments -
+       Establishments | Every 10 years | 1957-2017 | 6 editions | latest 1959-05-14
+       https://www.capmas.gov.eg/publications/153
+     - Final Results of the General Census for Population, Housing, and Establishments -
+       Population and Living Conditions | Every 10 years | 1882-2017 | 13 editions | latest
+       1884-12-14
+       https://www.capmas.gov.eg/publications/154
+     - Final Results of the General Census for Population, Housing, and Establishments - Sample
+       Results (Extended Questionnaire) | Every 10 years | 2017 | 1 editions | PDF | latest
+       2019-05-14
+       https://www.capmas.gov.eg:8080/News/Pdf/334dd867-da4f-4d1d-81e6-16fcadc0e4cb.pdf
+     - Foreign Employees in Governmental & Public/Public Business Sectors | Annual | 1975-2024
+       | 33 editions | PDF, XLSX | latest 2025-09-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/67f602b7-d4b7-493c-8ce6-
+         41421b2aaae9.pdf
+     - Foreign Employees in Private and Investment Sectors in Egypt | Annual | 2010-2024 | 15
+       editions | PDF, XLSX | latest 2025-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/687a4b2b-7941-414e-969c-
+         796fbaa600d6.pdf
+     - Future Population Projections | Biennial | 2017-2022 | 2 editions | PDF | latest
+       2017-02-08
+       https://www.capmas.gov.eg:8080/Publication/Pdf/446cc5f8-7d54-440d-af7f-
+         6171b990c720.pdf
+     - Graduates of Higher Education and Post-Graduate Degrees | Annual | 2010-2024 | 15
+       editions | PDF, XLSX | latest 2025-12-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/d3c00cec-a108-4ca5-94d8-
+         34125776d505.pdf
+     - Health Services Statistics | Annual | 1977-2024 | 38 editions | PDF, XLSX | latest
+       2026-01-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/fe3d253e-f2bd-4333-ab12-
+         c041bad1738c.pdf
+     - Household Health Survey | Irregular | 2022-2025 | 2 editions | PDF | latest 2026-09-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/d98bd0ff-
+         bdec-47df-9f53-9f88278bafdb.pdf
+     - Household Income, Expenditure, and Consumption Survey | Biennial | 1981-2020 | 11
+       editions | PDF | latest 2019-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/c407b132-7573-4111-ba79-
+         920ceb1fa189.pdf
+     - Impact of COVID-19 on Egyptian Households (up till 20 Sepmtember 2021) | Irregular |
+       2020 | 1 editions | PDF | latest 2020-10-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/20197042-083b-49a3-ada3-
+         0b87f0caa2b4.pdf
+     - Impact of COVID-19 on Egyptian Households (up till May 2021) | Irregular | 2020 | 1
+       editions | PDF | latest 2020-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/b75adb29-44b0-493d-ba87-
+         c90b519e196a.pdf
+     - Impact of the Ukraine-Russia Crisis on the Egyptian Family | Irregular | 2022 | 1
+       editions | PDF | latest 2022-11-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/a7fa6527-852f-4c00-b499-
+         7a49b08d616c.pdf
+     - Labor Demand and Labor market skills needs | Annual | 2022-2024 | 3 editions | PDF |
+       latest 2026-02-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/b4b196f0-7e6b-43a6-b367-
+         60ebff5155d9.pdf
+     - Labor Force Survey - Annual | Annual | 1957-2025 | 58 editions | PDF, XLSX | latest
+       2021-04-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/c8997124-7f24-40b9-8b8b-
+         ef39c1400841.pdf
+     - Labor Force Survey - Annual (Analysis Report) | Annual | 2015-2024 | 9 editions | PDF |
+       latest 2025-11-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/a23a7acb-9bea-44d4-a836-
+         4186c064fbc2.pdf
+     - Labor Force Survey - Quarterly | Quarterly | 2006-2026 | 82 editions | PDF, XLSX |
+       latest 2026-08-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/6bd25d73-6ee0-4b91-886c-
+         b14c703ff6e8.pdf
+     - Labor Force Survey - Quarterly (Analysis Report) | Quarterly | 2016-2025 | 40 editions |
+       PDF | latest 2026-05-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/f06a6b63-c1df-4481-958f-
+         d3fe4db764a6.pdf
+     - Marriage and Divorce Statistics | Annual | 1962-2024 | 60 editions | PDF, XLSX | latest
+       2021-08-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/329b55ff-840e-49b4-9e6c-
+         c51f135541b5.pdf
+     - Marriage and Divorce Statistics (Analysis Report) | Annual | 2016-2024 | 9 editions |
+       PDF | latest 2025-11-02
+       https://www.capmas.gov.eg:8080/Publication/Pdf/931ef624-3cf6-4742-9b69-
+         0cb2adfec0b5.pdf
+     - National Survey for Child Labor | Annual | 2011 | 1 editions | PDF | latest 2011-07-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/1bab2794-d879-4d64-9f6f-
+         14a6aec9ab49.pdf
+     - National Survey of International Migration - Egypt | Annual | 2015 | 1 editions | PDF |
+       latest 2015-01-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/d89a253e-81d8-4052-b005-
+         3bd1f53cdbc3.pdf
+     - Patents and Trademarks | Annual | 2009-2025 | 17 editions | PDF, XLSX | latest
+       2026-08-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/adf507fb-
+         abbe-467f-8a2e-1ed10dd0e5df.pdf
+     - Population Estimates | Semi-annual | 2007-2026 | 22 editions | PDF | latest 2026-01-27
+       https://www.capmas.gov.eg:8080/Publication/Pdf/70325669-6bcf-4bd1-b5ac-
+         ec8b67d751d2.pdf
+     - Pre-University Education | Annual | 2012-2025 | 14 editions | PDF, XLSX | latest
+       2020-12-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/9fd8d05b-4a09-4145-933c-
+         3b608592df05.pdf
+     - Ration cards holders | Biennial | 2016-2020 | 2 editions | PDF | latest 2016-11-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/649ea487-ea08-4fdc-9fcd-
+         5739c56fee8c.pdf
+     - Smokers characteristics in Egypt | Biennial | 2012-2020 | 3 editions | PDF | latest
+       2012-01-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/b1e6e0e7-512c-4f93-a047-
+         af947a122c6b.pdf
+     - Social Services Statistics | Annual | 2012-2024 | 13 editions | PDF, XLSX | latest
+       2025-11-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/6139e3ad-e498-457b-87e3-
+         7451190784cf.pdf
+     - Sport Activities in Sporting Facilities | Annual | 1993-2024 | 30 editions | PDF, XLSX |
+       latest 2025-12-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/56cecaad-f8d7-47b5-9e23-
+         6868046b597e.pdf
+     - Study of Pharmaceutical Industry in Egyptin Light of COVID-19 Pandemic | Irregular |
+       2023 | 1 editions | PDF | latest 2023-07-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/c87a6d5e-cf9e-4dbf-9299-
+         018f2e82c23b.pdf
+     - Studying the most important results of multidimensional poverty analysis among children
+       in Egypt | Annual | 2025 | 1 editions | latest 2025-11-15
+       https://www.capmas.gov.eg/publications/200
+     - Synthesis Study on Migration Statistics | Every 5 years | 2017 | 1 editions | PDF |
+       latest 2019-05-14
+       https://www.capmas.gov.eg:8080/Publication/Pdf/f8673c1f-2eb1-4158-8e87-
+         564762cacd1e.pdf
+     - The National Survey for Persons with Disabilities in Egypt 2022 | Irregular | 2022 | 1
+       editions | PDF | latest 2022-01-02
+       https://www.capmas.gov.eg:8080/Publication/Pdf/b9771eb6-7175-44dd-
+         aeb9-f1afa9ad1563.pdf
+     - Time Use Survey | Irregular | 2016 | 1 editions | PDF | latest 2016-01-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/a0f38be3-16f2-43a9-ac5e-
+         7d5c5e1a44eb.pdf
+     - Women and Men in Egypt | Biennial | 2015 | 1 editions | PDF | latest 2017-02-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/caba2e8b-4a5b-405f-8ea7-
+         505534fa8e98.pdf
+     - Work Injury Statistics | Annual | 1978-2024 | 46 editions | PDF, XLSX | latest
+       2025-11-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/d8b4beb9-a6b3-4892-a099-
+         f49bdd0a8d3b.pdf
+     - Work Permits Issued to Egyptians to Work Abroad | Annual | 1972-2025 | 29 editions |
+       PDF, XLSX | latest 2026-07-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/5ae78f4f-365a-407f-839b-
+         e465d0dbc4ae.pdf
+     ... and 31 more (full list in EGY.json)
+   Example indicator time series:
+     - Total number of Egyptians benefiting from social insurance by type of community | Every
+       10 years | 2017-2017 | unit: Number
+     - Total number of households using energy-saving lamps by number of rooms in the Republic
+       | Every 10 years | 2017-2017 | unit: Number
+     - Total final divorce judgments by governorates | Annual | up to 2024 | unit: Number
+     - Total final divorce rulings according to the reasons for divorce | Annual | up to 2024 |
+       unit: Number
+     - Relative distribution of the total households in the sample according to type of housing
+       | Biennial | 1981-2020 | unit: Percentage
+     - Relative distribution of the sample households in the republic according to the type of
+       housing | Biennial | 1981-2020 | unit: Percentage
+     - Total number of physicians, dentists, pharmacists, physiotherapists and nursing staff in
+       health insurance hospitals according to branches | Annual | up to 2024 | unit: Number
+     - Total number of operations in health insurance hospitals according to branch | Annual |
+       up to 2024 | unit: Number
+
+4. ECONOMIC STATISTICS  (92 publications, 4,335 indicator series, 26 pages, 1 file)
+     - Actual Production, Idle Capacity, and Inventory of Industrial Activities in Private
+       Sector Establishments | Annual | 1998-2022 | 21 editions | PDF | latest 2026-02-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/2ce8e72d-6c9a-4d2f-9b9c-
+         46c2f3af1df7.pdf
+     - Actual Production, Idle Capacity, and Inventory of Industrial Activities in Public and
+       Public Business Establishments | Annual | 1999-2024 | 24 editions | PDF, XLSX | latest
+       2026-01-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/cd2d3cf7-d2af-4a12-9460-
+         582b206bdd60.pdf
+     - Agricultural Agricultural Sector Cooperative Activities | Annual | 1970-2024 | 54
+       editions | PDF, XLSX | latest 2025-10-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/4e50cb70-bd34-469a-91ea-
+         e0638ed41732.pdf
+     - Agriculture Production Price Index | Annual | 1966-2024 | 41 editions | PDF, XLSX |
+       latest 2022-04-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/d65ed35e-0009-41fd-a3be-
+         2a94243c8d43.pdf
+     - Agriculture Property and Reins | Biennial | 1970-2023 | 29 editions | PDF, XLSX | latest
+       2024-12-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/f1cf2236-4936-4d4f-b87d-
+         77d6bda5007e.pdf
+     - Air Transport | Annual | 2008-2024 | 16 editions | PDF, XLSX | latest 2026-05-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/df89925e-6763-4257-a142-
+         37026db03b1a.pdf
+     - Animal and Poultry Diseases | Annual | 1975-2025 | 26 editions | PDF, XLSX | latest
+       2021-07-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/24dca930-8d51-44af-8d70-
+         d71291199a39.pdf
+     - Artificial Intelligence (AI) Development in Egypt | Irregular | 2024 | 1 editions | PDF
+       | latest 2024-03-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/1e5d60b6-9faa-40c4-8a40-
+         3641fbd6579a.pdf
+     - Average Consumer Prices for Key Food Items | Monthly | 2010-2026 | 200 editions | PDF,
+       XLSX | latest 2026-09-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/c8077598-4bf6-48ed-80fb-
+         db8ba9274141.pdf
+     - Average Retail Prices for Key Construction Materials | Monthly | 2008-2026 | 219
+       editions | PDF, XLSX | latest 2026-09-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/1827cd31-8028-4b85-9950-
+         150323dfb940.pdf
+     - Bank Deposits and Credit | Annual | 2005-2025 | 20 editions | PDF, XLSX | latest
+       2026-02-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/1bf0dc5c-fd3f-482e-a428-
+         bd270a5295fa.pdf
+     - Car and Train Accidents | Annual | 2006-2025 | 19 editions | PDF, XLSX | latest
+       2026-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/73a98e22-58c9-49c8-9818-
+         b5c4892b8871.pdf
+     - Classification of Industrial Goods According to Project Nature | Irregular | 2018 | 1
+       editions | PDF | latest 2018-09-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/8160f69d-95bd-4b46-99f8-
+         409a3b4f181e.pdf
+     - Clean Water and Sanitation | Annual | 2002-2025 | 24 editions | PDF, XLSX | latest
+       2026-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/45002b94-b9ef-4566-991b-
+         558442cfa4e2.pdf
+     - Construction for Private Sector Companies | Annual | 1993-2022 | 27 editions | PDF, XLSX
+       | latest 2026-01-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/4549e75f-a514-4e29-b4e7-
+         aefd2c3eef88.pdf
+     - Construction for Public and Public Business Companies | Annual | 1988-2024 | 24 editions
+       | PDF, XLSX | latest 2025-12-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/3e5a6390-d41d-422a-b927-
+         2713279b12ee.pdf
+     - Consumer Price Index | Annual | 2001-2024 | 21 editions | PDF | latest 2026-04-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/bdf6d282-f583-463a-bed3-
+         3823349b39a1.pdf
+     - Consumer Price Index | Monthly | 2000-2026 | 319 editions | PDF, XLSX | latest
+       2026-09-15
+       https://www.capmas.gov.eg:8080/Publication/Data/5903dbc4-aa66-4850-ad66-
+         fa03bfcc81e3.xlsx
+     - Cotton Statistics | Annual | 1970-2025 | 54 editions | PDF, XLSX | latest 2025-05-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/f138d808-f95c-4c6a-9f01-
+         e5b85ddec60f.pdf
+     - Crop Area and Plant Production | Annual | 1990-2024 | 33 editions | PDF, XLSX | latest
+       2025-10-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/86f68b8f-ca9d-4e39-86fa-
+         a5d983f63058.pdf
+     - Development of E-Commerce in Egypt | Irregular | 2023 | 1 editions | PDF | latest
+       2023-07-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/0e4cfb1f-7d86-437d-b852-
+         d444f3b93f6d.pdf
+     - Economic Census | Every 5 years | 1996-2023 | 4 editions | PDF | latest 2025-10-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/adda9b9c-1a41-4406-9fa4-
+         7c3d82a47877.pdf
+     - Economic Indicators for Banks and Insurance Companies | Annual | 1972-2024 | 33 editions
+       | PDF, XLSX | latest 2025-11-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/f73ffa08-0c6a-4f60-848a-
+         4ac5169977e3.pdf
+     - Economic Indicators for Economic Bodies | Annual | 1999-2025 | 27 editions | PDF, XLSX |
+       latest 2026-07-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/211dd56c-c13e-4b12-abe4-
+         dbe9d2c845a8.pdf
+     - Economic Indicators for Private Sector Companies (Money Companies) | Annual | 1990-2024
+       | 19 editions | PDF, XLSX | latest 2022-07-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/803e8c38-8c2f-4eb2-a776-
+         3ecba5918e12.pdf
+     - Economic Indicators for Private and Investment Sector Companies | Annual | 1990-2024 |
+       19 editions | PDF, XLSX | latest 2026-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/e94bf486-d36d-47d8-a2a6-
+         bd4e23937907.pdf
+     - Economic Indicators for Public Sector and Public Business Sector Companies (except banks
+       and insurance) | Annual | 1998-2024 | 26 editions | PDF, XLSX | latest 2025-09-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/8e2d04d7-0338-43ce-9a23-
+         01a3d6d95a31.pdf
+     - Economic Relations between Egypt and the United States of America | Annual | 2009-2025 |
+       17 editions | PDF, XLSX | latest 2026-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/8ac4d61c-2c7f-4b6c-98b1-
+         c11587baf0fb.pdf
+     - Electricity and Energy Statistics | Annual | 2000-2024 | 24 editions | PDF, XLSX |
+       latest 2026-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/bcd94e39-6362-4902-ac30-
+         5c629be9ba2c.pdf
+     - Energy Balance | Annual | 2014-2024 | 8 editions | PDF, XLSX | latest 2026-01-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/64f029b9-88fe-4168-ac12-
+         76fc244b9c17.pdf
+     - Financial Indicators for Banks and Insurance Companies | Annual | 1993-2024 | 16
+       editions | PDF, XLSX | latest 2025-11-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/4b859128-037e-4102-823d-
+         4a45999281cf.pdf
+     - Financial Indicators for Economic Bodies | Annual | 1999-2025 | 19 editions | PDF, XLSX
+       | latest 2026-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/959e18ee-a17a-41c3-80fa-
+         27aa6b501ec1.pdf
+     - Financial Indicators for Private Sector Companies (Money Companies) | Annual | 1990-2024
+       | 34 editions | PDF, XLSX | latest 2022-01-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/302a6fc1-ab47-478b-9f63-
+         e85cf2ac5c9f.pdf
+     - Financial Indicators for Private and Investment Sector Companies | Annual | 1990-2024 |
+       26 editions | PDF, XLSX | latest 2025-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/209619f3-4839-4a73-a2a7-
+         d27c47771217.pdf
+     - Financial Indicators for Public Sector and Public Business Sector Companies (except
+       banks and insurance) | Annual | 1971-2025 | 29 editions | PDF, XLSX | latest 2026-09-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/333ddc68-862d-4f74-af52-
+         683dc8c50a72.pdf
+     - Fire Accidents in Egypt | Annual | 2019-2025 | 7 editions | PDF, XLSX | latest
+       2026-02-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/3671850e-4ebc-46ad-a166-
+         31a00347e17a.pdf
+     - Fish Production | Annual | 1970-2023 | 50 editions | PDF, XLSX | latest 2025-11-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/2832720b-3de3-4146-851f-
+         041e3a855d0e.pdf
+     - Foreign Exchange Receipts and Payments | Annual | 2005-2025 | 20 editions | PDF, XLSX |
+       latest 2026-02-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/efe70ac8-5ccc-4605-9eef-
+         d413928f4d14.pdf
+     - Foreign Trade (Annual Bulletin) | Annual | 1931-2024 | 43 editions | PDF | latest
+       2025-08-15
+       https://www.capmas.gov.eg/publications/100
+     - Foreign Trade (Monthly Bulletin) | Monthly | 2006-2026 | 246 editions | PDF, XLSX |
+       latest 2026-08-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/f1c02fa9-b24e-4f9d-a692-
+         dd289a687a2e.pdf
+     - General State Budget (Functional Classification) | Annual | 2009-2026 | 18 editions |
+       PDF, XLSX | latest 2026-02-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/06880439-32cd-4448-9ecd-
+         b879e9ea6a66.pdf
+     - Housing in Egypt | Annual | 2016-2025 | 10 editions | PDF, XLSX | latest 2026-08-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/c7acfb42-d455-460b-8b83-
+         c70f0cb3c950.pdf
+     - Income Estimates from the Agriculture Sector | Annual | 1960-2024 | 63 editions | PDF,
+       XLSX | latest 2025-11-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/f7cd9450-2b70-45b6-a787-
+         af0976787a4c.pdf
+     - Individual Savings in Major Saving Vehicles | Annual | 2004-2025 | 21 editions | PDF,
+       XLSX | latest 2026-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/abe9919f-9ad3-49cc-a3d1-
+         ac564c4dd1ab.pdf
+     - Industrial Commodities Production of the Private Sector | Annual | 2006-2022 | 17
+       editions | PDF, XLSX | latest 2026-04-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/7054267f-0101-4940-ab44-
+         fb4ccd6b1c57.pdf
+     - Industrial Commodities Production of the Public and Public Business Sectors | Annual |
+       2006-2023 | 18 editions | PDF, XLSX | latest 2026-02-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/c061b74d-2483-48aa-a371-
+         f8359936cee8.pdf
+     - Industrial Production of Private Sector Establishments | Annual | 2002-2021 | 18
+       editions | PDF, XLSX | latest 2024-09-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/79f1675a-0255-4965-9208-
+         5b747a30916f.pdf
+     - Industrial Production of Public, Public Business, and Private Sectors- Quarterly |
+       Quarterly | 2008-2024 | 67 editions | PDF, XLSX | latest 2026-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/20a79ac5-d3ff-4229-becb-
+         014cce4acb2a.pdf
+     - Input Output Tables | Biennial | 2009-2020 | 7 editions | PDF, XLSX | latest 2025-01-08
+       https://www.capmas.gov.eg:8080/Publication/Pdf/b9b892a5-ea44-45e1-9833-
+         1c181ba96026.pdf
+     - Intra-OIC trade with international groupings | Annual | 2007-2025 | 19 editions | PDF,
+       XLSX | latest 2026-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/680050db-5b47-427f-85dc-
+         2a945a97390e.pdf
+     - Irrigation and Water Resources | Annual | 1966-2024 | 58 editions | PDF, XLSX | latest
+       2025-11-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/cbb29277-1793-4c60-b4ba-
+         659620652168.pdf
+     - Land Reclamantion | Annual | 1964-2025 | 54 editions | PDF, XLSX | latest 2020-06-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/5153ad57-dc7e-454e-8456-
+         e29d3e7df169.pdf
+     - Licensed Vehicles | Annual | 2010-2025 | 16 editions | PDF, XLSX | latest 2026-04-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/d1831894-e73f-4643-a422-
+         69175aa35d05.pdf
+     - Livestock Statistics | Annual | 1971-2024 | 54 editions | PDF, XLSX | latest 2025-10-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/5bf9717c-e91e-4234-a647-
+         17d94f480be0.pdf
+     - Means of Transportation of Oil and Gas Material | Annual | 1969-2025 | 46 editions |
+       PDF, XLSX | latest 2026-01-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/2294d2bd-1b6d-4916-9334-
+         35ac516b9357.pdf
+     - Mechanical Farm Machinery | Biennial | 1966-2023 | 25 editions | PDF, XLSX | latest
+       2024-05-15
+       https://www.capmas.gov.eg:8080/News/Pdf/23bee348-1c4b-4825-a2b3-d22557632398.pdf
+     - Outsourcing Services in Egypt | Irregular | 2023 | 1 editions | PDF | latest 2026-05-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/0e2524c1-21b6-46fe-835b-
+         3bc841fe4768.pdf
+     - Postal Services | Annual | 1971-2025 | 37 editions | PDF, XLSX | latest 2026-02-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/3a31ab4a-58f0-4baa-933b-
+         ce78cd8199b1.pdf
+     - Price Index for Manufacturing and Extractive Industries | Monthly | 2014-2026 | 150
+       editions | PDF, XLSX | latest 2026-09-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/eab77d73-bbe6-44a3-9b56-
+         d9211e521627.pdf
+     - Price of Industrial Materials and Products | Annual | 1996-2025 | 30 editions | PDF,
+       XLSX | latest 2026-04-15
+       https://www.capmas.gov.eg:8080/Publication/Pdf/0e9ee02c-7d5d-44f1-bfee-
+         ac92fb4024e9.pdf
+     ... and 73 more (full list in EGY.json)
+   Example indicator time series:
+     - Total number of establishments in the Republic by sector | Every 5 years | 1992-2023 |
+       unit: Number
+     - Total number of establishments in the Republic according to economic activity | Every 5
+       years | 1992-2023 | unit: Number
+     - Total production for aggregate supply according to regulatory sectors | Biennial |
+       2009-2020 | unit: Value in million L.E
+     - Total production inputs for aggregate use according to organizational sectors | Biennial
+       | 2009-2020 | unit: Value in million L.E
+     - Final Account for Other Expenses | Annual | 2006-2024 | unit: EGP Thousand
+     - Total Public Expenditure According to Functional Classification of Government | Annual |
+       2006-2024 | unit: EGP Million
+     - Development of number of bankruptcy declarations cases | Annual | 2000-2025 | unit:
+       Number
+     - Development of debt value for bankruptcy declarations | Annual | 2000-2025 | unit: EGP
+       Thousand
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (8 rendered in a browser); 39 file links
+   Formats: PDF 39
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: EGY
+       theme: economic_statistics
+       method: api
+       connector: capmas
+       enabled: true
+       options:
+         subject_ids: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 30]
+       notes: 'CAPMAS public JSON API (port 8080): publications + indicator time series'
+     - nso: EGY
+       theme: social_statistics
+       method: api
+       connector: capmas
+       enabled: true
+       options:
+         subject_ids: [20, 21, 22, 23, 24, 25, 26, 27, 28, 55, 56]
+       notes: 'CAPMAS public JSON API (port 8080): publications + indicator time series'
+
+7. LIMITATIONS / NEXT STEPS
+   - none noted

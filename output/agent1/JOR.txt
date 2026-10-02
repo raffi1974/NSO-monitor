@@ -1,0 +1,349 @@
+====================================================================================================
+NSO DIAGNOSTICS  -  Jordan  -  Department of Statistics (DoS)
+Checked 2026-09-29 10:54  |  Agent 1 (agent1_diagnose.py)  |  took 394.7 s
+====================================================================================================
+
+1. WEBSITE
+   Address checked : https://dosweb.dos.gov.jo
+   Reachable       : yes (HTTP 200)
+   English version : yes
+   Built with      : WordPress, PX-Web databank
+
+2. API
+   Verdict         : DOCUMENTED - works from Python (no login needed)
+   Documented API: PX-Web at https://jorinfo.dos.gov.jo/Databank/api/v1/en/ (PX-Web API listing
+     10 database(s))
+   Documentation   :
+     https://www.scb.se/en/services/open-data-api/api-for-the-statistical-database/
+   Site links mentioning API / open data / databank:
+     Services -> https://dosweb.dos.gov.jo/DataBank/Services/Services2017_En.pdf
+     More -> https://jorinfo.dos.gov.jo/Databank/pxweb/en/
+     list includes paper and CD-ROMs -> http://dosweb.dos.gov.jo/DataBank/Services/Publication_library.pdf
+     SDMX Tool for MDG Indicators -> https://data.un.org/countryData/Data/ShowDetail/JOR
+
+   How to call it - curl:
+       curl -X POST -H "accept-language: en-US" -H "x-requested-with: XMLHttpRequest" -H
+         "accept: */*" -H "content-type: application/x-www-form-urlencoded; charset=UTF-8"
+         --data 'time=1790668800133&KQxLlGThS=EB6SiUC&YHV_FdunspWa=bI36z5xWVJjC9.BH'
+         "https://dosweb.dos.gov.jo/?wc-ajax=get_refreshed_fragments"
+
+   How to call it - Python:
+       import requests
+       
+       url = "https://dosweb.dos.gov.jo/?wc-ajax=get_refreshed_fragments"
+       headers = {"accept-language": "en-US", "x-requested-with": "XMLHttpRequest", "accept": "*/*", "content-type": "application/x-www-form-urlencoded; charset=UTF-8"}
+       response = requests.post(url, headers=headers, data='time=1790668800133&KQxLlGThS=EB6SiUC&YHV_FdunspWa=bI36z5xWVJjC9.BH', timeout=60)
+       response.raise_for_status()
+       data = response.json()
+
+   API sniffing - data calls the website made: 1 distinct, 1 worked again from plain Python
+     [OK ] POST dosweb.dos.gov.jo/  (application/json)
+
+3. SOCIAL STATISTICS  (66 pages, 34 files)
+     - Estimated population of 2025 and some of selected data. Population projections for
+       individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the
+       Kingdom by Governorate, Loca | 2015-2025 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Population/Population_Estimares/PopulationEstimates
+         .pdf
+     - Estimated population of 2025 and some of selected data. Population projections for
+       individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the
+       Kingdom by Governorate, Loca | 2015-2025 | XLSX
+       https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimates
+         .xlsx
+     - Estimated population of 2025 and some of selected data. Population projections for
+       individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the
+       Kingdom by Governorate, Loca | 2015-2025 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Population/Population_Estimares/POP_PROJECTIONS(201
+         5-2050).pdf
+     - Estimated population of 2025 and some of selected data. Population projections for
+       individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the
+       Kingdom by Governorate, Loca | 2015-2025 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Population/Population_Estimares/PopulationEstimates
+         byLocality.pdf
+     - Estimated population of 2025 and some of selected data. Population projections for
+       individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the
+       Kingdom by Governorate, Loca | 2015-2025 | XLSX
+       https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimates
+         byLocality.xlsx
+     - Estimated population of 2025 and some of selected data. Population projections for
+       individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the
+       Kingdom by Governorate, Loca | 2015-2025 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Population/Population_Estimares/Municipalities.pdf
+     - Estimated population of 2025 and some of selected data. Population projections for
+       individuals residing in the Kingdom for the period 2015-2050 Estimated Population of the
+       Kingdom by Governorate, Loca | 2015-2025 | XLSX
+       https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/Municipalities.xlsx
+     - Family Health Bulletin 2009 | 2009-2023 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Population/Health/HealthPopulation2009.pdf
+     - Family Health Bulletin 2012 | 2012-2023 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Population/Health/HealthPopulation2012.pdf
+     - Family Health Bulletin 2017-2018 | 2017-2023 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Population/Health/DHS2017_en.pdf
+     - Food Item Questionnaire | 2013 | PDF
+       http://dosweb.dos.gov.jo/DataBank/household/Methodology/2013/food
+         item_questionnaire.pdf
+     - General and Income Questionnaire | 2013 | PDF
+       http://dosweb.dos.gov.jo/DataBank/household/Methodology/2013/General_questionnaire.pdf
+     - HIES Questionnaire 2017 | 2017 | PDF
+       http://dosweb.dos.gov.jo/DataBank/household/Methodology/HIES_Questionnaire_2017.pdf
+     - Household Expenditures and Income Survey Methodology 2017 | 2017 | PDF
+       http://dosweb.dos.gov.jo/DataBank/household/Methodology/Methodology_2017_en.pdf
+     - Job Creation Survey (First Round) 2021 Questionnaire | 2021 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Labour_Force/Job_Creation/Job_Creation_Questionnair
+         e.pdf
+     - Jordan Population and Family Health Survey 2017-2018 | 2017-2023 | PDF
+       http://www.dos.gov.jo/dos_home_e/main/linked-html/DHS2017_en.pdf
+     - Jordan Population and Family Health Survey 2023 | 2023 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Population/Health/DHS2023_Survey.pdf
+     - Jordan Population and Family Health Survey key Indicators 2023 | 2023 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Population/Health/DHS2023.pdf
+     - Labor Force Survey (First Round) 2020 Questionnaire | 2020-2024 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Labour_Force/Employment_Unemployment/Labor_Force%20
+         _Survey_questionnaire.pdf
+     - Labor Force Survey (First Round) 2024 Questionnaire | 2020-2024 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Labour_Force/Employment_Unemployment/Labor_Force_Su
+         rvey_questionnaire_2024.pdf
+     - Metadata Demographic Statistics | 2025 | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Pupulation_2025.xlsx
+     - Metadata for Employment and Unemployment Survey main indicators. | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Emp_unemp.xlsx
+     - Metadata for Employment in Establishment Survey main indicators. | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Employment_Establishment.xlsx
+     - Metadata for Household Expenditures & Income Survey main indicators. | XLSX
+       https://dosweb.dos.gov.jo/DataBank/Economic/Household_Income/HIES.xlsx
+     - Metadata for gender indicators | XLSX
+       https://dosweb.dos.gov.jo/DataBank/Population/Gender/Gender_Statistics.xlsx
+     - Metadata for the Population and Family Health Survey (PFHS) main indicators. | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/PopulationHealth.xlsx
+     - Metadata of Jordanian Women’s Statistics | XLSX
+       https://dosweb.dos.gov.jo/DataBank/Population/Woman_Statistics/Woman_Statistics.xlsx
+     - Metadata of Poverty Statistics | XLSX
+       https://dosweb.dos.gov.jo/DataBank/Population/poverty/Poverty_Statistics.xlsx
+     - Methodology 2017 | 2017 | PDF
+       http://dosweb.dos.gov.jo/DataBank/Agri/Methodology/Methodology2017_En.pdf
+     - Nonfood Items Questionnaire | 2013 | PDF
+       http://dosweb.dos.gov.jo/DataBank/household/Methodology/2013/nonfood
+         items_questionnaire.pdf
+     - Questionnair 2017 | 2017 | PDF
+       http://dosweb.dos.gov.jo/DataBank/Agri2017/Questionare/Questionnair_en.pdf
+     - Read more Methodology of Annual Population Estimation | Annual | PDF
+       http://www.dos.gov.jo/dos_home_e/main/Demograghy/Methodology.pdf
+     - Summary of the results of the Population and Family Health Survey 2017-2018 | 2017-2023
+       | PDF
+       https://dosweb.dos.gov.jo/DataBank/Population/Health/DHS2017_KF.pdf
+     - Summary of the results of the Population and Family Health Survey 2023 | 2023 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Population/Health/JPFHS_Summary_Report__2023_en.pdf
+     - Agricultural
+       https://dosweb.dos.gov.jo/censuses/agriculture-census/
+     - Agricultural Census – 2017 Technical Committee Meeting | 2017
+       https://dosweb.dos.gov.jo/agricultural-census-2017-technical-committee-meeting/
+     - Aqaba City Population & Housing Census 2007 | 2007
+       https://dosweb.dos.gov.jo/censuses/population_housing/census-aqaba2007/
+     - Aqaba city population housing census 2007 | 2007
+       http://dosweb.dos.gov.jo/censuses/population_housing/census-aqaba2007/
+     - Births and deaths
+       https://dosweb.dos.gov.jo/population/births-and-deaths/
+     - CENSUSES
+       https://dosweb.dos.gov.jo/censuses/
+     - Dr. Al- Zoubi: Launch of the Key Indicators Report for the Jordan Population and Family
+       Health Survey (JPFHS)
+       https://dosweb.dos.gov.jo/dr-al-zoubi-launch-of-the-key-indicators-report-for-the-
+         jordan-population-and-family-health-survey-jpfhs/
+     - Economic Establishments Census 2018 | 2018
+       https://dosweb.dos.gov.jo/censuses/establish-census/establish-census-2018/
+     - Employment and Unemployment
+       https://dosweb.dos.gov.jo/labourforce/employment-and-unemployment/
+     - Employment in Establishment
+       https://dosweb.dos.gov.jo/economic/employment-in-establishment/
+     - Employment in Establishment
+       https://dosweb.dos.gov.jo/labourforce/employment-in-establishment/
+     - Establishments
+       https://dosweb.dos.gov.jo/censuses/establish-census/
+     - Family Health
+       https://dosweb.dos.gov.jo/population/health/
+     - Gender Indicators
+       https://dosweb.dos.gov.jo/population/gender-indicators/
+     - General results of The Agricultural Census 2007 | 2007
+       http://dosweb.dos.gov.jo/censuses/agriculture-census/census2007_tables/
+     - General results of The Agricultural Census 2017 | 2017
+       http://dosweb.dos.gov.jo/censuses/agriculture-census/census2017_tables/
+     - Hired Labour
+       http://www.dos.gov.jo/owa-user/owa/FOCAL_AGR.agr_kk?LANG=E&dis=4
+     - Household Expenditures & Income Survey
+       https://dosweb.dos.gov.jo/economic/expenditures-income/
+     - Important clarification by the Department of Statistics (DoS) on the implementation of
+       the Seventh Population and Family Health Survey (PFHS)
+       https://dosweb.dos.gov.jo/important-clarification-by-the-department-of-statistics-dos-
+         on-the-implementation-of-the-seventh-population-and-family-health-survey-pfhs/
+     - Information Technology use at homes
+       https://dosweb.dos.gov.jo/labourforce/use_technology/
+     - Interactive Report
+       https://jorinfo.dos.gov.jo/Databank/pxweb/en/PopulationStatistics/
+     - Interactive Report
+       https://jorinfo.dos.gov.jo/Databank/pxweb/en/Births_Deaths/
+     - Interactive Report
+       https://jorinfo.dos.gov.jo/Databank/pxweb/en/GenderStatistcs/
+     - Interactive Report
+       https://jorinfo.dos.gov.jo/Databank/pxweb/en/Poverty/
+     - Job Creation
+       https://dosweb.dos.gov.jo/labourforce/job-creation/
+     - Jordanian Women Statistics
+       https://dosweb.dos.gov.jo/population/woman-statistics/
+     ... and 40 more (full list in JOR.json)
+
+4. ECONOMIC STATISTICS  (91 pages, 36 files)
+     - (45 KB) | PDF
+       https://dosweb.dos.gov.jo/DataBank/power/Methodology_en.pdf
+     - Agricultural Nurseries | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Agricultural_Nurseries.xlsx
+     - Agricultural areas survey | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Agricultural_areas.xlsx
+     - Agricultural_marine fishing production | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Agriculture_Fish_farming.xlsx
+     - Consumer Price Index | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/CPI.xlsx
+     - Crops Statistics | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Crops_Statistics.xlsx
+     - Economic Quarters Indicators | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Economic Indicators.xlsx
+     - Fish farming survey | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Fish_farming.xlsx
+     - Honeybee study survey | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Honeybee.xlsx
+     - Industrial Producer Price Index | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/PPI.xlsx
+     - Industrial Production Index | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/IPI.xlsx
+     - Job Creation Survey (First Round) 2021 Questionnaire | 2021 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Labour_Force/Job_Creation/Job_Creation_Questionnair
+         e.pdf
+     - Labor Force Survey (First Round) 2020 Questionnaire | 2020-2024 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Labour_Force/Employment_Unemployment/Labor_Force%20
+         _Survey_questionnaire.pdf
+     - Labor Force Survey (First Round) 2024 Questionnaire | 2020-2024 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Labour_Force/Employment_Unemployment/Labor_Force_Su
+         rvey_questionnaire_2024.pdf
+     - Livestock Statistics | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Livestock_Statistics.xlsx
+     - Livestock Survey | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Livestock.xlsx
+     - Marine Fisheries | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Marine_Fisheries.xlsx
+     - Metadata for Agricultural Prices Survey main indicators. | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Agricultural-prices.xlsx
+     - Metadata for Construction Survey main indicators. | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Construction.xlsx
+     - Metadata for Employment in Establishment Survey main indicators. | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Employment_Establishment.xlsx
+     - Metadata for External trade survey main indicators. | XLSX
+       https://dosweb.dos.gov.jo/DataBank/Economic/External_Trade/External-trade.xlsx
+     - Metadata for Finance and Insurance main indicators. | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Finance and Insurance.xlsx
+     - Metadata for Food budget Survey main indicators. | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Agricultural_Food_Balance.xlsx
+     - Metadata for Household Expenditures & Income Survey main indicators. | XLSX
+       https://dosweb.dos.gov.jo/DataBank/Economic/Household_Income/HIES.xlsx
+     - Metadata for Industry and Energy Survey main indicators. | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Industry _Energy .xlsx
+     - Metadata for Internal Trade Survey main indicators. | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Internal_Trade.xlsx
+     - Metadata for Study of Agricultural prices Survey. | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Study_of_agricultural_prices.xlsx
+     - Metadata for Transport, storage and mail Survey main indicators. | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/trasnport.xlsx
+     - Methodology 2017 | 2017 | PDF
+       http://dosweb.dos.gov.jo/DataBank/Agri/Methodology/Methodology2017_En.pdf
+     - Olive oil presses | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Olive_oil_presses.xlsx
+     - Price Indices | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/price-indices.xlsx
+     - Questionnair 2017 | 2017 | PDF
+       http://dosweb.dos.gov.jo/DataBank/Agri2017/Questionare/Questionnair_en.pdf
+     - Read more Methodology 2008 | 2008-2012 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Economic/Domestic_Tourism/2012/Meth_en.pdf
+     - Read more Methodology 2012 | 2008-2012 | PDF
+       https://dosweb.dos.gov.jo/DataBank/Economic/Domestic_Tourism/2008/Methodology_en.pdf
+     - Trade Price Index | XLSX
+       https://dosweb.dos.gov.jo/Databank/Metadata/Trade.xlsx
+     - list includes paper and CD-ROMs | PDF
+       http://dosweb.dos.gov.jo/DataBank/Services/Publication_library.pdf
+     - Agricultural
+       https://dosweb.dos.gov.jo/censuses/agriculture-census/
+     - Agricultural Census – 2017 Technical Committee Meeting | 2017
+       https://dosweb.dos.gov.jo/agricultural-census-2017-technical-committee-meeting/
+     - Agricultural Prices
+       https://dosweb.dos.gov.jo/agriculture/agricultural-prices/
+     - Agricultural Producers Price Index Increased by 2.7% in January 2026 | 2026
+       https://dosweb.dos.gov.jo/agr_032026/
+     - Agricultural Producers Price Index Increased by 3.2% in February 2026 | 2026
+       https://dosweb.dos.gov.jo/agr_042026/
+     - Agricultural Producers Price Index Increased by 3.8% in 2025 | 2025
+       https://dosweb.dos.gov.jo/appi_022026/
+     - Agricultural Strategy
+       https://dosweb.dos.gov.jo/agriculture/agricultural-strategy/
+     - Agriculture
+       https://dosweb.dos.gov.jo/agriculture/
+     - Area, Average Yield and Production of Field Crops
+       http://www.dos.gov.jo/owa-user/owa/FOCAL_AGR.agr_kk?LANG=E&dis=2
+     - Area, Average Yield and Production of Vegetables
+       http://www.dos.gov.jo/owa-user/owa/FOCAL_AGR.agr_kk?LANG=E&dis=1
+     - Area, Number, Average Yield and Production of Fruit Trees
+       http://www.dos.gov.jo/owa-user/owa/FOCAL_AGR.agr_kk?LANG=E&dis=3
+     - Arrival and Departures
+       https://dosweb.dos.gov.jo/economic/arrival-and-departures/
+     - Banks
+       https://dosweb.dos.gov.jo/industry/banks/
+     - Building Licences
+       https://dosweb.dos.gov.jo/economic/building-licenses/
+     - Building Licenses
+       https://dosweb.dos.gov.jo/industry/building-licenses/
+     - Construction
+       https://dosweb.dos.gov.jo/industry/construction/
+     - Consumer Prices Decreased by 0.25% in August Compared to July, and the Price Levels
+       Remained Relatively Stable During the First Eight Months of 2026 | 2026
+       https://dosweb.dos.gov.jo/cpi_092026/
+     - Crops Statistics
+       https://dosweb.dos.gov.jo/agriculture/crops-statistics/
+     - Department of Statistics (DoS): National exports grew by 7.3%
+       https://dosweb.dos.gov.jo/ext072026/
+     - Domestic Tourism
+       https://dosweb.dos.gov.jo/economic/domestic-tourism/
+     - ECONOMIC
+       https://dosweb.dos.gov.jo/economic/
+     - Economic Establishments Census 2018 | 2018
+       https://dosweb.dos.gov.jo/censuses/establish-census/establish-census-2018/
+     - Employment in Establishment
+       https://dosweb.dos.gov.jo/economic/employment-in-establishment/
+     - Employment in Establishment
+       https://dosweb.dos.gov.jo/labourforce/employment-in-establishment/
+     ... and 67 more (full list in JOR.json)
+
+5. DOWNLOADABLE FILES LINKED FROM THE PAGES CRAWLED
+   40 pages crawled (0 rendered in a browser); 109 file links
+   Formats: PDF 70, XLSX 39
+
+6. SUGGESTED AGENT 2 CONFIGURATION  (copy into config/agent2_sources.yaml under 'sources:')
+     - nso: JOR
+       theme: social_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://dosweb.dos.gov.jo/economic/expenditures-income/', 'https://dosweb.dos.gov.jo/population/population-2/',
+         'https://dosweb.dos.gov.jo/population/woman-statistics/', 'https://dosweb.dos.gov.jo/population/gender-indicators/',
+         'https://dosweb.dos.gov.jo/population/health/']
+       render_js: auto
+       notes: 34 social statistics file(s) found on these pages - review before enabling
+     - nso: JOR
+       theme: economic_statistics
+       method: scrape
+       connector: scrape
+       enabled: false
+       pages: ['https://dosweb.dos.gov.jo', 'https://dosweb.dos.gov.jo/economic/externaltrade/', 'https://dosweb.dos.gov.jo/economic/energy-in-homes/',
+         'https://dosweb.dos.gov.jo/economic/expenditures-income/', 'https://dosweb.dos.gov.jo/economic/domestic-tourism/']
+       render_js: auto
+       notes: 36 economic statistics file(s) found on these pages - review before enabling
+
+7. LIMITATIONS / NEXT STEPS
+   - PX-Web catalogue listing failed: HTTPStatusError: Client error '404 Not Found' for url
+     'https://jorinfo.dos.gov.jo/Databank/api/v1/en/Births_Deaths/' For more information check:
+     https://developer.mozi
